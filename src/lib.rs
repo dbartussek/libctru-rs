@@ -7,3 +7,7 @@
 pub mod raw {
     include!(concat!(env!("CARGO_MANIFEST_DIR"), "/generated/3ds.rs"));
 }
+
+mod allocator;
+
+pub use self::allocator::Mallocator;
