@@ -2,22 +2,29 @@ use crate::raw::c_char;
 
 extern "C" {
     #[doc(hidden)]
-    pub fn printf(formatting: *const c_char, string: *const c_char);
+    fn putchar(c: c_char);
 
     #[doc(hidden)]
     pub fn puts(string: *const c_char);
 }
 
+pub fn put_str(s: &str) {
+    unsafe {
+        for c in s.as_bytes() {
+            putchar(*c);
+        }
+    }
+}
+
 #[macro_export]
 macro_rules! print {
     () => ();
-    ($($arg:tt)*) => (unsafe {
-        $crate::print_impl::printf(
-            "%s\0".as_ptr(),
+    ($($arg:tt)*) => ({
+        $crate::print_impl::put_str(
             $crate::alloc::format!(
                 "{}\0",
                 $crate::alloc::format!($($arg)*)
-            ).as_ptr()
+            ).as_str()
         );
     });
 }
