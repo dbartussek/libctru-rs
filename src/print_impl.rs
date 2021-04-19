@@ -10,9 +10,9 @@ macro_rules! print {
     () => ();
     ($($arg:tt)*) => (unsafe {
         $crate::print_impl::puts(
-            alloc::format!(
+            $crate::alloc::format!(
                 "{}\0",
-                alloc::format!($($arg)*)
+                $crate::alloc::format!($($arg)*)
             ).as_ptr()
         );
     });
@@ -25,9 +25,9 @@ macro_rules! println {
     });
     ($($arg:tt)*) => (unsafe {
         $crate::print_impl::puts(
-            alloc::format!(
+            $crate::alloc::format!(
                 "{}\n\0",
-                alloc::format!($($arg)*)).as_ptr()
+                $crate::alloc::format!($($arg)*)).as_ptr()
         );
     });
 }

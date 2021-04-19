@@ -3,7 +3,9 @@
 #![allow(non_snake_case)]
 #![no_std]
 
-extern crate alloc;
+/// Alloc is exported to allow print!/println! to be used
+/// in dependent crates that don't use it.
+pub extern crate alloc;
 
 pub mod raw {
     include!(concat!(env!("CARGO_MANIFEST_DIR"), "/generated/3ds.rs"));
