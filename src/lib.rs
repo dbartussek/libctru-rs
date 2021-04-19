@@ -15,5 +15,5 @@ pub mod print_impl;
 pub use crate::allocator::Mallocator;
 
 pub mod prelude {
-    pub use crate::{allocator::Mallocator, print_impl, println};
+    pub use crate::{allocator::Mallocator, print, println};
 }
