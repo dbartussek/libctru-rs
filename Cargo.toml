@@ -7,6 +7,7 @@ edition = "2018"
 generate = [ "bindgen" ]
 
 [dependencies]
+drone-ctypes = "0.14.0"
 
 [build-dependencies]
 bindgen = { version = "0.58.1", optional = true }

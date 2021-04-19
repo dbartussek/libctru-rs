@@ -1,9 +1,10 @@
-use std::path::Path;
-
 fn main() {
     #[cfg(feature = "generate")]
     {
+        use std::path::Path;
+
         let bindings = bindgen::Builder::default()
+            .use_core()
             .clang_arg("--no-standard-includes")
             .clang_arg("-I./devkitARM/arm-none-eabi/include")
             .clang_arg("-I./devkitARM/lib/gcc/arm-none-eabi/10.2.0/include")
