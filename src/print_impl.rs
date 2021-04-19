@@ -21,10 +21,7 @@ macro_rules! print {
     () => ();
     ($($arg:tt)*) => ({
         $crate::print_impl::put_str(
-            $crate::alloc::format!(
-                "{}\0",
-                $crate::alloc::format!($($arg)*)
-            ).as_str()
+            $crate::alloc::format!($($arg)*).as_str()
         );
     });
 }
