@@ -3,5 +3,5 @@
 #![allow(non_snake_case)]
 
 pub mod raw {
-    include!(concat!(env!("OUT_DIR"), "/3ds.rs"));
+    include!(concat!(env!("CARGO_MANIFEST_DIR"), "/generated/3ds.rs"));
 }
