@@ -13,7 +13,7 @@ macro_rules! print {
     () => ();
     ($($arg:tt)*) => (unsafe {
         $crate::print_impl::printf(
-            "%s",
+            "%s\0".as_ptr(),
             $crate::alloc::format!(
                 "{}\0",
                 $crate::alloc::format!($($arg)*)
