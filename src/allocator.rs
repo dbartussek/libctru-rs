@@ -5,6 +5,8 @@ extern "C" {
     fn free(ptr: *mut u8);
 }
 
+/// Just as it says on the tin.
+/// A GlobalAlloc implementation that calls `aligned_alloc` and `free`.
 pub struct Mallocator;
 
 unsafe impl GlobalAlloc for Mallocator {

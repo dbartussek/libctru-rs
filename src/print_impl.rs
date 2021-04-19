@@ -8,6 +8,7 @@ extern "C" {
     pub fn puts(string: *const c_char);
 }
 
+#[doc(hidden)]
 pub fn put_str(s: &str) {
     unsafe {
         for c in s.as_bytes() {
@@ -16,6 +17,10 @@ pub fn put_str(s: &str) {
     }
 }
 
+/// Prints to the console without appending a newline.
+///
+/// A console can be created by calling `consoleInit`.
+/// [See the C examples for now.](https://github.com/devkitPro/3ds-examples/blob/master/graphics/printing/hello-world/source/main.c)
 #[macro_export]
 macro_rules! print {
     () => ();
@@ -26,6 +31,10 @@ macro_rules! print {
     });
 }
 
+/// Prints to the console with a newline.
+///
+/// A console can be created by calling `consoleInit`.
+/// [See the C examples for now.](https://github.com/devkitPro/3ds-examples/blob/master/graphics/printing/hello-world/source/main.c)
 #[macro_export]
 macro_rules! println {
     () => (unsafe {
