@@ -4,7 +4,7 @@
 
 pub use drone_ctypes::*;
 
-pub type size_t = c_ulong;
+pub type size_t = usize;
 
 #[repr(C)]
 #[derive(Copy, Clone, Debug, Default, Eq, Hash, Ord, PartialEq, PartialOrd)]
@@ -8345,7 +8345,7 @@ pub type __off_t = _off_t;
 pub type __loff_t = _off64_t;
 pub type __key_t = c_long;
 pub type __size_t = c_ulonglong;
-pub type _ssize_t = c_longlong;
+pub type _ssize_t = isize;
 pub type __ssize_t = _ssize_t;
 #[repr(C)]
 #[derive(Copy, Clone)]
