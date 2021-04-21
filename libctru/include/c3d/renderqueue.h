@@ -38,7 +38,7 @@ void C3D_FrameEndHook(void (* hook)(void*), void* param);
 float C3D_GetDrawingTime(void);
 float C3D_GetProcessingTime(void);
 
-#if defined(__GNUC__) && !defined(__cplusplus)
+#if !defined(__cplusplus)
 typedef union __attribute__((__transparent_union__))
 {
 	int __i;

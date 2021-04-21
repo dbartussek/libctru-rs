@@ -1,4 +1,3 @@
-#![no_std]
 #![deny(missing_docs)]
 
 //! Bindings to [libctru](https://libctru.devkitpro.org/), the user mode 3DS library.
@@ -24,16 +23,4 @@ pub extern crate alloc;
 #[allow(clippy::all)]
 pub mod raw {
     include!(concat!(env!("CARGO_MANIFEST_DIR"), "/generated/3ds.rs"));
-}
-
-mod allocator;
-
-#[doc(hidden)]
-pub mod print_impl;
-
-pub use crate::allocator::Mallocator;
-
-/// Reexports for simple usage of the library.
-pub mod prelude {
-    pub use crate::{allocator::Mallocator, print, println};
 }

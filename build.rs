@@ -3,14 +3,14 @@ fn main() {
     {
         use std::path::Path;
 
-        let bindings = bindgen::Builder::default()
-            .use_core()
+        let ctru = bindgen::Builder::default()
             .clang_arg("--no-standard-includes")
             .clang_arg("-I./devkitARM/arm-none-eabi/include")
             .clang_arg("-I./devkitARM/lib/gcc/arm-none-eabi/10.2.0/include")
             .clang_arg("-I./libctru/include")
             .parse_callbacks(Box::new(bindgen::CargoCallbacks))
             .header("libctru/include/3ds.h")
+            .header("libctru/include/citro2d.h")
             .generate()
             .unwrap();
 
@@ -19,8 +19,18 @@ fn main() {
 
         let _ = std::fs::create_dir_all(&generated_path);
 
-        bindings
-            .write_to_file(generated_path.join("3ds.rs"))
-            .expect("Couldn't write bindings!");
+        let ctru = ctru
+            .to_string()
+            .replace(
+                "pub type size_t = ::std::os::raw::c_ulonglong;",
+                "pub type size_t = usize;",
+            )
+            .replace(
+                "pub type _ssize_t = ::std::os::raw::c_longlong;",
+                "pub type _ssize_t = isize;",
+            )
+            .replace("pub type wchar_t = ::std::os::raw::c_ushort;", "");
+
+        std::fs::write(generated_path.join("3ds.rs"), ctru).expect("Couldn't write bindings!");
     }
 }
