@@ -31,6 +31,9 @@ fn main() {
             )
             .replace("pub type wchar_t = ::std::os::raw::c_ushort;", "");
 
+        let for_std = ctru.replace("::std", "crate");
+
         std::fs::write(generated_path.join("3ds.rs"), ctru).expect("Couldn't write bindings!");
+        std::fs::write(generated_path.join("for_std.rs"), for_std).expect("Couldn't write bindings!");
     }
 }
