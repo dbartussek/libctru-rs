@@ -183,57 +183,6 @@ pub const __XSI_VISIBLE: u32 = 0;
 pub const __SSP_FORTIFY_LEVEL: u32 = 0;
 pub const _POSIX_MONOTONIC_CLOCK: u32 = 200112;
 pub const _POSIX_TIMERS: u32 = 1;
-pub const _LIBC_LIMITS_H_: u32 = 1;
-pub const __NEWLIB_H__: u32 = 1;
-pub const _WANT_IO_C99_FORMATS: u32 = 1;
-pub const _WANT_IO_LONG_LONG: u32 = 1;
-pub const _WANT_IO_POS_ARGS: u32 = 1;
-pub const _REENT_CHECK_VERIFY: u32 = 1;
-pub const _MB_CAPABLE: u32 = 1;
-pub const _MB_LEN_MAX: u32 = 8;
-pub const HAVE_INITFINI_ARRAY: u32 = 1;
-pub const _ATEXIT_DYNAMIC_ALLOC: u32 = 1;
-pub const _HAVE_LONG_DOUBLE: u32 = 1;
-pub const _HAVE_CC_INHIBIT_LOOP_TO_LIBCALL: u32 = 1;
-pub const _LDBL_EQ_DBL: u32 = 1;
-pub const _FVWRITE_IN_STREAMIO: u32 = 1;
-pub const _FSEEK_OPTIMIZATION: u32 = 1;
-pub const _UNBUF_STREAM_OPT: u32 = 1;
-pub const ARG_MAX: u32 = 65536;
-pub const CHILD_MAX: u32 = 40;
-pub const LINK_MAX: u32 = 32767;
-pub const MAX_CANON: u32 = 255;
-pub const MAX_INPUT: u32 = 255;
-pub const NAME_MAX: u32 = 255;
-pub const NGROUPS_MAX: u32 = 16;
-pub const OPEN_MAX: u32 = 64;
-pub const PATH_MAX: u32 = 1024;
-pub const PIPE_BUF: u32 = 512;
-pub const IOV_MAX: u32 = 1024;
-pub const BC_BASE_MAX: u32 = 99;
-pub const BC_DIM_MAX: u32 = 2048;
-pub const BC_SCALE_MAX: u32 = 99;
-pub const BC_STRING_MAX: u32 = 1000;
-pub const COLL_WEIGHTS_MAX: u32 = 0;
-pub const EXPR_NEST_MAX: u32 = 32;
-pub const LINE_MAX: u32 = 2048;
-pub const RE_DUP_MAX: u32 = 255;
-pub const MB_LEN_MAX: u32 = 8;
-pub const NL_ARGMAX: u32 = 32;
-pub const _LIMITS_H: u32 = 1;
-pub const __OBSOLETE_MATH_DEFAULT: u32 = 1;
-pub const __OBSOLETE_MATH: u32 = 1;
-pub const __RAND_MAX: u32 = 2147483647;
-pub const CHAR_BIT: u32 = 8;
-pub const SCHAR_MIN: i32 = -128;
-pub const SCHAR_MAX: u32 = 127;
-pub const UCHAR_MAX: u32 = 255;
-pub const CHAR_MIN: i32 = -128;
-pub const CHAR_MAX: u32 = 127;
-pub const SHRT_MIN: i32 = -32768;
-pub const SHRT_MAX: u32 = 32767;
-pub const USHRT_MAX: u32 = 65535;
-pub const _POSIX2_RE_DUP_MAX: u32 = 255;
 pub const __have_longlong64: u32 = 1;
 pub const __have_long32: u32 = 1;
 pub const ___int8_t_defined: u32 = 1;
@@ -304,6 +253,24 @@ pub const OS_SHAREDCFG_VADDR: u32 = 536350720;
 pub const OS_FCRAM_VADDR: u32 = 805306368;
 pub const OS_FCRAM_PADDR: u32 = 536870912;
 pub const OS_FCRAM_SIZE: u32 = 268435456;
+pub const __NEWLIB_H__: u32 = 1;
+pub const _WANT_IO_C99_FORMATS: u32 = 1;
+pub const _WANT_IO_LONG_LONG: u32 = 1;
+pub const _WANT_IO_POS_ARGS: u32 = 1;
+pub const _REENT_CHECK_VERIFY: u32 = 1;
+pub const _MB_CAPABLE: u32 = 1;
+pub const _MB_LEN_MAX: u32 = 8;
+pub const HAVE_INITFINI_ARRAY: u32 = 1;
+pub const _ATEXIT_DYNAMIC_ALLOC: u32 = 1;
+pub const _HAVE_LONG_DOUBLE: u32 = 1;
+pub const _HAVE_CC_INHIBIT_LOOP_TO_LIBCALL: u32 = 1;
+pub const _LDBL_EQ_DBL: u32 = 1;
+pub const _FVWRITE_IN_STREAMIO: u32 = 1;
+pub const _FSEEK_OPTIMIZATION: u32 = 1;
+pub const _UNBUF_STREAM_OPT: u32 = 1;
+pub const __OBSOLETE_MATH_DEFAULT: u32 = 0;
+pub const __OBSOLETE_MATH: u32 = 0;
+pub const __RAND_MAX: u32 = 2147483647;
 pub const GSP_SCREEN_TOP: u32 = 0;
 pub const GSP_SCREEN_BOTTOM: u32 = 1;
 pub const GSP_SCREEN_WIDTH: u32 = 240;
@@ -319,6 +286,25 @@ pub const CONSOLE_BLINK_FAST: u32 = 32;
 pub const CONSOLE_COLOR_REVERSE: u32 = 64;
 pub const CONSOLE_CONCEAL: u32 = 128;
 pub const CONSOLE_CROSSED_OUT: u32 = 256;
+pub const __GNUCLIKE_ASM: u32 = 3;
+pub const __GNUCLIKE___TYPEOF: u32 = 1;
+pub const __GNUCLIKE___OFFSETOF: u32 = 1;
+pub const __GNUCLIKE___SECTION: u32 = 1;
+pub const __GNUCLIKE_CTOR_SECTION_HANDLING: u32 = 1;
+pub const __GNUCLIKE_BUILTIN_CONSTANT_P: u32 = 1;
+pub const __GNUCLIKE_BUILTIN_VARARGS: u32 = 1;
+pub const __GNUCLIKE_BUILTIN_STDARG: u32 = 1;
+pub const __GNUCLIKE_BUILTIN_VAALIST: u32 = 1;
+pub const __GNUC_VA_LIST_COMPATIBILITY: u32 = 1;
+pub const __GNUCLIKE_BUILTIN_NEXT_ARG: u32 = 1;
+pub const __GNUCLIKE_BUILTIN_MEMCPY: u32 = 1;
+pub const __CC_SUPPORTS_INLINE: u32 = 1;
+pub const __CC_SUPPORTS___INLINE: u32 = 1;
+pub const __CC_SUPPORTS___INLINE__: u32 = 1;
+pub const __CC_SUPPORTS___FUNC__: u32 = 1;
+pub const __CC_SUPPORTS_WARNING: u32 = 1;
+pub const __CC_SUPPORTS_VARADIC_XXX: u32 = 1;
+pub const __CC_SUPPORTS_DYNAMIC_ARRAY_INIT: u32 = 1;
 pub const __BIT_TYPES_DEFINED__: u32 = 1;
 pub const _LITTLE_ENDIAN: u32 = 1234;
 pub const _BIG_ENDIAN: u32 = 4321;
@@ -376,9 +362,9 @@ pub const _REENT_EMERGENCY_SIZE: u32 = 25;
 pub const _REENT_ASCTIME_SIZE: u32 = 26;
 pub const _REENT_SIGNAL_SIZE: u32 = 24;
 pub const _N_LISTS: u32 = 30;
-pub const _CLOCKS_PER_SEC_: u32 = 1000;
-pub const CLOCKS_PER_SEC: u32 = 1000;
-pub const CLK_TCK: u32 = 1000;
+pub const _CLOCKS_PER_SEC_: u32 = 100;
+pub const CLOCKS_PER_SEC: u32 = 100;
+pub const CLK_TCK: u32 = 100;
 pub const SIGEV_NONE: u32 = 1;
 pub const SIGEV_SIGNAL: u32 = 2;
 pub const SIGEV_THREAD: u32 = 3;
@@ -1240,7 +1226,6 @@ pub const MIISELECTOR_USERMII_SLOTS: u32 = 100;
 pub const MIISELECTOR_GUESTMII_NAME_LEN: u32 = 12;
 pub const ARCHIVE_DIRITER_MAGIC: u32 = 1751347809;
 pub const _M_LN2: f64 = 0.6931471805599453;
-pub const NAN: f64 = ::std::f64::NAN;
 pub const FP_NAN: u32 = 0;
 pub const FP_INFINITE: u32 = 1;
 pub const FP_ZERO: u32 = 2;
@@ -1308,8 +1293,46 @@ pub const SEEK_END: u32 = 2;
 pub const TMP_MAX: u32 = 26;
 pub const L_ctermid: u32 = 16;
 pub const C2D_DEFAULT_MAX_OBJECTS: u32 = 4096;
-pub type size_t = usize;
-
+pub type __int8_t = ::std::os::raw::c_schar;
+pub type __uint8_t = ::std::os::raw::c_uchar;
+pub type __int16_t = ::std::os::raw::c_short;
+pub type __uint16_t = ::std::os::raw::c_ushort;
+pub type __int32_t = ::std::os::raw::c_int;
+pub type __uint32_t = ::std::os::raw::c_uint;
+pub type __int64_t = ::std::os::raw::c_longlong;
+pub type __uint64_t = ::std::os::raw::c_ulonglong;
+pub type __int_least8_t = ::std::os::raw::c_schar;
+pub type __uint_least8_t = ::std::os::raw::c_uchar;
+pub type __int_least16_t = ::std::os::raw::c_short;
+pub type __uint_least16_t = ::std::os::raw::c_ushort;
+pub type __int_least32_t = ::std::os::raw::c_int;
+pub type __uint_least32_t = ::std::os::raw::c_uint;
+pub type __int_least64_t = ::std::os::raw::c_longlong;
+pub type __uint_least64_t = ::std::os::raw::c_ulonglong;
+pub type __intmax_t = ::std::os::raw::c_longlong;
+pub type __uintmax_t = ::std::os::raw::c_ulonglong;
+pub type __intptr_t = ::std::os::raw::c_int;
+pub type __uintptr_t = ::std::os::raw::c_uint;
+pub type intmax_t = __intmax_t;
+pub type uintmax_t = __uintmax_t;
+pub type int_least8_t = __int_least8_t;
+pub type uint_least8_t = __uint_least8_t;
+pub type int_least16_t = __int_least16_t;
+pub type uint_least16_t = __uint_least16_t;
+pub type int_least32_t = __int_least32_t;
+pub type uint_least32_t = __uint_least32_t;
+pub type int_least64_t = __int_least64_t;
+pub type uint_least64_t = __uint_least64_t;
+pub type int_fast8_t = ::std::os::raw::c_schar;
+pub type uint_fast8_t = ::std::os::raw::c_uchar;
+pub type int_fast16_t = ::std::os::raw::c_short;
+pub type uint_fast16_t = ::std::os::raw::c_ushort;
+pub type int_fast32_t = ::std::os::raw::c_int;
+pub type uint_fast32_t = ::std::os::raw::c_uint;
+pub type int_fast64_t = ::std::os::raw::c_longlong;
+pub type uint_fast64_t = ::std::os::raw::c_ulonglong;
+pub type size_t = ::std::os::raw::c_uint;
+pub type wchar_t = ::std::os::raw::c_uint;
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
 pub struct max_align_t {
@@ -1349,44 +1372,6 @@ fn bindgen_test_layout_max_align_t() {
         )
     );
 }
-pub type __int8_t = ::std::os::raw::c_char;
-pub type __uint8_t = ::std::os::raw::c_uchar;
-pub type __int16_t = ::std::os::raw::c_short;
-pub type __uint16_t = ::std::os::raw::c_ushort;
-pub type __int32_t = ::std::os::raw::c_int;
-pub type __uint32_t = ::std::os::raw::c_uint;
-pub type __int64_t = ::std::os::raw::c_longlong;
-pub type __uint64_t = ::std::os::raw::c_ulonglong;
-pub type __int_least8_t = ::std::os::raw::c_char;
-pub type __uint_least8_t = ::std::os::raw::c_uchar;
-pub type __int_least16_t = ::std::os::raw::c_short;
-pub type __uint_least16_t = ::std::os::raw::c_ushort;
-pub type __int_least32_t = ::std::os::raw::c_int;
-pub type __uint_least32_t = ::std::os::raw::c_uint;
-pub type __int_least64_t = ::std::os::raw::c_longlong;
-pub type __uint_least64_t = ::std::os::raw::c_ulonglong;
-pub type __intmax_t = ::std::os::raw::c_longlong;
-pub type __uintmax_t = ::std::os::raw::c_ulonglong;
-pub type __intptr_t = ::std::os::raw::c_longlong;
-pub type __uintptr_t = ::std::os::raw::c_ulonglong;
-pub type intmax_t = __intmax_t;
-pub type uintmax_t = __uintmax_t;
-pub type int_least8_t = __int_least8_t;
-pub type uint_least8_t = __uint_least8_t;
-pub type int_least16_t = __int_least16_t;
-pub type uint_least16_t = __uint_least16_t;
-pub type int_least32_t = __int_least32_t;
-pub type uint_least32_t = __uint_least32_t;
-pub type int_least64_t = __int_least64_t;
-pub type uint_least64_t = __uint_least64_t;
-pub type int_fast8_t = ::std::os::raw::c_char;
-pub type uint_fast8_t = ::std::os::raw::c_uchar;
-pub type int_fast16_t = ::std::os::raw::c_short;
-pub type uint_fast16_t = ::std::os::raw::c_ushort;
-pub type int_fast32_t = ::std::os::raw::c_int;
-pub type uint_fast32_t = ::std::os::raw::c_uint;
-pub type int_fast64_t = ::std::os::raw::c_longlong;
-pub type uint_fast64_t = ::std::os::raw::c_ulonglong;
 pub type u8_ = u8;
 pub type u16_ = u16;
 pub type u32_ = u32;
@@ -1597,159 +1582,159 @@ fn bindgen_test_layout_FpuRegisters() {
         )
     );
 }
-pub const RL_SUCCESS: ::std::os::raw::c_int = 0;
-pub const RL_INFO: ::std::os::raw::c_int = 1;
-pub const RL_FATAL: ::std::os::raw::c_int = 31;
-pub const RL_RESET: ::std::os::raw::c_int = 30;
-pub const RL_REINITIALIZE: ::std::os::raw::c_int = 29;
-pub const RL_USAGE: ::std::os::raw::c_int = 28;
-pub const RL_PERMANENT: ::std::os::raw::c_int = 27;
-pub const RL_TEMPORARY: ::std::os::raw::c_int = 26;
-pub const RL_STATUS: ::std::os::raw::c_int = 25;
+pub const RL_SUCCESS: ::std::os::raw::c_uint = 0;
+pub const RL_INFO: ::std::os::raw::c_uint = 1;
+pub const RL_FATAL: ::std::os::raw::c_uint = 31;
+pub const RL_RESET: ::std::os::raw::c_uint = 30;
+pub const RL_REINITIALIZE: ::std::os::raw::c_uint = 29;
+pub const RL_USAGE: ::std::os::raw::c_uint = 28;
+pub const RL_PERMANENT: ::std::os::raw::c_uint = 27;
+pub const RL_TEMPORARY: ::std::os::raw::c_uint = 26;
+pub const RL_STATUS: ::std::os::raw::c_uint = 25;
 #[doc = " Result code level values."]
-pub type _bindgen_ty_1 = ::std::os::raw::c_int;
-pub const RS_SUCCESS: ::std::os::raw::c_int = 0;
-pub const RS_NOP: ::std::os::raw::c_int = 1;
-pub const RS_WOULDBLOCK: ::std::os::raw::c_int = 2;
-pub const RS_OUTOFRESOURCE: ::std::os::raw::c_int = 3;
-pub const RS_NOTFOUND: ::std::os::raw::c_int = 4;
-pub const RS_INVALIDSTATE: ::std::os::raw::c_int = 5;
-pub const RS_NOTSUPPORTED: ::std::os::raw::c_int = 6;
-pub const RS_INVALIDARG: ::std::os::raw::c_int = 7;
-pub const RS_WRONGARG: ::std::os::raw::c_int = 8;
-pub const RS_CANCELED: ::std::os::raw::c_int = 9;
-pub const RS_STATUSCHANGED: ::std::os::raw::c_int = 10;
-pub const RS_INTERNAL: ::std::os::raw::c_int = 11;
-pub const RS_INVALIDRESVAL: ::std::os::raw::c_int = 63;
+pub type _bindgen_ty_1 = ::std::os::raw::c_uint;
+pub const RS_SUCCESS: ::std::os::raw::c_uint = 0;
+pub const RS_NOP: ::std::os::raw::c_uint = 1;
+pub const RS_WOULDBLOCK: ::std::os::raw::c_uint = 2;
+pub const RS_OUTOFRESOURCE: ::std::os::raw::c_uint = 3;
+pub const RS_NOTFOUND: ::std::os::raw::c_uint = 4;
+pub const RS_INVALIDSTATE: ::std::os::raw::c_uint = 5;
+pub const RS_NOTSUPPORTED: ::std::os::raw::c_uint = 6;
+pub const RS_INVALIDARG: ::std::os::raw::c_uint = 7;
+pub const RS_WRONGARG: ::std::os::raw::c_uint = 8;
+pub const RS_CANCELED: ::std::os::raw::c_uint = 9;
+pub const RS_STATUSCHANGED: ::std::os::raw::c_uint = 10;
+pub const RS_INTERNAL: ::std::os::raw::c_uint = 11;
+pub const RS_INVALIDRESVAL: ::std::os::raw::c_uint = 63;
 #[doc = " Result code summary values."]
-pub type _bindgen_ty_2 = ::std::os::raw::c_int;
-pub const RM_COMMON: ::std::os::raw::c_int = 0;
-pub const RM_KERNEL: ::std::os::raw::c_int = 1;
-pub const RM_UTIL: ::std::os::raw::c_int = 2;
-pub const RM_FILE_SERVER: ::std::os::raw::c_int = 3;
-pub const RM_LOADER_SERVER: ::std::os::raw::c_int = 4;
-pub const RM_TCB: ::std::os::raw::c_int = 5;
-pub const RM_OS: ::std::os::raw::c_int = 6;
-pub const RM_DBG: ::std::os::raw::c_int = 7;
-pub const RM_DMNT: ::std::os::raw::c_int = 8;
-pub const RM_PDN: ::std::os::raw::c_int = 9;
-pub const RM_GSP: ::std::os::raw::c_int = 10;
-pub const RM_I2C: ::std::os::raw::c_int = 11;
-pub const RM_GPIO: ::std::os::raw::c_int = 12;
-pub const RM_DD: ::std::os::raw::c_int = 13;
-pub const RM_CODEC: ::std::os::raw::c_int = 14;
-pub const RM_SPI: ::std::os::raw::c_int = 15;
-pub const RM_PXI: ::std::os::raw::c_int = 16;
-pub const RM_FS: ::std::os::raw::c_int = 17;
-pub const RM_DI: ::std::os::raw::c_int = 18;
-pub const RM_HID: ::std::os::raw::c_int = 19;
-pub const RM_CAM: ::std::os::raw::c_int = 20;
-pub const RM_PI: ::std::os::raw::c_int = 21;
-pub const RM_PM: ::std::os::raw::c_int = 22;
-pub const RM_PM_LOW: ::std::os::raw::c_int = 23;
-pub const RM_FSI: ::std::os::raw::c_int = 24;
-pub const RM_SRV: ::std::os::raw::c_int = 25;
-pub const RM_NDM: ::std::os::raw::c_int = 26;
-pub const RM_NWM: ::std::os::raw::c_int = 27;
-pub const RM_SOC: ::std::os::raw::c_int = 28;
-pub const RM_LDR: ::std::os::raw::c_int = 29;
-pub const RM_ACC: ::std::os::raw::c_int = 30;
-pub const RM_ROMFS: ::std::os::raw::c_int = 31;
-pub const RM_AM: ::std::os::raw::c_int = 32;
-pub const RM_HIO: ::std::os::raw::c_int = 33;
-pub const RM_UPDATER: ::std::os::raw::c_int = 34;
-pub const RM_MIC: ::std::os::raw::c_int = 35;
-pub const RM_FND: ::std::os::raw::c_int = 36;
-pub const RM_MP: ::std::os::raw::c_int = 37;
-pub const RM_MPWL: ::std::os::raw::c_int = 38;
-pub const RM_AC: ::std::os::raw::c_int = 39;
-pub const RM_HTTP: ::std::os::raw::c_int = 40;
-pub const RM_DSP: ::std::os::raw::c_int = 41;
-pub const RM_SND: ::std::os::raw::c_int = 42;
-pub const RM_DLP: ::std::os::raw::c_int = 43;
-pub const RM_HIO_LOW: ::std::os::raw::c_int = 44;
-pub const RM_CSND: ::std::os::raw::c_int = 45;
-pub const RM_SSL: ::std::os::raw::c_int = 46;
-pub const RM_AM_LOW: ::std::os::raw::c_int = 47;
-pub const RM_NEX: ::std::os::raw::c_int = 48;
-pub const RM_FRIENDS: ::std::os::raw::c_int = 49;
-pub const RM_RDT: ::std::os::raw::c_int = 50;
-pub const RM_APPLET: ::std::os::raw::c_int = 51;
-pub const RM_NIM: ::std::os::raw::c_int = 52;
-pub const RM_PTM: ::std::os::raw::c_int = 53;
-pub const RM_MIDI: ::std::os::raw::c_int = 54;
-pub const RM_MC: ::std::os::raw::c_int = 55;
-pub const RM_SWC: ::std::os::raw::c_int = 56;
-pub const RM_FATFS: ::std::os::raw::c_int = 57;
-pub const RM_NGC: ::std::os::raw::c_int = 58;
-pub const RM_CARD: ::std::os::raw::c_int = 59;
-pub const RM_CARDNOR: ::std::os::raw::c_int = 60;
-pub const RM_SDMC: ::std::os::raw::c_int = 61;
-pub const RM_BOSS: ::std::os::raw::c_int = 62;
-pub const RM_DBM: ::std::os::raw::c_int = 63;
-pub const RM_CONFIG: ::std::os::raw::c_int = 64;
-pub const RM_PS: ::std::os::raw::c_int = 65;
-pub const RM_CEC: ::std::os::raw::c_int = 66;
-pub const RM_IR: ::std::os::raw::c_int = 67;
-pub const RM_UDS: ::std::os::raw::c_int = 68;
-pub const RM_PL: ::std::os::raw::c_int = 69;
-pub const RM_CUP: ::std::os::raw::c_int = 70;
-pub const RM_GYROSCOPE: ::std::os::raw::c_int = 71;
-pub const RM_MCU: ::std::os::raw::c_int = 72;
-pub const RM_NS: ::std::os::raw::c_int = 73;
-pub const RM_NEWS: ::std::os::raw::c_int = 74;
-pub const RM_RO: ::std::os::raw::c_int = 75;
-pub const RM_GD: ::std::os::raw::c_int = 76;
-pub const RM_CARD_SPI: ::std::os::raw::c_int = 77;
-pub const RM_EC: ::std::os::raw::c_int = 78;
-pub const RM_WEB_BROWSER: ::std::os::raw::c_int = 79;
-pub const RM_TEST: ::std::os::raw::c_int = 80;
-pub const RM_ENC: ::std::os::raw::c_int = 81;
-pub const RM_PIA: ::std::os::raw::c_int = 82;
-pub const RM_ACT: ::std::os::raw::c_int = 83;
-pub const RM_VCTL: ::std::os::raw::c_int = 84;
-pub const RM_OLV: ::std::os::raw::c_int = 85;
-pub const RM_NEIA: ::std::os::raw::c_int = 86;
-pub const RM_NPNS: ::std::os::raw::c_int = 87;
-pub const RM_AVD: ::std::os::raw::c_int = 90;
-pub const RM_L2B: ::std::os::raw::c_int = 91;
-pub const RM_MVD: ::std::os::raw::c_int = 92;
-pub const RM_NFC: ::std::os::raw::c_int = 93;
-pub const RM_UART: ::std::os::raw::c_int = 94;
-pub const RM_SPM: ::std::os::raw::c_int = 95;
-pub const RM_QTM: ::std::os::raw::c_int = 96;
-pub const RM_NFP: ::std::os::raw::c_int = 97;
-pub const RM_APPLICATION: ::std::os::raw::c_int = 254;
-pub const RM_INVALIDRESVAL: ::std::os::raw::c_int = 255;
+pub type _bindgen_ty_2 = ::std::os::raw::c_uint;
+pub const RM_COMMON: ::std::os::raw::c_uint = 0;
+pub const RM_KERNEL: ::std::os::raw::c_uint = 1;
+pub const RM_UTIL: ::std::os::raw::c_uint = 2;
+pub const RM_FILE_SERVER: ::std::os::raw::c_uint = 3;
+pub const RM_LOADER_SERVER: ::std::os::raw::c_uint = 4;
+pub const RM_TCB: ::std::os::raw::c_uint = 5;
+pub const RM_OS: ::std::os::raw::c_uint = 6;
+pub const RM_DBG: ::std::os::raw::c_uint = 7;
+pub const RM_DMNT: ::std::os::raw::c_uint = 8;
+pub const RM_PDN: ::std::os::raw::c_uint = 9;
+pub const RM_GSP: ::std::os::raw::c_uint = 10;
+pub const RM_I2C: ::std::os::raw::c_uint = 11;
+pub const RM_GPIO: ::std::os::raw::c_uint = 12;
+pub const RM_DD: ::std::os::raw::c_uint = 13;
+pub const RM_CODEC: ::std::os::raw::c_uint = 14;
+pub const RM_SPI: ::std::os::raw::c_uint = 15;
+pub const RM_PXI: ::std::os::raw::c_uint = 16;
+pub const RM_FS: ::std::os::raw::c_uint = 17;
+pub const RM_DI: ::std::os::raw::c_uint = 18;
+pub const RM_HID: ::std::os::raw::c_uint = 19;
+pub const RM_CAM: ::std::os::raw::c_uint = 20;
+pub const RM_PI: ::std::os::raw::c_uint = 21;
+pub const RM_PM: ::std::os::raw::c_uint = 22;
+pub const RM_PM_LOW: ::std::os::raw::c_uint = 23;
+pub const RM_FSI: ::std::os::raw::c_uint = 24;
+pub const RM_SRV: ::std::os::raw::c_uint = 25;
+pub const RM_NDM: ::std::os::raw::c_uint = 26;
+pub const RM_NWM: ::std::os::raw::c_uint = 27;
+pub const RM_SOC: ::std::os::raw::c_uint = 28;
+pub const RM_LDR: ::std::os::raw::c_uint = 29;
+pub const RM_ACC: ::std::os::raw::c_uint = 30;
+pub const RM_ROMFS: ::std::os::raw::c_uint = 31;
+pub const RM_AM: ::std::os::raw::c_uint = 32;
+pub const RM_HIO: ::std::os::raw::c_uint = 33;
+pub const RM_UPDATER: ::std::os::raw::c_uint = 34;
+pub const RM_MIC: ::std::os::raw::c_uint = 35;
+pub const RM_FND: ::std::os::raw::c_uint = 36;
+pub const RM_MP: ::std::os::raw::c_uint = 37;
+pub const RM_MPWL: ::std::os::raw::c_uint = 38;
+pub const RM_AC: ::std::os::raw::c_uint = 39;
+pub const RM_HTTP: ::std::os::raw::c_uint = 40;
+pub const RM_DSP: ::std::os::raw::c_uint = 41;
+pub const RM_SND: ::std::os::raw::c_uint = 42;
+pub const RM_DLP: ::std::os::raw::c_uint = 43;
+pub const RM_HIO_LOW: ::std::os::raw::c_uint = 44;
+pub const RM_CSND: ::std::os::raw::c_uint = 45;
+pub const RM_SSL: ::std::os::raw::c_uint = 46;
+pub const RM_AM_LOW: ::std::os::raw::c_uint = 47;
+pub const RM_NEX: ::std::os::raw::c_uint = 48;
+pub const RM_FRIENDS: ::std::os::raw::c_uint = 49;
+pub const RM_RDT: ::std::os::raw::c_uint = 50;
+pub const RM_APPLET: ::std::os::raw::c_uint = 51;
+pub const RM_NIM: ::std::os::raw::c_uint = 52;
+pub const RM_PTM: ::std::os::raw::c_uint = 53;
+pub const RM_MIDI: ::std::os::raw::c_uint = 54;
+pub const RM_MC: ::std::os::raw::c_uint = 55;
+pub const RM_SWC: ::std::os::raw::c_uint = 56;
+pub const RM_FATFS: ::std::os::raw::c_uint = 57;
+pub const RM_NGC: ::std::os::raw::c_uint = 58;
+pub const RM_CARD: ::std::os::raw::c_uint = 59;
+pub const RM_CARDNOR: ::std::os::raw::c_uint = 60;
+pub const RM_SDMC: ::std::os::raw::c_uint = 61;
+pub const RM_BOSS: ::std::os::raw::c_uint = 62;
+pub const RM_DBM: ::std::os::raw::c_uint = 63;
+pub const RM_CONFIG: ::std::os::raw::c_uint = 64;
+pub const RM_PS: ::std::os::raw::c_uint = 65;
+pub const RM_CEC: ::std::os::raw::c_uint = 66;
+pub const RM_IR: ::std::os::raw::c_uint = 67;
+pub const RM_UDS: ::std::os::raw::c_uint = 68;
+pub const RM_PL: ::std::os::raw::c_uint = 69;
+pub const RM_CUP: ::std::os::raw::c_uint = 70;
+pub const RM_GYROSCOPE: ::std::os::raw::c_uint = 71;
+pub const RM_MCU: ::std::os::raw::c_uint = 72;
+pub const RM_NS: ::std::os::raw::c_uint = 73;
+pub const RM_NEWS: ::std::os::raw::c_uint = 74;
+pub const RM_RO: ::std::os::raw::c_uint = 75;
+pub const RM_GD: ::std::os::raw::c_uint = 76;
+pub const RM_CARD_SPI: ::std::os::raw::c_uint = 77;
+pub const RM_EC: ::std::os::raw::c_uint = 78;
+pub const RM_WEB_BROWSER: ::std::os::raw::c_uint = 79;
+pub const RM_TEST: ::std::os::raw::c_uint = 80;
+pub const RM_ENC: ::std::os::raw::c_uint = 81;
+pub const RM_PIA: ::std::os::raw::c_uint = 82;
+pub const RM_ACT: ::std::os::raw::c_uint = 83;
+pub const RM_VCTL: ::std::os::raw::c_uint = 84;
+pub const RM_OLV: ::std::os::raw::c_uint = 85;
+pub const RM_NEIA: ::std::os::raw::c_uint = 86;
+pub const RM_NPNS: ::std::os::raw::c_uint = 87;
+pub const RM_AVD: ::std::os::raw::c_uint = 90;
+pub const RM_L2B: ::std::os::raw::c_uint = 91;
+pub const RM_MVD: ::std::os::raw::c_uint = 92;
+pub const RM_NFC: ::std::os::raw::c_uint = 93;
+pub const RM_UART: ::std::os::raw::c_uint = 94;
+pub const RM_SPM: ::std::os::raw::c_uint = 95;
+pub const RM_QTM: ::std::os::raw::c_uint = 96;
+pub const RM_NFP: ::std::os::raw::c_uint = 97;
+pub const RM_APPLICATION: ::std::os::raw::c_uint = 254;
+pub const RM_INVALIDRESVAL: ::std::os::raw::c_uint = 255;
 #[doc = " Result code module values."]
-pub type _bindgen_ty_3 = ::std::os::raw::c_int;
-pub const RD_SUCCESS: ::std::os::raw::c_int = 0;
-pub const RD_INVALID_RESULT_VALUE: ::std::os::raw::c_int = 1023;
-pub const RD_TIMEOUT: ::std::os::raw::c_int = 1022;
-pub const RD_OUT_OF_RANGE: ::std::os::raw::c_int = 1021;
-pub const RD_ALREADY_EXISTS: ::std::os::raw::c_int = 1020;
-pub const RD_CANCEL_REQUESTED: ::std::os::raw::c_int = 1019;
-pub const RD_NOT_FOUND: ::std::os::raw::c_int = 1018;
-pub const RD_ALREADY_INITIALIZED: ::std::os::raw::c_int = 1017;
-pub const RD_NOT_INITIALIZED: ::std::os::raw::c_int = 1016;
-pub const RD_INVALID_HANDLE: ::std::os::raw::c_int = 1015;
-pub const RD_INVALID_POINTER: ::std::os::raw::c_int = 1014;
-pub const RD_INVALID_ADDRESS: ::std::os::raw::c_int = 1013;
-pub const RD_NOT_IMPLEMENTED: ::std::os::raw::c_int = 1012;
-pub const RD_OUT_OF_MEMORY: ::std::os::raw::c_int = 1011;
-pub const RD_MISALIGNED_SIZE: ::std::os::raw::c_int = 1010;
-pub const RD_MISALIGNED_ADDRESS: ::std::os::raw::c_int = 1009;
-pub const RD_BUSY: ::std::os::raw::c_int = 1008;
-pub const RD_NO_DATA: ::std::os::raw::c_int = 1007;
-pub const RD_INVALID_COMBINATION: ::std::os::raw::c_int = 1006;
-pub const RD_INVALID_ENUM_VALUE: ::std::os::raw::c_int = 1005;
-pub const RD_INVALID_SIZE: ::std::os::raw::c_int = 1004;
-pub const RD_ALREADY_DONE: ::std::os::raw::c_int = 1003;
-pub const RD_NOT_AUTHORIZED: ::std::os::raw::c_int = 1002;
-pub const RD_TOO_LARGE: ::std::os::raw::c_int = 1001;
-pub const RD_INVALID_SELECTION: ::std::os::raw::c_int = 1000;
+pub type _bindgen_ty_3 = ::std::os::raw::c_uint;
+pub const RD_SUCCESS: ::std::os::raw::c_uint = 0;
+pub const RD_INVALID_RESULT_VALUE: ::std::os::raw::c_uint = 1023;
+pub const RD_TIMEOUT: ::std::os::raw::c_uint = 1022;
+pub const RD_OUT_OF_RANGE: ::std::os::raw::c_uint = 1021;
+pub const RD_ALREADY_EXISTS: ::std::os::raw::c_uint = 1020;
+pub const RD_CANCEL_REQUESTED: ::std::os::raw::c_uint = 1019;
+pub const RD_NOT_FOUND: ::std::os::raw::c_uint = 1018;
+pub const RD_ALREADY_INITIALIZED: ::std::os::raw::c_uint = 1017;
+pub const RD_NOT_INITIALIZED: ::std::os::raw::c_uint = 1016;
+pub const RD_INVALID_HANDLE: ::std::os::raw::c_uint = 1015;
+pub const RD_INVALID_POINTER: ::std::os::raw::c_uint = 1014;
+pub const RD_INVALID_ADDRESS: ::std::os::raw::c_uint = 1013;
+pub const RD_NOT_IMPLEMENTED: ::std::os::raw::c_uint = 1012;
+pub const RD_OUT_OF_MEMORY: ::std::os::raw::c_uint = 1011;
+pub const RD_MISALIGNED_SIZE: ::std::os::raw::c_uint = 1010;
+pub const RD_MISALIGNED_ADDRESS: ::std::os::raw::c_uint = 1009;
+pub const RD_BUSY: ::std::os::raw::c_uint = 1008;
+pub const RD_NO_DATA: ::std::os::raw::c_uint = 1007;
+pub const RD_INVALID_COMBINATION: ::std::os::raw::c_uint = 1006;
+pub const RD_INVALID_ENUM_VALUE: ::std::os::raw::c_uint = 1005;
+pub const RD_INVALID_SIZE: ::std::os::raw::c_uint = 1004;
+pub const RD_ALREADY_DONE: ::std::os::raw::c_uint = 1003;
+pub const RD_NOT_AUTHORIZED: ::std::os::raw::c_uint = 1002;
+pub const RD_TOO_LARGE: ::std::os::raw::c_uint = 1001;
+pub const RD_INVALID_SELECTION: ::std::os::raw::c_uint = 1000;
 #[doc = " Result code generic description values."]
-pub type _bindgen_ty_4 = ::std::os::raw::c_int;
+pub type _bindgen_ty_4 = ::std::os::raw::c_uint;
 #[doc = "< Readable"]
 pub const IPC_BufferRights_IPC_BUFFER_R: IPC_BufferRights = 2;
 #[doc = "< Writable"]
@@ -1757,7 +1742,7 @@ pub const IPC_BufferRights_IPC_BUFFER_W: IPC_BufferRights = 4;
 #[doc = "< Readable and Writable"]
 pub const IPC_BufferRights_IPC_BUFFER_RW: IPC_BufferRights = 6;
 #[doc = " IPC buffer access rights."]
-pub type IPC_BufferRights = ::std::os::raw::c_int;
+pub type IPC_BufferRights = ::std::os::raw::c_uint;
 #[doc = "< Memory un-mapping"]
 pub const MemOp_MEMOP_FREE: MemOp = 1;
 #[doc = "< Reserve memory"]
@@ -1787,7 +1772,7 @@ pub const MemOp_MEMOP_ALLOC_LINEAR: MemOp = 65539;
 #[doc = " @brief @ref svcControlMemory operation flags"]
 #[doc = ""]
 #[doc = " The lowest 8 bits are the operation"]
-pub type MemOp = ::std::os::raw::c_int;
+pub type MemOp = ::std::os::raw::c_uint;
 #[doc = "< Free memory"]
 pub const MemState_MEMSTATE_FREE: MemState = 0;
 #[doc = "< Reserved memory"]
@@ -1813,7 +1798,7 @@ pub const MemState_MEMSTATE_ALIASCODE: MemState = 10;
 #[doc = "< Locked memory"]
 pub const MemState_MEMSTATE_LOCKED: MemState = 11;
 #[doc = " The state of a memory block."]
-pub type MemState = ::std::os::raw::c_int;
+pub type MemState = ::std::os::raw::c_uint;
 #[doc = "< Readable"]
 pub const MemPerm_MEMPERM_READ: MemPerm = 1;
 #[doc = "< Writable"]
@@ -1827,7 +1812,7 @@ pub const MemPerm_MEMPERM_READEXECUTE: MemPerm = 5;
 #[doc = "< Don't care"]
 pub const MemPerm_MEMPERM_DONTCARE: MemPerm = 268435456;
 #[doc = " Memory permission flags"]
-pub type MemPerm = ::std::os::raw::c_int;
+pub type MemPerm = ::std::os::raw::c_uint;
 #[doc = "< All regions."]
 pub const MemRegion_MEMREGION_ALL: MemRegion = 0;
 #[doc = "< APPLICATION memory."]
@@ -1837,7 +1822,7 @@ pub const MemRegion_MEMREGION_SYSTEM: MemRegion = 2;
 #[doc = "< BASE memory."]
 pub const MemRegion_MEMREGION_BASE: MemRegion = 3;
 #[doc = " Memory regions."]
-pub type MemRegion = ::std::os::raw::c_int;
+pub type MemRegion = ::std::os::raw::c_uint;
 #[doc = " Memory information."]
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -1945,7 +1930,7 @@ pub const ArbitrationType_ARBITRATION_WAIT_IF_LESS_THAN_TIMEOUT: ArbitrationType
 #[doc = "< If the memory at the address is strictly lower than #value, then decrement it and wait for signal or timeout."]
 pub const ArbitrationType_ARBITRATION_DECREMENT_AND_WAIT_IF_LESS_THAN_TIMEOUT: ArbitrationType = 4;
 #[doc = " Arbitration modes."]
-pub type ArbitrationType = ::std::os::raw::c_int;
+pub type ArbitrationType = ::std::os::raw::c_uint;
 #[doc = "< When the primitive is signaled, it will wake up exactly one thread and will clear itself automatically."]
 pub const ResetType_RESET_ONESHOT: ResetType = 0;
 #[doc = "< When the primitive is signaled, it will wake up all threads and it won't clear itself automatically."]
@@ -1953,11 +1938,11 @@ pub const ResetType_RESET_STICKY: ResetType = 1;
 #[doc = "< Only meaningful for timers: same as ONESHOT but it will periodically signal the timer instead of just once."]
 pub const ResetType_RESET_PULSE: ResetType = 2;
 #[doc = " Reset types (for use with events and timers)"]
-pub type ResetType = ::std::os::raw::c_int;
+pub type ResetType = ::std::os::raw::c_uint;
 #[doc = "< Unknown."]
 pub const ThreadInfoType_THREADINFO_TYPE_UNKNOWN: ThreadInfoType = 0;
 #[doc = " Types of thread info."]
-pub type ThreadInfoType = ::std::os::raw::c_int;
+pub type ThreadInfoType = ::std::os::raw::c_uint;
 #[doc = "< Thread priority"]
 pub const ResourceLimitType_RESLIMIT_PRIORITY: ResourceLimitType = 0;
 #[doc = "< Quantity of allocatable memory"]
@@ -1979,9 +1964,9 @@ pub const ResourceLimitType_RESLIMIT_ADDRESSARBITER: ResourceLimitType = 8;
 #[doc = "< CPU time. Value expressed in percentage regular until it reaches 90."]
 pub const ResourceLimitType_RESLIMIT_CPUTIME: ResourceLimitType = 9;
 #[doc = "< Forces enum size to be 32 bits"]
-pub const ResourceLimitType_RESLIMIT_BIT: ResourceLimitType = -2147483648;
+pub const ResourceLimitType_RESLIMIT_BIT: ResourceLimitType = 2147483648;
 #[doc = " Types of resource limit"]
-pub type ResourceLimitType = ::std::os::raw::c_int;
+pub type ResourceLimitType = ::std::os::raw::c_uint;
 #[doc = "< DMA transfer involving at least one device is starting and has not reached DMAWFP yet."]
 pub const DmaState_DMASTATE_STARTING: DmaState = 0;
 #[doc = "< DMA channel is in WFP state for the destination device (2nd loop iteration onwards)."]
@@ -1993,27 +1978,27 @@ pub const DmaState_DMASTATE_RUNNING: DmaState = 3;
 #[doc = "< DMA transfer is done."]
 pub const DmaState_DMASTATE_DONE: DmaState = 4;
 #[doc = " DMA transfer state."]
-pub type DmaState = ::std::os::raw::c_int;
+pub type DmaState = ::std::os::raw::c_uint;
 #[doc = "< DMA source is a device/peripheral. Address will not auto-increment."]
-pub const DMACFG_SRC_IS_DEVICE: ::std::os::raw::c_int = 1;
+pub const DMACFG_SRC_IS_DEVICE: ::std::os::raw::c_uint = 1;
 #[doc = "< DMA destination is a device/peripheral. Address will not auto-increment."]
-pub const DMACFG_DST_IS_DEVICE: ::std::os::raw::c_int = 2;
+pub const DMACFG_DST_IS_DEVICE: ::std::os::raw::c_uint = 2;
 #[doc = "< Make \\ref svcStartInterProcessDma wait for the channel to be unlocked."]
-pub const DMACFG_WAIT_AVAILABLE: ::std::os::raw::c_int = 4;
+pub const DMACFG_WAIT_AVAILABLE: ::std::os::raw::c_uint = 4;
 #[doc = "< Keep the channel locked after the transfer. Required for \\ref svcRestartDma."]
-pub const DMACFG_KEEP_LOCKED: ::std::os::raw::c_int = 8;
+pub const DMACFG_KEEP_LOCKED: ::std::os::raw::c_uint = 8;
 #[doc = "< Use the provided source device configuration even if the DMA source is not a device."]
-pub const DMACFG_USE_SRC_CONFIG: ::std::os::raw::c_int = 64;
+pub const DMACFG_USE_SRC_CONFIG: ::std::os::raw::c_uint = 64;
 #[doc = "< Use the provided destination device configuration even if the DMA destination is not a device."]
-pub const DMACFG_USE_DST_CONFIG: ::std::os::raw::c_int = 128;
+pub const DMACFG_USE_DST_CONFIG: ::std::os::raw::c_uint = 128;
 #[doc = " Configuration flags for \\ref DmaConfig."]
-pub type _bindgen_ty_5 = ::std::os::raw::c_int;
+pub type _bindgen_ty_5 = ::std::os::raw::c_uint;
 #[doc = "< Unlock the channel after transfer."]
-pub const DMARST_UNLOCK: ::std::os::raw::c_int = 1;
+pub const DMARST_UNLOCK: ::std::os::raw::c_uint = 1;
 #[doc = "< Replace DMAFLUSHP instructions by NOP (they may not be regenerated even if this flag is not set)."]
-pub const DMARST_RESUME_DEVICE: ::std::os::raw::c_int = 2;
+pub const DMARST_RESUME_DEVICE: ::std::os::raw::c_uint = 2;
 #[doc = " Configuration flags for \\ref svcRestartDma."]
-pub type _bindgen_ty_6 = ::std::os::raw::c_int;
+pub type _bindgen_ty_6 = ::std::os::raw::c_uint;
 #[doc = " @brief Device configuration structure, part of \\ref DmaConfig."]
 #[doc = " @note"]
 #[doc = " - if (and only if) src/dst is a device, then src/dst won't be auto-incremented."]
@@ -2219,7 +2204,7 @@ pub const PerfCounterOperation_PERFCOUNTEROP_SET_EVENT: PerfCounterOperation = 7
 #[doc = "< (Dis)allow the kernel to track counter overflows and to use 64-bit counter values."]
 pub const PerfCounterOperation_PERFCOUNTEROP_SET_VIRTUAL_COUNTER_ENABLED: PerfCounterOperation = 8;
 #[doc = " Operations for \\ref svcControlPerformanceCounter"]
-pub type PerfCounterOperation = ::std::os::raw::c_int;
+pub type PerfCounterOperation = ::std::os::raw::c_uint;
 pub const PerfCounterRegister_PERFCOUNTERREG_CORE_BASE: PerfCounterRegister = 0;
 #[doc = "< CP15 PMN0."]
 pub const PerfCounterRegister_PERFCOUNTERREG_CORE_COUNT_REG_0: PerfCounterRegister = 0;
@@ -2245,7 +2230,7 @@ pub const PerfCounterRegister_PERFCOUNTERREG_SCU_6: PerfCounterRegister = 22;
 #[doc = "< SCU MN7. Prod-N3DS only. IRQ line missing."]
 pub const PerfCounterRegister_PERFCOUNTERREG_SCU_7: PerfCounterRegister = 23;
 #[doc = " Performance counter register IDs (CP15 and SCU)."]
-pub type PerfCounterRegister = ::std::os::raw::c_int;
+pub type PerfCounterRegister = ::std::os::raw::c_uint;
 pub const PerfCounterEvent_PERFCOUNTEREVT_CORE_BASE: PerfCounterEvent = 0;
 pub const PerfCounterEvent_PERFCOUNTEREVT_CORE_INST_CACHE_MISS: PerfCounterEvent = 0;
 pub const PerfCounterEvent_PERFCOUNTEREVT_CORE_STALL_BY_LACK_OF_INST: PerfCounterEvent = 1;
@@ -2299,7 +2284,7 @@ pub const PerfCounterEvent_PERFCOUNTEREVT_SCU_CYCLE_COUNT: PerfCounterEvent = 41
 #[doc = " @note Refer to:"]
 #[doc = "     - CP15: https://developer.arm.com/documentation/ddi0360/e/control-coprocessor-cp15/register-descriptions/c15--performance-monitor-control-register--pmnc-"]
 #[doc = "     - SCU: https://developer.arm.com/documentation/ddi0360/e/mpcore-private-memory-region/about-the-mpcore-private-memory-region/performance-monitor-event-registers"]
-pub type PerfCounterEvent = ::std::os::raw::c_int;
+pub type PerfCounterEvent = ::std::os::raw::c_uint;
 #[doc = " Event relating to the attachment of a process."]
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -2373,7 +2358,7 @@ pub const ExitProcessEventReason_EXITPROCESS_EVENT_TERMINATE: ExitProcessEventRe
 #[doc = "< Process has been terminated by @ref svcTerminateDebugProcess."]
 pub const ExitProcessEventReason_EXITPROCESS_EVENT_DEBUG_TERMINATE: ExitProcessEventReason = 2;
 #[doc = " Reasons for an exit process event."]
-pub type ExitProcessEventReason = ::std::os::raw::c_int;
+pub type ExitProcessEventReason = ::std::os::raw::c_uint;
 #[doc = " Event relating to the exiting of a process."]
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -2471,7 +2456,7 @@ pub const ExitThreadEventReason_EXITTHREAD_EVENT_EXIT_PROCESS: ExitThreadEventRe
 #[doc = "< Process has been terminated by @ref svcTerminateProcess."]
 pub const ExitThreadEventReason_EXITTHREAD_EVENT_TERMINATE_PROCESS: ExitThreadEventReason = 3;
 #[doc = " Reasons for an exit thread event."]
-pub type ExitThreadEventReason = ::std::os::raw::c_int;
+pub type ExitThreadEventReason = ::std::os::raw::c_uint;
 #[doc = " Event relating to the exiting of a thread."]
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -2513,7 +2498,7 @@ pub const UserBreakType_USERBREAK_LOAD_RO: UserBreakType = 3;
 #[doc = "< Unload RO."]
 pub const UserBreakType_USERBREAK_UNLOAD_RO: UserBreakType = 4;
 #[doc = " Reasons for a user break."]
-pub type UserBreakType = ::std::os::raw::c_int;
+pub type UserBreakType = ::std::os::raw::c_uint;
 #[doc = "< Undefined instruction."]
 pub const ExceptionEventType_EXCEVENT_UNDEFINED_INSTRUCTION: ExceptionEventType = 0;
 #[doc = "< Prefetch abort."]
@@ -2533,7 +2518,7 @@ pub const ExceptionEventType_EXCEVENT_DEBUGGER_BREAK: ExceptionEventType = 7;
 #[doc = "< Undefined syscall."]
 pub const ExceptionEventType_EXCEVENT_UNDEFINED_SYSCALL: ExceptionEventType = 8;
 #[doc = " Reasons for an exception event."]
-pub type ExceptionEventType = ::std::os::raw::c_int;
+pub type ExceptionEventType = ::std::os::raw::c_uint;
 #[doc = " Event relating to fault exceptions (CPU exceptions other than stop points and undefined syscalls)."]
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -2573,7 +2558,7 @@ pub const StopPointType_STOPPOINT_BREAKPOINT: StopPointType = 1;
 #[doc = "< Watchpoint."]
 pub const StopPointType_STOPPOINT_WATCHPOINT: StopPointType = 2;
 #[doc = " Stop point types"]
-pub type StopPointType = ::std::os::raw::c_int;
+pub type StopPointType = ::std::os::raw::c_uint;
 #[doc = " Event relating to stop points"]
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -3031,7 +3016,7 @@ pub const DebugEventType_DBGEVENT_OUTPUT_STRING: DebugEventType = 11;
 #[doc = "< Map event."]
 pub const DebugEventType_DBGEVENT_MAP: DebugEventType = 12;
 #[doc = " Debug event type."]
-pub type DebugEventType = ::std::os::raw::c_int;
+pub type DebugEventType = ::std::os::raw::c_uint;
 #[doc = " Information about a debug event."]
 #[repr(C)]
 #[derive(Copy, Clone)]
@@ -3258,7 +3243,7 @@ pub const DebugFlags_DBG_SIGNAL_SYSCALL_EVENTS: DebugFlags = 8;
 #[doc = "< Signal map events. See @ref MapEvent."]
 pub const DebugFlags_DBG_SIGNAL_MAP_EVENTS: DebugFlags = 16;
 #[doc = " Debug flags for an attached process, set by @ref svcContinueDebugEvent"]
-pub type DebugFlags = ::std::os::raw::c_int;
+pub type DebugFlags = ::std::os::raw::c_uint;
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct ThreadContext {
@@ -3315,7 +3300,7 @@ pub const ThreadContextControlFlags_THREADCONTEXT_CONTROL_FPU_REGS: ThreadContex
 #[doc = "< Control all of the above."]
 pub const ThreadContextControlFlags_THREADCONTEXT_CONTROL_ALL: ThreadContextControlFlags = 15;
 #[doc = " Control flags for @ref svcGetDebugThreadContext and @ref svcSetDebugThreadContext"]
-pub type ThreadContextControlFlags = ::std::os::raw::c_int;
+pub type ThreadContextControlFlags = ::std::os::raw::c_uint;
 #[doc = "< Thread priority."]
 pub const DebugThreadParameter_DBGTHREAD_PARAMETER_PRIORITY: DebugThreadParameter = 0;
 #[doc = "< Low scheduling mask."]
@@ -3325,7 +3310,7 @@ pub const DebugThreadParameter_DBGTHREAD_PARAMETER_CPU_IDEAL: DebugThreadParamet
 #[doc = "< Processor that created the threod."]
 pub const DebugThreadParameter_DBGTHREAD_PARAMETER_CPU_CREATOR: DebugThreadParameter = 3;
 #[doc = " Thread parameter field for @ref svcGetDebugThreadParameter"]
-pub type DebugThreadParameter = ::std::os::raw::c_int;
+pub type DebugThreadParameter = ::std::os::raw::c_uint;
 #[doc = " Information on address space for process. All sizes are in pages (0x1000 bytes)"]
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -3539,12 +3524,12 @@ pub struct StartupInfo {
 fn bindgen_test_layout_StartupInfo() {
     assert_eq!(
         ::std::mem::size_of::<StartupInfo>(),
-        32usize,
+        20usize,
         concat!("Size of: ", stringify!(StartupInfo))
     );
     assert_eq!(
         ::std::mem::align_of::<StartupInfo>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(StartupInfo))
     );
     assert_eq!(
@@ -3579,7 +3564,7 @@ fn bindgen_test_layout_StartupInfo() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<StartupInfo>())).argv as *const _ as usize },
-        16usize,
+        12usize,
         concat!(
             "Offset of field: ",
             stringify!(StartupInfo),
@@ -3589,7 +3574,7 @@ fn bindgen_test_layout_StartupInfo() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<StartupInfo>())).envp as *const _ as usize },
-        24usize,
+        16usize,
         concat!(
             "Offset of field: ",
             stringify!(StartupInfo),
@@ -3786,7 +3771,7 @@ extern "C" {
     pub fn svcCreatePort(
         portServer: *mut Handle,
         portClient: *mut Handle,
-        name: *mut ::std::os::raw::c_char,
+        name: *const ::std::os::raw::c_char,
         maxSessions: s32,
     ) -> Result;
 }
@@ -3794,7 +3779,7 @@ extern "C" {
     #[doc = " @brief Connects to a port."]
     #[doc = " @param[out] out Pointer to output the port handle to."]
     #[doc = " @param portName Name of the port."]
-    pub fn svcConnectToPort(out: *mut Handle, portName: *mut ::std::os::raw::c_char) -> Result;
+    pub fn svcConnectToPort(out: *mut Handle, portName: *const ::std::os::raw::c_char) -> Result;
 }
 extern "C" {
     #[doc = " @brief Sets up virtual address space for a new process"]
@@ -3805,7 +3790,7 @@ extern "C" {
     #[doc = " @param data_ptr Pointer to .data in shared memory"]
     pub fn svcCreateCodeSet(
         out: *mut Handle,
-        info: *mut CodeSetInfo,
+        info: *const CodeSetInfo,
         code_ptr: *mut ::std::os::raw::c_void,
         ro_ptr: *mut ::std::os::raw::c_void,
         data_ptr: *mut ::std::os::raw::c_void,
@@ -3820,7 +3805,7 @@ extern "C" {
     pub fn svcCreateProcess(
         out: *mut Handle,
         codeset: Handle,
-        arm11kernelcaps: *mut u32_,
+        arm11kernelcaps: *const u32_,
         arm11kernelcaps_num: u32_,
     ) -> Result;
 }
@@ -3842,7 +3827,7 @@ extern "C" {
     #[doc = " @param processorcount Number of processors."]
     pub fn svcSetProcessAffinityMask(
         process: Handle,
-        affinitymask: *mut u8_,
+        affinitymask: *const u8_,
         processorcount: s32,
     ) -> Result;
 }
@@ -3862,7 +3847,7 @@ extern "C" {
     #[doc = " Launches the main thread of the process."]
     #[doc = " @param process Handle of the process."]
     #[doc = " @param info Pointer to a StartupInfo structure describing information for the main thread."]
-    pub fn svcRun(process: Handle, info: *mut StartupInfo) -> Result;
+    pub fn svcRun(process: Handle, info: *const StartupInfo) -> Result;
 }
 extern "C" {
     #[doc = "@name Multithreading"]
@@ -3943,7 +3928,7 @@ extern "C" {
     #[doc = " @param processorcount Number of processors."]
     pub fn svcSetThreadAffinityMask(
         thread: Handle,
-        affinitymask: *mut u8_,
+        affinitymask: *const u8_,
         processorcount: s32,
     ) -> Result;
 }
@@ -4022,8 +4007,8 @@ extern "C" {
     #[doc = " @param nameCount Number of resource limit names."]
     pub fn svcSetResourceLimitValues(
         resourceLimit: Handle,
-        names: *mut ResourceLimitType,
-        values: *mut s64,
+        names: *const ResourceLimitType,
+        values: *const s64,
         nameCount: s32,
     ) -> Result;
 }
@@ -4102,7 +4087,7 @@ extern "C" {
     #[doc = " @param nanoseconds Maximum nanoseconds to wait for."]
     pub fn svcWaitSynchronizationN(
         out: *mut s32,
-        handles: *mut Handle,
+        handles: *const Handle,
         handles_num: s32,
         wait_all: bool,
         nanoseconds: s64,
@@ -4177,7 +4162,7 @@ extern "C" {
     #[doc = " @param replyTarget Handle of the session to reply to."]
     pub fn svcReplyAndReceive(
         index: *mut s32,
-        handles: *mut Handle,
+        handles: *const Handle,
         handleCount: s32,
         replyTarget: Handle,
     ) -> Result;
@@ -4305,7 +4290,7 @@ extern "C" {
         srcProcess: Handle,
         srcAddr: u32_,
         size: u32_,
-        cfg: *mut DmaConfig,
+        cfg: *const DmaConfig,
     ) -> Result;
 }
 extern "C" {
@@ -4359,7 +4344,7 @@ extern "C" {
     #[doc = " @brief Outputs a debug string."]
     #[doc = " @param str String to output."]
     #[doc = " @param length Length of the string to output, needs to be positive."]
-    pub fn svcOutputDebugString(str_: *mut ::std::os::raw::c_char, length: s32) -> Result;
+    pub fn svcOutputDebugString(str_: *const ::std::os::raw::c_char, length: s32) -> Result;
 }
 extern "C" {
     #[doc = " @brief Controls performance monitoring on the CP15 interface and the SCU."]
@@ -4479,7 +4464,7 @@ extern "C" {
     #[doc = " @param size Size of the memory to write."]
     pub fn svcWriteProcessMemory(
         debug: Handle,
-        buffer: *mut ::std::os::raw::c_void,
+        buffer: *const ::std::os::raw::c_void,
         addr: u32_,
         size: u32_,
     ) -> Result;
@@ -4512,73 +4497,73 @@ extern "C" {
     pub fn svcBackdoor(callback: ::std::option::Option<unsafe extern "C" fn() -> s32>) -> Result;
 }
 #[doc = "< Mount \"nand:/\""]
-pub const ARM9DESC_MOUNT_NAND: ::std::os::raw::c_int = 1;
+pub const ARM9DESC_MOUNT_NAND: ::std::os::raw::c_uint = 1;
 #[doc = "< Mount nand:/ro/ as read-write"]
-pub const ARM9DESC_MOUNT_NANDRO_RW: ::std::os::raw::c_int = 2;
+pub const ARM9DESC_MOUNT_NANDRO_RW: ::std::os::raw::c_uint = 2;
 #[doc = "< Mount \"twln:/\""]
-pub const ARM9DESC_MOUNT_TWLN: ::std::os::raw::c_int = 4;
+pub const ARM9DESC_MOUNT_TWLN: ::std::os::raw::c_uint = 4;
 #[doc = "< Mount \"wnand:/\""]
-pub const ARM9DESC_MOUNT_WNAND: ::std::os::raw::c_int = 8;
+pub const ARM9DESC_MOUNT_WNAND: ::std::os::raw::c_uint = 8;
 #[doc = "< Mount \"cardspi:/\""]
-pub const ARM9DESC_MOUNT_CARDSPI: ::std::os::raw::c_int = 16;
+pub const ARM9DESC_MOUNT_CARDSPI: ::std::os::raw::c_uint = 16;
 #[doc = "< Use SDIF3"]
-pub const ARM9DESC_USE_SDIF3: ::std::os::raw::c_int = 32;
+pub const ARM9DESC_USE_SDIF3: ::std::os::raw::c_uint = 32;
 #[doc = "< Create seed (movable.sed)"]
-pub const ARM9DESC_CREATE_SEED: ::std::os::raw::c_int = 64;
+pub const ARM9DESC_CREATE_SEED: ::std::os::raw::c_uint = 64;
 #[doc = "< Use card SPI, required by multiple pxi:dev commands"]
-pub const ARM9DESC_USE_CARD_SPI: ::std::os::raw::c_int = 128;
+pub const ARM9DESC_USE_CARD_SPI: ::std::os::raw::c_uint = 128;
 #[doc = "< SD application (not checked)"]
-pub const ARM9DESC_SD_APPLICATION: ::std::os::raw::c_int = 256;
+pub const ARM9DESC_SD_APPLICATION: ::std::os::raw::c_uint = 256;
 #[doc = "< Mount \"sdmc:/\" as read-write"]
-pub const ARM9DESC_MOUNT_SDMC_RW: ::std::os::raw::c_int = 512;
+pub const ARM9DESC_MOUNT_SDMC_RW: ::std::os::raw::c_uint = 512;
 #[doc = " ARM9 descriptor flags"]
-pub type _bindgen_ty_7 = ::std::os::raw::c_int;
+pub type _bindgen_ty_7 = ::std::os::raw::c_uint;
 #[doc = "< Category \"system application\""]
-pub const FSACCESS_CATEGORY_SYSTEM_APPLICATION: ::std::os::raw::c_int = 1;
+pub const FSACCESS_CATEGORY_SYSTEM_APPLICATION: ::std::os::raw::c_uint = 1;
 #[doc = "< Category \"hardware check\""]
-pub const FSACCESS_CATEGORY_HARDWARE_CHECK: ::std::os::raw::c_int = 2;
+pub const FSACCESS_CATEGORY_HARDWARE_CHECK: ::std::os::raw::c_uint = 2;
 #[doc = "< Category \"filesystem tool\""]
-pub const FSACCESS_CATEGORY_FILESYSTEM_TOOL: ::std::os::raw::c_int = 4;
+pub const FSACCESS_CATEGORY_FILESYSTEM_TOOL: ::std::os::raw::c_uint = 4;
 #[doc = "< Debug"]
-pub const FSACCESS_DEBUG: ::std::os::raw::c_int = 8;
+pub const FSACCESS_DEBUG: ::std::os::raw::c_uint = 8;
 #[doc = "< TWLCARD backup"]
-pub const FSACCESS_TWLCARD_BACKUP: ::std::os::raw::c_int = 16;
+pub const FSACCESS_TWLCARD_BACKUP: ::std::os::raw::c_uint = 16;
 #[doc = "< TWLNAND data"]
-pub const FSACCESS_TWLNAND_DATA: ::std::os::raw::c_int = 32;
+pub const FSACCESS_TWLNAND_DATA: ::std::os::raw::c_uint = 32;
 #[doc = "< BOSS (SpotPass)"]
-pub const FSACCESS_BOSS: ::std::os::raw::c_int = 64;
+pub const FSACCESS_BOSS: ::std::os::raw::c_uint = 64;
 #[doc = "< SDMC (read-write)"]
-pub const FSACCESS_SDMC_RW: ::std::os::raw::c_int = 128;
+pub const FSACCESS_SDMC_RW: ::std::os::raw::c_uint = 128;
 #[doc = "< Core"]
-pub const FSACCESS_CORE: ::std::os::raw::c_int = 256;
+pub const FSACCESS_CORE: ::std::os::raw::c_uint = 256;
 #[doc = "< nand:/ro/ (read-only)"]
-pub const FSACCESS_NANDRO_RO: ::std::os::raw::c_int = 512;
+pub const FSACCESS_NANDRO_RO: ::std::os::raw::c_uint = 512;
 #[doc = "< nand:/rw/"]
-pub const FSACCESS_NANDRW: ::std::os::raw::c_int = 1024;
+pub const FSACCESS_NANDRW: ::std::os::raw::c_uint = 1024;
 #[doc = "< nand:/ro/ (read-write)"]
-pub const FSACCESS_NANDRO_RW: ::std::os::raw::c_int = 2048;
+pub const FSACCESS_NANDRO_RW: ::std::os::raw::c_uint = 2048;
 #[doc = "< Category \"System Settings\""]
-pub const FSACCESS_CATEGORY_SYSTEM_SETTINGS: ::std::os::raw::c_int = 4096;
+pub const FSACCESS_CATEGORY_SYSTEM_SETTINGS: ::std::os::raw::c_uint = 4096;
 #[doc = "< Cardboard (System Transfer)"]
-pub const FSACCESS_CARDBOARD: ::std::os::raw::c_int = 8192;
+pub const FSACCESS_CARDBOARD: ::std::os::raw::c_uint = 8192;
 #[doc = "< Export/Import IVs (movable.sed)"]
-pub const FSACCESS_EXPORT_IMPORT_IVS: ::std::os::raw::c_int = 16384;
+pub const FSACCESS_EXPORT_IMPORT_IVS: ::std::os::raw::c_uint = 16384;
 #[doc = "< SDMC (write-only)"]
-pub const FSACCESS_SDMC_WO: ::std::os::raw::c_int = 32768;
+pub const FSACCESS_SDMC_WO: ::std::os::raw::c_uint = 32768;
 #[doc = "< \"Switch cleanup\" (3.0+)"]
-pub const FSACCESS_SWITCH_CLEANUP: ::std::os::raw::c_int = 65536;
+pub const FSACCESS_SWITCH_CLEANUP: ::std::os::raw::c_uint = 65536;
 #[doc = "< Savedata move (5.0+)"]
-pub const FSACCESS_SAVEDATA_MOVE: ::std::os::raw::c_int = 131072;
+pub const FSACCESS_SAVEDATA_MOVE: ::std::os::raw::c_uint = 131072;
 #[doc = "< Shop (5.0+)"]
-pub const FSACCESS_SHOP: ::std::os::raw::c_int = 262144;
+pub const FSACCESS_SHOP: ::std::os::raw::c_uint = 262144;
 #[doc = "< Shop (5.0+)"]
-pub const FSACCESS_SHELL: ::std::os::raw::c_int = 524288;
+pub const FSACCESS_SHELL: ::std::os::raw::c_uint = 524288;
 #[doc = "< Category \"Home Menu\" (6.0+)"]
-pub const FSACCESS_CATEGORY_HOME_MENU: ::std::os::raw::c_int = 1048576;
+pub const FSACCESS_CATEGORY_HOME_MENU: ::std::os::raw::c_uint = 1048576;
 #[doc = "< Seed DB (9.6+)"]
-pub const FSACCESS_SEEDDB: ::std::os::raw::c_int = 2097152;
+pub const FSACCESS_SEEDDB: ::std::os::raw::c_uint = 2097152;
 #[doc = " Filesystem access flags"]
-pub type _bindgen_ty_8 = ::std::os::raw::c_int;
+pub type _bindgen_ty_8 = ::std::os::raw::c_uint;
 #[doc = "< Regular application"]
 pub const ResourceLimitCategory_RESLIMIT_CATEGORY_APPLICATION: ResourceLimitCategory = 0;
 #[doc = "< System applet"]
@@ -4588,7 +4573,7 @@ pub const ResourceLimitCategory_RESLIMIT_CATEGORY_LIB_APPLET: ResourceLimitCateg
 #[doc = "< System modules running inside the BASE memregion"]
 pub const ResourceLimitCategory_RESLIMIT_CATEGORY_OTHER: ResourceLimitCategory = 3;
 #[doc = " The resource limit category of a title"]
-pub type ResourceLimitCategory = ::std::os::raw::c_int;
+pub type ResourceLimitCategory = ::std::os::raw::c_uint;
 #[doc = "< 64MB of usable application memory"]
 pub const SystemMode_SYSMODE_O3DS_PROD: SystemMode = 0;
 #[doc = "< 124MB of usable application memory. Unusable on O3DS"]
@@ -4602,7 +4587,7 @@ pub const SystemMode_SYSMODE_DEV3: SystemMode = 4;
 #[doc = "< 32MB of usable application memory. Same as \"Prod\" on N3DS"]
 pub const SystemMode_SYSMODE_DEV4: SystemMode = 5;
 #[doc = " The system mode a title should be launched under"]
-pub type SystemMode = ::std::os::raw::c_int;
+pub type SystemMode = ::std::os::raw::c_uint;
 #[doc = " The system info flags and remaster version of a title"]
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -4998,13 +4983,12 @@ pub struct ExHeader_Arm11StorageInfo {
     pub fs_access_info: u32_,
     pub _bitfield_align_1: [u32; 0],
     pub _bitfield_1: __BindgenBitfieldUnit<[u8; 4usize]>,
-    pub __bindgen_padding_0: u64,
 }
 #[test]
 fn bindgen_test_layout_ExHeader_Arm11StorageInfo() {
     assert_eq!(
         ::std::mem::size_of::<ExHeader_Arm11StorageInfo>(),
-        40usize,
+        32usize,
         concat!("Size of: ", stringify!(ExHeader_Arm11StorageInfo))
     );
     assert_eq!(
@@ -5135,7 +5119,6 @@ pub struct ExHeader_Arm11CoreInfo {
     pub core_version: u32_,
     pub _bitfield_align_1: [u8; 0],
     pub _bitfield_1: __BindgenBitfieldUnit<[u8; 3usize]>,
-    pub __bindgen_padding_0: [u8; 13usize],
     #[doc = "< The priority of the title's main thread"]
     pub priority: u8_,
 }
@@ -5143,7 +5126,7 @@ pub struct ExHeader_Arm11CoreInfo {
 fn bindgen_test_layout_ExHeader_Arm11CoreInfo() {
     assert_eq!(
         ::std::mem::size_of::<ExHeader_Arm11CoreInfo>(),
-        24usize,
+        8usize,
         concat!("Size of: ", stringify!(ExHeader_Arm11CoreInfo))
     );
     assert_eq!(
@@ -5165,7 +5148,7 @@ fn bindgen_test_layout_ExHeader_Arm11CoreInfo() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ExHeader_Arm11CoreInfo>())).priority as *const _ as usize },
-        20usize,
+        7usize,
         concat!(
             "Offset of field: ",
             stringify!(ExHeader_Arm11CoreInfo),
@@ -5350,7 +5333,7 @@ pub struct ExHeader_Arm11SystemLocalCapabilities {
 fn bindgen_test_layout_ExHeader_Arm11SystemLocalCapabilities() {
     assert_eq!(
         ::std::mem::size_of::<ExHeader_Arm11SystemLocalCapabilities>(),
-        400usize,
+        376usize,
         concat!(
             "Size of: ",
             stringify!(ExHeader_Arm11SystemLocalCapabilities)
@@ -5395,7 +5378,7 @@ fn bindgen_test_layout_ExHeader_Arm11SystemLocalCapabilities() {
             &(*(::std::ptr::null::<ExHeader_Arm11SystemLocalCapabilities>())).reslimits as *const _
                 as usize
         },
-        32usize,
+        16usize,
         concat!(
             "Offset of field: ",
             stringify!(ExHeader_Arm11SystemLocalCapabilities),
@@ -5408,7 +5391,7 @@ fn bindgen_test_layout_ExHeader_Arm11SystemLocalCapabilities() {
             &(*(::std::ptr::null::<ExHeader_Arm11SystemLocalCapabilities>())).storage_info
                 as *const _ as usize
         },
-        64usize,
+        48usize,
         concat!(
             "Offset of field: ",
             stringify!(ExHeader_Arm11SystemLocalCapabilities),
@@ -5421,7 +5404,7 @@ fn bindgen_test_layout_ExHeader_Arm11SystemLocalCapabilities() {
             &(*(::std::ptr::null::<ExHeader_Arm11SystemLocalCapabilities>())).service_access
                 as *const _ as usize
         },
-        104usize,
+        80usize,
         concat!(
             "Offset of field: ",
             stringify!(ExHeader_Arm11SystemLocalCapabilities),
@@ -5434,7 +5417,7 @@ fn bindgen_test_layout_ExHeader_Arm11SystemLocalCapabilities() {
             &(*(::std::ptr::null::<ExHeader_Arm11SystemLocalCapabilities>())).reserved as *const _
                 as usize
         },
-        376usize,
+        352usize,
         concat!(
             "Offset of field: ",
             stringify!(ExHeader_Arm11SystemLocalCapabilities),
@@ -5447,7 +5430,7 @@ fn bindgen_test_layout_ExHeader_Arm11SystemLocalCapabilities() {
             &(*(::std::ptr::null::<ExHeader_Arm11SystemLocalCapabilities>())).reslimit_category
                 as *const _ as usize
         },
-        392usize,
+        368usize,
         concat!(
             "Offset of field: ",
             stringify!(ExHeader_Arm11SystemLocalCapabilities),
@@ -5569,7 +5552,7 @@ pub struct ExHeader_AccessControlInfo {
 fn bindgen_test_layout_ExHeader_AccessControlInfo() {
     assert_eq!(
         ::std::mem::size_of::<ExHeader_AccessControlInfo>(),
-        544usize,
+        520usize,
         concat!("Size of: ", stringify!(ExHeader_AccessControlInfo))
     );
     assert_eq!(
@@ -5593,7 +5576,7 @@ fn bindgen_test_layout_ExHeader_AccessControlInfo() {
         unsafe {
             &(*(::std::ptr::null::<ExHeader_AccessControlInfo>())).kernel_caps as *const _ as usize
         },
-        400usize,
+        376usize,
         concat!(
             "Offset of field: ",
             stringify!(ExHeader_AccessControlInfo),
@@ -5606,7 +5589,7 @@ fn bindgen_test_layout_ExHeader_AccessControlInfo() {
             &(*(::std::ptr::null::<ExHeader_AccessControlInfo>())).access_control as *const _
                 as usize
         },
-        528usize,
+        504usize,
         concat!(
             "Offset of field: ",
             stringify!(ExHeader_AccessControlInfo),
@@ -5628,7 +5611,7 @@ pub struct ExHeader_Info {
 fn bindgen_test_layout_ExHeader_Info() {
     assert_eq!(
         ::std::mem::size_of::<ExHeader_Info>(),
-        1056usize,
+        1032usize,
         concat!("Size of: ", stringify!(ExHeader_Info))
     );
     assert_eq!(
@@ -5672,7 +5655,7 @@ pub struct ExHeader_AccessDescriptor {
 fn bindgen_test_layout_ExHeader_AccessDescriptor() {
     assert_eq!(
         ::std::mem::size_of::<ExHeader_AccessDescriptor>(),
-        1056usize,
+        1032usize,
         concat!("Size of: ", stringify!(ExHeader_AccessDescriptor))
     );
     assert_eq!(
@@ -5728,7 +5711,7 @@ pub struct ExHeader {
 fn bindgen_test_layout_ExHeader() {
     assert_eq!(
         ::std::mem::size_of::<ExHeader>(),
-        2112usize,
+        2064usize,
         concat!("Size of: ", stringify!(ExHeader))
     );
     assert_eq!(
@@ -5748,7 +5731,7 @@ fn bindgen_test_layout_ExHeader() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ExHeader>())).access_descriptor as *const _ as usize },
-        1056usize,
+        1032usize,
         concat!(
             "Offset of field: ",
             stringify!(ExHeader),
@@ -5784,7 +5767,7 @@ extern "C" {
     #[doc = " @return 0 if no error occured,"]
     #[doc = "         0xD8E06406 if the caller has no right to access the service,"]
     #[doc = "         0xD0401834 if the requested service port is full and srvGetServiceHandle is non-blocking (see @ref srvSetBlockingPolicy)."]
-    pub fn srvGetServiceHandle(out: *mut Handle, name: *mut ::std::os::raw::c_char) -> Result;
+    pub fn srvGetServiceHandle(out: *mut Handle, name: *const ::std::os::raw::c_char) -> Result;
 }
 extern "C" {
     #[doc = " Registers the current process as a client to the service API."]
@@ -5802,14 +5785,14 @@ extern "C" {
     #[doc = " @param maxSessions Maximum number of sessions the service can handle."]
     pub fn srvRegisterService(
         out: *mut Handle,
-        name: *mut ::std::os::raw::c_char,
+        name: *const ::std::os::raw::c_char,
         maxSessions: ::std::os::raw::c_int,
     ) -> Result;
 }
 extern "C" {
     #[doc = " @brief Unregisters the current process as a service."]
     #[doc = " @param name Name of the service."]
-    pub fn srvUnregisterService(name: *mut ::std::os::raw::c_char) -> Result;
+    pub fn srvUnregisterService(name: *const ::std::os::raw::c_char) -> Result;
 }
 extern "C" {
     #[doc = " @brief Retrieves a service handle."]
@@ -5818,30 +5801,32 @@ extern "C" {
     #[doc = " * @return 0 if no error occured,"]
     #[doc = "           0xD8E06406 if the caller has no right to access the service,"]
     #[doc = "           0xD0401834 if the requested service port is full and srvGetServiceHandle is non-blocking (see @ref srvSetBlockingPolicy)."]
-    pub fn srvGetServiceHandleDirect(out: *mut Handle, name: *mut ::std::os::raw::c_char)
-        -> Result;
+    pub fn srvGetServiceHandleDirect(
+        out: *mut Handle,
+        name: *const ::std::os::raw::c_char,
+    ) -> Result;
 }
 extern "C" {
     #[doc = " @brief Registers a port."]
     #[doc = " @param name Name of the port."]
     #[doc = " @param clientHandle Client handle of the port."]
-    pub fn srvRegisterPort(name: *mut ::std::os::raw::c_char, clientHandle: Handle) -> Result;
+    pub fn srvRegisterPort(name: *const ::std::os::raw::c_char, clientHandle: Handle) -> Result;
 }
 extern "C" {
     #[doc = " @brief Unregisters a port."]
     #[doc = " @param name Name of the port."]
-    pub fn srvUnregisterPort(name: *mut ::std::os::raw::c_char) -> Result;
+    pub fn srvUnregisterPort(name: *const ::std::os::raw::c_char) -> Result;
 }
 extern "C" {
     #[doc = " @brief Retrieves a port handle."]
     #[doc = " @param out Pointer to output the handle to."]
     #[doc = " @param name Name of the port."]
-    pub fn srvGetPort(out: *mut Handle, name: *mut ::std::os::raw::c_char) -> Result;
+    pub fn srvGetPort(out: *mut Handle, name: *const ::std::os::raw::c_char) -> Result;
 }
 extern "C" {
     #[doc = " @brief Waits for a port to be registered."]
     #[doc = " @param name Name of the port to wait for registration."]
-    pub fn srvWaitForPortRegistered(name: *mut ::std::os::raw::c_char) -> Result;
+    pub fn srvWaitForPortRegistered(name: *const ::std::os::raw::c_char) -> Result;
 }
 extern "C" {
     #[doc = " @brief Subscribes to a notification."]
@@ -5881,7 +5866,7 @@ extern "C" {
     #[doc = " @param name Name of the service to check."]
     pub fn srvIsServiceRegistered(
         registeredOut: *mut bool,
-        name: *mut ::std::os::raw::c_char,
+        name: *const ::std::os::raw::c_char,
     ) -> Result;
 }
 extern "C" {
@@ -5890,7 +5875,7 @@ extern "C" {
     #[doc = " @param name Name of the port to check."]
     pub fn srvIsPortRegistered(
         registeredOut: *mut bool,
-        name: *mut ::std::os::raw::c_char,
+        name: *const ::std::os::raw::c_char,
     ) -> Result;
 }
 #[doc = "< For generic errors. Shows miscellaneous info."]
@@ -5906,7 +5891,7 @@ pub const ERRF_ErrType_ERRF_ERRTYPE_FAILURE: ERRF_ErrType = 4;
 #[doc = "< Outputs logs to NAND in some cases."]
 pub const ERRF_ErrType_ERRF_ERRTYPE_LOGGED: ERRF_ErrType = 5;
 #[doc = " Types of errors that can be thrown by err:f."]
-pub type ERRF_ErrType = ::std::os::raw::c_int;
+pub type ERRF_ErrType = ::std::os::raw::c_uint;
 #[doc = "< Prefetch Abort"]
 pub const ERRF_ExceptionType_ERRF_EXCEPTION_PREFETCH_ABORT: ERRF_ExceptionType = 0;
 #[doc = "< Data abort"]
@@ -5916,7 +5901,7 @@ pub const ERRF_ExceptionType_ERRF_EXCEPTION_UNDEFINED: ERRF_ExceptionType = 2;
 #[doc = "< VFP (floating point) exception."]
 pub const ERRF_ExceptionType_ERRF_EXCEPTION_VFP: ERRF_ExceptionType = 3;
 #[doc = " Types of 'Exceptions' thrown for ERRF_ERRTYPE_EXCEPTION"]
-pub type ERRF_ExceptionType = ::std::os::raw::c_int;
+pub type ERRF_ExceptionType = ::std::os::raw::c_uint;
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
 pub struct ERRF_ExceptionInfo {
@@ -6251,7 +6236,7 @@ extern "C" {
     #[doc = ""]
     #[doc = " You may wish to use ERRF_ThrowResult() or ERRF_ThrowResultWithMessage() instead of"]
     #[doc = " constructing the ERRF_FatalErrInfo struct yourself."]
-    pub fn ERRF_Throw(error: *mut ERRF_FatalErrInfo) -> Result;
+    pub fn ERRF_Throw(error: *const ERRF_FatalErrInfo) -> Result;
 }
 extern "C" {
     #[doc = " @brief Throws a system error with the given Result code."]
@@ -6281,7 +6266,7 @@ extern "C" {
     #[doc = " on development units/patched ErrDisp."]
     pub fn ERRF_ThrowResultWithMessage(
         failure: Result,
-        message: *mut ::std::os::raw::c_char,
+        message: *const ::std::os::raw::c_char,
     ) -> Result;
 }
 extern "C" {
@@ -6956,14 +6941,14 @@ extern "C" {
     #[doc = " @param vaddr Input virtual address."]
     #[doc = " @return The corresponding physical address."]
     #[doc = " It is sometimes required by services or when using the GPU command buffer."]
-    pub fn osConvertVirtToPhys(vaddr: *mut ::std::os::raw::c_void) -> u32_;
+    pub fn osConvertVirtToPhys(vaddr: *const ::std::os::raw::c_void) -> u32_;
 }
 extern "C" {
     #[doc = " @brief Converts 0x14* vmem to 0x30*."]
     #[doc = " @param vaddr Input virtual address."]
     #[doc = " @return The corresponding address in the 0x30* range, the input address if it's already within the new vmem, or 0 if it's outside of both ranges."]
     pub fn osConvertOldLINEARMemToNew(
-        vaddr: *mut ::std::os::raw::c_void,
+        vaddr: *const ::std::os::raw::c_void,
     ) -> *mut ::std::os::raw::c_void;
 }
 extern "C" {
@@ -6972,7 +6957,7 @@ extern "C" {
     #[doc = " @return A string containing a summary of an error."]
     #[doc = ""]
     #[doc = " This can be used to get some details about an error returned by a service call."]
-    pub fn osStrError(error: Result) -> *mut ::std::os::raw::c_char;
+    pub fn osStrError(error: Result) -> *const ::std::os::raw::c_char;
 }
 extern "C" {
     #[doc = " @brief Reads the latest reference timepoint published by PTM."]
@@ -6988,7 +6973,7 @@ extern "C" {
     #[doc = " @brief Reads the elapsed time in a tick counter."]
     #[doc = " @param cnt The tick counter."]
     #[doc = " @return The number of milliseconds elapsed."]
-    pub fn osTickCounterRead(cnt: *mut TickCounter) -> f64;
+    pub fn osTickCounterRead(cnt: *const TickCounter) -> f64;
 }
 extern "C" {
     #[doc = " @brief Configures the New 3DS speedup."]
@@ -7488,12 +7473,12 @@ pub struct GSPGPU_FramebufferInfo {
 fn bindgen_test_layout_GSPGPU_FramebufferInfo() {
     assert_eq!(
         ::std::mem::size_of::<GSPGPU_FramebufferInfo>(),
-        40usize,
+        28usize,
         concat!("Size of: ", stringify!(GSPGPU_FramebufferInfo))
     );
     assert_eq!(
         ::std::mem::align_of::<GSPGPU_FramebufferInfo>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(GSPGPU_FramebufferInfo))
     );
     assert_eq!(
@@ -7512,7 +7497,7 @@ fn bindgen_test_layout_GSPGPU_FramebufferInfo() {
         unsafe {
             &(*(::std::ptr::null::<GSPGPU_FramebufferInfo>())).framebuf0_vaddr as *const _ as usize
         },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(GSPGPU_FramebufferInfo),
@@ -7524,7 +7509,7 @@ fn bindgen_test_layout_GSPGPU_FramebufferInfo() {
         unsafe {
             &(*(::std::ptr::null::<GSPGPU_FramebufferInfo>())).framebuf1_vaddr as *const _ as usize
         },
-        16usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(GSPGPU_FramebufferInfo),
@@ -7537,7 +7522,7 @@ fn bindgen_test_layout_GSPGPU_FramebufferInfo() {
             &(*(::std::ptr::null::<GSPGPU_FramebufferInfo>())).framebuf_widthbytesize as *const _
                 as usize
         },
-        24usize,
+        12usize,
         concat!(
             "Offset of field: ",
             stringify!(GSPGPU_FramebufferInfo),
@@ -7547,7 +7532,7 @@ fn bindgen_test_layout_GSPGPU_FramebufferInfo() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<GSPGPU_FramebufferInfo>())).format as *const _ as usize },
-        28usize,
+        16usize,
         concat!(
             "Offset of field: ",
             stringify!(GSPGPU_FramebufferInfo),
@@ -7560,7 +7545,7 @@ fn bindgen_test_layout_GSPGPU_FramebufferInfo() {
             &(*(::std::ptr::null::<GSPGPU_FramebufferInfo>())).framebuf_dispselect as *const _
                 as usize
         },
-        32usize,
+        20usize,
         concat!(
             "Offset of field: ",
             stringify!(GSPGPU_FramebufferInfo),
@@ -7570,7 +7555,7 @@ fn bindgen_test_layout_GSPGPU_FramebufferInfo() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<GSPGPU_FramebufferInfo>())).unk as *const _ as usize },
-        36usize,
+        24usize,
         concat!(
             "Offset of field: ",
             stringify!(GSPGPU_FramebufferInfo),
@@ -7590,7 +7575,7 @@ pub const GSPGPU_FramebufferFormat_GSP_RGB5_A1_OES: GSPGPU_FramebufferFormat = 3
 #[doc = "< RGBA4. (2 bytes)"]
 pub const GSPGPU_FramebufferFormat_GSP_RGBA4_OES: GSPGPU_FramebufferFormat = 4;
 #[doc = " Framebuffer format."]
-pub type GSPGPU_FramebufferFormat = ::std::os::raw::c_int;
+pub type GSPGPU_FramebufferFormat = ::std::os::raw::c_uint;
 #[doc = " Capture info entry."]
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -7608,12 +7593,12 @@ pub struct GSPGPU_CaptureInfoEntry {
 fn bindgen_test_layout_GSPGPU_CaptureInfoEntry() {
     assert_eq!(
         ::std::mem::size_of::<GSPGPU_CaptureInfoEntry>(),
-        24usize,
+        16usize,
         concat!("Size of: ", stringify!(GSPGPU_CaptureInfoEntry))
     );
     assert_eq!(
         ::std::mem::align_of::<GSPGPU_CaptureInfoEntry>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(GSPGPU_CaptureInfoEntry))
     );
     assert_eq!(
@@ -7632,7 +7617,7 @@ fn bindgen_test_layout_GSPGPU_CaptureInfoEntry() {
         unsafe {
             &(*(::std::ptr::null::<GSPGPU_CaptureInfoEntry>())).framebuf1_vaddr as *const _ as usize
         },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(GSPGPU_CaptureInfoEntry),
@@ -7642,7 +7627,7 @@ fn bindgen_test_layout_GSPGPU_CaptureInfoEntry() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<GSPGPU_CaptureInfoEntry>())).format as *const _ as usize },
-        16usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(GSPGPU_CaptureInfoEntry),
@@ -7655,7 +7640,7 @@ fn bindgen_test_layout_GSPGPU_CaptureInfoEntry() {
             &(*(::std::ptr::null::<GSPGPU_CaptureInfoEntry>())).framebuf_widthbytesize as *const _
                 as usize
         },
-        20usize,
+        12usize,
         concat!(
             "Offset of field: ",
             stringify!(GSPGPU_CaptureInfoEntry),
@@ -7675,12 +7660,12 @@ pub struct GSPGPU_CaptureInfo {
 fn bindgen_test_layout_GSPGPU_CaptureInfo() {
     assert_eq!(
         ::std::mem::size_of::<GSPGPU_CaptureInfo>(),
-        48usize,
+        32usize,
         concat!("Size of: ", stringify!(GSPGPU_CaptureInfo))
     );
     assert_eq!(
         ::std::mem::align_of::<GSPGPU_CaptureInfo>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(GSPGPU_CaptureInfo))
     );
     assert_eq!(
@@ -7713,7 +7698,7 @@ pub const GSPGPU_Event_GSPGPU_EVENT_DMA: GSPGPU_Event = 6;
 #[doc = "< Used to know how many events there are."]
 pub const GSPGPU_Event_GSPGPU_EVENT_MAX: GSPGPU_Event = 7;
 #[doc = " GSPGPU events."]
-pub type GSPGPU_Event = ::std::os::raw::c_int;
+pub type GSPGPU_Event = ::std::os::raw::c_uint;
 extern "C" {
     #[doc = " Initializes GSPGPU."]
     pub fn gspInit() -> Result;
@@ -7738,8 +7723,8 @@ extern "C" {
     pub fn gspPresentBuffer(
         screen: ::std::os::raw::c_uint,
         swap: ::std::os::raw::c_uint,
-        fb_a: *mut ::std::os::raw::c_void,
-        fb_b: *mut ::std::os::raw::c_void,
+        fb_a: *const ::std::os::raw::c_void,
+        fb_b: *const ::std::os::raw::c_void,
         stride: u32_,
         mode: u32_,
     );
@@ -7773,7 +7758,7 @@ extern "C" {
 extern "C" {
     #[doc = " @brief Submits a GX command."]
     #[doc = " @param gxCommand GX command to execute."]
-    pub fn gspSubmitGxCommand(gxCommand: *mut u32_) -> Result;
+    pub fn gspSubmitGxCommand(gxCommand: *const u32_) -> Result;
 }
 extern "C" {
     #[doc = " @brief Acquires GPU rights."]
@@ -7812,27 +7797,27 @@ extern "C" {
     #[doc = " @param framebufinfo Framebuffer information to update with."]
     pub fn GSPGPU_SetBufferSwap(
         screenid: u32_,
-        framebufinfo: *mut GSPGPU_FramebufferInfo,
+        framebufinfo: *const GSPGPU_FramebufferInfo,
     ) -> Result;
 }
 extern "C" {
     #[doc = " @brief Flushes memory from the data cache."]
     #[doc = " @param adr Address to flush."]
     #[doc = " @param size Size of the memory to flush."]
-    pub fn GSPGPU_FlushDataCache(adr: *mut ::std::os::raw::c_void, size: u32_) -> Result;
+    pub fn GSPGPU_FlushDataCache(adr: *const ::std::os::raw::c_void, size: u32_) -> Result;
 }
 extern "C" {
     #[doc = " @brief Invalidates memory in the data cache."]
     #[doc = " @param adr Address to invalidate."]
     #[doc = " @param size Size of the memory to invalidate."]
-    pub fn GSPGPU_InvalidateDataCache(adr: *mut ::std::os::raw::c_void, size: u32_) -> Result;
+    pub fn GSPGPU_InvalidateDataCache(adr: *const ::std::os::raw::c_void, size: u32_) -> Result;
 }
 extern "C" {
     #[doc = " @brief Writes to GPU hardware registers."]
     #[doc = " @param regAddr Register address to write to."]
     #[doc = " @param data Data to write."]
     #[doc = " @param size Size of the data to write."]
-    pub fn GSPGPU_WriteHWRegs(regAddr: u32_, data: *mut u32_, size: u8_) -> Result;
+    pub fn GSPGPU_WriteHWRegs(regAddr: u32_, data: *const u32_, size: u8_) -> Result;
 }
 extern "C" {
     #[doc = " @brief Writes to GPU hardware registers with a mask."]
@@ -7843,9 +7828,9 @@ extern "C" {
     #[doc = " @param masksize Size of the mask."]
     pub fn GSPGPU_WriteHWRegsWithMask(
         regAddr: u32_,
-        data: *mut u32_,
+        data: *const u32_,
         datasize: u8_,
-        maskdata: *mut u32_,
+        maskdata: *const u32_,
         masksize: u8_,
     ) -> Result;
 }
@@ -7887,7 +7872,7 @@ pub const gfxScreen_t_GFX_TOP: gfxScreen_t = 0;
 #[doc = "< Bottom screen"]
 pub const gfxScreen_t_GFX_BOTTOM: gfxScreen_t = 1;
 #[doc = " Screen IDs."]
-pub type gfxScreen_t = ::std::os::raw::c_int;
+pub type gfxScreen_t = ::std::os::raw::c_uint;
 #[doc = "< Left eye framebuffer"]
 pub const gfx3dSide_t_GFX_LEFT: gfx3dSide_t = 0;
 #[doc = "< Right eye framebuffer"]
@@ -7896,7 +7881,7 @@ pub const gfx3dSide_t_GFX_RIGHT: gfx3dSide_t = 1;
 #[doc = ""]
 #[doc = " This is only meaningful when stereoscopic 3D is enabled on the top screen."]
 #[doc = " In any other case, use \\ref GFX_LEFT."]
-pub type gfx3dSide_t = ::std::os::raw::c_int;
+pub type gfx3dSide_t = ::std::os::raw::c_uint;
 extern "C" {
     #[doc = " @brief Initializes the LCD framebuffers with default parameters"]
     #[doc = " This is equivalent to calling: @code gfxInit(GSP_BGR8_OES,GSP_BGR8_OES,false); @endcode"]
@@ -8037,12 +8022,12 @@ pub struct ConsoleFont {
 fn bindgen_test_layout_ConsoleFont() {
     assert_eq!(
         ::std::mem::size_of::<ConsoleFont>(),
-        16usize,
+        8usize,
         concat!("Size of: ", stringify!(ConsoleFont))
     );
     assert_eq!(
         ::std::mem::align_of::<ConsoleFont>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(ConsoleFont))
     );
     assert_eq!(
@@ -8057,7 +8042,7 @@ fn bindgen_test_layout_ConsoleFont() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ConsoleFont>())).asciiOffset as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(ConsoleFont),
@@ -8067,7 +8052,7 @@ fn bindgen_test_layout_ConsoleFont() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<ConsoleFont>())).numChars as *const _ as usize },
-        10usize,
+        6usize,
         concat!(
             "Offset of field: ",
             stringify!(ConsoleFont),
@@ -8146,12 +8131,12 @@ pub struct PrintConsole {
 fn bindgen_test_layout_PrintConsole() {
     assert_eq!(
         ::std::mem::size_of::<PrintConsole>(),
-        96usize,
+        76usize,
         concat!("Size of: ", stringify!(PrintConsole))
     );
     assert_eq!(
         ::std::mem::align_of::<PrintConsole>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(PrintConsole))
     );
     assert_eq!(
@@ -8166,7 +8151,7 @@ fn bindgen_test_layout_PrintConsole() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<PrintConsole>())).frameBuffer as *const _ as usize },
-        16usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(PrintConsole),
@@ -8176,7 +8161,7 @@ fn bindgen_test_layout_PrintConsole() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<PrintConsole>())).cursorX as *const _ as usize },
-        24usize,
+        12usize,
         concat!(
             "Offset of field: ",
             stringify!(PrintConsole),
@@ -8186,7 +8171,7 @@ fn bindgen_test_layout_PrintConsole() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<PrintConsole>())).cursorY as *const _ as usize },
-        28usize,
+        16usize,
         concat!(
             "Offset of field: ",
             stringify!(PrintConsole),
@@ -8196,7 +8181,7 @@ fn bindgen_test_layout_PrintConsole() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<PrintConsole>())).prevCursorX as *const _ as usize },
-        32usize,
+        20usize,
         concat!(
             "Offset of field: ",
             stringify!(PrintConsole),
@@ -8206,7 +8191,7 @@ fn bindgen_test_layout_PrintConsole() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<PrintConsole>())).prevCursorY as *const _ as usize },
-        36usize,
+        24usize,
         concat!(
             "Offset of field: ",
             stringify!(PrintConsole),
@@ -8216,7 +8201,7 @@ fn bindgen_test_layout_PrintConsole() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<PrintConsole>())).consoleWidth as *const _ as usize },
-        40usize,
+        28usize,
         concat!(
             "Offset of field: ",
             stringify!(PrintConsole),
@@ -8226,7 +8211,7 @@ fn bindgen_test_layout_PrintConsole() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<PrintConsole>())).consoleHeight as *const _ as usize },
-        44usize,
+        32usize,
         concat!(
             "Offset of field: ",
             stringify!(PrintConsole),
@@ -8236,7 +8221,7 @@ fn bindgen_test_layout_PrintConsole() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<PrintConsole>())).windowX as *const _ as usize },
-        48usize,
+        36usize,
         concat!(
             "Offset of field: ",
             stringify!(PrintConsole),
@@ -8246,7 +8231,7 @@ fn bindgen_test_layout_PrintConsole() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<PrintConsole>())).windowY as *const _ as usize },
-        52usize,
+        40usize,
         concat!(
             "Offset of field: ",
             stringify!(PrintConsole),
@@ -8256,7 +8241,7 @@ fn bindgen_test_layout_PrintConsole() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<PrintConsole>())).windowWidth as *const _ as usize },
-        56usize,
+        44usize,
         concat!(
             "Offset of field: ",
             stringify!(PrintConsole),
@@ -8266,7 +8251,7 @@ fn bindgen_test_layout_PrintConsole() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<PrintConsole>())).windowHeight as *const _ as usize },
-        60usize,
+        48usize,
         concat!(
             "Offset of field: ",
             stringify!(PrintConsole),
@@ -8276,7 +8261,7 @@ fn bindgen_test_layout_PrintConsole() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<PrintConsole>())).tabSize as *const _ as usize },
-        64usize,
+        52usize,
         concat!(
             "Offset of field: ",
             stringify!(PrintConsole),
@@ -8286,7 +8271,7 @@ fn bindgen_test_layout_PrintConsole() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<PrintConsole>())).fg as *const _ as usize },
-        68usize,
+        56usize,
         concat!(
             "Offset of field: ",
             stringify!(PrintConsole),
@@ -8296,7 +8281,7 @@ fn bindgen_test_layout_PrintConsole() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<PrintConsole>())).bg as *const _ as usize },
-        72usize,
+        60usize,
         concat!(
             "Offset of field: ",
             stringify!(PrintConsole),
@@ -8306,7 +8291,7 @@ fn bindgen_test_layout_PrintConsole() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<PrintConsole>())).flags as *const _ as usize },
-        76usize,
+        64usize,
         concat!(
             "Offset of field: ",
             stringify!(PrintConsole),
@@ -8316,7 +8301,7 @@ fn bindgen_test_layout_PrintConsole() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<PrintConsole>())).PrintChar as *const _ as usize },
-        80usize,
+        68usize,
         concat!(
             "Offset of field: ",
             stringify!(PrintConsole),
@@ -8326,7 +8311,7 @@ fn bindgen_test_layout_PrintConsole() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<PrintConsole>())).consoleInitialised as *const _ as usize },
-        88usize,
+        72usize,
         concat!(
             "Offset of field: ",
             stringify!(PrintConsole),
@@ -8343,7 +8328,7 @@ pub const debugDevice_debugDevice_SVC: debugDevice = 1;
 pub const debugDevice_debugDevice_CONSOLE: debugDevice = 2;
 pub const debugDevice_debugDevice_3DMOO: debugDevice = 1;
 #[doc = " Console debug devices supported by libnds."]
-pub type debugDevice = ::std::os::raw::c_int;
+pub type debugDevice = ::std::os::raw::c_uint;
 extern "C" {
     #[doc = " @brief Loads the font into the console."]
     #[doc = " @param console Pointer to the console to update, if NULL it will update the current console."]
@@ -8394,18 +8379,18 @@ extern "C" {
     pub fn consoleClear();
 }
 #[doc = "< Use APT workaround."]
-pub const RUNFLAG_APTWORKAROUND: ::std::os::raw::c_int = 1;
+pub const RUNFLAG_APTWORKAROUND: ::std::os::raw::c_uint = 1;
 #[doc = "< Reinitialize APT."]
-pub const RUNFLAG_APTREINIT: ::std::os::raw::c_int = 2;
+pub const RUNFLAG_APTREINIT: ::std::os::raw::c_uint = 2;
 #[doc = "< Chainload APT on return."]
-pub const RUNFLAG_APTCHAINLOAD: ::std::os::raw::c_int = 4;
+pub const RUNFLAG_APTCHAINLOAD: ::std::os::raw::c_uint = 4;
 #[doc = " System run-flags."]
-pub type _bindgen_ty_9 = ::std::os::raw::c_int;
+pub type _bindgen_ty_9 = ::std::os::raw::c_uint;
 extern "C" {
     #[doc = " @brief Retrieves a handle from the environment handle list."]
     #[doc = " @param name Name of the handle."]
     #[doc = " @return The retrieved handle."]
-    pub fn envGetHandle(name: *mut ::std::os::raw::c_char) -> Handle;
+    pub fn envGetHandle(name: *const ::std::os::raw::c_char) -> Handle;
 }
 pub type _off_t = __int64_t;
 pub type _fpos_t = __int64_t;
@@ -8416,7 +8401,7 @@ pub type u_int16_t = __uint16_t;
 pub type u_int32_t = __uint32_t;
 pub type u_int64_t = __uint64_t;
 pub type register_t = __intptr_t;
-pub type wint_t = ::std::os::raw::c_ushort;
+pub type wint_t = ::std::os::raw::c_uint;
 pub type __blkcnt_t = ::std::os::raw::c_long;
 pub type __blksize_t = ::std::os::raw::c_long;
 pub type __fsblkcnt_t = __uint64_t;
@@ -8430,8 +8415,8 @@ pub type _off64_t = ::std::os::raw::c_longlong;
 pub type __off_t = _off_t;
 pub type __loff_t = _off64_t;
 pub type __key_t = ::std::os::raw::c_long;
-pub type __size_t = ::std::os::raw::c_ulonglong;
-pub type _ssize_t = isize;
+pub type __size_t = ::std::os::raw::c_uint;
+pub type _ssize_t = ::std::os::raw::c_int;
 pub type __ssize_t = _ssize_t;
 #[repr(C)]
 #[derive(Copy, Clone)]
@@ -8454,7 +8439,7 @@ fn bindgen_test_layout__mbstate_t__bindgen_ty_1() {
     );
     assert_eq!(
         ::std::mem::align_of::<_mbstate_t__bindgen_ty_1>(),
-        2usize,
+        4usize,
         concat!("Alignment of ", stringify!(_mbstate_t__bindgen_ty_1))
     );
     assert_eq!(
@@ -8522,7 +8507,6 @@ pub type __nl_item = ::std::os::raw::c_int;
 pub type __nlink_t = ::std::os::raw::c_ushort;
 pub type __suseconds_t = ::std::os::raw::c_long;
 pub type __useconds_t = ::std::os::raw::c_ulong;
-pub type __va_list = *mut ::std::os::raw::c_char;
 pub type __sigset_t = ::std::os::raw::c_ulong;
 pub type suseconds_t = __suseconds_t;
 pub type time_t = __int_least64_t;
@@ -8674,10 +8658,23 @@ fn bindgen_test_layout__types_fd_set() {
     );
 }
 extern "C" {
-    pub fn select() -> ::std::os::raw::c_int;
+    pub fn select(
+        __n: ::std::os::raw::c_int,
+        __readfds: *mut _types_fd_set,
+        __writefds: *mut _types_fd_set,
+        __exceptfds: *mut _types_fd_set,
+        __timeout: *mut timeval,
+    ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn pselect() -> ::std::os::raw::c_int;
+    pub fn pselect(
+        __n: ::std::os::raw::c_int,
+        __readfds: *mut _types_fd_set,
+        __writefds: *mut _types_fd_set,
+        __exceptfds: *mut _types_fd_set,
+        __timeout: *const timespec,
+        __set: *const sigset_t,
+    ) -> ::std::os::raw::c_int;
 }
 pub type in_addr_t = __uint32_t;
 pub type in_port_t = __uint16_t;
@@ -8756,12 +8753,12 @@ pub struct pthread_attr_t {
 fn bindgen_test_layout_pthread_attr_t() {
     assert_eq!(
         ::std::mem::size_of::<pthread_attr_t>(),
-        40usize,
+        32usize,
         concat!("Size of: ", stringify!(pthread_attr_t))
     );
     assert_eq!(
         ::std::mem::align_of::<pthread_attr_t>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(pthread_attr_t))
     );
     assert_eq!(
@@ -8776,7 +8773,7 @@ fn bindgen_test_layout_pthread_attr_t() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<pthread_attr_t>())).stackaddr as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(pthread_attr_t),
@@ -8786,7 +8783,7 @@ fn bindgen_test_layout_pthread_attr_t() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<pthread_attr_t>())).stacksize as *const _ as usize },
-        16usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(pthread_attr_t),
@@ -8796,7 +8793,7 @@ fn bindgen_test_layout_pthread_attr_t() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<pthread_attr_t>())).contentionscope as *const _ as usize },
-        20usize,
+        12usize,
         concat!(
             "Offset of field: ",
             stringify!(pthread_attr_t),
@@ -8806,7 +8803,7 @@ fn bindgen_test_layout_pthread_attr_t() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<pthread_attr_t>())).inheritsched as *const _ as usize },
-        24usize,
+        16usize,
         concat!(
             "Offset of field: ",
             stringify!(pthread_attr_t),
@@ -8816,7 +8813,7 @@ fn bindgen_test_layout_pthread_attr_t() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<pthread_attr_t>())).schedpolicy as *const _ as usize },
-        28usize,
+        20usize,
         concat!(
             "Offset of field: ",
             stringify!(pthread_attr_t),
@@ -8826,7 +8823,7 @@ fn bindgen_test_layout_pthread_attr_t() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<pthread_attr_t>())).schedparam as *const _ as usize },
-        32usize,
+        24usize,
         concat!(
             "Offset of field: ",
             stringify!(pthread_attr_t),
@@ -8836,7 +8833,7 @@ fn bindgen_test_layout_pthread_attr_t() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<pthread_attr_t>())).detachstate as *const _ as usize },
-        36usize,
+        28usize,
         concat!(
             "Offset of field: ",
             stringify!(pthread_attr_t),
@@ -8998,7 +8995,7 @@ pub const decompressType_DECOMPRESS_HUFF: decompressType = 40;
 #[doc = "< Run-length encoding compression"]
 pub const decompressType_DECOMPRESS_RLE: decompressType = 48;
 #[doc = " @brief Compression types"]
-pub type decompressType = ::std::os::raw::c_int;
+pub type decompressType = ::std::os::raw::c_uint;
 #[doc = " @brief I/O vector"]
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -9012,12 +9009,12 @@ pub struct decompressIOVec {
 fn bindgen_test_layout_decompressIOVec() {
     assert_eq!(
         ::std::mem::size_of::<decompressIOVec>(),
-        16usize,
+        8usize,
         concat!("Size of: ", stringify!(decompressIOVec))
     );
     assert_eq!(
         ::std::mem::align_of::<decompressIOVec>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(decompressIOVec))
     );
     assert_eq!(
@@ -9032,7 +9029,7 @@ fn bindgen_test_layout_decompressIOVec() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<decompressIOVec>())).size as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(decompressIOVec),
@@ -9104,7 +9101,7 @@ extern "C" {
     #[doc = "        userdata is passed to callback to fetch more data, and insize is"]
     #[doc = "        unused."]
     pub fn decompressV(
-        iov: *mut decompressIOVec,
+        iov: *const decompressIOVec,
         iovcnt: size_t,
         callback: decompressCallback,
         userdata: *mut ::std::os::raw::c_void,
@@ -9120,7 +9117,7 @@ extern "C" {
     #[doc = "  @param[in] insize   Size of userdata (see decompressV())"]
     #[doc = "  @returns Whether succeeded"]
     pub fn decompressV_LZSS(
-        iov: *mut decompressIOVec,
+        iov: *const decompressIOVec,
         iovcnt: size_t,
         callback: decompressCallback,
         userdata: *mut ::std::os::raw::c_void,
@@ -9136,7 +9133,7 @@ extern "C" {
     #[doc = "  @param[in] insize   Size of userdata (see decompressV())"]
     #[doc = "  @returns Whether succeeded"]
     pub fn decompressV_LZ11(
-        iov: *mut decompressIOVec,
+        iov: *const decompressIOVec,
         iovcnt: size_t,
         callback: decompressCallback,
         userdata: *mut ::std::os::raw::c_void,
@@ -9154,7 +9151,7 @@ extern "C" {
     #[doc = "  @returns Whether succeeded"]
     pub fn decompressV_Huff(
         bits: size_t,
-        iov: *mut decompressIOVec,
+        iov: *const decompressIOVec,
         iovcnt: size_t,
         callback: decompressCallback,
         userdata: *mut ::std::os::raw::c_void,
@@ -9170,7 +9167,7 @@ extern "C" {
     #[doc = "  @param[in] insize   Size of userdata (see decompressV())"]
     #[doc = "  @returns Whether succeeded"]
     pub fn decompressV_RLE(
-        iov: *mut decompressIOVec,
+        iov: *const decompressIOVec,
         iovcnt: size_t,
         callback: decompressCallback,
         userdata: *mut ::std::os::raw::c_void,
@@ -9185,7 +9182,7 @@ extern "C" {
     #[doc = ""]
     #[doc = "  @returns number of input code units consumed"]
     #[doc = "  @returns -1 for error"]
-    pub fn decode_utf8(out: *mut u32, in_: *mut u8) -> ssize_t;
+    pub fn decode_utf8(out: *mut u32, in_: *const u8) -> ssize_t;
 }
 extern "C" {
     #[doc = " Convert a UTF-16 sequence into a UTF-32 codepoint"]
@@ -9195,7 +9192,7 @@ extern "C" {
     #[doc = ""]
     #[doc = "  @returns number of input code units consumed"]
     #[doc = "  @returns -1 for error"]
-    pub fn decode_utf16(out: *mut u32, in_: *mut u16) -> ssize_t;
+    pub fn decode_utf16(out: *mut u32, in_: *const u16) -> ssize_t;
 }
 extern "C" {
     #[doc = " Convert a UTF-32 codepoint into a UTF-8 sequence"]
@@ -9237,7 +9234,7 @@ extern "C" {
     #[doc = "  @returns -1 for error"]
     #[doc = ""]
     #[doc = "  @note \\a out is not null-terminated"]
-    pub fn utf8_to_utf16(out: *mut u16, in_: *mut u8, len: size_t) -> ssize_t;
+    pub fn utf8_to_utf16(out: *mut u16, in_: *const u8, len: size_t) -> ssize_t;
 }
 extern "C" {
     #[doc = " Convert a UTF-8 sequence into a UTF-32 sequence"]
@@ -9255,7 +9252,7 @@ extern "C" {
     #[doc = "  @returns -1 for error"]
     #[doc = ""]
     #[doc = "  @note \\a out is not null-terminated"]
-    pub fn utf8_to_utf32(out: *mut u32, in_: *mut u8, len: size_t) -> ssize_t;
+    pub fn utf8_to_utf32(out: *mut u32, in_: *const u8, len: size_t) -> ssize_t;
 }
 extern "C" {
     #[doc = " Convert a UTF-16 sequence into a UTF-8 sequence"]
@@ -9273,7 +9270,7 @@ extern "C" {
     #[doc = "  @returns -1 for error"]
     #[doc = ""]
     #[doc = "  @note \\a out is not null-terminated"]
-    pub fn utf16_to_utf8(out: *mut u8, in_: *mut u16, len: size_t) -> ssize_t;
+    pub fn utf16_to_utf8(out: *mut u8, in_: *const u16, len: size_t) -> ssize_t;
 }
 extern "C" {
     #[doc = " Convert a UTF-16 sequence into a UTF-32 sequence"]
@@ -9291,7 +9288,7 @@ extern "C" {
     #[doc = "  @returns -1 for error"]
     #[doc = ""]
     #[doc = "  @note \\a out is not null-terminated"]
-    pub fn utf16_to_utf32(out: *mut u32, in_: *mut u16, len: size_t) -> ssize_t;
+    pub fn utf16_to_utf32(out: *mut u32, in_: *const u16, len: size_t) -> ssize_t;
 }
 extern "C" {
     #[doc = " Convert a UTF-32 sequence into a UTF-8 sequence"]
@@ -9309,7 +9306,7 @@ extern "C" {
     #[doc = "  @returns -1 for error"]
     #[doc = ""]
     #[doc = "  @note \\a out is not null-terminated"]
-    pub fn utf32_to_utf8(out: *mut u8, in_: *mut u32, len: size_t) -> ssize_t;
+    pub fn utf32_to_utf8(out: *mut u8, in_: *const u32, len: size_t) -> ssize_t;
 }
 extern "C" {
     #[doc = " Convert a UTF-32 sequence into a UTF-16 sequence"]
@@ -9322,7 +9319,7 @@ extern "C" {
     #[doc = "  @returns -1 for error"]
     #[doc = ""]
     #[doc = "  @note \\a out is not null-terminated"]
-    pub fn utf32_to_utf16(out: *mut u16, in_: *mut u32, len: size_t) -> ssize_t;
+    pub fn utf32_to_utf16(out: *mut u16, in_: *const u32, len: size_t) -> ssize_t;
 }
 extern "C" {
     #[doc = " @brief Allocates a 0x80-byte aligned buffer."]
@@ -9436,7 +9433,7 @@ pub const acSecurityMode_AC_WPA_AES: acSecurityMode = 6;
 #[doc = "< WPA2 AES authentication."]
 pub const acSecurityMode_AC_WPA2_AES: acSecurityMode = 7;
 #[doc = " Wifi security modes."]
-pub type acSecurityMode = ::std::os::raw::c_int;
+pub type acSecurityMode = ::std::os::raw::c_uint;
 #[doc = " Struct to contain the data for connecting to a Wifi network from a stored slot."]
 #[repr(C)]
 #[derive(Copy, Clone)]
@@ -9559,32 +9556,32 @@ extern "C" {
     #[doc = " @brief Starts the connection procedure."]
     #[doc = " @param config Pointer to an acuConfig struct used with ACU_CreateDefaultConfig previously."]
     #[doc = " @param connectionHandle Handle created with svcCreateEvent to wait on until the connection succeeds or fails."]
-    pub fn ACU_ConnectAsync(config: *mut acuConfig, connectionHandle: Handle) -> Result;
+    pub fn ACU_ConnectAsync(config: *const acuConfig, connectionHandle: Handle) -> Result;
 }
 #[doc = "< Open for reading."]
-pub const FS_OPEN_READ: ::std::os::raw::c_int = 1;
+pub const FS_OPEN_READ: ::std::os::raw::c_uint = 1;
 #[doc = "< Open for writing."]
-pub const FS_OPEN_WRITE: ::std::os::raw::c_int = 2;
+pub const FS_OPEN_WRITE: ::std::os::raw::c_uint = 2;
 #[doc = "< Create file."]
-pub const FS_OPEN_CREATE: ::std::os::raw::c_int = 4;
+pub const FS_OPEN_CREATE: ::std::os::raw::c_uint = 4;
 #[doc = " Open flags."]
-pub type _bindgen_ty_10 = ::std::os::raw::c_int;
+pub type _bindgen_ty_10 = ::std::os::raw::c_uint;
 #[doc = "< Flush."]
-pub const FS_WRITE_FLUSH: ::std::os::raw::c_int = 1;
+pub const FS_WRITE_FLUSH: ::std::os::raw::c_uint = 1;
 #[doc = "< Update file timestamp."]
-pub const FS_WRITE_UPDATE_TIME: ::std::os::raw::c_int = 256;
+pub const FS_WRITE_UPDATE_TIME: ::std::os::raw::c_uint = 256;
 #[doc = " Write flags."]
-pub type _bindgen_ty_11 = ::std::os::raw::c_int;
+pub type _bindgen_ty_11 = ::std::os::raw::c_uint;
 #[doc = "< Directory."]
-pub const FS_ATTRIBUTE_DIRECTORY: ::std::os::raw::c_int = 1;
+pub const FS_ATTRIBUTE_DIRECTORY: ::std::os::raw::c_uint = 1;
 #[doc = "< Hidden."]
-pub const FS_ATTRIBUTE_HIDDEN: ::std::os::raw::c_int = 256;
+pub const FS_ATTRIBUTE_HIDDEN: ::std::os::raw::c_uint = 256;
 #[doc = "< Archive."]
-pub const FS_ATTRIBUTE_ARCHIVE: ::std::os::raw::c_int = 65536;
+pub const FS_ATTRIBUTE_ARCHIVE: ::std::os::raw::c_uint = 65536;
 #[doc = "< Read-only."]
-pub const FS_ATTRIBUTE_READ_ONLY: ::std::os::raw::c_int = 16777216;
+pub const FS_ATTRIBUTE_READ_ONLY: ::std::os::raw::c_uint = 16777216;
 #[doc = " Attribute flags."]
-pub type _bindgen_ty_12 = ::std::os::raw::c_int;
+pub type _bindgen_ty_12 = ::std::os::raw::c_uint;
 #[doc = "< NAND."]
 pub const FS_MediaType_MEDIATYPE_NAND: FS_MediaType = 0;
 #[doc = "< SD card."]
@@ -9592,7 +9589,7 @@ pub const FS_MediaType_MEDIATYPE_SD: FS_MediaType = 1;
 #[doc = "< Game card."]
 pub const FS_MediaType_MEDIATYPE_GAME_CARD: FS_MediaType = 2;
 #[doc = " Media types."]
-pub type FS_MediaType = ::std::os::raw::c_int;
+pub type FS_MediaType = ::std::os::raw::c_uint;
 #[doc = "< CTR NAND."]
 pub const FS_SystemMediaType_SYSTEM_MEDIATYPE_CTR_NAND: FS_SystemMediaType = 0;
 #[doc = "< TWL NAND."]
@@ -9602,7 +9599,7 @@ pub const FS_SystemMediaType_SYSTEM_MEDIATYPE_SD: FS_SystemMediaType = 2;
 #[doc = "< TWL Photo."]
 pub const FS_SystemMediaType_SYSTEM_MEDIATYPE_TWL_PHOTO: FS_SystemMediaType = 3;
 #[doc = " System media types."]
-pub type FS_SystemMediaType = ::std::os::raw::c_int;
+pub type FS_SystemMediaType = ::std::os::raw::c_uint;
 #[doc = "< RomFS archive."]
 pub const FS_ArchiveID_ARCHIVE_ROMFS: FS_ArchiveID = 3;
 #[doc = "< Save data archive."]
@@ -9652,7 +9649,7 @@ pub const FS_ArchiveID_ARCHIVE_USER_SAVEDATA: FS_ArchiveID = 1450741938;
 #[doc = "< Demo save data archive."]
 pub const FS_ArchiveID_ARCHIVE_DEMO_SAVEDATA: FS_ArchiveID = 1450741940;
 #[doc = " Archive IDs."]
-pub type FS_ArchiveID = ::std::os::raw::c_int;
+pub type FS_ArchiveID = ::std::os::raw::c_uint;
 #[doc = "< Invalid path."]
 pub const FS_PathType_PATH_INVALID: FS_PathType = 0;
 #[doc = "< Empty path."]
@@ -9664,11 +9661,11 @@ pub const FS_PathType_PATH_ASCII: FS_PathType = 3;
 #[doc = "< UTF-16 text path."]
 pub const FS_PathType_PATH_UTF16: FS_PathType = 4;
 #[doc = " Path types."]
-pub type FS_PathType = ::std::os::raw::c_int;
+pub type FS_PathType = ::std::os::raw::c_uint;
 #[doc = "< SD application."]
 pub const FS_SecureValueSlot_SECUREVALUE_SLOT_SD: FS_SecureValueSlot = 4096;
 #[doc = " Secure value slot."]
-pub type FS_SecureValueSlot = ::std::os::raw::c_int;
+pub type FS_SecureValueSlot = ::std::os::raw::c_uint;
 #[doc = "< 512KHz."]
 pub const FS_CardSpiBaudRate_BAUDRATE_512KHZ: FS_CardSpiBaudRate = 0;
 #[doc = "< 1MHz."]
@@ -9682,13 +9679,13 @@ pub const FS_CardSpiBaudRate_BAUDRATE_8MHZ: FS_CardSpiBaudRate = 4;
 #[doc = "< 16MHz."]
 pub const FS_CardSpiBaudRate_BAUDRATE_16MHZ: FS_CardSpiBaudRate = 5;
 #[doc = " Card SPI baud rate."]
-pub type FS_CardSpiBaudRate = ::std::os::raw::c_int;
+pub type FS_CardSpiBaudRate = ::std::os::raw::c_uint;
 #[doc = "< 1-bit."]
 pub const FS_CardSpiBusMode_BUSMODE_1BIT: FS_CardSpiBusMode = 0;
 #[doc = "< 4-bit."]
 pub const FS_CardSpiBusMode_BUSMODE_4BIT: FS_CardSpiBusMode = 1;
 #[doc = " Card SPI bus mode."]
-pub type FS_CardSpiBusMode = ::std::os::raw::c_int;
+pub type FS_CardSpiBusMode = ::std::os::raw::c_uint;
 #[doc = "< Update."]
 pub const FS_SpecialContentType_SPECIALCONTENT_UPDATE: FS_SpecialContentType = 1;
 #[doc = "< Manual."]
@@ -9696,34 +9693,34 @@ pub const FS_SpecialContentType_SPECIALCONTENT_MANUAL: FS_SpecialContentType = 2
 #[doc = "< DLP child."]
 pub const FS_SpecialContentType_SPECIALCONTENT_DLP_CHILD: FS_SpecialContentType = 3;
 #[doc = " Card SPI bus mode."]
-pub type FS_SpecialContentType = ::std::os::raw::c_int;
+pub type FS_SpecialContentType = ::std::os::raw::c_uint;
 #[doc = "< CTR card."]
 pub const FS_CardType_CARD_CTR: FS_CardType = 0;
 #[doc = "< TWL card."]
 pub const FS_CardType_CARD_TWL: FS_CardType = 1;
-pub type FS_CardType = ::std::os::raw::c_int;
+pub type FS_CardType = ::std::os::raw::c_uint;
 pub const FS_Action_FS_ACTION_UNKNOWN: FS_Action = 0;
 #[doc = " FS control actions."]
-pub type FS_Action = ::std::os::raw::c_int;
+pub type FS_Action = ::std::os::raw::c_uint;
 #[doc = "< Commits save data changes. No inputs/outputs."]
 pub const FS_ArchiveAction_ARCHIVE_ACTION_COMMIT_SAVE_DATA: FS_ArchiveAction = 0;
 #[doc = "< Retrieves a file's last-modified timestamp. In: \"u16*, UTF-16 Path\", Out: \"u64, Time Stamp\"."]
 pub const FS_ArchiveAction_ARCHIVE_ACTION_GET_TIMESTAMP: FS_ArchiveAction = 1;
 pub const FS_ArchiveAction_ARCHIVE_ACTION_UNKNOWN: FS_ArchiveAction = 30877;
 #[doc = " Archive control actions."]
-pub type FS_ArchiveAction = ::std::os::raw::c_int;
+pub type FS_ArchiveAction = ::std::os::raw::c_uint;
 #[doc = "< Deletes a save's secure value. In: \"u64, ((SecureValueSlot << 32) | (TitleUniqueId << 8) | TitleVariation)\", Out: \"u8, Value Existed\""]
 pub const FS_SecureSaveAction_SECURESAVE_ACTION_DELETE: FS_SecureSaveAction = 0;
 #[doc = "< Formats a save. No inputs/outputs."]
 pub const FS_SecureSaveAction_SECURESAVE_ACTION_FORMAT: FS_SecureSaveAction = 1;
 #[doc = " Secure save control actions."]
-pub type FS_SecureSaveAction = ::std::os::raw::c_int;
+pub type FS_SecureSaveAction = ::std::os::raw::c_uint;
 pub const FS_FileAction_FILE_ACTION_UNKNOWN: FS_FileAction = 0;
 #[doc = " File control actions."]
-pub type FS_FileAction = ::std::os::raw::c_int;
+pub type FS_FileAction = ::std::os::raw::c_uint;
 pub const FS_DirectoryAction_DIRECTORY_ACTION_UNKNOWN: FS_DirectoryAction = 0;
 #[doc = " Directory control actions."]
-pub type FS_DirectoryAction = ::std::os::raw::c_int;
+pub type FS_DirectoryAction = ::std::os::raw::c_uint;
 #[doc = " Directory entry."]
 #[repr(C)]
 #[derive(Copy, Clone)]
@@ -9902,7 +9899,6 @@ pub struct FS_ProgramInfo {
     pub programId: u64_,
     pub _bitfield_align_1: [u8; 0],
     pub _bitfield_1: __BindgenBitfieldUnit<[u8; 1usize]>,
-    pub __bindgen_padding_0: [u8; 3usize],
     #[doc = "< Padding."]
     pub padding: [u8_; 7usize],
 }
@@ -9910,7 +9906,7 @@ pub struct FS_ProgramInfo {
 fn bindgen_test_layout_FS_ProgramInfo() {
     assert_eq!(
         ::std::mem::size_of::<FS_ProgramInfo>(),
-        24usize,
+        16usize,
         concat!("Size of: ", stringify!(FS_ProgramInfo))
     );
     assert_eq!(
@@ -9930,7 +9926,7 @@ fn bindgen_test_layout_FS_ProgramInfo() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<FS_ProgramInfo>())).padding as *const _ as usize },
-        12usize,
+        9usize,
         concat!(
             "Offset of field: ",
             stringify!(FS_ProgramInfo),
@@ -10082,7 +10078,7 @@ pub struct FS_ExtSaveDataInfo {
 fn bindgen_test_layout_FS_ExtSaveDataInfo() {
     assert_eq!(
         ::std::mem::size_of::<FS_ExtSaveDataInfo>(),
-        19usize,
+        16usize,
         concat!("Size of: ", stringify!(FS_ExtSaveDataInfo))
     );
     assert_eq!(
@@ -10092,7 +10088,7 @@ fn bindgen_test_layout_FS_ExtSaveDataInfo() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<FS_ExtSaveDataInfo>())).unknown as *const _ as usize },
-        4usize,
+        1usize,
         concat!(
             "Offset of field: ",
             stringify!(FS_ExtSaveDataInfo),
@@ -10102,7 +10098,7 @@ fn bindgen_test_layout_FS_ExtSaveDataInfo() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<FS_ExtSaveDataInfo>())).reserved1 as *const _ as usize },
-        5usize,
+        2usize,
         concat!(
             "Offset of field: ",
             stringify!(FS_ExtSaveDataInfo),
@@ -10112,7 +10108,7 @@ fn bindgen_test_layout_FS_ExtSaveDataInfo() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<FS_ExtSaveDataInfo>())).saveId as *const _ as usize },
-        7usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(FS_ExtSaveDataInfo),
@@ -10122,7 +10118,7 @@ fn bindgen_test_layout_FS_ExtSaveDataInfo() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<FS_ExtSaveDataInfo>())).reserved2 as *const _ as usize },
-        15usize,
+        12usize,
         concat!(
             "Offset of field: ",
             stringify!(FS_ExtSaveDataInfo),
@@ -10161,7 +10157,6 @@ impl FS_ExtSaveDataInfo {
 pub struct FS_SystemSaveDataInfo {
     pub _bitfield_align_1: [u8; 0],
     pub _bitfield_1: __BindgenBitfieldUnit<[u8; 1usize]>,
-    pub __bindgen_padding_0: [u8; 3usize],
     #[doc = "< Unknown."]
     pub unknown: u8_,
     #[doc = "< Reserved."]
@@ -10173,7 +10168,7 @@ pub struct FS_SystemSaveDataInfo {
 fn bindgen_test_layout_FS_SystemSaveDataInfo() {
     assert_eq!(
         ::std::mem::size_of::<FS_SystemSaveDataInfo>(),
-        12usize,
+        8usize,
         concat!("Size of: ", stringify!(FS_SystemSaveDataInfo))
     );
     assert_eq!(
@@ -10183,7 +10178,7 @@ fn bindgen_test_layout_FS_SystemSaveDataInfo() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<FS_SystemSaveDataInfo>())).unknown as *const _ as usize },
-        4usize,
+        1usize,
         concat!(
             "Offset of field: ",
             stringify!(FS_SystemSaveDataInfo),
@@ -10193,7 +10188,7 @@ fn bindgen_test_layout_FS_SystemSaveDataInfo() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<FS_SystemSaveDataInfo>())).reserved as *const _ as usize },
-        6usize,
+        2usize,
         concat!(
             "Offset of field: ",
             stringify!(FS_SystemSaveDataInfo),
@@ -10203,7 +10198,7 @@ fn bindgen_test_layout_FS_SystemSaveDataInfo() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<FS_SystemSaveDataInfo>())).saveId as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(FS_SystemSaveDataInfo),
@@ -10289,18 +10284,18 @@ pub struct FS_Path {
     #[doc = "< FS path size."]
     pub size: u32_,
     #[doc = "< Pointer to FS path data."]
-    pub data: *mut ::std::os::raw::c_void,
+    pub data: *const ::std::os::raw::c_void,
 }
 #[test]
 fn bindgen_test_layout_FS_Path() {
     assert_eq!(
         ::std::mem::size_of::<FS_Path>(),
-        16usize,
+        12usize,
         concat!("Size of: ", stringify!(FS_Path))
     );
     assert_eq!(
         ::std::mem::align_of::<FS_Path>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(FS_Path))
     );
     assert_eq!(
@@ -10369,7 +10364,7 @@ extern "C" {
     #[doc = " @param type Type of path."]
     #[doc = " @param path Path to use."]
     #[doc = " @return The created FS_Path instance."]
-    pub fn fsMakePath(type_: FS_PathType, path: *mut ::std::os::raw::c_void) -> FS_Path;
+    pub fn fsMakePath(type_: FS_PathType, path: *const ::std::os::raw::c_void) -> FS_Path;
 }
 extern "C" {
     #[doc = " @brief Gets the current FS session handle."]
@@ -10669,7 +10664,7 @@ extern "C" {
     pub fn FSUSER_CardNorDirectWrite(
         commandId: u8_,
         size: u32_,
-        input: *mut ::std::os::raw::c_void,
+        input: *const ::std::os::raw::c_void,
     ) -> Result;
 }
 extern "C" {
@@ -10682,7 +10677,7 @@ extern "C" {
         commandId: u8_,
         address: u32_,
         size: u32_,
-        input: *mut ::std::os::raw::c_void,
+        input: *const ::std::os::raw::c_void,
     ) -> Result;
 }
 extern "C" {
@@ -10706,7 +10701,7 @@ extern "C" {
     pub fn FSUSER_CardNorDirectCpuWriteWithoutVerify(
         address: u32_,
         size: u32_,
-        input: *mut ::std::os::raw::c_void,
+        input: *const ::std::os::raw::c_void,
     ) -> Result;
 }
 extern "C" {
@@ -10923,7 +10918,7 @@ extern "C" {
     #[doc = " @param inputSize The size of the data."]
     #[doc = " @param hash Hash output pointer."]
     pub fn FSUSER_UpdateSha256Context(
-        data: *mut ::std::os::raw::c_void,
+        data: *const ::std::os::raw::c_void,
         inputSize: u32_,
         hash: *mut u8_,
     ) -> Result;
@@ -11206,7 +11201,7 @@ extern "C" {
         handle: Handle,
         bytesWritten: *mut u32_,
         offset: u64_,
-        buffer: *mut ::std::os::raw::c_void,
+        buffer: *const ::std::os::raw::c_void,
         size: u32_,
         flags: u32_,
     ) -> Result;
@@ -11377,11 +11372,11 @@ fn bindgen_test_layout_AM_TitleEntry() {
     );
 }
 #[doc = "< Titles currently installing."]
-pub const AM_STATUS_MASK_INSTALLING: ::std::os::raw::c_int = 1;
+pub const AM_STATUS_MASK_INSTALLING: ::std::os::raw::c_uint = 1;
 #[doc = "< Titles awaiting finalization."]
-pub const AM_STATUS_MASK_AWAITING_FINALIZATION: ::std::os::raw::c_int = 2;
+pub const AM_STATUS_MASK_AWAITING_FINALIZATION: ::std::os::raw::c_uint = 2;
 #[doc = " Pending title status mask values."]
-pub type _bindgen_ty_13 = ::std::os::raw::c_int;
+pub type _bindgen_ty_13 = ::std::os::raw::c_uint;
 #[doc = "< Install aborted."]
 pub const AM_InstallStatus_AM_STATUS_ABORTED: AM_InstallStatus = 2;
 #[doc = "< Title saved, but not installed."]
@@ -11391,7 +11386,7 @@ pub const AM_InstallStatus_AM_STATUS_INSTALL_IN_PROGRESS: AM_InstallStatus = 205
 #[doc = "< Awaiting finalization."]
 pub const AM_InstallStatus_AM_STATUS_AWAITING_FINALIZATION: AM_InstallStatus = 2051;
 #[doc = " Pending title status values."]
-pub type AM_InstallStatus = ::std::os::raw::c_int;
+pub type AM_InstallStatus = ::std::os::raw::c_uint;
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
 pub struct AM_PendingTitleEntry {
@@ -11470,11 +11465,11 @@ fn bindgen_test_layout_AM_PendingTitleEntry() {
     );
 }
 #[doc = "< Non-system titles."]
-pub const AM_DELETE_PENDING_NON_SYSTEM: ::std::os::raw::c_int = 1;
+pub const AM_DELETE_PENDING_NON_SYSTEM: ::std::os::raw::c_uint = 1;
 #[doc = "< System titles."]
-pub const AM_DELETE_PENDING_SYSTEM: ::std::os::raw::c_int = 2;
+pub const AM_DELETE_PENDING_SYSTEM: ::std::os::raw::c_uint = 2;
 #[doc = " Pending title deletion flags."]
-pub type _bindgen_ty_14 = ::std::os::raw::c_int;
+pub type _bindgen_ty_14 = ::std::os::raw::c_uint;
 #[doc = " Information about the TWL NAND partition."]
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -11667,7 +11662,7 @@ extern "C" {
         operation: u8_,
         workbuf: *mut ::std::os::raw::c_void,
         workbuf_size: u32_,
-        filepath: *mut ::std::os::raw::c_char,
+        filepath: *const ::std::os::raw::c_char,
     ) -> Result;
 }
 extern "C" {
@@ -11743,7 +11738,7 @@ extern "C" {
         mediaType: FS_MediaType,
         titleCount: u32_,
         temp: bool,
-        titleIds: *mut u64_,
+        titleIds: *const u64_,
     ) -> Result;
 }
 extern "C" {
@@ -11928,7 +11923,7 @@ extern "C" {
         mediaType: FS_MediaType,
         titleCount: u32_,
         temp: bool,
-        titleIds: *mut u64_,
+        titleIds: *const u64_,
     ) -> Result;
 }
 extern "C" {
@@ -12126,7 +12121,7 @@ pub const NS_APPID_APPID_MEMOLIB: NS_APPID = 1033;
 #[doc = " @brief NS Application IDs."]
 #[doc = ""]
 #[doc = " Retrieved from http://3dbrew.org/wiki/NS_and_APT_Services#AppIDs"]
-pub type NS_APPID = ::std::os::raw::c_int;
+pub type NS_APPID = ::std::os::raw::c_uint;
 #[doc = "< No position specified."]
 pub const APT_AppletPos_APTPOS_NONE: APT_AppletPos = -1;
 #[doc = "< Application."]
@@ -12146,7 +12141,7 @@ pub const APT_QueryReply_APTREPLY_REJECT: APT_QueryReply = 0;
 pub const APT_QueryReply_APTREPLY_ACCEPT: APT_QueryReply = 1;
 pub const APT_QueryReply_APTREPLY_LATER: APT_QueryReply = 2;
 #[doc = " APT query reply."]
-pub type APT_QueryReply = ::std::os::raw::c_int;
+pub type APT_QueryReply = ::std::os::raw::c_uint;
 #[doc = "< No signal received."]
 pub const APT_Signal_APTSIGNAL_NONE: APT_Signal = 0;
 #[doc = "< HOME button pressed."]
@@ -12172,7 +12167,7 @@ pub const APT_Signal_APTSIGNAL_TRY_SLEEP: APT_Signal = 10;
 #[doc = "< Order to close (such as when an error happens?)."]
 pub const APT_Signal_APTSIGNAL_ORDERTOCLOSE: APT_Signal = 11;
 #[doc = " APT signals."]
-pub type APT_Signal = ::std::os::raw::c_int;
+pub type APT_Signal = ::std::os::raw::c_uint;
 #[doc = "< No command received."]
 pub const APT_Command_APTCMD_NONE: APT_Command = 0;
 #[doc = "< Applet should wake up."]
@@ -12210,7 +12205,7 @@ pub const APT_Command_APTCMD_SYSAPPLET_REQUEST: APT_Command = 16;
 #[doc = "< Applet wakes up and is instructed to launch another applet (?)."]
 pub const APT_Command_APTCMD_WAKEUP_LAUNCHAPP: APT_Command = 17;
 #[doc = " APT commands."]
-pub type APT_Command = ::std::os::raw::c_int;
+pub type APT_Command = ::std::os::raw::c_uint;
 #[doc = " APT capture buffer information."]
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -12344,7 +12339,7 @@ pub const APT_HookType_APTHOOK_ONEXIT: APT_HookType = 4;
 #[doc = "< Number of APT hook types."]
 pub const APT_HookType_APTHOOK_COUNT: APT_HookType = 5;
 #[doc = " APT hook types."]
-pub type APT_HookType = ::std::os::raw::c_int;
+pub type APT_HookType = ::std::os::raw::c_uint;
 #[doc = " APT hook function."]
 pub type aptHookFn = ::std::option::Option<
     unsafe extern "C" fn(hook: APT_HookType, param: *mut ::std::os::raw::c_void),
@@ -12364,12 +12359,12 @@ pub struct tag_aptHookCookie {
 fn bindgen_test_layout_tag_aptHookCookie() {
     assert_eq!(
         ::std::mem::size_of::<tag_aptHookCookie>(),
-        24usize,
+        12usize,
         concat!("Size of: ", stringify!(tag_aptHookCookie))
     );
     assert_eq!(
         ::std::mem::align_of::<tag_aptHookCookie>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(tag_aptHookCookie))
     );
     assert_eq!(
@@ -12384,7 +12379,7 @@ fn bindgen_test_layout_tag_aptHookCookie() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<tag_aptHookCookie>())).callback as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(tag_aptHookCookie),
@@ -12394,7 +12389,7 @@ fn bindgen_test_layout_tag_aptHookCookie() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<tag_aptHookCookie>())).param as *const _ as usize },
-        16usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(tag_aptHookCookie),
@@ -12616,7 +12611,7 @@ extern "C" {
     #[doc = " @param Size of the parameter buffer."]
     #[doc = " @param handle Handle to pass."]
     pub fn APT_JumpToHomeMenu(
-        param: *mut ::std::os::raw::c_void,
+        param: *const ::std::os::raw::c_void,
         paramSize: size_t,
         handle: Handle,
     ) -> Result;
@@ -12632,7 +12627,7 @@ extern "C" {
     #[doc = " @param Size of the parameter buffer."]
     #[doc = " @param handle Handle to pass."]
     pub fn APT_JumpToApplication(
-        param: *mut ::std::os::raw::c_void,
+        param: *const ::std::os::raw::c_void,
         paramSize: size_t,
         handle: Handle,
     ) -> Result;
@@ -12653,7 +12648,7 @@ extern "C" {
     #[doc = " @brief Requests to enter sleep mode, and later sets wake events if allowed to."]
     #[doc = " @param wakeEvents The wake events. Limited to \"shell\" (bit 1) for the PDN wake events part"]
     #[doc = " and \"shell opened\", \"shell closed\" and \"HOME button pressed\" for the MCU interrupts part."]
-    pub fn APT_SleepSystem(wakeEvents: *mut PtmWakeEvents) -> Result;
+    pub fn APT_SleepSystem(wakeEvents: *const PtmWakeEvents) -> Result;
 }
 extern "C" {
     #[doc = " @brief Notifies an application to wait."]
@@ -12671,7 +12666,7 @@ extern "C" {
         id: ::std::os::raw::c_int,
         out: *mut ::std::os::raw::c_void,
         outSize: size_t,
-        in_: *mut ::std::os::raw::c_void,
+        in_: *const ::std::os::raw::c_void,
         inSize: size_t,
     ) -> Result;
 }
@@ -12746,7 +12741,7 @@ extern "C" {
         source: NS_APPID,
         dest: NS_APPID,
         command: APT_Command,
-        buffer: *mut ::std::os::raw::c_void,
+        buffer: *const ::std::os::raw::c_void,
         bufferSize: u32_,
         parameter: Handle,
     ) -> Result;
@@ -12761,7 +12756,7 @@ extern "C" {
 extern "C" {
     #[doc = " @brief Sends capture buffer information."]
     #[doc = " @param captureBuf Capture buffer information to send."]
-    pub fn APT_SendCaptureBufferInfo(captureBuf: *mut aptCaptureBufInfo) -> Result;
+    pub fn APT_SendCaptureBufferInfo(captureBuf: *const aptCaptureBufInfo) -> Result;
 }
 extern "C" {
     #[doc = " @brief Replies to a sleep query."]
@@ -12785,7 +12780,7 @@ extern "C" {
     #[doc = " @param paramSize Size of param."]
     #[doc = " @param handle Handle to pass."]
     pub fn APT_CloseApplication(
-        param: *mut ::std::os::raw::c_void,
+        param: *const ::std::os::raw::c_void,
         paramSize: size_t,
         handle: Handle,
     ) -> Result;
@@ -12818,9 +12813,9 @@ extern "C" {
     #[doc = " @param paramSize Size of parameter buffer."]
     #[doc = " @param hmac HMAC buffer (should be 0x20 bytes long)."]
     pub fn APT_DoApplicationJump(
-        param: *mut ::std::os::raw::c_void,
+        param: *const ::std::os::raw::c_void,
         paramSize: size_t,
-        hmac: *mut ::std::os::raw::c_void,
+        hmac: *const ::std::os::raw::c_void,
     ) -> Result;
 }
 extern "C" {
@@ -12836,7 +12831,7 @@ extern "C" {
     #[doc = " @param handle Handle to pass to the applet."]
     pub fn APT_StartLibraryApplet(
         appID: NS_APPID,
-        param: *mut ::std::os::raw::c_void,
+        param: *const ::std::os::raw::c_void,
         paramSize: size_t,
         handle: Handle,
     ) -> Result;
@@ -12854,7 +12849,7 @@ extern "C" {
     #[doc = " @param handle Handle to pass to the applet."]
     pub fn APT_StartSystemApplet(
         appID: NS_APPID,
-        param: *mut ::std::os::raw::c_void,
+        param: *const ::std::os::raw::c_void,
         paramSize: size_t,
         handle: Handle,
     ) -> Result;
@@ -12873,9 +12868,9 @@ extern "C" {
     #[doc = " @param sender Pointer to output the sender's AppID to."]
     #[doc = " @param received Pointer to output whether an argument was received to."]
     pub fn APT_ReceiveDeliverArg(
-        param: *mut ::std::os::raw::c_void,
+        param: *const ::std::os::raw::c_void,
         paramSize: size_t,
-        hmac: *mut ::std::os::raw::c_void,
+        hmac: *const ::std::os::raw::c_void,
         sender: *mut u64_,
         received: *mut bool,
     ) -> Result;
@@ -13099,15 +13094,15 @@ fn bindgen_test_layout_bossContext() {
 pub const bossTaskStatus_BOSSTASKSTATUS_STARTED: bossTaskStatus = 2;
 pub const bossTaskStatus_BOSSTASKSTATUS_ERROR: bossTaskStatus = 7;
 #[doc = " BOSS task status."]
-pub type bossTaskStatus = ::std::os::raw::c_int;
+pub type bossTaskStatus = ::std::os::raw::c_uint;
 pub const bossNsDataHeaderInfoTypes_bossNsDataHeaderInfoType_ContentSize:
     bossNsDataHeaderInfoTypes = 3;
 #[doc = " Type values for bossGetNsDataHeaderInfo()."]
-pub type bossNsDataHeaderInfoTypes = ::std::os::raw::c_int;
+pub type bossNsDataHeaderInfoTypes = ::std::os::raw::c_uint;
 pub const bossNsDataHeaderInfoTypeSizes_bossNsDataHeaderInfoTypeSize_ContentSize:
     bossNsDataHeaderInfoTypeSizes = 4;
 #[doc = " Size of the output data for bossGetNsDataHeaderInfo()."]
-pub type bossNsDataHeaderInfoTypeSizes = ::std::os::raw::c_int;
+pub type bossNsDataHeaderInfoTypeSizes = ::std::os::raw::c_uint;
 extern "C" {
     #[doc = " @brief Initializes BOSS."]
     #[doc = " @param programID programID to use, 0 for the current process. Only used when BOSSP is available without *hax payload."]
@@ -13143,7 +13138,7 @@ extern "C" {
     #[doc = " @param taskID BOSS taskID."]
     #[doc = " @param unk0 Unknown, usually zero."]
     #[doc = " @param unk1 Unknown, usually zero."]
-    pub fn bossRegisterTask(taskID: *mut ::std::os::raw::c_char, unk0: u8_, unk1: u8_) -> Result;
+    pub fn bossRegisterTask(taskID: *const ::std::os::raw::c_char, unk0: u8_, unk1: u8_) -> Result;
 }
 extern "C" {
     #[doc = " @brief Send a property."]
@@ -13152,7 +13147,7 @@ extern "C" {
     #[doc = " @param size Buffer size."]
     pub fn bossSendProperty(
         PropertyID: u16_,
-        buf: *mut ::std::os::raw::c_void,
+        buf: *const ::std::os::raw::c_void,
         size: u32_,
     ) -> Result;
 }
@@ -13194,18 +13189,18 @@ extern "C" {
 extern "C" {
     #[doc = " @brief Starts a task soon after running this command."]
     #[doc = " @param taskID BOSS taskID."]
-    pub fn bossStartTaskImmediate(taskID: *mut ::std::os::raw::c_char) -> Result;
+    pub fn bossStartTaskImmediate(taskID: *const ::std::os::raw::c_char) -> Result;
 }
 extern "C" {
     #[doc = " @brief Similar to bossStartTaskImmediate?"]
     #[doc = " @param taskID BOSS taskID."]
-    pub fn bossStartBgImmediate(taskID: *mut ::std::os::raw::c_char) -> Result;
+    pub fn bossStartBgImmediate(taskID: *const ::std::os::raw::c_char) -> Result;
 }
 extern "C" {
     #[doc = " @brief Deletes a task by using CancelTask and UnregisterTask internally."]
     #[doc = " @param taskID BOSS taskID."]
     #[doc = " @param unk Unknown, usually zero?"]
-    pub fn bossDeleteTask(taskID: *mut ::std::os::raw::c_char, unk: u32_) -> Result;
+    pub fn bossDeleteTask(taskID: *const ::std::os::raw::c_char, unk: u32_) -> Result;
 }
 extern "C" {
     #[doc = " @brief Returns task state."]
@@ -13215,7 +13210,7 @@ extern "C" {
     #[doc = " @param out1 Output field."]
     #[doc = " @param out2 Output field."]
     pub fn bossGetTaskState(
-        taskID: *mut ::std::os::raw::c_char,
+        taskID: *const ::std::os::raw::c_char,
         inval: s8,
         status: *mut u8_,
         out1: *mut u32_,
@@ -13225,7 +13220,7 @@ extern "C" {
 extern "C" {
     #[doc = " @brief This loads the current state of PropertyID 0x0 for the specified task."]
     #[doc = " @param taskID BOSS taskID."]
-    pub fn bossGetTaskProperty0(taskID: *mut ::std::os::raw::c_char, out: *mut u8_) -> Result;
+    pub fn bossGetTaskProperty0(taskID: *const ::std::os::raw::c_char, out: *mut u8_) -> Result;
 }
 extern "C" {
     #[doc = " @brief Setup a BOSS context with the default config."]
@@ -13235,7 +13230,7 @@ extern "C" {
     pub fn bossSetupContextDefault(
         ctx: *mut bossContext,
         seconds_interval: u32_,
-        url: *mut ::std::os::raw::c_char,
+        url: *const ::std::os::raw::c_char,
     );
 }
 extern "C" {
@@ -13256,7 +13251,7 @@ pub const Y2RU_InputFormat_INPUT_YUV422_BATCH: Y2RU_InputFormat = 4;
 #[doc = " @brief Input color formats"]
 #[doc = ""]
 #[doc = " For the 16-bit per component formats, bits 15-8 are padding and 7-0 contains the value."]
-pub type Y2RU_InputFormat = ::std::os::raw::c_int;
+pub type Y2RU_InputFormat = ::std::os::raw::c_uint;
 #[doc = "< 32-bit RGBA8888. The alpha component is the 8-bit value set by @ref Y2RU_SetAlpha"]
 pub const Y2RU_OutputFormat_OUTPUT_RGB_32: Y2RU_OutputFormat = 0;
 #[doc = "< 24-bit RGB888."]
@@ -13268,7 +13263,7 @@ pub const Y2RU_OutputFormat_OUTPUT_RGB_16_565: Y2RU_OutputFormat = 3;
 #[doc = " @brief Output color formats"]
 #[doc = ""]
 #[doc = " Those are the same as the framebuffer and GPU texture formats."]
-pub type Y2RU_OutputFormat = ::std::os::raw::c_int;
+pub type Y2RU_OutputFormat = ::std::os::raw::c_uint;
 #[doc = "< No rotation."]
 pub const Y2RU_Rotation_ROTATION_NONE: Y2RU_Rotation = 0;
 #[doc = "< Clockwise 90 degrees."]
@@ -13278,7 +13273,7 @@ pub const Y2RU_Rotation_ROTATION_CLOCKWISE_180: Y2RU_Rotation = 2;
 #[doc = "< Clockwise 270 degrees."]
 pub const Y2RU_Rotation_ROTATION_CLOCKWISE_270: Y2RU_Rotation = 3;
 #[doc = " Rotation to be applied to the output."]
-pub type Y2RU_Rotation = ::std::os::raw::c_int;
+pub type Y2RU_Rotation = ::std::os::raw::c_uint;
 #[doc = "< The result buffer will be laid out in linear format, the usual way."]
 pub const Y2RU_BlockAlignment_BLOCK_LINE: Y2RU_BlockAlignment = 0;
 #[doc = "< The result will be stored as 8x8 blocks in Z-order.\\n Useful for textures since it is the format used by the PICA200."]
@@ -13286,7 +13281,7 @@ pub const Y2RU_BlockAlignment_BLOCK_8_BY_8: Y2RU_BlockAlignment = 1;
 #[doc = " @brief Block alignment of output"]
 #[doc = ""]
 #[doc = " Defines the way the output will be laid out in memory."]
-pub type Y2RU_BlockAlignment = ::std::os::raw::c_int;
+pub type Y2RU_BlockAlignment = ::std::os::raw::c_uint;
 #[doc = " @brief Coefficients of the YUV->RGB conversion formula."]
 #[doc = ""]
 #[doc = " A set of coefficients configuring the RGB to YUV conversion. Coefficients 0-4 are unsigned 2.8"]
@@ -13423,7 +13418,7 @@ pub const Y2RU_StandardCoefficient_COEFFICIENT_ITU_R_BT_709_SCALING: Y2RU_Standa
 #[doc = " @brief Preset conversion coefficients based on ITU standards for the YUV->RGB formula."]
 #[doc = ""]
 #[doc = " For more details refer to @ref Y2RU_ColorCoefficients"]
-pub type Y2RU_StandardCoefficient = ::std::os::raw::c_int;
+pub type Y2RU_StandardCoefficient = ::std::os::raw::c_uint;
 #[doc = " @brief Structure used to configure all parameters at once."]
 #[doc = ""]
 #[doc = " You can send a batch of configuration parameters using this structure and @ref Y2RU_SetConversionParams."]
@@ -13439,7 +13434,6 @@ pub struct Y2RU_ConversionParams {
     pub input_lines: s16,
     pub _bitfield_align_2: [u8; 0],
     pub _bitfield_2: __BindgenBitfieldUnit<[u8; 1usize]>,
-    pub __bindgen_padding_0: [u8; 3usize],
     #[doc = "< Unused."]
     pub unused: u8_,
     #[doc = "< Value passed to @ref Y2RU_SetAlpha"]
@@ -13449,7 +13443,7 @@ pub struct Y2RU_ConversionParams {
 fn bindgen_test_layout_Y2RU_ConversionParams() {
     assert_eq!(
         ::std::mem::size_of::<Y2RU_ConversionParams>(),
-        16usize,
+        12usize,
         concat!("Size of: ", stringify!(Y2RU_ConversionParams))
     );
     assert_eq!(
@@ -13483,7 +13477,7 @@ fn bindgen_test_layout_Y2RU_ConversionParams() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<Y2RU_ConversionParams>())).unused as *const _ as usize },
-        12usize,
+        9usize,
         concat!(
             "Offset of field: ",
             stringify!(Y2RU_ConversionParams),
@@ -13493,7 +13487,7 @@ fn bindgen_test_layout_Y2RU_ConversionParams() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<Y2RU_ConversionParams>())).alpha as *const _ as usize },
-        14usize,
+        10usize,
         concat!(
             "Offset of field: ",
             stringify!(Y2RU_ConversionParams),
@@ -13977,7 +13971,7 @@ extern "C" {
     #[doc = " See @ref Y2RU_ColorCoefficients for more information about the coefficients."]
     #[doc = ""]
     #[doc = " @note Prefer using @ref Y2RU_SetConversionParams if you have to set multiple parameters."]
-    pub fn Y2RU_SetCoefficients(coefficients: *mut Y2RU_ColorCoefficients) -> Result;
+    pub fn Y2RU_SetCoefficients(coefficients: *const Y2RU_ColorCoefficients) -> Result;
 }
 extern "C" {
     #[doc = " @brief Gets the configured color coefficients."]
@@ -14052,7 +14046,7 @@ extern "C" {
     #[doc = " This specifies the Y data buffer for the planar input formats (INPUT_YUV42*_INDIV_*)."]
     #[doc = " The actual transfer will only happen after calling @ref Y2RU_StartConversion."]
     pub fn Y2RU_SetSendingY(
-        src_buf: *mut ::std::os::raw::c_void,
+        src_buf: *const ::std::os::raw::c_void,
         image_size: u32_,
         transfer_unit: s16,
         transfer_gap: s16,
@@ -14070,7 +14064,7 @@ extern "C" {
     #[doc = " This specifies the U data buffer for the planar input formats (INPUT_YUV42*_INDIV_*)."]
     #[doc = " The actual transfer will only happen after calling @ref Y2RU_StartConversion."]
     pub fn Y2RU_SetSendingU(
-        src_buf: *mut ::std::os::raw::c_void,
+        src_buf: *const ::std::os::raw::c_void,
         image_size: u32_,
         transfer_unit: s16,
         transfer_gap: s16,
@@ -14088,7 +14082,7 @@ extern "C" {
     #[doc = " This specifies the V data buffer for the planar input formats (INPUT_YUV42*_INDIV_*)."]
     #[doc = " The actual transfer will only happen after calling @ref Y2RU_StartConversion."]
     pub fn Y2RU_SetSendingV(
-        src_buf: *mut ::std::os::raw::c_void,
+        src_buf: *const ::std::os::raw::c_void,
         image_size: u32_,
         transfer_unit: s16,
         transfer_gap: s16,
@@ -14106,7 +14100,7 @@ extern "C" {
     #[doc = " This specifies the YUYV data buffer for the packed input format @ref INPUT_YUV422_BATCH."]
     #[doc = " The actual transfer will only happen after calling @ref Y2RU_StartConversion."]
     pub fn Y2RU_SetSendingYUYV(
-        src_buf: *mut ::std::os::raw::c_void,
+        src_buf: *const ::std::os::raw::c_void,
         image_size: u32_,
         transfer_unit: s16,
         transfer_gap: s16,
@@ -14176,7 +14170,7 @@ extern "C" {
 extern "C" {
     #[doc = " @brief Configures the dithering weight parameters."]
     #[doc = " @param params Dithering weight parameters to use."]
-    pub fn Y2RU_SetDitheringWeightParams(params: *mut Y2RU_DitheringWeightParams) -> Result;
+    pub fn Y2RU_SetDitheringWeightParams(params: *const Y2RU_DitheringWeightParams) -> Result;
 }
 extern "C" {
     #[doc = " @brief Gets the configured dithering weight parameters."]
@@ -14188,7 +14182,7 @@ extern "C" {
     #[doc = " @param params Conversion parameters to set."]
     #[doc = ""]
     #[doc = " Faster than calling the individual value through Y2R_Set* because only one system call is made."]
-    pub fn Y2RU_SetConversionParams(params: *mut Y2RU_ConversionParams) -> Result;
+    pub fn Y2RU_SetConversionParams(params: *const Y2RU_ConversionParams) -> Result;
 }
 extern "C" {
     #[doc = " Starts the conversion process"]
@@ -14219,33 +14213,33 @@ extern "C" {
     pub fn Y2RU_DriverFinalize() -> Result;
 }
 #[doc = "< No port."]
-pub const PORT_NONE: ::std::os::raw::c_int = 0;
+pub const PORT_NONE: ::std::os::raw::c_uint = 0;
 #[doc = "< CAM1 port."]
-pub const PORT_CAM1: ::std::os::raw::c_int = 1;
+pub const PORT_CAM1: ::std::os::raw::c_uint = 1;
 #[doc = "< CAM2 port."]
-pub const PORT_CAM2: ::std::os::raw::c_int = 2;
+pub const PORT_CAM2: ::std::os::raw::c_uint = 2;
 #[doc = "< Both ports."]
-pub const PORT_BOTH: ::std::os::raw::c_int = 3;
+pub const PORT_BOTH: ::std::os::raw::c_uint = 3;
 #[doc = " Camera connection target ports."]
-pub type _bindgen_ty_15 = ::std::os::raw::c_int;
+pub type _bindgen_ty_15 = ::std::os::raw::c_uint;
 #[doc = "< No camera."]
-pub const SELECT_NONE: ::std::os::raw::c_int = 0;
+pub const SELECT_NONE: ::std::os::raw::c_uint = 0;
 #[doc = "< Outer camera 1."]
-pub const SELECT_OUT1: ::std::os::raw::c_int = 1;
+pub const SELECT_OUT1: ::std::os::raw::c_uint = 1;
 #[doc = "< Inner camera 1."]
-pub const SELECT_IN1: ::std::os::raw::c_int = 2;
+pub const SELECT_IN1: ::std::os::raw::c_uint = 2;
 #[doc = "< Outer camera 2."]
-pub const SELECT_OUT2: ::std::os::raw::c_int = 4;
+pub const SELECT_OUT2: ::std::os::raw::c_uint = 4;
 #[doc = "< Outer camera 1 and inner camera 1."]
-pub const SELECT_IN1_OUT1: ::std::os::raw::c_int = 3;
+pub const SELECT_IN1_OUT1: ::std::os::raw::c_uint = 3;
 #[doc = "< Both outer cameras."]
-pub const SELECT_OUT1_OUT2: ::std::os::raw::c_int = 5;
+pub const SELECT_OUT1_OUT2: ::std::os::raw::c_uint = 5;
 #[doc = "< Inner camera 1 and outer camera 2."]
-pub const SELECT_IN1_OUT2: ::std::os::raw::c_int = 6;
+pub const SELECT_IN1_OUT2: ::std::os::raw::c_uint = 6;
 #[doc = "< All cameras."]
-pub const SELECT_ALL: ::std::os::raw::c_int = 7;
+pub const SELECT_ALL: ::std::os::raw::c_uint = 7;
 #[doc = " Camera combinations."]
-pub type _bindgen_ty_16 = ::std::os::raw::c_int;
+pub type _bindgen_ty_16 = ::std::os::raw::c_uint;
 #[doc = "< No context."]
 pub const CAMU_Context_CONTEXT_NONE: CAMU_Context = 0;
 #[doc = "< Context A."]
@@ -14255,7 +14249,7 @@ pub const CAMU_Context_CONTEXT_B: CAMU_Context = 2;
 #[doc = "< Both contexts."]
 pub const CAMU_Context_CONTEXT_BOTH: CAMU_Context = 3;
 #[doc = " Camera contexts."]
-pub type CAMU_Context = ::std::os::raw::c_int;
+pub type CAMU_Context = ::std::os::raw::c_uint;
 #[doc = "< No flip."]
 pub const CAMU_Flip_FLIP_NONE: CAMU_Flip = 0;
 #[doc = "< Horizontal flip."]
@@ -14265,7 +14259,7 @@ pub const CAMU_Flip_FLIP_VERTICAL: CAMU_Flip = 2;
 #[doc = "< Reverse flip."]
 pub const CAMU_Flip_FLIP_REVERSE: CAMU_Flip = 3;
 #[doc = " Ways to flip the camera image."]
-pub type CAMU_Flip = ::std::os::raw::c_int;
+pub type CAMU_Flip = ::std::os::raw::c_uint;
 #[doc = "< VGA size.         (640x480)"]
 pub const CAMU_Size_SIZE_VGA: CAMU_Size = 0;
 #[doc = "< QVGA size.        (320x240)"]
@@ -14285,7 +14279,7 @@ pub const CAMU_Size_SIZE_CTR_TOP_LCD: CAMU_Size = 7;
 #[doc = "< CTR Bottom LCD size. (320x240)"]
 pub const CAMU_Size_SIZE_CTR_BOTTOM_LCD: CAMU_Size = 1;
 #[doc = " Camera image resolutions."]
-pub type CAMU_Size = ::std::os::raw::c_int;
+pub type CAMU_Size = ::std::os::raw::c_uint;
 #[doc = "< 15 FPS."]
 pub const CAMU_FrameRate_FRAME_RATE_15: CAMU_FrameRate = 0;
 #[doc = "< 15-5 FPS."]
@@ -14313,7 +14307,7 @@ pub const CAMU_FrameRate_FRAME_RATE_20_TO_10: CAMU_FrameRate = 11;
 #[doc = "< 30-10 FPS."]
 pub const CAMU_FrameRate_FRAME_RATE_30_TO_10: CAMU_FrameRate = 12;
 #[doc = " Camera capture frame rates."]
-pub type CAMU_FrameRate = ::std::os::raw::c_int;
+pub type CAMU_FrameRate = ::std::os::raw::c_uint;
 #[doc = "< Auto white balance."]
 pub const CAMU_WhiteBalance_WHITE_BALANCE_AUTO: CAMU_WhiteBalance = 0;
 #[doc = "< 3200K white balance."]
@@ -14334,7 +14328,7 @@ pub const CAMU_WhiteBalance_WHITE_BALANCE_CLOUDY: CAMU_WhiteBalance = 4;
 pub const CAMU_WhiteBalance_WHITE_BALANCE_HORIZON: CAMU_WhiteBalance = 4;
 pub const CAMU_WhiteBalance_WHITE_BALANCE_SHADE: CAMU_WhiteBalance = 5;
 #[doc = " Camera white balance modes."]
-pub type CAMU_WhiteBalance = ::std::os::raw::c_int;
+pub type CAMU_WhiteBalance = ::std::os::raw::c_uint;
 #[doc = "< Normal mode."]
 pub const CAMU_PhotoMode_PHOTO_MODE_NORMAL: CAMU_PhotoMode = 0;
 #[doc = "< Portrait mode."]
@@ -14346,7 +14340,7 @@ pub const CAMU_PhotoMode_PHOTO_MODE_NIGHTVIEW: CAMU_PhotoMode = 3;
 #[doc = "< Letter mode."]
 pub const CAMU_PhotoMode_PHOTO_MODE_LETTER: CAMU_PhotoMode = 4;
 #[doc = " Camera photo modes."]
-pub type CAMU_PhotoMode = ::std::os::raw::c_int;
+pub type CAMU_PhotoMode = ::std::os::raw::c_uint;
 #[doc = "< No effects."]
 pub const CAMU_Effect_EFFECT_NONE: CAMU_Effect = 0;
 #[doc = "< Mono effect."]
@@ -14360,7 +14354,7 @@ pub const CAMU_Effect_EFFECT_NEGAFILM: CAMU_Effect = 4;
 #[doc = "< Sepia effect."]
 pub const CAMU_Effect_EFFECT_SEPIA01: CAMU_Effect = 5;
 #[doc = " Camera special effects."]
-pub type CAMU_Effect = ::std::os::raw::c_int;
+pub type CAMU_Effect = ::std::os::raw::c_uint;
 #[doc = "< Pattern 1."]
 pub const CAMU_Contrast_CONTRAST_PATTERN_01: CAMU_Contrast = 0;
 #[doc = "< Pattern 2."]
@@ -14390,7 +14384,7 @@ pub const CAMU_Contrast_CONTRAST_NORMAL: CAMU_Contrast = 5;
 #[doc = "< High contrast.   (7)"]
 pub const CAMU_Contrast_CONTRAST_HIGH: CAMU_Contrast = 6;
 #[doc = " Camera contrast patterns."]
-pub type CAMU_Contrast = ::std::os::raw::c_int;
+pub type CAMU_Contrast = ::std::os::raw::c_uint;
 #[doc = "< No lens correction."]
 pub const CAMU_LensCorrection_LENS_CORRECTION_OFF: CAMU_LensCorrection = 0;
 #[doc = "< Edge-to-center brightness ratio of 70."]
@@ -14404,13 +14398,13 @@ pub const CAMU_LensCorrection_LENS_CORRECTION_NORMAL: CAMU_LensCorrection = 1;
 #[doc = "< Bright lens correction. (90)"]
 pub const CAMU_LensCorrection_LENS_CORRECTION_BRIGHT: CAMU_LensCorrection = 2;
 #[doc = " Camera lens correction modes."]
-pub type CAMU_LensCorrection = ::std::os::raw::c_int;
+pub type CAMU_LensCorrection = ::std::os::raw::c_uint;
 #[doc = "< YUV422"]
 pub const CAMU_OutputFormat_OUTPUT_YUV_422: CAMU_OutputFormat = 0;
 #[doc = "< RGB565"]
 pub const CAMU_OutputFormat_OUTPUT_RGB_565: CAMU_OutputFormat = 1;
 #[doc = " Camera image output formats."]
-pub type CAMU_OutputFormat = ::std::os::raw::c_int;
+pub type CAMU_OutputFormat = ::std::os::raw::c_uint;
 #[doc = "< Normal shutter sound."]
 pub const CAMU_ShutterSoundType_SHUTTER_SOUND_TYPE_NORMAL: CAMU_ShutterSoundType = 0;
 #[doc = "< Shutter sound to begin a movie."]
@@ -14418,7 +14412,7 @@ pub const CAMU_ShutterSoundType_SHUTTER_SOUND_TYPE_MOVIE: CAMU_ShutterSoundType 
 #[doc = "< Shutter sound to end a movie."]
 pub const CAMU_ShutterSoundType_SHUTTER_SOUND_TYPE_MOVIE_END: CAMU_ShutterSoundType = 2;
 #[doc = " Camera shutter sounds."]
-pub type CAMU_ShutterSoundType = ::std::os::raw::c_int;
+pub type CAMU_ShutterSoundType = ::std::os::raw::c_uint;
 #[doc = " Image quality calibration data."]
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -15944,7 +15938,7 @@ pub const CFG_Region_CFG_REGION_KOR: CFG_Region = 5;
 #[doc = "< Taiwan"]
 pub const CFG_Region_CFG_REGION_TWN: CFG_Region = 6;
 #[doc = " Configuration region values."]
-pub type CFG_Region = ::std::os::raw::c_int;
+pub type CFG_Region = ::std::os::raw::c_uint;
 #[doc = "< Japanese"]
 pub const CFG_Language_CFG_LANGUAGE_JP: CFG_Language = 0;
 #[doc = "< English"]
@@ -15970,7 +15964,7 @@ pub const CFG_Language_CFG_LANGUAGE_RU: CFG_Language = 10;
 #[doc = "< Traditional Chinese"]
 pub const CFG_Language_CFG_LANGUAGE_TW: CFG_Language = 11;
 #[doc = " Configuration language values."]
-pub type CFG_Language = ::std::os::raw::c_int;
+pub type CFG_Language = ::std::os::raw::c_uint;
 #[doc = "< Old 3DS (CTR)"]
 pub const CFG_SystemModel_CFG_MODEL_3DS: CFG_SystemModel = 0;
 #[doc = "< Old 3DS XL (SPR)"]
@@ -15983,7 +15977,7 @@ pub const CFG_SystemModel_CFG_MODEL_2DS: CFG_SystemModel = 3;
 pub const CFG_SystemModel_CFG_MODEL_N3DSXL: CFG_SystemModel = 4;
 #[doc = "< New 2DS XL (JAN)"]
 pub const CFG_SystemModel_CFG_MODEL_N2DSXL: CFG_SystemModel = 5;
-pub type CFG_SystemModel = ::std::os::raw::c_int;
+pub type CFG_SystemModel = ::std::os::raw::c_uint;
 extern "C" {
     #[doc = " Initializes CFGU."]
     pub fn cfguInit() -> Result;
@@ -16076,7 +16070,7 @@ extern "C" {
     pub fn CFG_SetConfigInfoBlk4(
         size: u32_,
         blkID: u32_,
-        inData: *mut ::std::os::raw::c_void,
+        inData: *const ::std::os::raw::c_void,
     ) -> Result;
 }
 extern "C" {
@@ -16087,7 +16081,7 @@ extern "C" {
     pub fn CFG_SetConfigInfoBlk8(
         size: u32_,
         blkID: u32_,
-        inData: *mut ::std::os::raw::c_void,
+        inData: *const ::std::os::raw::c_void,
     ) -> Result;
 }
 extern "C" {
@@ -16153,55 +16147,55 @@ extern "C" {
     pub fn CFGI_GetSecureInfoSignature(data: *mut u8_) -> Result;
 }
 #[doc = "< PCM8"]
-pub const CSND_ENCODING_PCM8: ::std::os::raw::c_int = 0;
+pub const CSND_ENCODING_PCM8: ::std::os::raw::c_uint = 0;
 #[doc = "< PCM16"]
-pub const CSND_ENCODING_PCM16: ::std::os::raw::c_int = 1;
+pub const CSND_ENCODING_PCM16: ::std::os::raw::c_uint = 1;
 #[doc = "< IMA-ADPCM"]
-pub const CSND_ENCODING_ADPCM: ::std::os::raw::c_int = 2;
+pub const CSND_ENCODING_ADPCM: ::std::os::raw::c_uint = 2;
 #[doc = "< PSG (Similar to DS?)"]
-pub const CSND_ENCODING_PSG: ::std::os::raw::c_int = 3;
+pub const CSND_ENCODING_PSG: ::std::os::raw::c_uint = 3;
 #[doc = " CSND encodings."]
-pub type _bindgen_ty_17 = ::std::os::raw::c_int;
+pub type _bindgen_ty_17 = ::std::os::raw::c_uint;
 #[doc = "< Manual loop."]
-pub const CSND_LOOPMODE_MANUAL: ::std::os::raw::c_int = 0;
+pub const CSND_LOOPMODE_MANUAL: ::std::os::raw::c_uint = 0;
 #[doc = "< Normal loop."]
-pub const CSND_LOOPMODE_NORMAL: ::std::os::raw::c_int = 1;
+pub const CSND_LOOPMODE_NORMAL: ::std::os::raw::c_uint = 1;
 #[doc = "< Do not loop."]
-pub const CSND_LOOPMODE_ONESHOT: ::std::os::raw::c_int = 2;
+pub const CSND_LOOPMODE_ONESHOT: ::std::os::raw::c_uint = 2;
 #[doc = "< Don't reload."]
-pub const CSND_LOOPMODE_NORELOAD: ::std::os::raw::c_int = 3;
+pub const CSND_LOOPMODE_NORELOAD: ::std::os::raw::c_uint = 3;
 #[doc = " CSND loop modes."]
-pub type _bindgen_ty_18 = ::std::os::raw::c_int;
+pub type _bindgen_ty_18 = ::std::os::raw::c_uint;
 #[doc = "< Linear interpolation."]
-pub const SOUND_LINEAR_INTERP: ::std::os::raw::c_int = 64;
+pub const SOUND_LINEAR_INTERP: ::std::os::raw::c_uint = 64;
 #[doc = "< Repeat the sound."]
-pub const SOUND_REPEAT: ::std::os::raw::c_int = 1024;
+pub const SOUND_REPEAT: ::std::os::raw::c_uint = 1024;
 #[doc = "< Play the sound once."]
-pub const SOUND_ONE_SHOT: ::std::os::raw::c_int = 2048;
+pub const SOUND_ONE_SHOT: ::std::os::raw::c_uint = 2048;
 #[doc = "< PCM8"]
-pub const SOUND_FORMAT_8BIT: ::std::os::raw::c_int = 0;
+pub const SOUND_FORMAT_8BIT: ::std::os::raw::c_uint = 0;
 #[doc = "< PCM16"]
-pub const SOUND_FORMAT_16BIT: ::std::os::raw::c_int = 4096;
+pub const SOUND_FORMAT_16BIT: ::std::os::raw::c_uint = 4096;
 #[doc = "< ADPCM"]
-pub const SOUND_FORMAT_ADPCM: ::std::os::raw::c_int = 8192;
+pub const SOUND_FORMAT_ADPCM: ::std::os::raw::c_uint = 8192;
 #[doc = "< PSG"]
-pub const SOUND_FORMAT_PSG: ::std::os::raw::c_int = 12288;
+pub const SOUND_FORMAT_PSG: ::std::os::raw::c_uint = 12288;
 #[doc = "< Enable sound."]
-pub const SOUND_ENABLE: ::std::os::raw::c_int = 16384;
+pub const SOUND_ENABLE: ::std::os::raw::c_uint = 16384;
 #[doc = " Sound flags."]
-pub type _bindgen_ty_19 = ::std::os::raw::c_int;
+pub type _bindgen_ty_19 = ::std::os::raw::c_uint;
 #[doc = "< Repeat capture."]
-pub const CAPTURE_REPEAT: ::std::os::raw::c_int = 0;
+pub const CAPTURE_REPEAT: ::std::os::raw::c_uint = 0;
 #[doc = "< Capture once."]
-pub const CAPTURE_ONE_SHOT: ::std::os::raw::c_int = 1;
+pub const CAPTURE_ONE_SHOT: ::std::os::raw::c_uint = 1;
 #[doc = "< PCM16"]
-pub const CAPTURE_FORMAT_16BIT: ::std::os::raw::c_int = 0;
+pub const CAPTURE_FORMAT_16BIT: ::std::os::raw::c_uint = 0;
 #[doc = "< PCM8"]
-pub const CAPTURE_FORMAT_8BIT: ::std::os::raw::c_int = 2;
+pub const CAPTURE_FORMAT_8BIT: ::std::os::raw::c_uint = 2;
 #[doc = "< Enable capture."]
-pub const CAPTURE_ENABLE: ::std::os::raw::c_int = 32768;
+pub const CAPTURE_ENABLE: ::std::os::raw::c_uint = 32768;
 #[doc = " Capture modes."]
-pub type _bindgen_ty_20 = ::std::os::raw::c_int;
+pub type _bindgen_ty_20 = ::std::os::raw::c_uint;
 #[doc = "< 0.0% duty cycle"]
 pub const CSND_DutyCycle_DutyCycle_0: CSND_DutyCycle = 7;
 #[doc = "< 12.5% duty cycle"]
@@ -16219,7 +16213,7 @@ pub const CSND_DutyCycle_DutyCycle_75: CSND_DutyCycle = 5;
 #[doc = "< 87.5% duty cycle"]
 pub const CSND_DutyCycle_DutyCycle_87: CSND_DutyCycle = 6;
 #[doc = " Duty cycles for a PSG channel."]
-pub type CSND_DutyCycle = ::std::os::raw::c_int;
+pub type CSND_DutyCycle = ::std::os::raw::c_uint;
 #[doc = " Channel info."]
 #[repr(C)]
 #[derive(Copy, Clone)]
@@ -16493,19 +16487,19 @@ extern "C" {
     #[doc = " @brief Flushes the data cache of a memory region."]
     #[doc = " @param adr Address of the memory region."]
     #[doc = " @param size Size of the memory region."]
-    pub fn CSND_FlushDataCache(adr: *mut ::std::os::raw::c_void, size: u32_) -> Result;
+    pub fn CSND_FlushDataCache(adr: *const ::std::os::raw::c_void, size: u32_) -> Result;
 }
 extern "C" {
     #[doc = " @brief Stores the data cache of a memory region."]
     #[doc = " @param adr Address of the memory region."]
     #[doc = " @param size Size of the memory region."]
-    pub fn CSND_StoreDataCache(adr: *mut ::std::os::raw::c_void, size: u32_) -> Result;
+    pub fn CSND_StoreDataCache(adr: *const ::std::os::raw::c_void, size: u32_) -> Result;
 }
 extern "C" {
     #[doc = " @brief Invalidates the data cache of a memory region."]
     #[doc = " @param adr Address of the memory region."]
     #[doc = " @param size Size of the memory region."]
-    pub fn CSND_InvalidateDataCache(adr: *mut ::std::os::raw::c_void, size: u32_) -> Result;
+    pub fn CSND_InvalidateDataCache(adr: *const ::std::os::raw::c_void, size: u32_) -> Result;
 }
 extern "C" {
     #[doc = " @brief Resets CSND."]
@@ -16770,7 +16764,7 @@ extern "C" {
 #[doc = "< Pipe interrupt."]
 pub const DSP_InterruptType_DSP_INTERRUPT_PIPE: DSP_InterruptType = 2;
 #[doc = " DSP interrupt types."]
-pub type DSP_InterruptType = ::std::os::raw::c_int;
+pub type DSP_InterruptType = ::std::os::raw::c_uint;
 #[doc = "< DSP is going to sleep."]
 pub const DSP_HookType_DSPHOOK_ONSLEEP: DSP_HookType = 0;
 #[doc = "< DSP is waking up."]
@@ -16778,7 +16772,7 @@ pub const DSP_HookType_DSPHOOK_ONWAKEUP: DSP_HookType = 1;
 #[doc = "< DSP was sleeping and the app was cancelled."]
 pub const DSP_HookType_DSPHOOK_ONCANCEL: DSP_HookType = 2;
 #[doc = " DSP hook types."]
-pub type DSP_HookType = ::std::os::raw::c_int;
+pub type DSP_HookType = ::std::os::raw::c_uint;
 #[doc = " DSP hook function."]
 pub type dspHookFn = ::std::option::Option<unsafe extern "C" fn(hook: DSP_HookType)>;
 #[doc = " DSP hook cookie."]
@@ -16794,12 +16788,12 @@ pub struct tag_dspHookCookie {
 fn bindgen_test_layout_tag_dspHookCookie() {
     assert_eq!(
         ::std::mem::size_of::<tag_dspHookCookie>(),
-        16usize,
+        8usize,
         concat!("Size of: ", stringify!(tag_dspHookCookie))
     );
     assert_eq!(
         ::std::mem::align_of::<tag_dspHookCookie>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(tag_dspHookCookie))
     );
     assert_eq!(
@@ -16814,7 +16808,7 @@ fn bindgen_test_layout_tag_dspHookCookie() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<tag_dspHookCookie>())).callback as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(tag_dspHookCookie),
@@ -16864,7 +16858,7 @@ extern "C" {
     #[doc = " @param size      Size of the memory range to flush"]
     #[doc = ""]
     #[doc = " Flushes the cache for the specified memory range and invalidates the cache"]
-    pub fn DSP_FlushDataCache(address: *mut ::std::os::raw::c_void, size: u32_) -> Result;
+    pub fn DSP_FlushDataCache(address: *const ::std::os::raw::c_void, size: u32_) -> Result;
 }
 extern "C" {
     #[doc = " @brief Invalidates the cache"]
@@ -16872,7 +16866,7 @@ extern "C" {
     #[doc = " @param size      Size of the memory range to flush"]
     #[doc = ""]
     #[doc = " Invalidates the cache for the specified memory range"]
-    pub fn DSP_InvalidateDataCache(address: *mut ::std::os::raw::c_void, size: u32_) -> Result;
+    pub fn DSP_InvalidateDataCache(address: *const ::std::os::raw::c_void, size: u32_) -> Result;
 }
 extern "C" {
     #[doc = " @brief Retrieves the handle of the DSP semaphore."]
@@ -16900,7 +16894,7 @@ extern "C" {
     #[doc = " @note The binary must be signed (http://3dbrew.org/wiki/DSP_Binary)"]
     #[doc = " @note Seems to be called when the 3ds leaves the Sleep mode"]
     pub fn DSP_LoadComponent(
-        component: *mut ::std::os::raw::c_void,
+        component: *const ::std::os::raw::c_void,
         size: u32_,
         prog_mask: u16_,
         data_mask: u16_,
@@ -16942,7 +16936,7 @@ extern "C" {
     #[doc = " @param length  Length of the message"]
     pub fn DSP_WriteProcessPipe(
         channel: u32_,
-        buffer: *mut ::std::os::raw::c_void,
+        buffer: *const ::std::os::raw::c_void,
         length: u32_,
     ) -> Result;
 }
@@ -17126,7 +17120,7 @@ extern "C" {
         file: FSPXI_File,
         bytesWritten: *mut u32_,
         offset: u64_,
-        buffer: *mut ::std::os::raw::c_void,
+        buffer: *const ::std::os::raw::c_void,
         size: u32_,
         flags: u32_,
     ) -> Result;
@@ -17141,7 +17135,7 @@ extern "C" {
     pub fn FSPXI_CalcSavegameMAC(
         serviceHandle: Handle,
         file: FSPXI_File,
-        inBuffer: *mut ::std::os::raw::c_void,
+        inBuffer: *const ::std::os::raw::c_void,
         inSize: u32_,
         outBuffer: *mut ::std::os::raw::c_void,
         outSize: u32_,
@@ -17406,7 +17400,7 @@ extern "C" {
         serviceHandle: Handle,
         commandId: u8_,
         size: u32_,
-        input: *mut ::std::os::raw::c_void,
+        input: *const ::std::os::raw::c_void,
     ) -> Result;
 }
 extern "C" {
@@ -17420,7 +17414,7 @@ extern "C" {
         commandId: u8_,
         address: u32_,
         size: u32_,
-        input: *mut ::std::os::raw::c_void,
+        input: *const ::std::os::raw::c_void,
     ) -> Result;
 }
 extern "C" {
@@ -17446,7 +17440,7 @@ extern "C" {
         serviceHandle: Handle,
         address: u32_,
         size: u32_,
-        input: *mut ::std::os::raw::c_void,
+        input: *const ::std::os::raw::c_void,
     ) -> Result;
 }
 extern "C" {
@@ -17600,7 +17594,7 @@ extern "C" {
     #[doc = " @param seed Seed to import."]
     pub fn FSPXI_ImportIntegrityVerificationSeed(
         serviceHandle: Handle,
-        seed: *mut FS_IntegrityVerificationSeed,
+        seed: *const FS_IntegrityVerificationSeed,
     ) -> Result;
 }
 extern "C" {
@@ -17637,7 +17631,7 @@ extern "C" {
         serviceHandle: Handle,
         archive: FSPXI_Archive,
         out: *mut u64_,
-        path: *mut u16_,
+        path: *const u16_,
         size: u32_,
     ) -> Result;
 }
@@ -17716,7 +17710,7 @@ extern "C" {
         file: FSPXI_File,
         bytesWritten: *mut u32_,
         offset: u64_,
-        writeBuffer: *mut ::std::os::raw::c_void,
+        writeBuffer: *const ::std::os::raw::c_void,
         writeBufferSize: u32_,
         hashtable: *mut ::std::os::raw::c_void,
         hashtableSize: u32_,
@@ -17795,8 +17789,8 @@ extern "C" {
     pub fn FSREG_Register(
         pid: u32_,
         programHandle: u64_,
-        programInfo: *mut FS_ProgramInfo,
-        storageInfo: *mut ExHeader_Arm11StorageInfo,
+        programInfo: *const FS_ProgramInfo,
+        storageInfo: *const ExHeader_Arm11StorageInfo,
     ) -> Result;
 }
 extern "C" {
@@ -17819,7 +17813,10 @@ extern "C" {
     #[doc = " @brief Loads a program."]
     #[doc = " @param programHandle[out] Pointer to the output the program handle to."]
     #[doc = " @param programInfo Information about the program to load."]
-    pub fn FSREG_LoadProgram(programHandle: *mut u64_, programInfo: *mut FS_ProgramInfo) -> Result;
+    pub fn FSREG_LoadProgram(
+        programHandle: *mut u64_,
+        programInfo: *const FS_ProgramInfo,
+    ) -> Result;
 }
 extern "C" {
     #[doc = " @brief Unloads a program."]
@@ -18097,17 +18094,17 @@ impl MiiData__bindgen_ty_3 {
 }
 #[doc = " Mii details"]
 #[repr(C)]
+#[repr(align(2))]
 #[derive(Debug, Copy, Clone)]
 pub struct MiiData__bindgen_ty_4 {
     pub _bitfield_align_1: [u8; 0],
     pub _bitfield_1: __BindgenBitfieldUnit<[u8; 2usize]>,
-    pub __bindgen_padding_0: u32,
 }
 #[test]
 fn bindgen_test_layout_MiiData__bindgen_ty_4() {
     assert_eq!(
         ::std::mem::size_of::<MiiData__bindgen_ty_4>(),
-        6usize,
+        2usize,
         concat!("Size of: ", stringify!(MiiData__bindgen_ty_4))
     );
     assert_eq!(
@@ -19217,17 +19214,17 @@ impl MiiData__bindgen_ty_14 {
 }
 #[doc = " Mole details"]
 #[repr(C)]
+#[repr(align(2))]
 #[derive(Debug, Copy, Clone)]
 pub struct MiiData__bindgen_ty_15 {
     pub _bitfield_align_1: [u8; 0],
     pub _bitfield_1: __BindgenBitfieldUnit<[u8; 2usize]>,
-    pub __bindgen_padding_0: u16,
 }
 #[test]
 fn bindgen_test_layout_MiiData__bindgen_ty_15() {
     assert_eq!(
         ::std::mem::size_of::<MiiData__bindgen_ty_15>(),
-        4usize,
+        2usize,
         concat!("Size of: ", stringify!(MiiData__bindgen_ty_15))
     );
     assert_eq!(
@@ -19320,7 +19317,7 @@ impl MiiData__bindgen_ty_15 {
 fn bindgen_test_layout_MiiData() {
     assert_eq!(
         ::std::mem::size_of::<MiiData>(),
-        104usize,
+        96usize,
         concat!("Size of: ", stringify!(MiiData))
     );
     assert_eq!(
@@ -19420,7 +19417,7 @@ fn bindgen_test_layout_MiiData() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<MiiData>())).mii_name as *const _ as usize },
-        34usize,
+        30usize,
         concat!(
             "Offset of field: ",
             stringify!(MiiData),
@@ -19430,7 +19427,7 @@ fn bindgen_test_layout_MiiData() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<MiiData>())).height as *const _ as usize },
-        54usize,
+        50usize,
         concat!(
             "Offset of field: ",
             stringify!(MiiData),
@@ -19440,7 +19437,7 @@ fn bindgen_test_layout_MiiData() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<MiiData>())).width as *const _ as usize },
-        55usize,
+        51usize,
         concat!(
             "Offset of field: ",
             stringify!(MiiData),
@@ -19450,7 +19447,7 @@ fn bindgen_test_layout_MiiData() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<MiiData>())).face_style as *const _ as usize },
-        56usize,
+        52usize,
         concat!(
             "Offset of field: ",
             stringify!(MiiData),
@@ -19460,7 +19457,7 @@ fn bindgen_test_layout_MiiData() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<MiiData>())).face_details as *const _ as usize },
-        57usize,
+        53usize,
         concat!(
             "Offset of field: ",
             stringify!(MiiData),
@@ -19470,7 +19467,7 @@ fn bindgen_test_layout_MiiData() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<MiiData>())).hair_style as *const _ as usize },
-        58usize,
+        54usize,
         concat!(
             "Offset of field: ",
             stringify!(MiiData),
@@ -19480,7 +19477,7 @@ fn bindgen_test_layout_MiiData() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<MiiData>())).hair_details as *const _ as usize },
-        59usize,
+        55usize,
         concat!(
             "Offset of field: ",
             stringify!(MiiData),
@@ -19490,7 +19487,7 @@ fn bindgen_test_layout_MiiData() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<MiiData>())).eye_details as *const _ as usize },
-        60usize,
+        56usize,
         concat!(
             "Offset of field: ",
             stringify!(MiiData),
@@ -19500,7 +19497,7 @@ fn bindgen_test_layout_MiiData() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<MiiData>())).eyebrow_details as *const _ as usize },
-        64usize,
+        60usize,
         concat!(
             "Offset of field: ",
             stringify!(MiiData),
@@ -19510,7 +19507,7 @@ fn bindgen_test_layout_MiiData() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<MiiData>())).nose_details as *const _ as usize },
-        68usize,
+        64usize,
         concat!(
             "Offset of field: ",
             stringify!(MiiData),
@@ -19520,7 +19517,7 @@ fn bindgen_test_layout_MiiData() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<MiiData>())).mouth_details as *const _ as usize },
-        70usize,
+        66usize,
         concat!(
             "Offset of field: ",
             stringify!(MiiData),
@@ -19530,7 +19527,7 @@ fn bindgen_test_layout_MiiData() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<MiiData>())).mustache_details as *const _ as usize },
-        72usize,
+        68usize,
         concat!(
             "Offset of field: ",
             stringify!(MiiData),
@@ -19540,7 +19537,7 @@ fn bindgen_test_layout_MiiData() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<MiiData>())).beard_details as *const _ as usize },
-        74usize,
+        70usize,
         concat!(
             "Offset of field: ",
             stringify!(MiiData),
@@ -19550,7 +19547,7 @@ fn bindgen_test_layout_MiiData() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<MiiData>())).glasses_details as *const _ as usize },
-        76usize,
+        72usize,
         concat!(
             "Offset of field: ",
             stringify!(MiiData),
@@ -19560,7 +19557,7 @@ fn bindgen_test_layout_MiiData() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<MiiData>())).mole_details as *const _ as usize },
-        78usize,
+        74usize,
         concat!(
             "Offset of field: ",
             stringify!(MiiData),
@@ -19570,7 +19567,7 @@ fn bindgen_test_layout_MiiData() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<MiiData>())).author_name as *const _ as usize },
-        82usize,
+        76usize,
         concat!(
             "Offset of field: ",
             stringify!(MiiData),
@@ -19891,7 +19888,7 @@ pub const NotificationTypes_FRIEND_REGISTERED_USER: NotificationTypes = 8;
 #[doc = "< Friend Sent invitation"]
 pub const NotificationTypes_FRIEND_SENT_INVITATION: NotificationTypes = 9;
 #[doc = " Enum to use with FRD_GetNotificationEvent"]
-pub type NotificationTypes = ::std::os::raw::c_int;
+pub type NotificationTypes = ::std::os::raw::c_uint;
 extern "C" {
     #[doc = " Initializes FRD service."]
     pub fn frdInit() -> Result;
@@ -19991,7 +19988,7 @@ extern "C" {
     #[doc = " @param size Number of Friendkeys."]
     pub fn FRD_GetFriendMii(
         miiDataList: *mut MiiData,
-        friendKeyList: *mut FriendKey,
+        friendKeyList: *const FriendKey,
         size: size_t,
     ) -> Result;
 }
@@ -20002,7 +19999,7 @@ extern "C" {
     #[doc = " @param size Number of FriendKeys."]
     pub fn FRD_GetFriendProfile(
         profile: *mut FriendProfile,
-        friendKeyList: *mut FriendKey,
+        friendKeyList: *const FriendKey,
         size: size_t,
     ) -> Result;
 }
@@ -20013,7 +20010,7 @@ extern "C" {
     #[doc = " @param size Number Of FriendKeys."]
     pub fn FRD_GetFriendPlayingGame(
         desc: *mut GameDescription,
-        friendKeyList: *mut FriendKey,
+        friendKeyList: *const FriendKey,
         size: size_t,
     ) -> Result;
 }
@@ -20024,7 +20021,7 @@ extern "C" {
     #[doc = " @param count Number Of FriendKeys."]
     pub fn FRD_GetFriendFavouriteGame(
         desc: *mut GameDescription,
-        friendKeyList: *mut FriendKey,
+        friendKeyList: *const FriendKey,
         count: u32_,
     ) -> Result;
 }
@@ -20037,7 +20034,7 @@ extern "C" {
 extern "C" {
     #[doc = " @brief Updates the game mode description string."]
     #[doc = " @param desc Pointer to write the game mode description to."]
-    pub fn FRD_UpdateGameModeDescription(desc: *mut ::std::os::raw::c_char) -> Result;
+    pub fn FRD_UpdateGameModeDescription(desc: *const ::std::os::raw::c_char) -> Result;
 }
 extern "C" {
     #[doc = " @brief Event which is signaled when friend login states change."]
@@ -20091,13 +20088,13 @@ extern "C" {
     pub fn FRD_RemoveFriend(principalId: u32_, localFriendCode: u64_) -> Result;
 }
 #[doc = "< Top screen."]
-pub const GSPLCD_SCREEN_TOP: ::std::os::raw::c_int = 1;
+pub const GSPLCD_SCREEN_TOP: ::std::os::raw::c_uint = 1;
 #[doc = "< Bottom screen."]
-pub const GSPLCD_SCREEN_BOTTOM: ::std::os::raw::c_int = 2;
+pub const GSPLCD_SCREEN_BOTTOM: ::std::os::raw::c_uint = 2;
 #[doc = "< Both screens."]
-pub const GSPLCD_SCREEN_BOTH: ::std::os::raw::c_int = 3;
+pub const GSPLCD_SCREEN_BOTH: ::std::os::raw::c_uint = 3;
 #[doc = " LCD screens."]
-pub type _bindgen_ty_21 = ::std::os::raw::c_int;
+pub type _bindgen_ty_21 = ::std::os::raw::c_uint;
 extern "C" {
     #[doc = " Initializes GSPLCD."]
     pub fn gspLcdInit() -> Result;
@@ -20153,61 +20150,61 @@ extern "C" {
     pub fn GSPLCD_SetBrightnessRaw(screen: u32_, brightness: u32_) -> Result;
 }
 #[doc = "< A"]
-pub const KEY_A: ::std::os::raw::c_int = 1;
+pub const KEY_A: ::std::os::raw::c_uint = 1;
 #[doc = "< B"]
-pub const KEY_B: ::std::os::raw::c_int = 2;
+pub const KEY_B: ::std::os::raw::c_uint = 2;
 #[doc = "< Select"]
-pub const KEY_SELECT: ::std::os::raw::c_int = 4;
+pub const KEY_SELECT: ::std::os::raw::c_uint = 4;
 #[doc = "< Start"]
-pub const KEY_START: ::std::os::raw::c_int = 8;
+pub const KEY_START: ::std::os::raw::c_uint = 8;
 #[doc = "< D-Pad Right"]
-pub const KEY_DRIGHT: ::std::os::raw::c_int = 16;
+pub const KEY_DRIGHT: ::std::os::raw::c_uint = 16;
 #[doc = "< D-Pad Left"]
-pub const KEY_DLEFT: ::std::os::raw::c_int = 32;
+pub const KEY_DLEFT: ::std::os::raw::c_uint = 32;
 #[doc = "< D-Pad Up"]
-pub const KEY_DUP: ::std::os::raw::c_int = 64;
+pub const KEY_DUP: ::std::os::raw::c_uint = 64;
 #[doc = "< D-Pad Down"]
-pub const KEY_DDOWN: ::std::os::raw::c_int = 128;
+pub const KEY_DDOWN: ::std::os::raw::c_uint = 128;
 #[doc = "< R"]
-pub const KEY_R: ::std::os::raw::c_int = 256;
+pub const KEY_R: ::std::os::raw::c_uint = 256;
 #[doc = "< L"]
-pub const KEY_L: ::std::os::raw::c_int = 512;
+pub const KEY_L: ::std::os::raw::c_uint = 512;
 #[doc = "< X"]
-pub const KEY_X: ::std::os::raw::c_int = 1024;
+pub const KEY_X: ::std::os::raw::c_uint = 1024;
 #[doc = "< Y"]
-pub const KEY_Y: ::std::os::raw::c_int = 2048;
+pub const KEY_Y: ::std::os::raw::c_uint = 2048;
 #[doc = "< ZL (New 3DS only)"]
-pub const KEY_ZL: ::std::os::raw::c_int = 16384;
+pub const KEY_ZL: ::std::os::raw::c_uint = 16384;
 #[doc = "< ZR (New 3DS only)"]
-pub const KEY_ZR: ::std::os::raw::c_int = 32768;
+pub const KEY_ZR: ::std::os::raw::c_uint = 32768;
 #[doc = "< Touch (Not actually provided by HID)"]
-pub const KEY_TOUCH: ::std::os::raw::c_int = 1048576;
+pub const KEY_TOUCH: ::std::os::raw::c_uint = 1048576;
 #[doc = "< C-Stick Right (New 3DS only)"]
-pub const KEY_CSTICK_RIGHT: ::std::os::raw::c_int = 16777216;
+pub const KEY_CSTICK_RIGHT: ::std::os::raw::c_uint = 16777216;
 #[doc = "< C-Stick Left (New 3DS only)"]
-pub const KEY_CSTICK_LEFT: ::std::os::raw::c_int = 33554432;
+pub const KEY_CSTICK_LEFT: ::std::os::raw::c_uint = 33554432;
 #[doc = "< C-Stick Up (New 3DS only)"]
-pub const KEY_CSTICK_UP: ::std::os::raw::c_int = 67108864;
+pub const KEY_CSTICK_UP: ::std::os::raw::c_uint = 67108864;
 #[doc = "< C-Stick Down (New 3DS only)"]
-pub const KEY_CSTICK_DOWN: ::std::os::raw::c_int = 134217728;
+pub const KEY_CSTICK_DOWN: ::std::os::raw::c_uint = 134217728;
 #[doc = "< Circle Pad Right"]
-pub const KEY_CPAD_RIGHT: ::std::os::raw::c_int = 268435456;
+pub const KEY_CPAD_RIGHT: ::std::os::raw::c_uint = 268435456;
 #[doc = "< Circle Pad Left"]
-pub const KEY_CPAD_LEFT: ::std::os::raw::c_int = 536870912;
+pub const KEY_CPAD_LEFT: ::std::os::raw::c_uint = 536870912;
 #[doc = "< Circle Pad Up"]
-pub const KEY_CPAD_UP: ::std::os::raw::c_int = 1073741824;
+pub const KEY_CPAD_UP: ::std::os::raw::c_uint = 1073741824;
 #[doc = "< Circle Pad Down"]
-pub const KEY_CPAD_DOWN: ::std::os::raw::c_int = -2147483648;
+pub const KEY_CPAD_DOWN: ::std::os::raw::c_uint = 2147483648;
 #[doc = "< D-Pad Up or Circle Pad Up"]
-pub const KEY_UP: ::std::os::raw::c_int = 1073741888;
+pub const KEY_UP: ::std::os::raw::c_uint = 1073741888;
 #[doc = "< D-Pad Down or Circle Pad Down"]
-pub const KEY_DOWN: ::std::os::raw::c_int = -2147483520;
+pub const KEY_DOWN: ::std::os::raw::c_uint = 2147483776;
 #[doc = "< D-Pad Left or Circle Pad Left"]
-pub const KEY_LEFT: ::std::os::raw::c_int = 536870944;
+pub const KEY_LEFT: ::std::os::raw::c_uint = 536870944;
 #[doc = "< D-Pad Right or Circle Pad Right"]
-pub const KEY_RIGHT: ::std::os::raw::c_int = 268435472;
+pub const KEY_RIGHT: ::std::os::raw::c_uint = 268435472;
 #[doc = " Key values."]
-pub type _bindgen_ty_22 = ::std::os::raw::c_int;
+pub type _bindgen_ty_22 = ::std::os::raw::c_uint;
 #[doc = " Touch position."]
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -20413,7 +20410,7 @@ pub const HID_Event_HIDEVENT_DebugPad: HID_Event = 4;
 #[doc = "< Used to know how many events there are."]
 pub const HID_Event_HIDEVENT_MAX: HID_Event = 5;
 #[doc = " HID events."]
-pub type HID_Event = ::std::os::raw::c_int;
+pub type HID_Event = ::std::os::raw::c_uint;
 extern "C" {
     pub static mut hidMemHandle: Handle;
 }
@@ -20654,14 +20651,14 @@ pub const SSLC_DefaultRootCert_SSLC_DefaultRootCert_AddTrust_External_CA: SSLC_D
 pub const SSLC_DefaultRootCert_SSLC_DefaultRootCert_COMODO: SSLC_DefaultRootCert = 9;
 pub const SSLC_DefaultRootCert_SSLC_DefaultRootCert_USERTrust: SSLC_DefaultRootCert = 10;
 pub const SSLC_DefaultRootCert_SSLC_DefaultRootCert_DigiCert_EV: SSLC_DefaultRootCert = 11;
-pub type SSLC_DefaultRootCert = ::std::os::raw::c_int;
+pub type SSLC_DefaultRootCert = ::std::os::raw::c_uint;
 pub const SSLC_DefaultClientCert_SSLC_DefaultClientCert_ClCertA: SSLC_DefaultClientCert = 64;
-pub type SSLC_DefaultClientCert = ::std::os::raw::c_int;
-pub const SSLCOPT_Default: ::std::os::raw::c_int = 0;
-pub const SSLCOPT_DisableVerify: ::std::os::raw::c_int = 512;
-pub const SSLCOPT_TLSv10: ::std::os::raw::c_int = 2048;
+pub type SSLC_DefaultClientCert = ::std::os::raw::c_uint;
+pub const SSLCOPT_Default: ::std::os::raw::c_uint = 0;
+pub const SSLCOPT_DisableVerify: ::std::os::raw::c_uint = 512;
+pub const SSLCOPT_TLSv10: ::std::os::raw::c_uint = 2048;
 #[doc = " sslc options. https://www.3dbrew.org/wiki/SSL_Services#SSLOpt"]
-pub type _bindgen_ty_23 = ::std::os::raw::c_int;
+pub type _bindgen_ty_23 = ::std::os::raw::c_uint;
 extern "C" {
     #[doc = " Initializes SSLC. Normally session_handle should be 0. When non-zero this will use the specified handle for the main-service-session without using the Initialize command, instead of using srvGetServiceHandle."]
     pub fn sslcInit(session_handle: Handle) -> Result;
@@ -20687,7 +20684,7 @@ extern "C" {
     #[doc = " @param certsize Size of the DER cert."]
     pub fn sslcAddTrustedRootCA(
         RootCertChain_contexthandle: u32_,
-        cert: *mut u8_,
+        cert: *const u8_,
         certsize: u32_,
         cert_contexthandle: *mut u32_,
     ) -> Result;
@@ -20729,7 +20726,7 @@ extern "C" {
     #[doc = " @param certsize Size of the cert."]
     pub fn sslc8CertChainAddCert(
         CertChain_contexthandle: u32_,
-        cert: *mut u8_,
+        cert: *const u8_,
         certsize: u32_,
         cert_contexthandle: *mut u32_,
     ) -> Result;
@@ -20762,9 +20759,9 @@ extern "C" {
     #[doc = " @param keysize Size of the DER key."]
     #[doc = " @param ClientCert_contexthandle Output contexthandle."]
     pub fn sslcOpenClientCertContext(
-        cert: *mut u8_,
+        cert: *const u8_,
         certsize: u32_,
-        key: *mut u8_,
+        key: *const u8_,
         keysize: u32_,
         ClientCert_contexthandle: *mut u32_,
     ) -> Result;
@@ -20803,7 +20800,7 @@ extern "C" {
         context: *mut sslcContext,
         sockfd: ::std::os::raw::c_int,
         input_opt: u32_,
-        hostname: *mut ::std::os::raw::c_char,
+        hostname: *const ::std::os::raw::c_char,
     ) -> Result;
 }
 extern "C" {
@@ -20827,7 +20824,7 @@ extern "C" {
 extern "C" {
     pub fn sslcWrite(
         context: *mut sslcContext,
-        buf: *mut ::std::os::raw::c_void,
+        buf: *const ::std::os::raw::c_void,
         len: size_t,
     ) -> Result;
 }
@@ -20860,7 +20857,7 @@ extern "C" {
         -> Result;
 }
 extern "C" {
-    pub fn sslcAddCert(context: *mut sslcContext, buf: *mut u8_, size: u32_) -> Result;
+    pub fn sslcAddCert(context: *mut sslcContext, buf: *const u8_, size: u32_) -> Result;
 }
 #[doc = " HTTP context."]
 #[repr(C)]
@@ -20910,17 +20907,17 @@ pub const HTTPC_RequestMethod_HTTPC_METHOD_HEAD: HTTPC_RequestMethod = 3;
 pub const HTTPC_RequestMethod_HTTPC_METHOD_PUT: HTTPC_RequestMethod = 4;
 pub const HTTPC_RequestMethod_HTTPC_METHOD_DELETE: HTTPC_RequestMethod = 5;
 #[doc = " HTTP request method."]
-pub type HTTPC_RequestMethod = ::std::os::raw::c_int;
+pub type HTTPC_RequestMethod = ::std::os::raw::c_uint;
 #[doc = "< Request in progress."]
 pub const HTTPC_RequestStatus_HTTPC_STATUS_REQUEST_IN_PROGRESS: HTTPC_RequestStatus = 5;
 #[doc = "< Download ready."]
 pub const HTTPC_RequestStatus_HTTPC_STATUS_DOWNLOAD_READY: HTTPC_RequestStatus = 7;
 #[doc = " HTTP request status."]
-pub type HTTPC_RequestStatus = ::std::os::raw::c_int;
+pub type HTTPC_RequestStatus = ::std::os::raw::c_uint;
 pub const HTTPC_KeepAlive_HTTPC_KEEPALIVE_DISABLED: HTTPC_KeepAlive = 0;
 pub const HTTPC_KeepAlive_HTTPC_KEEPALIVE_ENABLED: HTTPC_KeepAlive = 1;
 #[doc = " HTTP KeepAlive option."]
-pub type HTTPC_KeepAlive = ::std::os::raw::c_int;
+pub type HTTPC_KeepAlive = ::std::os::raw::c_uint;
 extern "C" {
     #[doc = " Initializes HTTPC. For HTTP GET the sharedmem_size can be zero. The sharedmem contains data which will be later uploaded for HTTP POST. sharedmem_size should be aligned to 0x1000-bytes."]
     pub fn httpcInit(sharedmem_size: u32_) -> Result;
@@ -20937,7 +20934,7 @@ extern "C" {
     pub fn httpcOpenContext(
         context: *mut httpcContext,
         method: HTTPC_RequestMethod,
-        url: *mut ::std::os::raw::c_char,
+        url: *const ::std::os::raw::c_char,
         use_defaultproxy: u32_,
     ) -> Result;
 }
@@ -20958,8 +20955,8 @@ extern "C" {
     #[doc = " @param value Value of the field."]
     pub fn httpcAddRequestHeaderField(
         context: *mut httpcContext,
-        name: *mut ::std::os::raw::c_char,
-        value: *mut ::std::os::raw::c_char,
+        name: *const ::std::os::raw::c_char,
+        value: *const ::std::os::raw::c_char,
     ) -> Result;
 }
 extern "C" {
@@ -20969,8 +20966,8 @@ extern "C" {
     #[doc = " @param value Value of the field."]
     pub fn httpcAddPostDataAscii(
         context: *mut httpcContext,
-        name: *mut ::std::os::raw::c_char,
-        value: *mut ::std::os::raw::c_char,
+        name: *const ::std::os::raw::c_char,
+        value: *const ::std::os::raw::c_char,
     ) -> Result;
 }
 extern "C" {
@@ -20981,8 +20978,8 @@ extern "C" {
     #[doc = " @param len Length of the binary data which has been passed."]
     pub fn httpcAddPostDataBinary(
         context: *mut httpcContext,
-        name: *mut ::std::os::raw::c_char,
-        value: *mut u8_,
+        name: *const ::std::os::raw::c_char,
+        value: *const u8_,
         len: u32_,
     ) -> Result;
 }
@@ -20991,7 +20988,7 @@ extern "C" {
     #[doc = " @param context Context to use."]
     #[doc = " @param data The data to be passed as raw into the body of the post request."]
     #[doc = " @param len Length of data passed by data param."]
-    pub fn httpcAddPostDataRaw(context: *mut httpcContext, data: *mut u32_, len: u32_) -> Result;
+    pub fn httpcAddPostDataRaw(context: *mut httpcContext, data: *const u32_, len: u32_) -> Result;
 }
 extern "C" {
     #[doc = " @brief Begins a HTTP request."]
@@ -21063,7 +21060,7 @@ extern "C" {
     #[doc = " @param valuebuf_maxsize Maximum size of the value buffer."]
     pub fn httpcGetResponseHeader(
         context: *mut httpcContext,
-        name: *mut ::std::os::raw::c_char,
+        name: *const ::std::os::raw::c_char,
         value: *mut ::std::os::raw::c_char,
         valuebuf_maxsize: u32_,
     ) -> Result;
@@ -21075,7 +21072,7 @@ extern "C" {
     #[doc = " @param certsize Size of the DER cert."]
     pub fn httpcAddTrustedRootCA(
         context: *mut httpcContext,
-        cert: *mut u8_,
+        cert: *const u8_,
         certsize: u32_,
     ) -> Result;
 }
@@ -21103,9 +21100,9 @@ extern "C" {
     #[doc = " @param privk_size Size of the privk."]
     pub fn httpcSetClientCert(
         context: *mut httpcContext,
-        cert: *mut u8_,
+        cert: *const u8_,
         certsize: u32_,
-        privk: *mut u8_,
+        privk: *const u8_,
         privk_size: u32_,
     ) -> Result;
 }
@@ -21159,7 +21156,7 @@ extern "C" {
     #[doc = " @param cert_contexthandle Optional output ptr for the cert contexthandle(this can be NULL)."]
     pub fn httpcRootCertChainAddCert(
         RootCertChain_contexthandle: u32_,
-        cert: *mut u8_,
+        cert: *const u8_,
         certsize: u32_,
         cert_contexthandle: *mut u32_,
     ) -> Result;
@@ -21192,9 +21189,9 @@ extern "C" {
     #[doc = " @param privk_size Size of the privk."]
     #[doc = " @param ClientCert_contexthandle Output ClientCert context handle."]
     pub fn httpcOpenClientCertContext(
-        cert: *mut u8_,
+        cert: *const u8_,
         certsize: u32_,
-        privk: *mut u8_,
+        privk: *const u8_,
         privk_size: u32_,
         ClientCert_contexthandle: *mut u32_,
     ) -> Result;
@@ -22108,22 +22105,22 @@ fn bindgen_test_layout_udsNetworkScanInfo() {
         )
     );
 }
-pub const UDSNETATTR_DisableConnectSpectators: ::std::os::raw::c_int = 1;
-pub const UDSNETATTR_DisableConnectClients: ::std::os::raw::c_int = 2;
-pub const UDSNETATTR_x4: ::std::os::raw::c_int = 4;
-pub const UDSNETATTR_Default: ::std::os::raw::c_int = 32768;
-pub type _bindgen_ty_24 = ::std::os::raw::c_int;
-pub const UDS_SENDFLAG_Default: ::std::os::raw::c_int = 1;
-pub const UDS_SENDFLAG_Broadcast: ::std::os::raw::c_int = 2;
-pub type _bindgen_ty_25 = ::std::os::raw::c_int;
+pub const UDSNETATTR_DisableConnectSpectators: ::std::os::raw::c_uint = 1;
+pub const UDSNETATTR_DisableConnectClients: ::std::os::raw::c_uint = 2;
+pub const UDSNETATTR_x4: ::std::os::raw::c_uint = 4;
+pub const UDSNETATTR_Default: ::std::os::raw::c_uint = 32768;
+pub type _bindgen_ty_24 = ::std::os::raw::c_uint;
+pub const UDS_SENDFLAG_Default: ::std::os::raw::c_uint = 1;
+pub const UDS_SENDFLAG_Broadcast: ::std::os::raw::c_uint = 2;
+pub type _bindgen_ty_25 = ::std::os::raw::c_uint;
 pub const udsConnectionType_UDSCONTYPE_Client: udsConnectionType = 1;
 pub const udsConnectionType_UDSCONTYPE_Spectator: udsConnectionType = 2;
-pub type udsConnectionType = ::std::os::raw::c_int;
+pub type udsConnectionType = ::std::os::raw::c_uint;
 extern "C" {
     #[doc = " @brief Initializes UDS."]
     #[doc = " @param sharedmem_size This must be 0x1000-byte aligned."]
     #[doc = " @param username Optional custom UTF-8 username(converted to UTF-16 internally) that other nodes on the UDS network can use. If not set the username from system-config is used. Max len is 10 characters without NUL-terminator."]
-    pub fn udsInit(sharedmem_size: size_t, username: *mut ::std::os::raw::c_char) -> Result;
+    pub fn udsInit(sharedmem_size: size_t, username: *const ::std::os::raw::c_char) -> Result;
 }
 extern "C" {
     #[doc = " Exits UDS."]
@@ -22135,7 +22132,7 @@ extern "C" {
     #[doc = " @param username If set, this is the UTF-8 string to convert for use in the struct. Max len is 10 characters without NUL-terminator."]
     pub fn udsGenerateNodeInfo(
         nodeinfo: *mut udsNodeInfo,
-        username: *mut ::std::os::raw::c_char,
+        username: *const ::std::os::raw::c_char,
     ) -> Result;
 }
 extern "C" {
@@ -22143,14 +22140,14 @@ extern "C" {
     #[doc = " @param nodeinfo Input NodeInfo struct."]
     #[doc = " @param username This is the output UTF-8 string. Max len is 10 characters without NUL-terminator."]
     pub fn udsGetNodeInfoUsername(
-        nodeinfo: *mut udsNodeInfo,
+        nodeinfo: *const udsNodeInfo,
         username: *mut ::std::os::raw::c_char,
     ) -> Result;
 }
 extern "C" {
     #[doc = " @brief Checks whether a NodeInfo struct was initialized by NWM-module(not any output from udsGenerateNodeInfo())."]
     #[doc = " @param nodeinfo Input NodeInfo struct."]
-    pub fn udsCheckNodeInfoInitialized(nodeinfo: *mut udsNodeInfo) -> bool;
+    pub fn udsCheckNodeInfoInitialized(nodeinfo: *const udsNodeInfo) -> bool;
 }
 extern "C" {
     #[doc = " @brief Generates a default NetworkStruct for creating networks."]
@@ -22182,7 +22179,7 @@ extern "C" {
         total_networks: *mut size_t,
         wlancommID: u32_,
         id8: u8_,
-        host_macaddress: *mut u8_,
+        host_macaddress: *const u8_,
         connected: bool,
     ) -> Result;
 }
@@ -22190,7 +22187,7 @@ extern "C" {
     #[doc = " @brief This can be used by the host to set the appdata contained in the broadcasted beacons."]
     #[doc = " @param buf Appdata buffer."]
     #[doc = " @param size Size of the input appdata."]
-    pub fn udsSetApplicationData(buf: *mut ::std::os::raw::c_void, size: size_t) -> Result;
+    pub fn udsSetApplicationData(buf: *const ::std::os::raw::c_void, size: size_t) -> Result;
 }
 extern "C" {
     #[doc = " @brief This can be used while on a network(host/client) to get the appdata from the current beacon."]
@@ -22209,7 +22206,7 @@ extern "C" {
     #[doc = " @param size Max size of the output buffer."]
     #[doc = " @param actual_size If set, the actual size of the appdata written into the buffer is stored here."]
     pub fn udsGetNetworkStructApplicationData(
-        network: *mut udsNetworkStruct,
+        network: *const udsNetworkStruct,
         buf: *mut ::std::os::raw::c_void,
         size: size_t,
         actual_size: *mut size_t,
@@ -22242,7 +22239,7 @@ extern "C" {
     #[doc = " @param nextEvent Whether to discard the current event and wait for the next event."]
     #[doc = " @param wait When true this will not return until the event is signaled. When false this checks if the event was signaled without waiting for it."]
     pub fn udsWaitDataAvailable(
-        bindcontext: *mut udsBindContext,
+        bindcontext: *const udsBindContext,
         nextEvent: bool,
         wait: bool,
     ) -> bool;
@@ -22255,7 +22252,7 @@ extern "C" {
     #[doc = " @param actual_size If set, the actual size written into the output buffer is stored here. This is zero when no data was received."]
     #[doc = " @param src_NetworkNodeID If set, the source NetworkNodeID is written here. This is zero when no data was received."]
     pub fn udsPullPacket(
-        bindcontext: *mut udsBindContext,
+        bindcontext: *const udsBindContext,
         buf: *mut ::std::os::raw::c_void,
         size: size_t,
         actual_size: *mut size_t,
@@ -22273,7 +22270,7 @@ extern "C" {
         dst_NetworkNodeID: u16_,
         data_channel: u8_,
         flags: u8_,
-        buf: *mut ::std::os::raw::c_void,
+        buf: *const ::std::os::raw::c_void,
         size: size_t,
     ) -> Result;
 }
@@ -22291,8 +22288,8 @@ extern "C" {
     #[doc = " @param data_channel This is the data_channel value which will be passed to udsBind() internally."]
     #[doc = " @param recv_buffer_size This is the recv_buffer_size value which will be passed to udsBind() internally."]
     pub fn udsCreateNetwork(
-        network: *mut udsNetworkStruct,
-        passphrase: *mut ::std::os::raw::c_void,
+        network: *const udsNetworkStruct,
+        passphrase: *const ::std::os::raw::c_void,
         passphrase_size: size_t,
         context: *mut udsBindContext,
         data_channel: u8_,
@@ -22310,8 +22307,8 @@ extern "C" {
     #[doc = " @param data_channel This is the data_channel value which will be passed to udsBind() internally."]
     #[doc = " @param recv_buffer_size This is the recv_buffer_size value which will be passed to udsBind() internally."]
     pub fn udsConnectNetwork(
-        network: *mut udsNetworkStruct,
-        passphrase: *mut ::std::os::raw::c_void,
+        network: *const udsNetworkStruct,
+        passphrase: *const ::std::os::raw::c_void,
         passphrase_size: size_t,
         context: *mut udsBindContext,
         recv_NetworkNodeID: u16_,
@@ -22378,7 +22375,7 @@ pub const ndmExclusiveState_NDM_EXCLUSIVE_STATE_LOCAL_COMMUNICATIONS: ndmExclusi
 pub const ndmExclusiveState_NDM_EXCLUSIVE_STATE_STREETPASS: ndmExclusiveState = 3;
 pub const ndmExclusiveState_NDM_EXCLUSIVE_STATE_STREETPASS_DATA: ndmExclusiveState = 4;
 #[doc = " Exclusive states."]
-pub type ndmExclusiveState = ::std::os::raw::c_int;
+pub type ndmExclusiveState = ::std::os::raw::c_uint;
 pub const ndmState_NDM_STATE_INITIAL: ndmState = 0;
 pub const ndmState_NDM_STATE_SUSPENDED: ndmState = 1;
 pub const ndmState_NDM_STATE_INFRASTRUCTURE_CONNECTING: ndmState = 2;
@@ -22392,12 +22389,12 @@ pub const ndmState_NDM_STATE_CEC_WORKING: ndmState = 9;
 pub const ndmState_NDM_STATE_CEC_FORCE_SUSPENDING: ndmState = 10;
 pub const ndmState_NDM_STATE_CEC_SUSPENDING: ndmState = 11;
 #[doc = " Current states."]
-pub type ndmState = ::std::os::raw::c_int;
+pub type ndmState = ::std::os::raw::c_uint;
 pub const ndmDaemon_NDM_DAEMON_CEC: ndmDaemon = 0;
 pub const ndmDaemon_NDM_DAEMON_BOSS: ndmDaemon = 1;
 pub const ndmDaemon_NDM_DAEMON_NIM: ndmDaemon = 2;
 pub const ndmDaemon_NDM_DAEMON_FRIENDS: ndmDaemon = 3;
-pub type ndmDaemon = ::std::os::raw::c_int;
+pub type ndmDaemon = ::std::os::raw::c_uint;
 pub const ndmDaemonMask_NDM_DAEMON_MASK_CEC: ndmDaemonMask = 1;
 pub const ndmDaemonMask_NDM_DAEMON_MASK_BOSS: ndmDaemonMask = 2;
 pub const ndmDaemonMask_NDM_DAEMON_MASK_NIM: ndmDaemonMask = 4;
@@ -22406,12 +22403,12 @@ pub const ndmDaemonMask_NDM_DAEMON_MASK_BACKGROUOND: ndmDaemonMask = 7;
 pub const ndmDaemonMask_NDM_DAEMON_MASK_ALL: ndmDaemonMask = 15;
 pub const ndmDaemonMask_NDM_DAEMON_MASK_DEFAULT: ndmDaemonMask = 9;
 #[doc = " Used to specify multiple daemons."]
-pub type ndmDaemonMask = ::std::os::raw::c_int;
+pub type ndmDaemonMask = ::std::os::raw::c_uint;
 pub const ndmDaemonStatus_NDM_DAEMON_STATUS_BUSY: ndmDaemonStatus = 0;
 pub const ndmDaemonStatus_NDM_DAEMON_STATUS_IDLE: ndmDaemonStatus = 1;
 pub const ndmDaemonStatus_NDM_DAEMON_STATUS_SUSPENDING: ndmDaemonStatus = 2;
 pub const ndmDaemonStatus_NDM_DAEMON_STATUS_SUSPENDED: ndmDaemonStatus = 3;
-pub type ndmDaemonStatus = ::std::os::raw::c_int;
+pub type ndmDaemonStatus = ::std::os::raw::c_uint;
 extern "C" {
     #[doc = " Initializes ndmu."]
     pub fn ndmuInit() -> Result;
@@ -22508,7 +22505,7 @@ pub const NIM_InstallationMode_IM_UNKNOWN2: NIM_InstallationMode = 2;
 #[doc = "< Reinstall currently installed title; use this if the title is already installed (including updates)"]
 pub const NIM_InstallationMode_IM_REINSTALL: NIM_InstallationMode = 3;
 #[doc = " Mode that NIM downloads/installs a title with."]
-pub type NIM_InstallationMode = ::std::os::raw::c_int;
+pub type NIM_InstallationMode = ::std::os::raw::c_uint;
 #[doc = "< Download not yet initialized"]
 pub const NIM_DownloadState_DS_NOT_INITIALIZED: NIM_DownloadState = 0;
 #[doc = "< Download initialized"]
@@ -22534,7 +22531,7 @@ pub const NIM_DownloadState_DS_CANNOT_RECOVER: NIM_DownloadState = 10;
 #[doc = "< Invalid state"]
 pub const NIM_DownloadState_DS_INVALID: NIM_DownloadState = 11;
 #[doc = " Current state of a NIM download/installation."]
-pub type NIM_DownloadState = ::std::os::raw::c_int;
+pub type NIM_DownloadState = ::std::os::raw::c_uint;
 #[doc = " Input configuration for NIM download/installation tasks."]
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -22719,7 +22716,7 @@ extern "C" {
     pub fn nimsInitWithTIN(
         buffer: *mut ::std::os::raw::c_void,
         buffer_len: size_t,
-        TIN: *mut ::std::os::raw::c_char,
+        TIN: *const ::std::os::raw::c_char,
     ) -> Result;
 }
 extern "C" {
@@ -22735,8 +22732,8 @@ extern "C" {
     #[doc = " @param attr Name of the attribute."]
     #[doc = " @param val Value of the attribute."]
     pub fn NIMS_SetAttribute(
-        attr: *mut ::std::os::raw::c_char,
-        val: *mut ::std::os::raw::c_char,
+        attr: *const ::std::os::raw::c_char,
+        val: *const ::std::os::raw::c_char,
     ) -> Result;
 }
 extern "C" {
@@ -22765,9 +22762,9 @@ extern "C" {
     #[doc = " @param name Name of the title in UTF-8. Will be displayed on the HOME Menu. Maximum 73 characters."]
     #[doc = " @param maker Name of the maker/publisher in UTF-8. Will be displayed on the HOME Menu. Maximum 37 characters."]
     pub fn NIMS_RegisterTask(
-        cfg: *mut NIM_TitleConfig,
-        name: *mut ::std::os::raw::c_char,
-        maker: *mut ::std::os::raw::c_char,
+        cfg: *const NIM_TitleConfig,
+        name: *const ::std::os::raw::c_char,
+        maker: *const ::std::os::raw::c_char,
     ) -> Result;
 }
 extern "C" {
@@ -22785,12 +22782,12 @@ extern "C" {
     #[doc = " @brief Starts an active download with NIM. Progress can be checked with @ref NIMS_GetProcess. Do not exit the process while a download is in progress without calling @ref NIMS_CancelDownload."]
     #[doc = " @param cfg Title config to use. See @ref NIMS_MakeTitleConfig."]
     #[doc = " @param mode The installation mode to use. See @ref NIM_InstallationMode."]
-    pub fn NIMS_StartDownload(cfg: *mut NIM_TitleConfig, mode: NIM_InstallationMode) -> Result;
+    pub fn NIMS_StartDownload(cfg: *const NIM_TitleConfig, mode: NIM_InstallationMode) -> Result;
 }
 extern "C" {
     #[doc = " @brief Starts an active download with NIM with default installation mode; cannot reinstall titles. Progress can be checked with @ref NIMS_GetProcess. Do not exit the process while a download is in progress without calling @ref NIMS_CancelDownload."]
     #[doc = " @param cfg Title config to use. See @ref NIMS_MakeTitleConfig."]
-    pub fn NIMS_StartDownloadSimple(cfg: *mut NIM_TitleConfig) -> Result;
+    pub fn NIMS_StartDownloadSimple(cfg: *const NIM_TitleConfig) -> Result;
 }
 extern "C" {
     #[doc = " @brief Checks the status of the current active download."]
@@ -22945,18 +22942,18 @@ extern "C" {
     #[doc = " Reboots the system"]
     pub fn NS_RebootSystem() -> Result;
 }
-pub const PMLAUNCHFLAG_NORMAL_APPLICATION: ::std::os::raw::c_int = 1;
-pub const PMLAUNCHFLAG_LOAD_DEPENDENCIES: ::std::os::raw::c_int = 2;
-pub const PMLAUNCHFLAG_NOTIFY_TERMINATION: ::std::os::raw::c_int = 4;
-pub const PMLAUNCHFLAG_QUEUE_DEBUG_APPLICATION: ::std::os::raw::c_int = 8;
-pub const PMLAUNCHFLAG_TERMINATION_NOTIFICATION_MASK: ::std::os::raw::c_int = 240;
+pub const PMLAUNCHFLAG_NORMAL_APPLICATION: ::std::os::raw::c_uint = 1;
+pub const PMLAUNCHFLAG_LOAD_DEPENDENCIES: ::std::os::raw::c_uint = 2;
+pub const PMLAUNCHFLAG_NOTIFY_TERMINATION: ::std::os::raw::c_uint = 4;
+pub const PMLAUNCHFLAG_QUEUE_DEBUG_APPLICATION: ::std::os::raw::c_uint = 8;
+pub const PMLAUNCHFLAG_TERMINATION_NOTIFICATION_MASK: ::std::os::raw::c_uint = 240;
 #[doc = "< Forces the usage of the O3DS system mode app memory setting even if N3DS system mode is not \"Legacy\". Dev4 and Dev5 not supported. N3DS only."]
-pub const PMLAUNCHFLAG_FORCE_USE_O3DS_APP_MEM: ::std::os::raw::c_int = 256;
+pub const PMLAUNCHFLAG_FORCE_USE_O3DS_APP_MEM: ::std::os::raw::c_uint = 256;
 #[doc = "< In conjunction with the above, forces the 96MB app memory setting. N3DS only."]
-pub const PMLAUNCHFLAG_FORCE_USE_O3DS_MAX_APP_MEM: ::std::os::raw::c_int = 512;
-pub const PMLAUNCHFLAG_USE_UPDATE_TITLE: ::std::os::raw::c_int = 65536;
+pub const PMLAUNCHFLAG_FORCE_USE_O3DS_MAX_APP_MEM: ::std::os::raw::c_uint = 512;
+pub const PMLAUNCHFLAG_USE_UPDATE_TITLE: ::std::os::raw::c_uint = 65536;
 #[doc = " Launch flags for PM launch commands."]
-pub type _bindgen_ty_26 = ::std::os::raw::c_int;
+pub type _bindgen_ty_26 = ::std::os::raw::c_uint;
 extern "C" {
     #[doc = " Initializes pm:app."]
     pub fn pmAppInit() -> Result;
@@ -22974,7 +22971,7 @@ extern "C" {
     #[doc = " @brief Launches a title."]
     #[doc = " @param programInfo Program information of the title."]
     #[doc = " @param launchFlags Flags to launch the title with."]
-    pub fn PMAPP_LaunchTitle(programInfo: *mut FS_ProgramInfo, launchFlags: u32_) -> Result;
+    pub fn PMAPP_LaunchTitle(programInfo: *const FS_ProgramInfo, launchFlags: u32_) -> Result;
 }
 extern "C" {
     #[doc = " @brief Launches a title, applying patches."]
@@ -22982,8 +22979,8 @@ extern "C" {
     #[doc = " @param programInfoUpdate Program information of the update title."]
     #[doc = " @param launchFlags Flags to launch the title with."]
     pub fn PMAPP_LaunchTitleUpdate(
-        programInfo: *mut FS_ProgramInfo,
-        programInfoUpdate: *mut FS_ProgramInfo,
+        programInfo: *const FS_ProgramInfo,
+        programInfoUpdate: *const FS_ProgramInfo,
         launchFlags: u32_,
     ) -> Result;
 }
@@ -22995,14 +22992,14 @@ extern "C" {
     pub fn PMAPP_GetTitleExheaderFlags(
         outCoreInfo: *mut ExHeader_Arm11CoreInfo,
         outSiFlags: *mut ExHeader_SystemInfoFlags,
-        programInfo: *mut FS_ProgramInfo,
+        programInfo: *const FS_ProgramInfo,
     ) -> Result;
 }
 extern "C" {
     #[doc = " @brief Sets the current FIRM launch parameters."]
     #[doc = " @param size Size of the FIRM launch parameter buffer."]
     #[doc = " @param in Buffer to retrieve the launch parameters from."]
-    pub fn PMAPP_SetFIRMLaunchParams(size: u32_, in_: *mut ::std::os::raw::c_void) -> Result;
+    pub fn PMAPP_SetFIRMLaunchParams(size: u32_, in_: *const ::std::os::raw::c_void) -> Result;
 }
 extern "C" {
     #[doc = " @brief Gets the current FIRM launch parameters."]
@@ -23018,7 +23015,7 @@ extern "C" {
     pub fn PMAPP_LaunchFIRMSetParams(
         firmTidLow: u32_,
         size: u32_,
-        in_: *mut ::std::os::raw::c_void,
+        in_: *const ::std::os::raw::c_void,
     ) -> Result;
 }
 extern "C" {
@@ -23080,7 +23077,7 @@ extern "C" {
     #[doc = " @param launchFlags Flags to launch the title with."]
     pub fn PMDBG_LaunchAppDebug(
         outDebug: *mut Handle,
-        programInfo: *mut FS_ProgramInfo,
+        programInfo: *const FS_ProgramInfo,
         launchFlags: u32_,
     ) -> Result;
 }
@@ -23088,7 +23085,7 @@ extern "C" {
     #[doc = " @brief Launches an application for debug after setting cpuTime to 0."]
     #[doc = " @param programInfo Program information of the title."]
     #[doc = " @param launchFlags Flags to launch the title with."]
-    pub fn PMDBG_LaunchApp(programInfo: *mut FS_ProgramInfo, launchFlags: u32_) -> Result;
+    pub fn PMDBG_LaunchApp(programInfo: *const FS_ProgramInfo, launchFlags: u32_) -> Result;
 }
 extern "C" {
     #[doc = " @brief Runs the queued process and returns a debug handle to it."]
@@ -23108,7 +23105,7 @@ pub const PS_AESAlgorithm_PS_ALGORITHM_CCM_ENC: PS_AESAlgorithm = 4;
 #[doc = "< CCM decryption."]
 pub const PS_AESAlgorithm_PS_ALGORITHM_CCM_DEC: PS_AESAlgorithm = 5;
 #[doc = " PS AES algorithms."]
-pub type PS_AESAlgorithm = ::std::os::raw::c_int;
+pub type PS_AESAlgorithm = ::std::os::raw::c_uint;
 #[doc = "< Key slot 0x0D."]
 pub const PS_AESKeyType_PS_KEYSLOT_0D: PS_AESKeyType = 0;
 #[doc = "< Key slot 0x2D."]
@@ -23130,7 +23127,7 @@ pub const PS_AESKeyType_PS_KEYSLOT_36: PS_AESKeyType = 8;
 #[doc = "< Key slot 0x39. (NFC)"]
 pub const PS_AESKeyType_PS_KEYSLOT_39_NFC: PS_AESKeyType = 9;
 #[doc = " PS key slots."]
-pub type PS_AESKeyType = ::std::os::raw::c_int;
+pub type PS_AESKeyType = ::std::os::raw::c_uint;
 #[doc = " RSA context."]
 #[repr(C)]
 #[derive(Copy, Clone)]
@@ -23413,26 +23410,26 @@ fn bindgen_test_layout_PtmSleepConfig() {
     );
 }
 #[doc = "< @ref PTMSYSM_RequestSleep has been called (ack = 3)"]
-pub const PTMNOTIFID_SLEEP_REQUESTED: ::std::os::raw::c_int = 257;
+pub const PTMNOTIFID_SLEEP_REQUESTED: ::std::os::raw::c_uint = 257;
 #[doc = "< The sleep request has been denied by @ref PTMSYSM_ReplyToSleepQuery(true) (no ack required)."]
-pub const PTMNOTIFID_SLEEP_DENIED: ::std::os::raw::c_int = 258;
+pub const PTMNOTIFID_SLEEP_DENIED: ::std::os::raw::c_uint = 258;
 #[doc = "< The sleep request has been allowed by @ref PTMSYSM_ReplyToSleepQuery(false) (ack = 1)."]
-pub const PTMNOTIFID_SLEEP_ALLOWED: ::std::os::raw::c_int = 259;
+pub const PTMNOTIFID_SLEEP_ALLOWED: ::std::os::raw::c_uint = 259;
 #[doc = "< All processes not having \"RunnableOnSleep\" have been paused & the system is about to go to sleep (ack = 0)."]
-pub const PTMNOTIFID_GOING_TO_SLEEP: ::std::os::raw::c_int = 260;
+pub const PTMNOTIFID_GOING_TO_SLEEP: ::std::os::raw::c_uint = 260;
 #[doc = "< The system has been woken up, and the paused processes are about to be unpaused (ack = 1)."]
-pub const PTMNOTIFID_FULLY_WAKING_UP: ::std::os::raw::c_int = 261;
+pub const PTMNOTIFID_FULLY_WAKING_UP: ::std::os::raw::c_uint = 261;
 #[doc = "< The system is fully awake (no ack required)."]
-pub const PTMNOTIFID_FULLY_AWAKE: ::std::os::raw::c_int = 262;
+pub const PTMNOTIFID_FULLY_AWAKE: ::std::os::raw::c_uint = 262;
 #[doc = "< The system has been woken up but is about to go to sleep again (ack = 2)."]
-pub const PTMNOTIFID_HALF_AWAKE: ::std::os::raw::c_int = 263;
+pub const PTMNOTIFID_HALF_AWAKE: ::std::os::raw::c_uint = 263;
 #[doc = "< The system is about to power off or reboot."]
-pub const PTMNOTIFID_SHUTDOWN: ::std::os::raw::c_int = 264;
+pub const PTMNOTIFID_SHUTDOWN: ::std::os::raw::c_uint = 264;
 #[doc = "< The battery level has reached 5% or below."]
-pub const PTMNOTIFID_BATTERY_VERY_LOW: ::std::os::raw::c_int = 529;
+pub const PTMNOTIFID_BATTERY_VERY_LOW: ::std::os::raw::c_uint = 529;
 #[doc = "< The battery level has reached 10% or below."]
-pub const PTMNOTIFID_BATTERY_LOW: ::std::os::raw::c_int = 530;
-pub type _bindgen_ty_27 = ::std::os::raw::c_int;
+pub const PTMNOTIFID_BATTERY_LOW: ::std::os::raw::c_uint = 530;
+pub type _bindgen_ty_27 = ::std::os::raw::c_uint;
 extern "C" {
     #[doc = " Initializes ptm:sysm."]
     pub fn ptmSysmInit() -> Result;
@@ -23461,7 +23458,7 @@ extern "C" {
     #[doc = " @brief Sets the wake events (two sets: when to fully wake up and when to return to sleep)."]
     #[doc = " @param sleepConfig Pointer to the two sets of wake events."]
     #[doc = " @note Can only be called just before acknowledging @ref PTMNOTIFID_GOING_TO_SLEEP or @ref PTMNOTIFID_HALF_AWAKE."]
-    pub fn PTMSYSM_SetWakeEvents(sleepConfig: *mut PtmSleepConfig) -> Result;
+    pub fn PTMSYSM_SetWakeEvents(sleepConfig: *const PtmSleepConfig) -> Result;
 }
 extern "C" {
     #[doc = " @brief Gets the wake reason (only the first applicable wake event is taken into account)."]
@@ -23514,7 +23511,7 @@ pub const PXIDEV_WaitType_WAIT_IREQ_RETURN: PXIDEV_WaitType = 2;
 #[doc = "< Wait for IREQ, continue if timeout."]
 pub const PXIDEV_WaitType_WAIT_IREQ_CONTINUE: PXIDEV_WaitType = 3;
 #[doc = " Card SPI wait operation type."]
-pub type PXIDEV_WaitType = ::std::os::raw::c_int;
+pub type PXIDEV_WaitType = ::std::os::raw::c_uint;
 #[doc = "< Do not deassert."]
 pub const PXIDEV_DeassertType_DEASSERT_NONE: PXIDEV_DeassertType = 0;
 #[doc = "< Deassert before waiting."]
@@ -23522,7 +23519,7 @@ pub const PXIDEV_DeassertType_DEASSERT_BEFORE_WAIT: PXIDEV_DeassertType = 1;
 #[doc = "< Deassert after waiting."]
 pub const PXIDEV_DeassertType_DEASSERT_AFTER_WAIT: PXIDEV_DeassertType = 2;
 #[doc = " Card SPI register deassertion type."]
-pub type PXIDEV_DeassertType = ::std::os::raw::c_int;
+pub type PXIDEV_DeassertType = ::std::os::raw::c_uint;
 #[doc = " Card SPI transfer buffer."]
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -23560,7 +23557,7 @@ fn bindgen_test_layout_PXIDEV_SPIBuffer() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<PXIDEV_SPIBuffer>())).size as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(PXIDEV_SPIBuffer),
@@ -23570,7 +23567,7 @@ fn bindgen_test_layout_PXIDEV_SPIBuffer() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<PXIDEV_SPIBuffer>())).transferOption as *const _ as usize },
-        12usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(PXIDEV_SPIBuffer),
@@ -23653,8 +23650,8 @@ extern "C" {
     #[doc = " @param updateInfo Information about the program update to load."]
     pub fn PXIPM_RegisterProgram(
         programHandle: *mut u64_,
-        programInfo: *mut FS_ProgramInfo,
-        updateInfo: *mut FS_ProgramInfo,
+        programInfo: *const FS_ProgramInfo,
+        updateInfo: *const FS_ProgramInfo,
     ) -> Result;
 }
 extern "C" {
@@ -23800,12 +23797,12 @@ pub struct _Bigint {
 fn bindgen_test_layout__Bigint() {
     assert_eq!(
         ::std::mem::size_of::<_Bigint>(),
-        32usize,
+        24usize,
         concat!("Size of: ", stringify!(_Bigint))
     );
     assert_eq!(
         ::std::mem::align_of::<_Bigint>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(_Bigint))
     );
     assert_eq!(
@@ -23820,7 +23817,7 @@ fn bindgen_test_layout__Bigint() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_Bigint>()))._k as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(_Bigint),
@@ -23830,7 +23827,7 @@ fn bindgen_test_layout__Bigint() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_Bigint>()))._maxwds as *const _ as usize },
-        12usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(_Bigint),
@@ -23840,7 +23837,7 @@ fn bindgen_test_layout__Bigint() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_Bigint>()))._sign as *const _ as usize },
-        16usize,
+        12usize,
         concat!(
             "Offset of field: ",
             stringify!(_Bigint),
@@ -23850,7 +23847,7 @@ fn bindgen_test_layout__Bigint() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_Bigint>()))._wds as *const _ as usize },
-        20usize,
+        16usize,
         concat!(
             "Offset of field: ",
             stringify!(_Bigint),
@@ -23860,7 +23857,7 @@ fn bindgen_test_layout__Bigint() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_Bigint>()))._x as *const _ as usize },
-        24usize,
+        20usize,
         concat!(
             "Offset of field: ",
             stringify!(_Bigint),
@@ -23997,12 +23994,12 @@ pub struct _on_exit_args {
 fn bindgen_test_layout__on_exit_args() {
     assert_eq!(
         ::std::mem::size_of::<_on_exit_args>(),
-        520usize,
+        264usize,
         concat!("Size of: ", stringify!(_on_exit_args))
     );
     assert_eq!(
         ::std::mem::align_of::<_on_exit_args>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(_on_exit_args))
     );
     assert_eq!(
@@ -24017,7 +24014,7 @@ fn bindgen_test_layout__on_exit_args() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_on_exit_args>()))._dso_handle as *const _ as usize },
-        256usize,
+        128usize,
         concat!(
             "Offset of field: ",
             stringify!(_on_exit_args),
@@ -24027,7 +24024,7 @@ fn bindgen_test_layout__on_exit_args() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_on_exit_args>()))._fntypes as *const _ as usize },
-        512usize,
+        256usize,
         concat!(
             "Offset of field: ",
             stringify!(_on_exit_args),
@@ -24037,7 +24034,7 @@ fn bindgen_test_layout__on_exit_args() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_on_exit_args>()))._is_cxa as *const _ as usize },
-        516usize,
+        260usize,
         concat!(
             "Offset of field: ",
             stringify!(_on_exit_args),
@@ -24058,12 +24055,12 @@ pub struct _atexit {
 fn bindgen_test_layout__atexit() {
     assert_eq!(
         ::std::mem::size_of::<_atexit>(),
-        792usize,
+        400usize,
         concat!("Size of: ", stringify!(_atexit))
     );
     assert_eq!(
         ::std::mem::align_of::<_atexit>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(_atexit))
     );
     assert_eq!(
@@ -24078,7 +24075,7 @@ fn bindgen_test_layout__atexit() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_atexit>()))._ind as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(_atexit),
@@ -24088,7 +24085,7 @@ fn bindgen_test_layout__atexit() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_atexit>()))._fns as *const _ as usize },
-        16usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(_atexit),
@@ -24098,7 +24095,7 @@ fn bindgen_test_layout__atexit() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_atexit>()))._on_exit_args as *const _ as usize },
-        272usize,
+        136usize,
         concat!(
             "Offset of field: ",
             stringify!(_atexit),
@@ -24117,12 +24114,12 @@ pub struct __sbuf {
 fn bindgen_test_layout___sbuf() {
     assert_eq!(
         ::std::mem::size_of::<__sbuf>(),
-        16usize,
+        8usize,
         concat!("Size of: ", stringify!(__sbuf))
     );
     assert_eq!(
         ::std::mem::align_of::<__sbuf>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(__sbuf))
     );
     assert_eq!(
@@ -24137,7 +24134,7 @@ fn bindgen_test_layout___sbuf() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<__sbuf>()))._size as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(__sbuf),
@@ -24169,7 +24166,7 @@ pub struct __sFILE {
         unsafe extern "C" fn(
             arg1: *mut _reent,
             arg2: *mut ::std::os::raw::c_void,
-            arg3: *mut ::std::os::raw::c_char,
+            arg3: *const ::std::os::raw::c_char,
             arg4: ::std::os::raw::c_int,
         ) -> ::std::os::raw::c_int,
     >,
@@ -24204,7 +24201,7 @@ pub struct __sFILE {
 fn bindgen_test_layout___sFILE() {
     assert_eq!(
         ::std::mem::size_of::<__sFILE>(),
-        184usize,
+        120usize,
         concat!("Size of: ", stringify!(__sFILE))
     );
     assert_eq!(
@@ -24224,7 +24221,7 @@ fn bindgen_test_layout___sFILE() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<__sFILE>()))._r as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(__sFILE),
@@ -24234,7 +24231,7 @@ fn bindgen_test_layout___sFILE() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<__sFILE>()))._w as *const _ as usize },
-        12usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(__sFILE),
@@ -24244,7 +24241,7 @@ fn bindgen_test_layout___sFILE() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<__sFILE>()))._flags as *const _ as usize },
-        16usize,
+        12usize,
         concat!(
             "Offset of field: ",
             stringify!(__sFILE),
@@ -24254,7 +24251,7 @@ fn bindgen_test_layout___sFILE() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<__sFILE>()))._file as *const _ as usize },
-        18usize,
+        14usize,
         concat!(
             "Offset of field: ",
             stringify!(__sFILE),
@@ -24264,7 +24261,7 @@ fn bindgen_test_layout___sFILE() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<__sFILE>()))._bf as *const _ as usize },
-        24usize,
+        16usize,
         concat!(
             "Offset of field: ",
             stringify!(__sFILE),
@@ -24274,7 +24271,7 @@ fn bindgen_test_layout___sFILE() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<__sFILE>()))._lbfsize as *const _ as usize },
-        40usize,
+        24usize,
         concat!(
             "Offset of field: ",
             stringify!(__sFILE),
@@ -24284,7 +24281,7 @@ fn bindgen_test_layout___sFILE() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<__sFILE>()))._cookie as *const _ as usize },
-        48usize,
+        28usize,
         concat!(
             "Offset of field: ",
             stringify!(__sFILE),
@@ -24294,7 +24291,7 @@ fn bindgen_test_layout___sFILE() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<__sFILE>()))._read as *const _ as usize },
-        56usize,
+        32usize,
         concat!(
             "Offset of field: ",
             stringify!(__sFILE),
@@ -24304,7 +24301,7 @@ fn bindgen_test_layout___sFILE() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<__sFILE>()))._write as *const _ as usize },
-        64usize,
+        36usize,
         concat!(
             "Offset of field: ",
             stringify!(__sFILE),
@@ -24314,7 +24311,7 @@ fn bindgen_test_layout___sFILE() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<__sFILE>()))._seek as *const _ as usize },
-        72usize,
+        40usize,
         concat!(
             "Offset of field: ",
             stringify!(__sFILE),
@@ -24324,7 +24321,7 @@ fn bindgen_test_layout___sFILE() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<__sFILE>()))._close as *const _ as usize },
-        80usize,
+        44usize,
         concat!(
             "Offset of field: ",
             stringify!(__sFILE),
@@ -24334,7 +24331,7 @@ fn bindgen_test_layout___sFILE() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<__sFILE>()))._ub as *const _ as usize },
-        88usize,
+        48usize,
         concat!(
             "Offset of field: ",
             stringify!(__sFILE),
@@ -24344,7 +24341,7 @@ fn bindgen_test_layout___sFILE() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<__sFILE>()))._up as *const _ as usize },
-        104usize,
+        56usize,
         concat!(
             "Offset of field: ",
             stringify!(__sFILE),
@@ -24354,7 +24351,7 @@ fn bindgen_test_layout___sFILE() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<__sFILE>()))._ur as *const _ as usize },
-        112usize,
+        60usize,
         concat!(
             "Offset of field: ",
             stringify!(__sFILE),
@@ -24364,7 +24361,7 @@ fn bindgen_test_layout___sFILE() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<__sFILE>()))._ubuf as *const _ as usize },
-        116usize,
+        64usize,
         concat!(
             "Offset of field: ",
             stringify!(__sFILE),
@@ -24374,7 +24371,7 @@ fn bindgen_test_layout___sFILE() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<__sFILE>()))._nbuf as *const _ as usize },
-        119usize,
+        67usize,
         concat!(
             "Offset of field: ",
             stringify!(__sFILE),
@@ -24384,7 +24381,7 @@ fn bindgen_test_layout___sFILE() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<__sFILE>()))._lb as *const _ as usize },
-        120usize,
+        68usize,
         concat!(
             "Offset of field: ",
             stringify!(__sFILE),
@@ -24394,7 +24391,7 @@ fn bindgen_test_layout___sFILE() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<__sFILE>()))._blksize as *const _ as usize },
-        136usize,
+        76usize,
         concat!(
             "Offset of field: ",
             stringify!(__sFILE),
@@ -24404,7 +24401,7 @@ fn bindgen_test_layout___sFILE() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<__sFILE>()))._offset as *const _ as usize },
-        144usize,
+        80usize,
         concat!(
             "Offset of field: ",
             stringify!(__sFILE),
@@ -24414,7 +24411,7 @@ fn bindgen_test_layout___sFILE() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<__sFILE>()))._data as *const _ as usize },
-        152usize,
+        88usize,
         concat!(
             "Offset of field: ",
             stringify!(__sFILE),
@@ -24424,7 +24421,7 @@ fn bindgen_test_layout___sFILE() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<__sFILE>()))._lock as *const _ as usize },
-        160usize,
+        92usize,
         concat!(
             "Offset of field: ",
             stringify!(__sFILE),
@@ -24434,7 +24431,7 @@ fn bindgen_test_layout___sFILE() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<__sFILE>()))._mbstate as *const _ as usize },
-        172usize,
+        104usize,
         concat!(
             "Offset of field: ",
             stringify!(__sFILE),
@@ -24444,7 +24441,7 @@ fn bindgen_test_layout___sFILE() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<__sFILE>()))._flags2 as *const _ as usize },
-        180usize,
+        112usize,
         concat!(
             "Offset of field: ",
             stringify!(__sFILE),
@@ -24465,12 +24462,12 @@ pub struct _glue {
 fn bindgen_test_layout__glue() {
     assert_eq!(
         ::std::mem::size_of::<_glue>(),
-        24usize,
+        12usize,
         concat!("Size of: ", stringify!(_glue))
     );
     assert_eq!(
         ::std::mem::align_of::<_glue>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(_glue))
     );
     assert_eq!(
@@ -24485,7 +24482,7 @@ fn bindgen_test_layout__glue() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_glue>()))._niobs as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(_glue),
@@ -24495,7 +24492,7 @@ fn bindgen_test_layout__glue() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_glue>()))._iobs as *const _ as usize },
-        16usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(_glue),
@@ -24614,7 +24611,7 @@ pub struct _reent__bindgen_ty_1__bindgen_ty_1 {
 fn bindgen_test_layout__reent__bindgen_ty_1__bindgen_ty_1() {
     assert_eq!(
         ::std::mem::size_of::<_reent__bindgen_ty_1__bindgen_ty_1>(),
-        216usize,
+        208usize,
         concat!("Size of: ", stringify!(_reent__bindgen_ty_1__bindgen_ty_1))
     );
     assert_eq!(
@@ -24643,7 +24640,7 @@ fn bindgen_test_layout__reent__bindgen_ty_1__bindgen_ty_1() {
             &(*(::std::ptr::null::<_reent__bindgen_ty_1__bindgen_ty_1>()))._strtok_last as *const _
                 as usize
         },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent__bindgen_ty_1__bindgen_ty_1),
@@ -24656,7 +24653,7 @@ fn bindgen_test_layout__reent__bindgen_ty_1__bindgen_ty_1() {
             &(*(::std::ptr::null::<_reent__bindgen_ty_1__bindgen_ty_1>()))._asctime_buf as *const _
                 as usize
         },
-        16usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent__bindgen_ty_1__bindgen_ty_1),
@@ -24669,7 +24666,7 @@ fn bindgen_test_layout__reent__bindgen_ty_1__bindgen_ty_1() {
             &(*(::std::ptr::null::<_reent__bindgen_ty_1__bindgen_ty_1>()))._localtime_buf
                 as *const _ as usize
         },
-        44usize,
+        36usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent__bindgen_ty_1__bindgen_ty_1),
@@ -24682,7 +24679,7 @@ fn bindgen_test_layout__reent__bindgen_ty_1__bindgen_ty_1() {
             &(*(::std::ptr::null::<_reent__bindgen_ty_1__bindgen_ty_1>()))._gamma_signgam
                 as *const _ as usize
         },
-        80usize,
+        72usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent__bindgen_ty_1__bindgen_ty_1),
@@ -24695,7 +24692,7 @@ fn bindgen_test_layout__reent__bindgen_ty_1__bindgen_ty_1() {
             &(*(::std::ptr::null::<_reent__bindgen_ty_1__bindgen_ty_1>()))._rand_next as *const _
                 as usize
         },
-        88usize,
+        80usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent__bindgen_ty_1__bindgen_ty_1),
@@ -24707,7 +24704,7 @@ fn bindgen_test_layout__reent__bindgen_ty_1__bindgen_ty_1() {
         unsafe {
             &(*(::std::ptr::null::<_reent__bindgen_ty_1__bindgen_ty_1>()))._r48 as *const _ as usize
         },
-        96usize,
+        88usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent__bindgen_ty_1__bindgen_ty_1),
@@ -24720,7 +24717,7 @@ fn bindgen_test_layout__reent__bindgen_ty_1__bindgen_ty_1() {
             &(*(::std::ptr::null::<_reent__bindgen_ty_1__bindgen_ty_1>()))._mblen_state as *const _
                 as usize
         },
-        112usize,
+        104usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent__bindgen_ty_1__bindgen_ty_1),
@@ -24733,7 +24730,7 @@ fn bindgen_test_layout__reent__bindgen_ty_1__bindgen_ty_1() {
             &(*(::std::ptr::null::<_reent__bindgen_ty_1__bindgen_ty_1>()))._mbtowc_state as *const _
                 as usize
         },
-        120usize,
+        112usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent__bindgen_ty_1__bindgen_ty_1),
@@ -24746,7 +24743,7 @@ fn bindgen_test_layout__reent__bindgen_ty_1__bindgen_ty_1() {
             &(*(::std::ptr::null::<_reent__bindgen_ty_1__bindgen_ty_1>()))._wctomb_state as *const _
                 as usize
         },
-        128usize,
+        120usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent__bindgen_ty_1__bindgen_ty_1),
@@ -24759,7 +24756,7 @@ fn bindgen_test_layout__reent__bindgen_ty_1__bindgen_ty_1() {
             &(*(::std::ptr::null::<_reent__bindgen_ty_1__bindgen_ty_1>()))._l64a_buf as *const _
                 as usize
         },
-        136usize,
+        128usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent__bindgen_ty_1__bindgen_ty_1),
@@ -24772,7 +24769,7 @@ fn bindgen_test_layout__reent__bindgen_ty_1__bindgen_ty_1() {
             &(*(::std::ptr::null::<_reent__bindgen_ty_1__bindgen_ty_1>()))._signal_buf as *const _
                 as usize
         },
-        144usize,
+        136usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent__bindgen_ty_1__bindgen_ty_1),
@@ -24785,7 +24782,7 @@ fn bindgen_test_layout__reent__bindgen_ty_1__bindgen_ty_1() {
             &(*(::std::ptr::null::<_reent__bindgen_ty_1__bindgen_ty_1>()))._getdate_err as *const _
                 as usize
         },
-        168usize,
+        160usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent__bindgen_ty_1__bindgen_ty_1),
@@ -24798,7 +24795,7 @@ fn bindgen_test_layout__reent__bindgen_ty_1__bindgen_ty_1() {
             &(*(::std::ptr::null::<_reent__bindgen_ty_1__bindgen_ty_1>()))._mbrlen_state as *const _
                 as usize
         },
-        172usize,
+        164usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent__bindgen_ty_1__bindgen_ty_1),
@@ -24811,7 +24808,7 @@ fn bindgen_test_layout__reent__bindgen_ty_1__bindgen_ty_1() {
             &(*(::std::ptr::null::<_reent__bindgen_ty_1__bindgen_ty_1>()))._mbrtowc_state
                 as *const _ as usize
         },
-        180usize,
+        172usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent__bindgen_ty_1__bindgen_ty_1),
@@ -24824,7 +24821,7 @@ fn bindgen_test_layout__reent__bindgen_ty_1__bindgen_ty_1() {
             &(*(::std::ptr::null::<_reent__bindgen_ty_1__bindgen_ty_1>()))._mbsrtowcs_state
                 as *const _ as usize
         },
-        188usize,
+        180usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent__bindgen_ty_1__bindgen_ty_1),
@@ -24837,7 +24834,7 @@ fn bindgen_test_layout__reent__bindgen_ty_1__bindgen_ty_1() {
             &(*(::std::ptr::null::<_reent__bindgen_ty_1__bindgen_ty_1>()))._wcrtomb_state
                 as *const _ as usize
         },
-        196usize,
+        188usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent__bindgen_ty_1__bindgen_ty_1),
@@ -24850,7 +24847,7 @@ fn bindgen_test_layout__reent__bindgen_ty_1__bindgen_ty_1() {
             &(*(::std::ptr::null::<_reent__bindgen_ty_1__bindgen_ty_1>()))._wcsrtombs_state
                 as *const _ as usize
         },
-        204usize,
+        196usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent__bindgen_ty_1__bindgen_ty_1),
@@ -24863,7 +24860,7 @@ fn bindgen_test_layout__reent__bindgen_ty_1__bindgen_ty_1() {
             &(*(::std::ptr::null::<_reent__bindgen_ty_1__bindgen_ty_1>()))._h_errno as *const _
                 as usize
         },
-        212usize,
+        204usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent__bindgen_ty_1__bindgen_ty_1),
@@ -24882,12 +24879,12 @@ pub struct _reent__bindgen_ty_1__bindgen_ty_2 {
 fn bindgen_test_layout__reent__bindgen_ty_1__bindgen_ty_2() {
     assert_eq!(
         ::std::mem::size_of::<_reent__bindgen_ty_1__bindgen_ty_2>(),
-        360usize,
+        240usize,
         concat!("Size of: ", stringify!(_reent__bindgen_ty_1__bindgen_ty_2))
     );
     assert_eq!(
         ::std::mem::align_of::<_reent__bindgen_ty_1__bindgen_ty_2>(),
-        8usize,
+        4usize,
         concat!(
             "Alignment of ",
             stringify!(_reent__bindgen_ty_1__bindgen_ty_2)
@@ -24911,7 +24908,7 @@ fn bindgen_test_layout__reent__bindgen_ty_1__bindgen_ty_2() {
             &(*(::std::ptr::null::<_reent__bindgen_ty_1__bindgen_ty_2>()))._nmalloc as *const _
                 as usize
         },
-        240usize,
+        120usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent__bindgen_ty_1__bindgen_ty_2),
@@ -24924,7 +24921,7 @@ fn bindgen_test_layout__reent__bindgen_ty_1__bindgen_ty_2() {
 fn bindgen_test_layout__reent__bindgen_ty_1() {
     assert_eq!(
         ::std::mem::size_of::<_reent__bindgen_ty_1>(),
-        360usize,
+        240usize,
         concat!("Size of: ", stringify!(_reent__bindgen_ty_1))
     );
     assert_eq!(
@@ -24957,7 +24954,7 @@ fn bindgen_test_layout__reent__bindgen_ty_1() {
 fn bindgen_test_layout__reent() {
     assert_eq!(
         ::std::mem::size_of::<_reent>(),
-        1896usize,
+        1120usize,
         concat!("Size of: ", stringify!(_reent))
     );
     assert_eq!(
@@ -24977,7 +24974,7 @@ fn bindgen_test_layout__reent() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_reent>()))._stdin as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent),
@@ -24987,7 +24984,7 @@ fn bindgen_test_layout__reent() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_reent>()))._stdout as *const _ as usize },
-        16usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent),
@@ -24997,7 +24994,7 @@ fn bindgen_test_layout__reent() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_reent>()))._stderr as *const _ as usize },
-        24usize,
+        12usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent),
@@ -25007,7 +25004,7 @@ fn bindgen_test_layout__reent() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_reent>()))._inc as *const _ as usize },
-        32usize,
+        16usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent),
@@ -25017,7 +25014,7 @@ fn bindgen_test_layout__reent() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_reent>()))._emergency as *const _ as usize },
-        36usize,
+        20usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent),
@@ -25027,7 +25024,7 @@ fn bindgen_test_layout__reent() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_reent>()))._unspecified_locale_info as *const _ as usize },
-        64usize,
+        48usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent),
@@ -25037,7 +25034,7 @@ fn bindgen_test_layout__reent() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_reent>()))._locale as *const _ as usize },
-        72usize,
+        52usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent),
@@ -25047,7 +25044,7 @@ fn bindgen_test_layout__reent() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_reent>())).__sdidinit as *const _ as usize },
-        80usize,
+        56usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent),
@@ -25057,7 +25054,7 @@ fn bindgen_test_layout__reent() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_reent>())).__cleanup as *const _ as usize },
-        88usize,
+        60usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent),
@@ -25067,7 +25064,7 @@ fn bindgen_test_layout__reent() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_reent>()))._result as *const _ as usize },
-        96usize,
+        64usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent),
@@ -25077,7 +25074,7 @@ fn bindgen_test_layout__reent() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_reent>()))._result_k as *const _ as usize },
-        104usize,
+        68usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent),
@@ -25087,7 +25084,7 @@ fn bindgen_test_layout__reent() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_reent>()))._p5s as *const _ as usize },
-        112usize,
+        72usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent),
@@ -25097,7 +25094,7 @@ fn bindgen_test_layout__reent() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_reent>()))._freelist as *const _ as usize },
-        120usize,
+        76usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent),
@@ -25107,7 +25104,7 @@ fn bindgen_test_layout__reent() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_reent>()))._cvtlen as *const _ as usize },
-        128usize,
+        80usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent),
@@ -25117,7 +25114,7 @@ fn bindgen_test_layout__reent() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_reent>()))._cvtbuf as *const _ as usize },
-        136usize,
+        84usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent),
@@ -25127,7 +25124,7 @@ fn bindgen_test_layout__reent() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_reent>()))._new as *const _ as usize },
-        144usize,
+        88usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent),
@@ -25137,7 +25134,7 @@ fn bindgen_test_layout__reent() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_reent>()))._atexit as *const _ as usize },
-        504usize,
+        328usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent),
@@ -25147,7 +25144,7 @@ fn bindgen_test_layout__reent() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_reent>()))._atexit0 as *const _ as usize },
-        512usize,
+        332usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent),
@@ -25157,7 +25154,7 @@ fn bindgen_test_layout__reent() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_reent>()))._sig_func as *const _ as usize },
-        1304usize,
+        732usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent),
@@ -25167,7 +25164,7 @@ fn bindgen_test_layout__reent() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_reent>())).__sglue as *const _ as usize },
-        1312usize,
+        736usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent),
@@ -25177,7 +25174,7 @@ fn bindgen_test_layout__reent() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_reent>())).__sf as *const _ as usize },
-        1336usize,
+        752usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent),
@@ -25187,7 +25184,7 @@ fn bindgen_test_layout__reent() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<_reent>())).deviceData as *const _ as usize },
-        1888usize,
+        1112usize,
         concat!(
             "Offset of field: ",
             stringify!(_reent),
@@ -25200,7 +25197,7 @@ extern "C" {
     pub static mut _impure_ptr: *mut _reent;
 }
 extern "C" {
-    pub static mut _global_impure_ptr: *mut _reent;
+    pub static _global_impure_ptr: *mut _reent;
 }
 extern "C" {
     pub fn _reclaim_reent(arg1: *mut _reent);
@@ -25338,51 +25335,51 @@ extern "C" {
     pub fn time(_timer: *mut time_t) -> time_t;
 }
 extern "C" {
-    pub fn asctime(_tblock: *mut tm) -> *mut ::std::os::raw::c_char;
+    pub fn asctime(_tblock: *const tm) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
-    pub fn ctime(_time: *mut time_t) -> *mut ::std::os::raw::c_char;
+    pub fn ctime(_time: *const time_t) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
-    pub fn gmtime(_timer: *mut time_t) -> *mut tm;
+    pub fn gmtime(_timer: *const time_t) -> *mut tm;
 }
 extern "C" {
-    pub fn localtime(_timer: *mut time_t) -> *mut tm;
+    pub fn localtime(_timer: *const time_t) -> *mut tm;
 }
 extern "C" {
     pub fn strftime(
         _s: *mut ::std::os::raw::c_char,
         _maxsize: size_t,
-        _fmt: *mut ::std::os::raw::c_char,
-        _t: *mut tm,
+        _fmt: *const ::std::os::raw::c_char,
+        _t: *const tm,
     ) -> size_t;
 }
 extern "C" {
     pub fn strftime_l(
         _s: *mut ::std::os::raw::c_char,
         _maxsize: size_t,
-        _fmt: *mut ::std::os::raw::c_char,
-        _t: *mut tm,
+        _fmt: *const ::std::os::raw::c_char,
+        _t: *const tm,
         _l: locale_t,
     ) -> size_t;
 }
 extern "C" {
     pub fn asctime_r(
-        arg1: *mut tm,
+        arg1: *const tm,
         arg2: *mut ::std::os::raw::c_char,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn ctime_r(
-        arg1: *mut time_t,
+        arg1: *const time_t,
         arg2: *mut ::std::os::raw::c_char,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
-    pub fn gmtime_r(arg1: *mut time_t, arg2: *mut tm) -> *mut tm;
+    pub fn gmtime_r(arg1: *const time_t, arg2: *mut tm) -> *mut tm;
 }
 extern "C" {
-    pub fn localtime_r(arg1: *mut time_t, arg2: *mut tm) -> *mut tm;
+    pub fn localtime_r(arg1: *const time_t, arg2: *mut tm) -> *mut tm;
 }
 extern "C" {
     pub fn tzset();
@@ -25558,12 +25555,12 @@ pub union sigval {
 fn bindgen_test_layout_sigval() {
     assert_eq!(
         ::std::mem::size_of::<sigval>(),
-        8usize,
+        4usize,
         concat!("Size of: ", stringify!(sigval))
     );
     assert_eq!(
         ::std::mem::align_of::<sigval>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(sigval))
     );
     assert_eq!(
@@ -25598,12 +25595,12 @@ pub struct sigevent {
 fn bindgen_test_layout_sigevent() {
     assert_eq!(
         ::std::mem::size_of::<sigevent>(),
-        16usize,
+        12usize,
         concat!("Size of: ", stringify!(sigevent))
     );
     assert_eq!(
         ::std::mem::align_of::<sigevent>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(sigevent))
     );
     assert_eq!(
@@ -25648,12 +25645,12 @@ pub struct siginfo_t {
 fn bindgen_test_layout_siginfo_t() {
     assert_eq!(
         ::std::mem::size_of::<siginfo_t>(),
-        16usize,
+        12usize,
         concat!("Size of: ", stringify!(siginfo_t))
     );
     assert_eq!(
         ::std::mem::align_of::<siginfo_t>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(siginfo_t))
     );
     assert_eq!(
@@ -25699,12 +25696,12 @@ pub struct sigaction {
 fn bindgen_test_layout_sigaction() {
     assert_eq!(
         ::std::mem::size_of::<sigaction>(),
-        16usize,
+        12usize,
         concat!("Size of: ", stringify!(sigaction))
     );
     assert_eq!(
         ::std::mem::align_of::<sigaction>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(sigaction))
     );
     assert_eq!(
@@ -25719,7 +25716,7 @@ fn bindgen_test_layout_sigaction() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<sigaction>())).sa_mask as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(sigaction),
@@ -25729,7 +25726,7 @@ fn bindgen_test_layout_sigaction() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<sigaction>())).sa_flags as *const _ as usize },
-        12usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(sigaction),
@@ -25749,12 +25746,12 @@ pub struct sigaltstack {
 fn bindgen_test_layout_sigaltstack() {
     assert_eq!(
         ::std::mem::size_of::<sigaltstack>(),
-        24usize,
+        12usize,
         concat!("Size of: ", stringify!(sigaltstack))
     );
     assert_eq!(
         ::std::mem::align_of::<sigaltstack>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(sigaltstack))
     );
     assert_eq!(
@@ -25769,7 +25766,7 @@ fn bindgen_test_layout_sigaltstack() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<sigaltstack>())).ss_flags as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(sigaltstack),
@@ -25779,7 +25776,7 @@ fn bindgen_test_layout_sigaltstack() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<sigaltstack>())).ss_size as *const _ as usize },
-        16usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(sigaltstack),
@@ -25792,14 +25789,14 @@ pub type stack_t = sigaltstack;
 extern "C" {
     pub fn sigprocmask(
         arg1: ::std::os::raw::c_int,
-        arg2: *mut sigset_t,
+        arg2: *const sigset_t,
         arg3: *mut sigset_t,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn pthread_sigmask(
         arg1: ::std::os::raw::c_int,
-        arg2: *mut sigset_t,
+        arg2: *const sigset_t,
         arg3: *mut sigset_t,
     ) -> ::std::os::raw::c_int;
 }
@@ -25812,7 +25809,7 @@ extern "C" {
 extern "C" {
     pub fn sigaction(
         arg1: ::std::os::raw::c_int,
-        arg2: *mut sigaction,
+        arg2: *const sigaction,
         arg3: *mut sigaction,
     ) -> ::std::os::raw::c_int;
 }
@@ -25823,7 +25820,8 @@ extern "C" {
     pub fn sigdelset(arg1: *mut sigset_t, arg2: ::std::os::raw::c_int) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn sigismember(arg1: *mut sigset_t, arg2: ::std::os::raw::c_int) -> ::std::os::raw::c_int;
+    pub fn sigismember(arg1: *const sigset_t, arg2: ::std::os::raw::c_int)
+        -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn sigfillset(arg1: *mut sigset_t) -> ::std::os::raw::c_int;
@@ -25835,28 +25833,31 @@ extern "C" {
     pub fn sigpending(arg1: *mut sigset_t) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn sigsuspend(arg1: *mut sigset_t) -> ::std::os::raw::c_int;
+    pub fn sigsuspend(arg1: *const sigset_t) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn sigwait(arg1: *mut sigset_t, arg2: *mut ::std::os::raw::c_int) -> ::std::os::raw::c_int;
+    pub fn sigwait(
+        arg1: *const sigset_t,
+        arg2: *mut ::std::os::raw::c_int,
+    ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn sigpause(arg1: ::std::os::raw::c_int) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn sigaltstack(arg1: *mut stack_t, arg2: *mut stack_t) -> ::std::os::raw::c_int;
+    pub fn sigaltstack(arg1: *const stack_t, arg2: *mut stack_t) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn pthread_kill(arg1: pthread_t, arg2: ::std::os::raw::c_int) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn sigwaitinfo(arg1: *mut sigset_t, arg2: *mut siginfo_t) -> ::std::os::raw::c_int;
+    pub fn sigwaitinfo(arg1: *const sigset_t, arg2: *mut siginfo_t) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn sigtimedwait(
-        arg1: *mut sigset_t,
+        arg1: *const sigset_t,
         arg2: *mut siginfo_t,
-        arg3: *mut timespec,
+        arg3: *const timespec,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
@@ -25885,10 +25886,10 @@ extern "C" {
     pub fn raise(arg1: ::std::os::raw::c_int) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn psignal(arg1: ::std::os::raw::c_int, arg2: *mut ::std::os::raw::c_char);
+    pub fn psignal(arg1: ::std::os::raw::c_int, arg2: *const ::std::os::raw::c_char);
 }
 extern "C" {
-    pub fn clock_settime(clock_id: clockid_t, tp: *mut timespec) -> ::std::os::raw::c_int;
+    pub fn clock_settime(clock_id: clockid_t, tp: *const timespec) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn clock_gettime(clock_id: clockid_t, tp: *mut timespec) -> ::std::os::raw::c_int;
@@ -25910,7 +25911,7 @@ extern "C" {
     pub fn timer_settime(
         timerid: timer_t,
         flags: ::std::os::raw::c_int,
-        value: *mut itimerspec,
+        value: *const itimerspec,
         ovalue: *mut itimerspec,
     ) -> ::std::os::raw::c_int;
 }
@@ -25921,25 +25922,28 @@ extern "C" {
     pub fn timer_getoverrun(timerid: timer_t) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn nanosleep(rqtp: *mut timespec, rmtp: *mut timespec) -> ::std::os::raw::c_int;
+    pub fn nanosleep(rqtp: *const timespec, rmtp: *mut timespec) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn utimes(
-        __path: *mut ::std::os::raw::c_char,
-        __tvp: *mut timeval,
+        __path: *const ::std::os::raw::c_char,
+        __tvp: *const timeval,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn adjtime(arg1: *mut timeval, arg2: *mut timeval) -> ::std::os::raw::c_int;
+    pub fn adjtime(arg1: *const timeval, arg2: *mut timeval) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn futimes(arg1: ::std::os::raw::c_int, arg2: *mut timeval) -> ::std::os::raw::c_int;
+    pub fn futimes(arg1: ::std::os::raw::c_int, arg2: *const timeval) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn lutimes(arg1: *mut ::std::os::raw::c_char, arg2: *mut timeval) -> ::std::os::raw::c_int;
+    pub fn lutimes(
+        arg1: *const ::std::os::raw::c_char,
+        arg2: *const timeval,
+    ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn settimeofday(arg1: *mut timeval, arg2: *mut timezone) -> ::std::os::raw::c_int;
+    pub fn settimeofday(arg1: *const timeval, arg2: *const timezone) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn getitimer(
@@ -25950,7 +25954,7 @@ extern "C" {
 extern "C" {
     pub fn setitimer(
         __which: ::std::os::raw::c_int,
-        __value: *mut itimerval,
+        __value: *const itimerval,
         __ovalue: *mut itimerval,
     ) -> ::std::os::raw::c_int;
 }
@@ -26089,7 +26093,7 @@ extern "C" {
 extern "C" {
     pub fn bind(
         sockfd: ::std::os::raw::c_int,
-        addr: *mut sockaddr,
+        addr: *const sockaddr,
         addrlen: socklen_t,
     ) -> ::std::os::raw::c_int;
 }
@@ -26099,7 +26103,7 @@ extern "C" {
 extern "C" {
     pub fn connect(
         sockfd: ::std::os::raw::c_int,
-        addr: *mut sockaddr,
+        addr: *const sockaddr,
         addrlen: socklen_t,
     ) -> ::std::os::raw::c_int;
 }
@@ -26153,7 +26157,7 @@ extern "C" {
 extern "C" {
     pub fn send(
         sockfd: ::std::os::raw::c_int,
-        buf: *mut ::std::os::raw::c_void,
+        buf: *const ::std::os::raw::c_void,
         len: size_t,
         flags: ::std::os::raw::c_int,
     ) -> ssize_t;
@@ -26161,10 +26165,10 @@ extern "C" {
 extern "C" {
     pub fn sendto(
         sockfd: ::std::os::raw::c_int,
-        buf: *mut ::std::os::raw::c_void,
+        buf: *const ::std::os::raw::c_void,
         len: size_t,
         flags: ::std::os::raw::c_int,
-        dest_addr: *mut sockaddr,
+        dest_addr: *const sockaddr,
         addrlen: socklen_t,
     ) -> ssize_t;
 }
@@ -26173,7 +26177,7 @@ extern "C" {
         sockfd: ::std::os::raw::c_int,
         level: ::std::os::raw::c_int,
         optname: ::std::os::raw::c_int,
-        optval: *mut ::std::os::raw::c_void,
+        optval: *const ::std::os::raw::c_void,
         optlen: socklen_t,
     ) -> ::std::os::raw::c_int;
 }
@@ -26344,7 +26348,7 @@ pub const NetworkOpt_NETOPT_DNS_TABLE: NetworkOpt = 45059;
 #[doc = "< The DHCP lease time remaining, in seconds"]
 pub const NetworkOpt_NETOPT_DHCP_LEASE_TIME: NetworkOpt = 49153;
 #[doc = " Options to be used with @ref SOCU_GetNetworkOpt"]
-pub type NetworkOpt = ::std::os::raw::c_int;
+pub type NetworkOpt = ::std::os::raw::c_uint;
 #[doc = " One entry of the ARP table retrieved by using @ref SOCU_GetNetworkOpt and @ref NETOPT_ARP_TABLE"]
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -26755,7 +26759,7 @@ pub const MICU_Encoding_MICU_ENCODING_PCM8_SIGNED: MICU_Encoding = 2;
 #[doc = "< Signed 16-bit PCM."]
 pub const MICU_Encoding_MICU_ENCODING_PCM16_SIGNED: MICU_Encoding = 3;
 #[doc = " Microphone audio encodings."]
-pub type MICU_Encoding = ::std::os::raw::c_int;
+pub type MICU_Encoding = ::std::os::raw::c_uint;
 #[doc = "< 32728.498 Hz"]
 pub const MICU_SampleRate_MICU_SAMPLE_RATE_32730: MICU_SampleRate = 0;
 #[doc = "< 16364.479 Hz"]
@@ -26765,7 +26769,7 @@ pub const MICU_SampleRate_MICU_SAMPLE_RATE_10910: MICU_SampleRate = 2;
 #[doc = "< 8182.1245 Hz"]
 pub const MICU_SampleRate_MICU_SAMPLE_RATE_8180: MICU_SampleRate = 3;
 #[doc = " Microphone audio sampling rates."]
-pub type MICU_SampleRate = ::std::os::raw::c_int;
+pub type MICU_SampleRate = ::std::os::raw::c_uint;
 extern "C" {
     #[doc = " @brief Initializes MIC."]
     #[doc = " @param size Shared memory buffer to write audio data to. Must be aligned to 0x1000 bytes."]
@@ -26870,13 +26874,13 @@ pub const MVDSTD_Mode_MVDMODE_COLORFORMATCONV: MVDSTD_Mode = 0;
 #[doc = "< Processing video."]
 pub const MVDSTD_Mode_MVDMODE_VIDEOPROCESSING: MVDSTD_Mode = 1;
 #[doc = " Processing mode."]
-pub type MVDSTD_Mode = ::std::os::raw::c_int;
+pub type MVDSTD_Mode = ::std::os::raw::c_uint;
 #[doc = "< YUYV422"]
 pub const MVDSTD_InputFormat_MVD_INPUT_YUYV422: MVDSTD_InputFormat = 65537;
 #[doc = "< H264"]
 pub const MVDSTD_InputFormat_MVD_INPUT_H264: MVDSTD_InputFormat = 131073;
 #[doc = " Input format."]
-pub type MVDSTD_InputFormat = ::std::os::raw::c_int;
+pub type MVDSTD_InputFormat = ::std::os::raw::c_uint;
 #[doc = "< YUYV422"]
 pub const MVDSTD_OutputFormat_MVD_OUTPUT_YUYV422: MVDSTD_OutputFormat = 65537;
 #[doc = "< BGR565"]
@@ -26884,7 +26888,7 @@ pub const MVDSTD_OutputFormat_MVD_OUTPUT_BGR565: MVDSTD_OutputFormat = 262146;
 #[doc = "< RGB565"]
 pub const MVDSTD_OutputFormat_MVD_OUTPUT_RGB565: MVDSTD_OutputFormat = 262148;
 #[doc = " Output format."]
-pub type MVDSTD_OutputFormat = ::std::os::raw::c_int;
+pub type MVDSTD_OutputFormat = ::std::os::raw::c_uint;
 #[doc = " Processing configuration."]
 #[repr(C)]
 #[derive(Copy, Clone)]
@@ -27326,12 +27330,12 @@ pub struct MVDSTD_OutputBuffersEntry {
 fn bindgen_test_layout_MVDSTD_OutputBuffersEntry() {
     assert_eq!(
         ::std::mem::size_of::<MVDSTD_OutputBuffersEntry>(),
-        16usize,
+        8usize,
         concat!("Size of: ", stringify!(MVDSTD_OutputBuffersEntry))
     );
     assert_eq!(
         ::std::mem::align_of::<MVDSTD_OutputBuffersEntry>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(MVDSTD_OutputBuffersEntry))
     );
     assert_eq!(
@@ -27350,7 +27354,7 @@ fn bindgen_test_layout_MVDSTD_OutputBuffersEntry() {
         unsafe {
             &(*(::std::ptr::null::<MVDSTD_OutputBuffersEntry>())).outdata1 as *const _ as usize
         },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(MVDSTD_OutputBuffersEntry),
@@ -27369,12 +27373,12 @@ pub struct MVDSTD_OutputBuffersEntryList {
 fn bindgen_test_layout_MVDSTD_OutputBuffersEntryList() {
     assert_eq!(
         ::std::mem::size_of::<MVDSTD_OutputBuffersEntryList>(),
-        280usize,
+        140usize,
         concat!("Size of: ", stringify!(MVDSTD_OutputBuffersEntryList))
     );
     assert_eq!(
         ::std::mem::align_of::<MVDSTD_OutputBuffersEntryList>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(MVDSTD_OutputBuffersEntryList))
     );
     assert_eq!(
@@ -27394,7 +27398,7 @@ fn bindgen_test_layout_MVDSTD_OutputBuffersEntryList() {
         unsafe {
             &(*(::std::ptr::null::<MVDSTD_OutputBuffersEntryList>())).entries as *const _ as usize
         },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(MVDSTD_OutputBuffersEntryList),
@@ -27573,7 +27577,7 @@ pub const NFC_OpType_NFC_OpType_NFCTag: NFC_OpType = 2;
 #[doc = " This is the default."]
 pub const NFC_OpType_NFC_OpType_RawNFC: NFC_OpType = 3;
 #[doc = " NFC operation type."]
-pub type NFC_OpType = ::std::os::raw::c_int;
+pub type NFC_OpType = ::std::os::raw::c_uint;
 pub const NFC_TagState_NFC_TagState_Uninitialized: NFC_TagState = 0;
 #[doc = " nfcInit() was not used yet."]
 pub const NFC_TagState_NFC_TagState_ScanningStopped: NFC_TagState = 1;
@@ -27585,12 +27589,12 @@ pub const NFC_TagState_NFC_TagState_InRange: NFC_TagState = 3;
 pub const NFC_TagState_NFC_TagState_OutOfRange: NFC_TagState = 4;
 #[doc = " NFC tag is now out of range, where the NFC tag was previously in range. This occurs automatically without using any NFC service commands. Once this state is entered, it won't automatically change to anything else when the tag is moved in range again. Hence, if you want to keep doing tag scanning after this, you must stop+start scanning."]
 pub const NFC_TagState_NFC_TagState_DataReady: NFC_TagState = 5;
-pub type NFC_TagState = ::std::os::raw::c_int;
-pub const NFC_amiiboFlag_Setup: ::std::os::raw::c_int = 16;
+pub type NFC_TagState = ::std::os::raw::c_uint;
+pub const NFC_amiiboFlag_Setup: ::std::os::raw::c_uint = 16;
 #[doc = " This indicates that the amiibo was setup with amiibo Settings. nfcGetAmiiboSettings() will return an all-zero struct when this is not set."]
-pub const NFC_amiiboFlag_AppDataSetup: ::std::os::raw::c_int = 32;
+pub const NFC_amiiboFlag_AppDataSetup: ::std::os::raw::c_uint = 32;
 #[doc = " Bit4-7 are always clear with nfcGetAmiiboSettings() due to \"& 0xF\"."]
-pub type _bindgen_ty_28 = ::std::os::raw::c_int;
+pub type _bindgen_ty_28 = ::std::os::raw::c_uint;
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct NFC_TagInfo {
@@ -28071,7 +28075,7 @@ extern "C" {
     #[doc = " @param size Buffer size."]
     pub fn nfcInitializeWriteAppData(
         amiibo_appid: u32_,
-        buf: *mut ::std::os::raw::c_void,
+        buf: *const ::std::os::raw::c_void,
         size: size_t,
     ) -> Result;
 }
@@ -28087,7 +28091,7 @@ extern "C" {
     #[doc = " @param size Buffer size."]
     #[doc = " @param taginfo TagInfo from nfcGetTagInfo()."]
     pub fn nfcWriteAppData(
-        buf: *mut ::std::os::raw::c_void,
+        buf: *const ::std::os::raw::c_void,
         size: size_t,
         taginfo: *mut NFC_TagInfo,
     ) -> Result;
@@ -28117,7 +28121,7 @@ extern "C" {
     #[doc = " @param actual_transfer_size Optional output ptr to write the actual output-size to, can be NULL."]
     #[doc = " @param microseconds Timing-related field in microseconds."]
     pub fn nfcSendTagCommand(
-        inbuf: *mut ::std::os::raw::c_void,
+        inbuf: *const ::std::os::raw::c_void,
         insize: size_t,
         outbuf: *mut ::std::os::raw::c_void,
         outsize: size_t,
@@ -28301,11 +28305,11 @@ extern "C" {
     #[doc = " @param imageSize Size of the image data in bytes."]
     #[doc = " @param jpeg Whether the image is a JPEG or not."]
     pub fn NEWS_AddNotification(
-        title: *mut u16_,
+        title: *const u16_,
         titleLength: u32_,
-        message: *mut u16_,
+        message: *const u16_,
         messageLength: u32_,
-        imageData: *mut ::std::os::raw::c_void,
+        imageData: *const ::std::os::raw::c_void,
         imageSize: u32_,
         jpeg: bool,
     ) -> Result;
@@ -28319,7 +28323,7 @@ extern "C" {
     #[doc = " @brief Sets a custom header for a specific notification."]
     #[doc = " @param news_id Identification number of the notification."]
     #[doc = " @param header Pointer to notification header to set."]
-    pub fn NEWS_SetNotificationHeader(news_id: u32_, header: *mut NotificationHeader) -> Result;
+    pub fn NEWS_SetNotificationHeader(news_id: u32_, header: *const NotificationHeader) -> Result;
 }
 extern "C" {
     #[doc = " @brief Gets the header of a specific notification."]
@@ -28332,7 +28336,7 @@ extern "C" {
     #[doc = " @param news_id Identification number of the notification."]
     #[doc = " @param message Pointer to UTF-16 message to set."]
     #[doc = " @param size Size of message to set."]
-    pub fn NEWS_SetNotificationMessage(news_id: u32_, message: *mut u16_, size: u32_) -> Result;
+    pub fn NEWS_SetNotificationMessage(news_id: u32_, message: *const u16_, size: u32_) -> Result;
 }
 extern "C" {
     #[doc = " @brief Gets the message of a specific notification."]
@@ -28352,7 +28356,7 @@ extern "C" {
     #[doc = " @param size Size of the MPO image to set."]
     pub fn NEWS_SetNotificationImage(
         news_id: u32_,
-        buffer: *mut ::std::os::raw::c_void,
+        buffer: *const ::std::os::raw::c_void,
         size: u32_,
     ) -> Result;
 }
@@ -28560,7 +28564,7 @@ extern "C" {
     pub fn SRVPM_RegisterProcess(
         pid: u32_,
         count: u32_,
-        serviceAccessControlList: *mut [::std::os::raw::c_char; 8usize],
+        serviceAccessControlList: *const [::std::os::raw::c_char; 8usize],
     ) -> Result;
 }
 extern "C" {
@@ -28589,8 +28593,8 @@ extern "C" {
     #[doc = " @param programInfo The program update info."]
     pub fn LOADER_RegisterProgram(
         programHandle: *mut u64_,
-        programInfo: *mut FS_ProgramInfo,
-        programInfoUpdate: *mut FS_ProgramInfo,
+        programInfo: *const FS_ProgramInfo,
+        programInfoUpdate: *const FS_ProgramInfo,
     ) -> Result;
 }
 extern "C" {
@@ -28616,7 +28620,7 @@ pub const powerLedState_LED_RED: powerLedState = 4;
 pub const powerLedState_LED_BLUE: powerLedState = 5;
 #[doc = "< Blinking red state of power led and notification led"]
 pub const powerLedState_LED_BLINK_RED: powerLedState = 6;
-pub type powerLedState = ::std::os::raw::c_int;
+pub type powerLedState = ::std::os::raw::c_uint;
 extern "C" {
     #[doc = " Initializes mcuHwc."]
     pub fn mcuHwcInit() -> Result;
@@ -28637,7 +28641,11 @@ extern "C" {
     #[doc = " @param reg Register number. See https://www.3dbrew.org/wiki/I2C_Registers#Device_3 for more info"]
     #[doc = " @param data Pointer to write the data to."]
     #[doc = " @param size Size of data to be written"]
-    pub fn MCUHWC_WriteRegister(reg: u8_, data: *mut ::std::os::raw::c_void, size: u32_) -> Result;
+    pub fn MCUHWC_WriteRegister(
+        reg: u8_,
+        data: *const ::std::os::raw::c_void,
+        size: u32_,
+    ) -> Result;
 }
 extern "C" {
     #[doc = " @brief Gets the battery voltage"]
@@ -28691,7 +28699,7 @@ pub const GX_TRANSFER_FORMAT_GX_TRANSFER_FMT_RGB5A1: GX_TRANSFER_FORMAT = 3;
 pub const GX_TRANSFER_FORMAT_GX_TRANSFER_FMT_RGBA4: GX_TRANSFER_FORMAT = 4;
 #[doc = " @brief Supported transfer pixel formats."]
 #[doc = " @sa GSPGPU_FramebufferFormat"]
-pub type GX_TRANSFER_FORMAT = ::std::os::raw::c_int;
+pub type GX_TRANSFER_FORMAT = ::std::os::raw::c_uint;
 #[doc = "< No anti-aliasing"]
 pub const GX_TRANSFER_SCALE_GX_TRANSFER_SCALE_NO: GX_TRANSFER_SCALE = 0;
 #[doc = "< 2x1 anti-aliasing"]
@@ -28702,7 +28710,7 @@ pub const GX_TRANSFER_SCALE_GX_TRANSFER_SCALE_XY: GX_TRANSFER_SCALE = 2;
 #[doc = ""]
 #[doc = " Please remember that the framebuffer is sideways."]
 #[doc = " Hence if you activate 2x1 anti-aliasing the destination dimensions are w = 240*2 and h = 400"]
-pub type GX_TRANSFER_SCALE = ::std::os::raw::c_int;
+pub type GX_TRANSFER_SCALE = ::std::os::raw::c_uint;
 #[doc = "< Trigger the PPF event"]
 pub const GX_FILL_CONTROL_GX_FILL_TRIGGER: GX_FILL_CONTROL = 1;
 #[doc = "< Indicates if the memory fill is complete. You should not use it when requesting a transfer."]
@@ -28714,7 +28722,7 @@ pub const GX_FILL_CONTROL_GX_FILL_24BIT_DEPTH: GX_FILL_CONTROL = 256;
 #[doc = "< The buffer has a 32 bit per pixel depth"]
 pub const GX_FILL_CONTROL_GX_FILL_32BIT_DEPTH: GX_FILL_CONTROL = 512;
 #[doc = " GX transfer control flags"]
-pub type GX_FILL_CONTROL = ::std::os::raw::c_int;
+pub type GX_FILL_CONTROL = ::std::os::raw::c_uint;
 #[doc = " GX command entry"]
 #[repr(C)]
 #[derive(Copy, Clone)]
@@ -28845,12 +28853,12 @@ pub struct tag_gxCmdQueue_s {
 fn bindgen_test_layout_tag_gxCmdQueue_s() {
     assert_eq!(
         ::std::mem::size_of::<tag_gxCmdQueue_s>(),
-        32usize,
+        20usize,
         concat!("Size of: ", stringify!(tag_gxCmdQueue_s))
     );
     assert_eq!(
         ::std::mem::align_of::<tag_gxCmdQueue_s>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(tag_gxCmdQueue_s))
     );
     assert_eq!(
@@ -28865,7 +28873,7 @@ fn bindgen_test_layout_tag_gxCmdQueue_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<tag_gxCmdQueue_s>())).maxEntries as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(tag_gxCmdQueue_s),
@@ -28875,7 +28883,7 @@ fn bindgen_test_layout_tag_gxCmdQueue_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<tag_gxCmdQueue_s>())).numEntries as *const _ as usize },
-        10usize,
+        6usize,
         concat!(
             "Offset of field: ",
             stringify!(tag_gxCmdQueue_s),
@@ -28885,7 +28893,7 @@ fn bindgen_test_layout_tag_gxCmdQueue_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<tag_gxCmdQueue_s>())).curEntry as *const _ as usize },
-        12usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(tag_gxCmdQueue_s),
@@ -28895,7 +28903,7 @@ fn bindgen_test_layout_tag_gxCmdQueue_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<tag_gxCmdQueue_s>())).lastEntry as *const _ as usize },
-        14usize,
+        10usize,
         concat!(
             "Offset of field: ",
             stringify!(tag_gxCmdQueue_s),
@@ -28905,7 +28913,7 @@ fn bindgen_test_layout_tag_gxCmdQueue_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<tag_gxCmdQueue_s>())).callback as *const _ as usize },
-        16usize,
+        12usize,
         concat!(
             "Offset of field: ",
             stringify!(tag_gxCmdQueue_s),
@@ -28915,7 +28923,7 @@ fn bindgen_test_layout_tag_gxCmdQueue_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<tag_gxCmdQueue_s>())).user as *const _ as usize },
-        24usize,
+        16usize,
         concat!(
             "Offset of field: ",
             stringify!(tag_gxCmdQueue_s),
@@ -28935,7 +28943,7 @@ extern "C" {
     #[doc = " @brief Adds a command to a GX command queue."]
     #[doc = " @param queue The GX command queue."]
     #[doc = " @param entry The GX command to add."]
-    pub fn gxCmdQueueAdd(queue: *mut gxCmdQueue_s, entry: *mut gxCmdEntry_s);
+    pub fn gxCmdQueueAdd(queue: *mut gxCmdQueue_s, entry: *const gxCmdEntry_s);
 }
 extern "C" {
     #[doc = " @brief Runs a GX command queue, causing it to begin processing incoming commands as they arrive."]
@@ -29050,7 +29058,7 @@ pub const GPU_TEXTURE_FILTER_PARAM_GPU_NEAREST: GPU_TEXTURE_FILTER_PARAM = 0;
 #[doc = "< Linear interpolation."]
 pub const GPU_TEXTURE_FILTER_PARAM_GPU_LINEAR: GPU_TEXTURE_FILTER_PARAM = 1;
 #[doc = " Texture filters."]
-pub type GPU_TEXTURE_FILTER_PARAM = ::std::os::raw::c_int;
+pub type GPU_TEXTURE_FILTER_PARAM = ::std::os::raw::c_uint;
 #[doc = "< Clamps to edge."]
 pub const GPU_TEXTURE_WRAP_PARAM_GPU_CLAMP_TO_EDGE: GPU_TEXTURE_WRAP_PARAM = 0;
 #[doc = "< Clamps to border."]
@@ -29060,7 +29068,7 @@ pub const GPU_TEXTURE_WRAP_PARAM_GPU_REPEAT: GPU_TEXTURE_WRAP_PARAM = 2;
 #[doc = "< Repeats with mirrored texture."]
 pub const GPU_TEXTURE_WRAP_PARAM_GPU_MIRRORED_REPEAT: GPU_TEXTURE_WRAP_PARAM = 3;
 #[doc = " Texture wrap modes."]
-pub type GPU_TEXTURE_WRAP_PARAM = ::std::os::raw::c_int;
+pub type GPU_TEXTURE_WRAP_PARAM = ::std::os::raw::c_uint;
 #[doc = "< 2D texture"]
 pub const GPU_TEXTURE_MODE_PARAM_GPU_TEX_2D: GPU_TEXTURE_MODE_PARAM = 0;
 #[doc = "< Cube map"]
@@ -29074,7 +29082,7 @@ pub const GPU_TEXTURE_MODE_PARAM_GPU_TEX_SHADOW_CUBE: GPU_TEXTURE_MODE_PARAM = 4
 #[doc = "< Disabled"]
 pub const GPU_TEXTURE_MODE_PARAM_GPU_TEX_DISABLED: GPU_TEXTURE_MODE_PARAM = 5;
 #[doc = " Texture modes."]
-pub type GPU_TEXTURE_MODE_PARAM = ::std::os::raw::c_int;
+pub type GPU_TEXTURE_MODE_PARAM = ::std::os::raw::c_uint;
 #[doc = "< Texture unit 0."]
 pub const GPU_TEXUNIT_GPU_TEXUNIT0: GPU_TEXUNIT = 1;
 #[doc = "< Texture unit 1."]
@@ -29082,7 +29090,7 @@ pub const GPU_TEXUNIT_GPU_TEXUNIT1: GPU_TEXUNIT = 2;
 #[doc = "< Texture unit 2."]
 pub const GPU_TEXUNIT_GPU_TEXUNIT2: GPU_TEXUNIT = 4;
 #[doc = " Supported texture units."]
-pub type GPU_TEXUNIT = ::std::os::raw::c_int;
+pub type GPU_TEXUNIT = ::std::os::raw::c_uint;
 #[doc = "< 8-bit Red + 8-bit Green + 8-bit Blue + 8-bit Alpha"]
 pub const GPU_TEXCOLOR_GPU_RGBA8: GPU_TEXCOLOR = 0;
 #[doc = "< 8-bit Red + 8-bit Green + 8-bit Blue"]
@@ -29112,7 +29120,7 @@ pub const GPU_TEXCOLOR_GPU_ETC1: GPU_TEXCOLOR = 12;
 #[doc = "< ETC1 texture compression + 4-bit Alpha"]
 pub const GPU_TEXCOLOR_GPU_ETC1A4: GPU_TEXCOLOR = 13;
 #[doc = " Supported texture formats."]
-pub type GPU_TEXCOLOR = ::std::os::raw::c_int;
+pub type GPU_TEXCOLOR = ::std::os::raw::c_uint;
 pub const GPU_TEXFACE_GPU_TEXFACE_2D: GPU_TEXFACE = 0;
 pub const GPU_TEXFACE_GPU_POSITIVE_X: GPU_TEXFACE = 0;
 pub const GPU_TEXFACE_GPU_NEGATIVE_X: GPU_TEXFACE = 1;
@@ -29120,7 +29128,7 @@ pub const GPU_TEXFACE_GPU_POSITIVE_Y: GPU_TEXFACE = 2;
 pub const GPU_TEXFACE_GPU_NEGATIVE_Y: GPU_TEXFACE = 3;
 pub const GPU_TEXFACE_GPU_POSITIVE_Z: GPU_TEXFACE = 4;
 pub const GPU_TEXFACE_GPU_NEGATIVE_Z: GPU_TEXFACE = 5;
-pub type GPU_TEXFACE = ::std::os::raw::c_int;
+pub type GPU_TEXFACE = ::std::os::raw::c_uint;
 #[doc = "< Clamp to zero."]
 pub const GPU_PROCTEX_CLAMP_GPU_PT_CLAMP_TO_ZERO: GPU_PROCTEX_CLAMP = 0;
 #[doc = "< Clamp to edge."]
@@ -29132,7 +29140,7 @@ pub const GPU_PROCTEX_CLAMP_GPU_PT_MIRRORED_REPEAT: GPU_PROCTEX_CLAMP = 3;
 #[doc = "< Pulse."]
 pub const GPU_PROCTEX_CLAMP_GPU_PT_PULSE: GPU_PROCTEX_CLAMP = 4;
 #[doc = " Procedural texture clamp modes."]
-pub type GPU_PROCTEX_CLAMP = ::std::os::raw::c_int;
+pub type GPU_PROCTEX_CLAMP = ::std::os::raw::c_uint;
 #[doc = "< U"]
 pub const GPU_PROCTEX_MAPFUNC_GPU_PT_U: GPU_PROCTEX_MAPFUNC = 0;
 #[doc = "< U2"]
@@ -29154,7 +29162,7 @@ pub const GPU_PROCTEX_MAPFUNC_GPU_PT_MAX: GPU_PROCTEX_MAPFUNC = 8;
 #[doc = "< rmax"]
 pub const GPU_PROCTEX_MAPFUNC_GPU_PT_RMAX: GPU_PROCTEX_MAPFUNC = 9;
 #[doc = " Procedural texture mapping functions."]
-pub type GPU_PROCTEX_MAPFUNC = ::std::os::raw::c_int;
+pub type GPU_PROCTEX_MAPFUNC = ::std::os::raw::c_uint;
 #[doc = "< No shift."]
 pub const GPU_PROCTEX_SHIFT_GPU_PT_NONE: GPU_PROCTEX_SHIFT = 0;
 #[doc = "< Odd shift."]
@@ -29162,7 +29170,7 @@ pub const GPU_PROCTEX_SHIFT_GPU_PT_ODD: GPU_PROCTEX_SHIFT = 1;
 #[doc = "< Even shift."]
 pub const GPU_PROCTEX_SHIFT_GPU_PT_EVEN: GPU_PROCTEX_SHIFT = 2;
 #[doc = " Procedural texture shift values."]
-pub type GPU_PROCTEX_SHIFT = ::std::os::raw::c_int;
+pub type GPU_PROCTEX_SHIFT = ::std::os::raw::c_uint;
 #[doc = "< Nearest-neighbor"]
 pub const GPU_PROCTEX_FILTER_GPU_PT_NEAREST: GPU_PROCTEX_FILTER = 0;
 #[doc = "< Linear interpolation"]
@@ -29176,7 +29184,7 @@ pub const GPU_PROCTEX_FILTER_GPU_PT_NEAREST_MIP_LINEAR: GPU_PROCTEX_FILTER = 4;
 #[doc = "< Linear interpolation with mipmap using linear interpolation"]
 pub const GPU_PROCTEX_FILTER_GPU_PT_LINEAR_MIP_LINEAR: GPU_PROCTEX_FILTER = 5;
 #[doc = " Procedural texture filter values."]
-pub type GPU_PROCTEX_FILTER = ::std::os::raw::c_int;
+pub type GPU_PROCTEX_FILTER = ::std::os::raw::c_uint;
 #[doc = "< Noise table"]
 pub const GPU_PROCTEX_LUTID_GPU_LUT_NOISE: GPU_PROCTEX_LUTID = 0;
 #[doc = "< RGB mapping function table"]
@@ -29188,7 +29196,7 @@ pub const GPU_PROCTEX_LUTID_GPU_LUT_COLOR: GPU_PROCTEX_LUTID = 4;
 #[doc = "< Color difference table"]
 pub const GPU_PROCTEX_LUTID_GPU_LUT_COLORDIF: GPU_PROCTEX_LUTID = 5;
 #[doc = " Procedural texture LUT IDs."]
-pub type GPU_PROCTEX_LUTID = ::std::os::raw::c_int;
+pub type GPU_PROCTEX_LUTID = ::std::os::raw::c_uint;
 #[doc = "< 8-bit Red + 8-bit Green + 8-bit Blue + 8-bit Alpha"]
 pub const GPU_COLORBUF_GPU_RB_RGBA8: GPU_COLORBUF = 0;
 #[doc = "< 8-bit Red + 8-bit Green + 8-bit Blue"]
@@ -29200,7 +29208,7 @@ pub const GPU_COLORBUF_GPU_RB_RGB565: GPU_COLORBUF = 3;
 #[doc = "< 4-bit Red + 4-bit Green + 4-bit Blue + 4-bit Alpha"]
 pub const GPU_COLORBUF_GPU_RB_RGBA4: GPU_COLORBUF = 4;
 #[doc = " Supported color buffer formats."]
-pub type GPU_COLORBUF = ::std::os::raw::c_int;
+pub type GPU_COLORBUF = ::std::os::raw::c_uint;
 #[doc = "< 16-bit Depth"]
 pub const GPU_DEPTHBUF_GPU_RB_DEPTH16: GPU_DEPTHBUF = 0;
 #[doc = "< 24-bit Depth"]
@@ -29208,7 +29216,7 @@ pub const GPU_DEPTHBUF_GPU_RB_DEPTH24: GPU_DEPTHBUF = 2;
 #[doc = "< 24-bit Depth + 8-bit Stencil"]
 pub const GPU_DEPTHBUF_GPU_RB_DEPTH24_STENCIL8: GPU_DEPTHBUF = 3;
 #[doc = " Supported depth buffer formats."]
-pub type GPU_DEPTHBUF = ::std::os::raw::c_int;
+pub type GPU_DEPTHBUF = ::std::os::raw::c_uint;
 #[doc = "< Never pass."]
 pub const GPU_TESTFUNC_GPU_NEVER: GPU_TESTFUNC = 0;
 #[doc = "< Always pass."]
@@ -29226,7 +29234,7 @@ pub const GPU_TESTFUNC_GPU_GREATER: GPU_TESTFUNC = 6;
 #[doc = "< Pass if greater than or equal."]
 pub const GPU_TESTFUNC_GPU_GEQUAL: GPU_TESTFUNC = 7;
 #[doc = " Test functions."]
-pub type GPU_TESTFUNC = ::std::os::raw::c_int;
+pub type GPU_TESTFUNC = ::std::os::raw::c_uint;
 #[doc = "< Pass if greater than or equal."]
 pub const GPU_EARLYDEPTHFUNC_GPU_EARLYDEPTH_GEQUAL: GPU_EARLYDEPTHFUNC = 0;
 #[doc = "< Pass if greater than."]
@@ -29236,7 +29244,7 @@ pub const GPU_EARLYDEPTHFUNC_GPU_EARLYDEPTH_LEQUAL: GPU_EARLYDEPTHFUNC = 2;
 #[doc = "< Pass if less than."]
 pub const GPU_EARLYDEPTHFUNC_GPU_EARLYDEPTH_LESS: GPU_EARLYDEPTHFUNC = 3;
 #[doc = " Early depth test functions."]
-pub type GPU_EARLYDEPTHFUNC = ::std::os::raw::c_int;
+pub type GPU_EARLYDEPTHFUNC = ::std::os::raw::c_uint;
 #[doc = "< Never pass (0)."]
 pub const GPU_GASDEPTHFUNC_GPU_GAS_NEVER: GPU_GASDEPTHFUNC = 0;
 #[doc = "< Always pass (1)."]
@@ -29246,7 +29254,7 @@ pub const GPU_GASDEPTHFUNC_GPU_GAS_GREATER: GPU_GASDEPTHFUNC = 2;
 #[doc = "< Pass if less than (X)."]
 pub const GPU_GASDEPTHFUNC_GPU_GAS_LESS: GPU_GASDEPTHFUNC = 3;
 #[doc = " Gas depth functions."]
-pub type GPU_GASDEPTHFUNC = ::std::os::raw::c_int;
+pub type GPU_GASDEPTHFUNC = ::std::os::raw::c_uint;
 #[doc = "< Disable."]
 pub const GPU_SCISSORMODE_GPU_SCISSOR_DISABLE: GPU_SCISSORMODE = 0;
 #[doc = "< Exclude pixels inside the scissor box."]
@@ -29254,7 +29262,7 @@ pub const GPU_SCISSORMODE_GPU_SCISSOR_INVERT: GPU_SCISSORMODE = 1;
 #[doc = "< Exclude pixels outside of the scissor box."]
 pub const GPU_SCISSORMODE_GPU_SCISSOR_NORMAL: GPU_SCISSORMODE = 3;
 #[doc = " Scissor test modes."]
-pub type GPU_SCISSORMODE = ::std::os::raw::c_int;
+pub type GPU_SCISSORMODE = ::std::os::raw::c_uint;
 #[doc = "< Keep old value. (old_stencil)"]
 pub const GPU_STENCILOP_GPU_STENCIL_KEEP: GPU_STENCILOP = 0;
 #[doc = "< Zero. (0)"]
@@ -29272,7 +29280,7 @@ pub const GPU_STENCILOP_GPU_STENCIL_INCR_WRAP: GPU_STENCILOP = 6;
 #[doc = "< Decrement value. (old_stencil - 1)"]
 pub const GPU_STENCILOP_GPU_STENCIL_DECR_WRAP: GPU_STENCILOP = 7;
 #[doc = " Stencil operations."]
-pub type GPU_STENCILOP = ::std::os::raw::c_int;
+pub type GPU_STENCILOP = ::std::os::raw::c_uint;
 #[doc = "< Write red."]
 pub const GPU_WRITEMASK_GPU_WRITE_RED: GPU_WRITEMASK = 1;
 #[doc = "< Write green."]
@@ -29288,7 +29296,7 @@ pub const GPU_WRITEMASK_GPU_WRITE_COLOR: GPU_WRITEMASK = 15;
 #[doc = "< Write all components."]
 pub const GPU_WRITEMASK_GPU_WRITE_ALL: GPU_WRITEMASK = 31;
 #[doc = " Pixel write mask."]
-pub type GPU_WRITEMASK = ::std::os::raw::c_int;
+pub type GPU_WRITEMASK = ::std::os::raw::c_uint;
 #[doc = "< Add colors."]
 pub const GPU_BLENDEQUATION_GPU_BLEND_ADD: GPU_BLENDEQUATION = 0;
 #[doc = "< Subtract colors."]
@@ -29300,7 +29308,7 @@ pub const GPU_BLENDEQUATION_GPU_BLEND_MIN: GPU_BLENDEQUATION = 3;
 #[doc = "< Use the maximum color."]
 pub const GPU_BLENDEQUATION_GPU_BLEND_MAX: GPU_BLENDEQUATION = 4;
 #[doc = " Blend modes."]
-pub type GPU_BLENDEQUATION = ::std::os::raw::c_int;
+pub type GPU_BLENDEQUATION = ::std::os::raw::c_uint;
 #[doc = "< Zero."]
 pub const GPU_BLENDFACTOR_GPU_ZERO: GPU_BLENDFACTOR = 0;
 #[doc = "< One."]
@@ -29332,7 +29340,7 @@ pub const GPU_BLENDFACTOR_GPU_ONE_MINUS_CONSTANT_ALPHA: GPU_BLENDFACTOR = 13;
 #[doc = "< Saturated alpha."]
 pub const GPU_BLENDFACTOR_GPU_SRC_ALPHA_SATURATE: GPU_BLENDFACTOR = 14;
 #[doc = " Blend factors."]
-pub type GPU_BLENDFACTOR = ::std::os::raw::c_int;
+pub type GPU_BLENDFACTOR = ::std::os::raw::c_uint;
 #[doc = "< Clear."]
 pub const GPU_LOGICOP_GPU_LOGICOP_CLEAR: GPU_LOGICOP = 0;
 #[doc = "< Bitwise AND."]
@@ -29366,7 +29374,7 @@ pub const GPU_LOGICOP_GPU_LOGICOP_OR_REVERSE: GPU_LOGICOP = 14;
 #[doc = "< Inverted bitwize OR."]
 pub const GPU_LOGICOP_GPU_LOGICOP_OR_INVERTED: GPU_LOGICOP = 15;
 #[doc = " Logical operations."]
-pub type GPU_LOGICOP = ::std::os::raw::c_int;
+pub type GPU_LOGICOP = ::std::os::raw::c_uint;
 #[doc = "< OpenGL mode."]
 pub const GPU_FRAGOPMODE_GPU_FRAGOPMODE_GL: GPU_FRAGOPMODE = 0;
 #[doc = "< Gas mode (?)."]
@@ -29374,7 +29382,7 @@ pub const GPU_FRAGOPMODE_GPU_FRAGOPMODE_GAS_ACC: GPU_FRAGOPMODE = 1;
 #[doc = "< Shadow mode (?)."]
 pub const GPU_FRAGOPMODE_GPU_FRAGOPMODE_SHADOW: GPU_FRAGOPMODE = 3;
 #[doc = " Fragment operation modes."]
-pub type GPU_FRAGOPMODE = ::std::os::raw::c_int;
+pub type GPU_FRAGOPMODE = ::std::os::raw::c_uint;
 #[doc = "< 8-bit byte."]
 pub const GPU_FORMATS_GPU_BYTE: GPU_FORMATS = 0;
 #[doc = "< 8-bit unsigned byte."]
@@ -29384,7 +29392,7 @@ pub const GPU_FORMATS_GPU_SHORT: GPU_FORMATS = 2;
 #[doc = "< 32-bit float."]
 pub const GPU_FORMATS_GPU_FLOAT: GPU_FORMATS = 3;
 #[doc = " Supported component formats."]
-pub type GPU_FORMATS = ::std::os::raw::c_int;
+pub type GPU_FORMATS = ::std::os::raw::c_uint;
 #[doc = "< Disabled."]
 pub const GPU_CULLMODE_GPU_CULL_NONE: GPU_CULLMODE = 0;
 #[doc = "< Front, counter-clockwise."]
@@ -29392,7 +29400,7 @@ pub const GPU_CULLMODE_GPU_CULL_FRONT_CCW: GPU_CULLMODE = 1;
 #[doc = "< Back, counter-clockwise."]
 pub const GPU_CULLMODE_GPU_CULL_BACK_CCW: GPU_CULLMODE = 2;
 #[doc = " Cull modes."]
-pub type GPU_CULLMODE = ::std::os::raw::c_int;
+pub type GPU_CULLMODE = ::std::os::raw::c_uint;
 #[doc = "< Primary color."]
 pub const GPU_TEVSRC_GPU_PRIMARY_COLOR: GPU_TEVSRC = 0;
 #[doc = "< Primary fragment color."]
@@ -29414,7 +29422,7 @@ pub const GPU_TEVSRC_GPU_CONSTANT: GPU_TEVSRC = 14;
 #[doc = "< Previous value."]
 pub const GPU_TEVSRC_GPU_PREVIOUS: GPU_TEVSRC = 15;
 #[doc = " Texture combiner sources."]
-pub type GPU_TEVSRC = ::std::os::raw::c_int;
+pub type GPU_TEVSRC = ::std::os::raw::c_uint;
 #[doc = "< Source color."]
 pub const GPU_TEVOP_RGB_GPU_TEVOP_RGB_SRC_COLOR: GPU_TEVOP_RGB = 0;
 #[doc = "< Source color - 1."]
@@ -29448,7 +29456,7 @@ pub const GPU_TEVOP_RGB_GPU_TEVOP_RGB_0x0E: GPU_TEVOP_RGB = 14;
 #[doc = "< Unknown."]
 pub const GPU_TEVOP_RGB_GPU_TEVOP_RGB_0x0F: GPU_TEVOP_RGB = 15;
 #[doc = " Texture RGB combiner operands."]
-pub type GPU_TEVOP_RGB = ::std::os::raw::c_int;
+pub type GPU_TEVOP_RGB = ::std::os::raw::c_uint;
 #[doc = "< Source alpha."]
 pub const GPU_TEVOP_A_GPU_TEVOP_A_SRC_ALPHA: GPU_TEVOP_A = 0;
 #[doc = "< Source alpha - 1."]
@@ -29466,7 +29474,7 @@ pub const GPU_TEVOP_A_GPU_TEVOP_A_SRC_B: GPU_TEVOP_A = 6;
 #[doc = "< Source blue - 1."]
 pub const GPU_TEVOP_A_GPU_TEVOP_A_ONE_MINUS_SRC_B: GPU_TEVOP_A = 7;
 #[doc = " Texture Alpha combiner operands."]
-pub type GPU_TEVOP_A = ::std::os::raw::c_int;
+pub type GPU_TEVOP_A = ::std::os::raw::c_uint;
 #[doc = "< Replace."]
 pub const GPU_COMBINEFUNC_GPU_REPLACE: GPU_COMBINEFUNC = 0;
 #[doc = "< Modulate."]
@@ -29486,7 +29494,7 @@ pub const GPU_COMBINEFUNC_GPU_MULTIPLY_ADD: GPU_COMBINEFUNC = 8;
 #[doc = "< Add then multiply."]
 pub const GPU_COMBINEFUNC_GPU_ADD_MULTIPLY: GPU_COMBINEFUNC = 9;
 #[doc = " Texture combiner functions."]
-pub type GPU_COMBINEFUNC = ::std::os::raw::c_int;
+pub type GPU_COMBINEFUNC = ::std::os::raw::c_uint;
 #[doc = "< 1x"]
 pub const GPU_TEVSCALE_GPU_TEVSCALE_1: GPU_TEVSCALE = 0;
 #[doc = "< 2x"]
@@ -29494,7 +29502,7 @@ pub const GPU_TEVSCALE_GPU_TEVSCALE_2: GPU_TEVSCALE = 1;
 #[doc = "< 4x"]
 pub const GPU_TEVSCALE_GPU_TEVSCALE_4: GPU_TEVSCALE = 2;
 #[doc = " Texture scale factors."]
-pub type GPU_TEVSCALE = ::std::os::raw::c_int;
+pub type GPU_TEVSCALE = ::std::os::raw::c_uint;
 #[doc = "< None."]
 pub const GPU_FRESNELSEL_GPU_NO_FRESNEL: GPU_FRESNELSEL = 0;
 #[doc = "< Primary alpha."]
@@ -29504,7 +29512,7 @@ pub const GPU_FRESNELSEL_GPU_SEC_ALPHA_FRESNEL: GPU_FRESNELSEL = 2;
 #[doc = "< Primary and secondary alpha."]
 pub const GPU_FRESNELSEL_GPU_PRI_SEC_ALPHA_FRESNEL: GPU_FRESNELSEL = 3;
 #[doc = " Fresnel options."]
-pub type GPU_FRESNELSEL = ::std::os::raw::c_int;
+pub type GPU_FRESNELSEL = ::std::os::raw::c_uint;
 #[doc = "< Disabled."]
 pub const GPU_BUMPMODE_GPU_BUMP_NOT_USED: GPU_BUMPMODE = 0;
 #[doc = "< Bump as bump mapping."]
@@ -29512,7 +29520,7 @@ pub const GPU_BUMPMODE_GPU_BUMP_AS_BUMP: GPU_BUMPMODE = 1;
 #[doc = "< Bump as tangent/normal mapping."]
 pub const GPU_BUMPMODE_GPU_BUMP_AS_TANG: GPU_BUMPMODE = 2;
 #[doc = " Bump map modes."]
-pub type GPU_BUMPMODE = ::std::os::raw::c_int;
+pub type GPU_BUMPMODE = ::std::os::raw::c_uint;
 #[doc = "< D0 LUT."]
 pub const GPU_LIGHTLUTID_GPU_LUT_D0: GPU_LIGHTLUTID = 0;
 #[doc = "< D1 LUT."]
@@ -29530,7 +29538,7 @@ pub const GPU_LIGHTLUTID_GPU_LUT_RR: GPU_LIGHTLUTID = 6;
 #[doc = "< Distance attenuation LUT."]
 pub const GPU_LIGHTLUTID_GPU_LUT_DA: GPU_LIGHTLUTID = 7;
 #[doc = " LUT IDs."]
-pub type GPU_LIGHTLUTID = ::std::os::raw::c_int;
+pub type GPU_LIGHTLUTID = ::std::os::raw::c_uint;
 #[doc = "< Normal*HalfVector"]
 pub const GPU_LIGHTLUTINPUT_GPU_LUTINPUT_NH: GPU_LIGHTLUTINPUT = 0;
 #[doc = "< View*HalfVector"]
@@ -29544,7 +29552,7 @@ pub const GPU_LIGHTLUTINPUT_GPU_LUTINPUT_SP: GPU_LIGHTLUTINPUT = 4;
 #[doc = "< cosine of phi"]
 pub const GPU_LIGHTLUTINPUT_GPU_LUTINPUT_CP: GPU_LIGHTLUTINPUT = 5;
 #[doc = " LUT inputs."]
-pub type GPU_LIGHTLUTINPUT = ::std::os::raw::c_int;
+pub type GPU_LIGHTLUTINPUT = ::std::os::raw::c_uint;
 #[doc = "< 1x scale."]
 pub const GPU_LIGHTLUTSCALER_GPU_LUTSCALER_1x: GPU_LIGHTLUTSCALER = 0;
 #[doc = "< 2x scale."]
@@ -29558,7 +29566,7 @@ pub const GPU_LIGHTLUTSCALER_GPU_LUTSCALER_0_25x: GPU_LIGHTLUTSCALER = 6;
 #[doc = "< 0.5x scale."]
 pub const GPU_LIGHTLUTSCALER_GPU_LUTSCALER_0_5x: GPU_LIGHTLUTSCALER = 7;
 #[doc = " LUT scalers."]
-pub type GPU_LIGHTLUTSCALER = ::std::os::raw::c_int;
+pub type GPU_LIGHTLUTSCALER = ::std::os::raw::c_uint;
 #[doc = "< LUTs that are common to all lights."]
 pub const GPU_LIGHTLUTSELECT_GPU_LUTSELECT_COMMON: GPU_LIGHTLUTSELECT = 0;
 #[doc = "< Spotlight LUT."]
@@ -29566,7 +29574,7 @@ pub const GPU_LIGHTLUTSELECT_GPU_LUTSELECT_SP: GPU_LIGHTLUTSELECT = 1;
 #[doc = "< Distance attenuation LUT."]
 pub const GPU_LIGHTLUTSELECT_GPU_LUTSELECT_DA: GPU_LIGHTLUTSELECT = 2;
 #[doc = " LUT selection."]
-pub type GPU_LIGHTLUTSELECT = ::std::os::raw::c_int;
+pub type GPU_LIGHTLUTSELECT = ::std::os::raw::c_uint;
 #[doc = "< Fog/Gas unit disabled."]
 pub const GPU_FOGMODE_GPU_NO_FOG: GPU_FOGMODE = 0;
 #[doc = "< Fog/Gas unit configured in Fog mode."]
@@ -29574,19 +29582,19 @@ pub const GPU_FOGMODE_GPU_FOG: GPU_FOGMODE = 5;
 #[doc = "< Fog/Gas unit configured in Gas mode."]
 pub const GPU_FOGMODE_GPU_GAS: GPU_FOGMODE = 7;
 #[doc = " Fog modes."]
-pub type GPU_FOGMODE = ::std::os::raw::c_int;
+pub type GPU_FOGMODE = ::std::os::raw::c_uint;
 #[doc = "< Plain density."]
 pub const GPU_GASMODE_GPU_PLAIN_DENSITY: GPU_GASMODE = 0;
 #[doc = "< Depth density."]
 pub const GPU_GASMODE_GPU_DEPTH_DENSITY: GPU_GASMODE = 1;
 #[doc = " Gas shading density source values."]
-pub type GPU_GASMODE = ::std::os::raw::c_int;
+pub type GPU_GASMODE = ::std::os::raw::c_uint;
 #[doc = "< Gas density used as input."]
 pub const GPU_GASLUTINPUT_GPU_GAS_DENSITY: GPU_GASLUTINPUT = 0;
 #[doc = "< Light factor used as input."]
 pub const GPU_GASLUTINPUT_GPU_GAS_LIGHT_FACTOR: GPU_GASLUTINPUT = 1;
 #[doc = " Gas color LUT inputs."]
-pub type GPU_GASLUTINPUT = ::std::os::raw::c_int;
+pub type GPU_GASLUTINPUT = ::std::os::raw::c_uint;
 #[doc = "< Triangles."]
 pub const GPU_Primitive_t_GPU_TRIANGLES: GPU_Primitive_t = 0;
 #[doc = "< Triangle strip."]
@@ -29596,13 +29604,13 @@ pub const GPU_Primitive_t_GPU_TRIANGLE_FAN: GPU_Primitive_t = 512;
 #[doc = "< Geometry shader primitive."]
 pub const GPU_Primitive_t_GPU_GEOMETRY_PRIM: GPU_Primitive_t = 768;
 #[doc = " Supported primitives."]
-pub type GPU_Primitive_t = ::std::os::raw::c_int;
+pub type GPU_Primitive_t = ::std::os::raw::c_uint;
 #[doc = "< Vertex shader."]
 pub const GPU_SHADER_TYPE_GPU_VERTEX_SHADER: GPU_SHADER_TYPE = 0;
 #[doc = "< Geometry shader."]
 pub const GPU_SHADER_TYPE_GPU_GEOMETRY_SHADER: GPU_SHADER_TYPE = 1;
 #[doc = " Shader types."]
-pub type GPU_SHADER_TYPE = ::std::os::raw::c_int;
+pub type GPU_SHADER_TYPE = ::std::os::raw::c_uint;
 extern "C" {
     pub static mut gpuCmdBuf: *mut u32_;
 }
@@ -29616,14 +29624,14 @@ extern "C" {
     #[doc = " @brief Adds raw GPU commands to the current command buffer."]
     #[doc = " @param cmd Buffer containing commands to add."]
     #[doc = " @param size Size of the buffer."]
-    pub fn GPUCMD_AddRawCommands(cmd: *mut u32_, size: u32_);
+    pub fn GPUCMD_AddRawCommands(cmd: *const u32_, size: u32_);
 }
 extern "C" {
     #[doc = " @brief Adds a GPU command to the current command buffer."]
     #[doc = " @param header Header of the command."]
     #[doc = " @param param Parameters of the command."]
     #[doc = " @param paramlength Size of the parameter buffer."]
-    pub fn GPUCMD_Add(header: u32_, param: *mut u32_, paramlength: u32_);
+    pub fn GPUCMD_Add(header: u32_, param: *const u32_, paramlength: u32_);
 }
 extern "C" {
     #[doc = " @brief Splits the current GPU command buffer."]
@@ -29660,7 +29668,7 @@ pub const DVLE_type_VERTEX_SHDR: DVLE_type = 0;
 #[doc = "< Geometry shader."]
 pub const DVLE_type_GEOMETRY_SHDR: DVLE_type = 1;
 #[doc = " DVLE type."]
-pub type DVLE_type = ::std::os::raw::c_int;
+pub type DVLE_type = ::std::os::raw::c_uint;
 #[doc = "< Bool."]
 pub const DVLE_constantType_DVLE_CONST_BOOL: DVLE_constantType = 0;
 #[doc = "< Unsigned 8-bit integer."]
@@ -29668,7 +29676,7 @@ pub const DVLE_constantType_DVLE_CONST_u8: DVLE_constantType = 1;
 #[doc = "< 24-bit float."]
 pub const DVLE_constantType_DVLE_CONST_FLOAT24: DVLE_constantType = 2;
 #[doc = " Constant type."]
-pub type DVLE_constantType = ::std::os::raw::c_int;
+pub type DVLE_constantType = ::std::os::raw::c_uint;
 #[doc = "< Position."]
 pub const DVLE_outputAttribute_t_RESULT_POSITION: DVLE_outputAttribute_t = 0;
 #[doc = "< Normal Quaternion."]
@@ -29688,7 +29696,7 @@ pub const DVLE_outputAttribute_t_RESULT_VIEW: DVLE_outputAttribute_t = 8;
 #[doc = "< Dummy attribute (used as passthrough for geometry shader input)."]
 pub const DVLE_outputAttribute_t_RESULT_DUMMY: DVLE_outputAttribute_t = 9;
 #[doc = " Output attribute."]
-pub type DVLE_outputAttribute_t = ::std::os::raw::c_int;
+pub type DVLE_outputAttribute_t = ::std::os::raw::c_uint;
 #[doc = "< Point processing mode."]
 pub const DVLE_geoShaderMode_GSH_POINT: DVLE_geoShaderMode = 0;
 #[doc = "< Variable-size primitive processing mode."]
@@ -29696,7 +29704,7 @@ pub const DVLE_geoShaderMode_GSH_VARIABLE_PRIM: DVLE_geoShaderMode = 1;
 #[doc = "< Fixed-size primitive processing mode."]
 pub const DVLE_geoShaderMode_GSH_FIXED_PRIM: DVLE_geoShaderMode = 2;
 #[doc = " Geometry shader operation modes."]
-pub type DVLE_geoShaderMode = ::std::os::raw::c_int;
+pub type DVLE_geoShaderMode = ::std::os::raw::c_uint;
 #[doc = " DVLP data."]
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -29714,12 +29722,12 @@ pub struct DVLP_s {
 fn bindgen_test_layout_DVLP_s() {
     assert_eq!(
         ::std::mem::size_of::<DVLP_s>(),
-        32usize,
+        16usize,
         concat!("Size of: ", stringify!(DVLP_s))
     );
     assert_eq!(
         ::std::mem::align_of::<DVLP_s>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(DVLP_s))
     );
     assert_eq!(
@@ -29734,7 +29742,7 @@ fn bindgen_test_layout_DVLP_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<DVLP_s>())).codeData as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(DVLP_s),
@@ -29744,7 +29752,7 @@ fn bindgen_test_layout_DVLP_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<DVLP_s>())).opdescSize as *const _ as usize },
-        16usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(DVLP_s),
@@ -29754,7 +29762,7 @@ fn bindgen_test_layout_DVLP_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<DVLP_s>())).opcdescData as *const _ as usize },
-        24usize,
+        12usize,
         concat!(
             "Offset of field: ",
             stringify!(DVLP_s),
@@ -29988,12 +29996,12 @@ pub struct DVLE_s {
 fn bindgen_test_layout_DVLE_s() {
     assert_eq!(
         ::std::mem::size_of::<DVLE_s>(),
-        136usize,
+        100usize,
         concat!("Size of: ", stringify!(DVLE_s))
     );
     assert_eq!(
         ::std::mem::align_of::<DVLE_s>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(DVLE_s))
     );
     assert_eq!(
@@ -30068,7 +30076,7 @@ fn bindgen_test_layout_DVLE_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<DVLE_s>())).mainOffset as *const _ as usize },
-        24usize,
+        20usize,
         concat!(
             "Offset of field: ",
             stringify!(DVLE_s),
@@ -30078,7 +30086,7 @@ fn bindgen_test_layout_DVLE_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<DVLE_s>())).endmainOffset as *const _ as usize },
-        28usize,
+        24usize,
         concat!(
             "Offset of field: ",
             stringify!(DVLE_s),
@@ -30088,7 +30096,7 @@ fn bindgen_test_layout_DVLE_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<DVLE_s>())).constTableSize as *const _ as usize },
-        32usize,
+        28usize,
         concat!(
             "Offset of field: ",
             stringify!(DVLE_s),
@@ -30098,7 +30106,7 @@ fn bindgen_test_layout_DVLE_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<DVLE_s>())).constTableData as *const _ as usize },
-        40usize,
+        32usize,
         concat!(
             "Offset of field: ",
             stringify!(DVLE_s),
@@ -30108,7 +30116,7 @@ fn bindgen_test_layout_DVLE_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<DVLE_s>())).outTableSize as *const _ as usize },
-        48usize,
+        36usize,
         concat!(
             "Offset of field: ",
             stringify!(DVLE_s),
@@ -30118,7 +30126,7 @@ fn bindgen_test_layout_DVLE_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<DVLE_s>())).outTableData as *const _ as usize },
-        56usize,
+        40usize,
         concat!(
             "Offset of field: ",
             stringify!(DVLE_s),
@@ -30128,7 +30136,7 @@ fn bindgen_test_layout_DVLE_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<DVLE_s>())).uniformTableSize as *const _ as usize },
-        64usize,
+        44usize,
         concat!(
             "Offset of field: ",
             stringify!(DVLE_s),
@@ -30138,7 +30146,7 @@ fn bindgen_test_layout_DVLE_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<DVLE_s>())).uniformTableData as *const _ as usize },
-        72usize,
+        48usize,
         concat!(
             "Offset of field: ",
             stringify!(DVLE_s),
@@ -30148,7 +30156,7 @@ fn bindgen_test_layout_DVLE_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<DVLE_s>())).symbolTableData as *const _ as usize },
-        80usize,
+        52usize,
         concat!(
             "Offset of field: ",
             stringify!(DVLE_s),
@@ -30158,7 +30166,7 @@ fn bindgen_test_layout_DVLE_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<DVLE_s>())).outmapMask as *const _ as usize },
-        88usize,
+        56usize,
         concat!(
             "Offset of field: ",
             stringify!(DVLE_s),
@@ -30168,7 +30176,7 @@ fn bindgen_test_layout_DVLE_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<DVLE_s>())).outmapData as *const _ as usize },
-        92usize,
+        60usize,
         concat!(
             "Offset of field: ",
             stringify!(DVLE_s),
@@ -30178,7 +30186,7 @@ fn bindgen_test_layout_DVLE_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<DVLE_s>())).outmapMode as *const _ as usize },
-        124usize,
+        92usize,
         concat!(
             "Offset of field: ",
             stringify!(DVLE_s),
@@ -30188,7 +30196,7 @@ fn bindgen_test_layout_DVLE_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<DVLE_s>())).outmapClock as *const _ as usize },
-        128usize,
+        96usize,
         concat!(
             "Offset of field: ",
             stringify!(DVLE_s),
@@ -30212,12 +30220,12 @@ pub struct DVLB_s {
 fn bindgen_test_layout_DVLB_s() {
     assert_eq!(
         ::std::mem::size_of::<DVLB_s>(),
-        48usize,
+        24usize,
         concat!("Size of: ", stringify!(DVLB_s))
     );
     assert_eq!(
         ::std::mem::align_of::<DVLB_s>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(DVLB_s))
     );
     assert_eq!(
@@ -30232,7 +30240,7 @@ fn bindgen_test_layout_DVLB_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<DVLB_s>())).DVLP as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(DVLB_s),
@@ -30242,7 +30250,7 @@ fn bindgen_test_layout_DVLB_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<DVLB_s>())).DVLE as *const _ as usize },
-        40usize,
+        20usize,
         concat!(
             "Offset of field: ",
             stringify!(DVLB_s),
@@ -30268,7 +30276,7 @@ extern "C" {
     #[doc = " @param dvle Shader to get the register from."]
     #[doc = " @param name Name of the register."]
     #[doc = " @return The uniform register index."]
-    pub fn DVLE_GetUniformRegister(dvle: *mut DVLE_s, name: *mut ::std::os::raw::c_char) -> s8;
+    pub fn DVLE_GetUniformRegister(dvle: *mut DVLE_s, name: *const ::std::os::raw::c_char) -> s8;
 }
 extern "C" {
     #[doc = " @brief Generates a shader output map."]
@@ -30340,12 +30348,12 @@ pub struct shaderInstance_s {
 fn bindgen_test_layout_shaderInstance_s() {
     assert_eq!(
         ::std::mem::size_of::<shaderInstance_s>(),
-        48usize,
+        32usize,
         concat!("Size of: ", stringify!(shaderInstance_s))
     );
     assert_eq!(
         ::std::mem::align_of::<shaderInstance_s>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(shaderInstance_s))
     );
     assert_eq!(
@@ -30360,7 +30368,7 @@ fn bindgen_test_layout_shaderInstance_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<shaderInstance_s>())).boolUniforms as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(shaderInstance_s),
@@ -30372,7 +30380,7 @@ fn bindgen_test_layout_shaderInstance_s() {
         unsafe {
             &(*(::std::ptr::null::<shaderInstance_s>())).boolUniformMask as *const _ as usize
         },
-        10usize,
+        6usize,
         concat!(
             "Offset of field: ",
             stringify!(shaderInstance_s),
@@ -30382,7 +30390,7 @@ fn bindgen_test_layout_shaderInstance_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<shaderInstance_s>())).intUniforms as *const _ as usize },
-        12usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(shaderInstance_s),
@@ -30394,7 +30402,7 @@ fn bindgen_test_layout_shaderInstance_s() {
         unsafe {
             &(*(::std::ptr::null::<shaderInstance_s>())).float24Uniforms as *const _ as usize
         },
-        32usize,
+        24usize,
         concat!(
             "Offset of field: ",
             stringify!(shaderInstance_s),
@@ -30404,7 +30412,7 @@ fn bindgen_test_layout_shaderInstance_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<shaderInstance_s>())).intUniformMask as *const _ as usize },
-        40usize,
+        28usize,
         concat!(
             "Offset of field: ",
             stringify!(shaderInstance_s),
@@ -30416,7 +30424,7 @@ fn bindgen_test_layout_shaderInstance_s() {
         unsafe {
             &(*(::std::ptr::null::<shaderInstance_s>())).numFloat24Uniforms as *const _ as usize
         },
-        41usize,
+        29usize,
         concat!(
             "Offset of field: ",
             stringify!(shaderInstance_s),
@@ -30442,12 +30450,12 @@ pub struct shaderProgram_s {
 fn bindgen_test_layout_shaderProgram_s() {
     assert_eq!(
         ::std::mem::size_of::<shaderProgram_s>(),
-        32usize,
+        20usize,
         concat!("Size of: ", stringify!(shaderProgram_s))
     );
     assert_eq!(
         ::std::mem::align_of::<shaderProgram_s>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(shaderProgram_s))
     );
     assert_eq!(
@@ -30462,7 +30470,7 @@ fn bindgen_test_layout_shaderProgram_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<shaderProgram_s>())).geometryShader as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(shaderProgram_s),
@@ -30475,7 +30483,7 @@ fn bindgen_test_layout_shaderProgram_s() {
             &(*(::std::ptr::null::<shaderProgram_s>())).geoShaderInputPermutation as *const _
                 as usize
         },
-        16usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(shaderProgram_s),
@@ -30487,7 +30495,7 @@ fn bindgen_test_layout_shaderProgram_s() {
         unsafe {
             &(*(::std::ptr::null::<shaderProgram_s>())).geoShaderInputStride as *const _ as usize
         },
-        24usize,
+        16usize,
         concat!(
             "Offset of field: ",
             stringify!(shaderProgram_s),
@@ -30535,7 +30543,7 @@ extern "C" {
     #[doc = " @param name Name of the uniform."]
     pub fn shaderInstanceGetUniformLocation(
         si: *mut shaderInstance_s,
-        name: *mut ::std::os::raw::c_char,
+        name: *const ::std::os::raw::c_char,
     ) -> s8;
 }
 extern "C" {
@@ -30595,19 +30603,19 @@ pub const ndspOutputMode_NDSP_OUTPUT_SURROUND: ndspOutputMode = 2;
 #[doc = "@name Data types"]
 #[doc = "@{"]
 #[doc = " Sound output modes."]
-pub type ndspOutputMode = ::std::os::raw::c_int;
+pub type ndspOutputMode = ::std::os::raw::c_uint;
 #[doc = "< \"Normal\" clipping mode (?)"]
 pub const ndspClippingMode_NDSP_CLIP_NORMAL: ndspClippingMode = 0;
 #[doc = "< \"Soft\" clipping mode (?)"]
 pub const ndspClippingMode_NDSP_CLIP_SOFT: ndspClippingMode = 1;
-pub type ndspClippingMode = ::std::os::raw::c_int;
+pub type ndspClippingMode = ::std::os::raw::c_uint;
 #[doc = "<?"]
 pub const ndspSpeakerPos_NDSP_SPKPOS_SQUARE: ndspSpeakerPos = 0;
 #[doc = "<?"]
 pub const ndspSpeakerPos_NDSP_SPKPOS_WIDE: ndspSpeakerPos = 1;
 #[doc = "<?"]
 pub const ndspSpeakerPos_NDSP_SPKPOS_NUM: ndspSpeakerPos = 2;
-pub type ndspSpeakerPos = ::std::os::raw::c_int;
+pub type ndspSpeakerPos = ::std::os::raw::c_uint;
 #[doc = " ADPCM data."]
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -30665,15 +30673,15 @@ fn bindgen_test_layout_ndspAdpcmData() {
 #[doc = " Wave buffer type."]
 pub type ndspWaveBuf = tag_ndspWaveBuf;
 #[doc = "< The wave buffer is not queued."]
-pub const NDSP_WBUF_FREE: ::std::os::raw::c_int = 0;
+pub const NDSP_WBUF_FREE: ::std::os::raw::c_uint = 0;
 #[doc = "< The wave buffer is queued and has not been played yet."]
-pub const NDSP_WBUF_QUEUED: ::std::os::raw::c_int = 1;
+pub const NDSP_WBUF_QUEUED: ::std::os::raw::c_uint = 1;
 #[doc = "< The wave buffer is playing right now."]
-pub const NDSP_WBUF_PLAYING: ::std::os::raw::c_int = 2;
+pub const NDSP_WBUF_PLAYING: ::std::os::raw::c_uint = 2;
 #[doc = "< The wave buffer has finished being played."]
-pub const NDSP_WBUF_DONE: ::std::os::raw::c_int = 3;
+pub const NDSP_WBUF_DONE: ::std::os::raw::c_uint = 3;
 #[doc = " Wave buffer status."]
-pub type _bindgen_ty_29 = ::std::os::raw::c_int;
+pub type _bindgen_ty_29 = ::std::os::raw::c_uint;
 #[doc = " Wave buffer struct."]
 #[repr(C)]
 #[derive(Copy, Clone)]
@@ -30704,18 +30712,18 @@ pub union tag_ndspWaveBuf__bindgen_ty_1 {
     #[doc = "< Pointer to DSPADPCM sample data."]
     pub data_adpcm: *mut u8_,
     #[doc = "< Data virtual address."]
-    pub data_vaddr: *mut ::std::os::raw::c_void,
+    pub data_vaddr: *const ::std::os::raw::c_void,
 }
 #[test]
 fn bindgen_test_layout_tag_ndspWaveBuf__bindgen_ty_1() {
     assert_eq!(
         ::std::mem::size_of::<tag_ndspWaveBuf__bindgen_ty_1>(),
-        8usize,
+        4usize,
         concat!("Size of: ", stringify!(tag_ndspWaveBuf__bindgen_ty_1))
     );
     assert_eq!(
         ::std::mem::align_of::<tag_ndspWaveBuf__bindgen_ty_1>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(tag_ndspWaveBuf__bindgen_ty_1))
     );
     assert_eq!(
@@ -30774,17 +30782,17 @@ fn bindgen_test_layout_tag_ndspWaveBuf__bindgen_ty_1() {
 fn bindgen_test_layout_tag_ndspWaveBuf() {
     assert_eq!(
         ::std::mem::size_of::<tag_ndspWaveBuf>(),
-        40usize,
+        24usize,
         concat!("Size of: ", stringify!(tag_ndspWaveBuf))
     );
     assert_eq!(
         ::std::mem::align_of::<tag_ndspWaveBuf>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(tag_ndspWaveBuf))
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<tag_ndspWaveBuf>())).nsamples as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(tag_ndspWaveBuf),
@@ -30794,7 +30802,7 @@ fn bindgen_test_layout_tag_ndspWaveBuf() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<tag_ndspWaveBuf>())).adpcm_data as *const _ as usize },
-        16usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(tag_ndspWaveBuf),
@@ -30804,7 +30812,7 @@ fn bindgen_test_layout_tag_ndspWaveBuf() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<tag_ndspWaveBuf>())).offset as *const _ as usize },
-        24usize,
+        12usize,
         concat!(
             "Offset of field: ",
             stringify!(tag_ndspWaveBuf),
@@ -30814,7 +30822,7 @@ fn bindgen_test_layout_tag_ndspWaveBuf() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<tag_ndspWaveBuf>())).looping as *const _ as usize },
-        28usize,
+        16usize,
         concat!(
             "Offset of field: ",
             stringify!(tag_ndspWaveBuf),
@@ -30824,7 +30832,7 @@ fn bindgen_test_layout_tag_ndspWaveBuf() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<tag_ndspWaveBuf>())).status as *const _ as usize },
-        29usize,
+        17usize,
         concat!(
             "Offset of field: ",
             stringify!(tag_ndspWaveBuf),
@@ -30834,7 +30842,7 @@ fn bindgen_test_layout_tag_ndspWaveBuf() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<tag_ndspWaveBuf>())).sequence_id as *const _ as usize },
-        30usize,
+        18usize,
         concat!(
             "Offset of field: ",
             stringify!(tag_ndspWaveBuf),
@@ -30844,7 +30852,7 @@ fn bindgen_test_layout_tag_ndspWaveBuf() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<tag_ndspWaveBuf>())).next as *const _ as usize },
-        32usize,
+        20usize,
         concat!(
             "Offset of field: ",
             stringify!(tag_ndspWaveBuf),
@@ -30875,7 +30883,7 @@ extern "C" {
     #[doc = "* @param dataMask Data RAM block mask to load the binary to."]
     #[doc = "*/"]
     pub fn ndspUseComponent(
-        binary: *mut ::std::os::raw::c_void,
+        binary: *const ::std::os::raw::c_void,
         size: u32_,
         progMask: u16_,
         dataMask: u16_,
@@ -30987,37 +30995,37 @@ extern "C" {
     );
 }
 #[doc = "< PCM8"]
-pub const NDSP_ENCODING_PCM8: ::std::os::raw::c_int = 0;
+pub const NDSP_ENCODING_PCM8: ::std::os::raw::c_uint = 0;
 #[doc = "< PCM16"]
-pub const NDSP_ENCODING_PCM16: ::std::os::raw::c_int = 1;
+pub const NDSP_ENCODING_PCM16: ::std::os::raw::c_uint = 1;
 #[doc = "< DSPADPCM (GameCube format)"]
-pub const NDSP_ENCODING_ADPCM: ::std::os::raw::c_int = 2;
+pub const NDSP_ENCODING_ADPCM: ::std::os::raw::c_uint = 2;
 #[doc = "@name Data types"]
 #[doc = "@{"]
 #[doc = " Supported sample encodings."]
-pub type _bindgen_ty_30 = ::std::os::raw::c_int;
+pub type _bindgen_ty_30 = ::std::os::raw::c_uint;
 #[doc = "< Buffer contains Mono   PCM8."]
-pub const NDSP_FORMAT_MONO_PCM8: ::std::os::raw::c_int = 1;
+pub const NDSP_FORMAT_MONO_PCM8: ::std::os::raw::c_uint = 1;
 #[doc = "< Buffer contains Mono   PCM16."]
-pub const NDSP_FORMAT_MONO_PCM16: ::std::os::raw::c_int = 5;
+pub const NDSP_FORMAT_MONO_PCM16: ::std::os::raw::c_uint = 5;
 #[doc = "< Buffer contains Mono   ADPCM."]
-pub const NDSP_FORMAT_MONO_ADPCM: ::std::os::raw::c_int = 9;
+pub const NDSP_FORMAT_MONO_ADPCM: ::std::os::raw::c_uint = 9;
 #[doc = "< Buffer contains Stereo PCM8."]
-pub const NDSP_FORMAT_STEREO_PCM8: ::std::os::raw::c_int = 2;
+pub const NDSP_FORMAT_STEREO_PCM8: ::std::os::raw::c_uint = 2;
 #[doc = "< Buffer contains Stereo PCM16."]
-pub const NDSP_FORMAT_STEREO_PCM16: ::std::os::raw::c_int = 6;
+pub const NDSP_FORMAT_STEREO_PCM16: ::std::os::raw::c_uint = 6;
 #[doc = "< (Alias) Buffer contains Mono PCM8."]
-pub const NDSP_FORMAT_PCM8: ::std::os::raw::c_int = 1;
+pub const NDSP_FORMAT_PCM8: ::std::os::raw::c_uint = 1;
 #[doc = "< (Alias) Buffer contains Mono PCM16."]
-pub const NDSP_FORMAT_PCM16: ::std::os::raw::c_int = 5;
+pub const NDSP_FORMAT_PCM16: ::std::os::raw::c_uint = 5;
 #[doc = "< (Alias) Buffer contains Mono ADPCM."]
-pub const NDSP_FORMAT_ADPCM: ::std::os::raw::c_int = 9;
+pub const NDSP_FORMAT_ADPCM: ::std::os::raw::c_uint = 9;
 #[doc = "< Front bypass."]
-pub const NDSP_FRONT_BYPASS: ::std::os::raw::c_int = 16;
+pub const NDSP_FRONT_BYPASS: ::std::os::raw::c_uint = 16;
 #[doc = "< (?) Unknown, under research"]
-pub const NDSP_3D_SURROUND_PREPROCESSED: ::std::os::raw::c_int = 64;
+pub const NDSP_3D_SURROUND_PREPROCESSED: ::std::os::raw::c_uint = 64;
 #[doc = " Channel format flags for use with ndspChnSetFormat."]
-pub type _bindgen_ty_31 = ::std::os::raw::c_int;
+pub type _bindgen_ty_31 = ::std::os::raw::c_uint;
 #[doc = "< Polyphase interpolation"]
 pub const ndspInterpType_NDSP_INTERP_POLYPHASE: ndspInterpType = 0;
 #[doc = "< Linear interpolation"]
@@ -31025,7 +31033,7 @@ pub const ndspInterpType_NDSP_INTERP_LINEAR: ndspInterpType = 1;
 #[doc = "< No interpolation"]
 pub const ndspInterpType_NDSP_INTERP_NONE: ndspInterpType = 2;
 #[doc = " Interpolation types."]
-pub type ndspInterpType = ::std::os::raw::c_int;
+pub type ndspInterpType = ::std::os::raw::c_uint;
 extern "C" {
     #[doc = "@name Basic channel operation"]
     #[doc = "@{"]
@@ -31241,7 +31249,7 @@ pub const SwkbdType_SWKBD_TYPE_NUMPAD: SwkbdType = 2;
 #[doc = "< On JPN systems, a text keyboard without Japanese input capabilities, otherwise same as SWKBD_TYPE_NORMAL."]
 pub const SwkbdType_SWKBD_TYPE_WESTERN: SwkbdType = 3;
 #[doc = " Keyboard types."]
-pub type SwkbdType = ::std::os::raw::c_int;
+pub type SwkbdType = ::std::os::raw::c_uint;
 #[doc = "< All inputs are accepted."]
 pub const SwkbdValidInput_SWKBD_ANYTHING: SwkbdValidInput = 0;
 #[doc = "< Empty inputs are not accepted."]
@@ -31254,7 +31262,7 @@ pub const SwkbdValidInput_SWKBD_NOTBLANK: SwkbdValidInput = 3;
 #[doc = "< The input must have a fixed length (specified by maxTextLength in swkbdInit)."]
 pub const SwkbdValidInput_SWKBD_FIXEDLEN: SwkbdValidInput = 4;
 #[doc = " Accepted input types."]
-pub type SwkbdValidInput = ::std::os::raw::c_int;
+pub type SwkbdValidInput = ::std::os::raw::c_uint;
 #[doc = "< Left button (usually Cancel)"]
 pub const SwkbdButton_SWKBD_BUTTON_LEFT: SwkbdButton = 0;
 #[doc = "< Middle button (usually I Forgot)"]
@@ -31265,7 +31273,7 @@ pub const SwkbdButton_SWKBD_BUTTON_CONFIRM: SwkbdButton = 2;
 #[doc = "< No button (returned by swkbdInputText in special cases)"]
 pub const SwkbdButton_SWKBD_BUTTON_NONE: SwkbdButton = 3;
 #[doc = " Keyboard dialog buttons."]
-pub type SwkbdButton = ::std::os::raw::c_int;
+pub type SwkbdButton = ::std::os::raw::c_uint;
 #[doc = "< Characters are not concealed."]
 pub const SwkbdPasswordMode_SWKBD_PASSWORD_NONE: SwkbdPasswordMode = 0;
 #[doc = "< Characters are concealed immediately."]
@@ -31273,41 +31281,41 @@ pub const SwkbdPasswordMode_SWKBD_PASSWORD_HIDE: SwkbdPasswordMode = 1;
 #[doc = "< Characters are concealed a second after they've been typed."]
 pub const SwkbdPasswordMode_SWKBD_PASSWORD_HIDE_DELAY: SwkbdPasswordMode = 2;
 #[doc = " Keyboard password modes."]
-pub type SwkbdPasswordMode = ::std::os::raw::c_int;
+pub type SwkbdPasswordMode = ::std::os::raw::c_uint;
 #[doc = "< Disallow the use of more than a certain number of digits (0 or more)"]
-pub const SWKBD_FILTER_DIGITS: ::std::os::raw::c_int = 1;
+pub const SWKBD_FILTER_DIGITS: ::std::os::raw::c_uint = 1;
 #[doc = "< Disallow the use of the @ sign."]
-pub const SWKBD_FILTER_AT: ::std::os::raw::c_int = 2;
+pub const SWKBD_FILTER_AT: ::std::os::raw::c_uint = 2;
 #[doc = "< Disallow the use of the % sign."]
-pub const SWKBD_FILTER_PERCENT: ::std::os::raw::c_int = 4;
+pub const SWKBD_FILTER_PERCENT: ::std::os::raw::c_uint = 4;
 #[doc = "< Disallow the use of the \\ sign."]
-pub const SWKBD_FILTER_BACKSLASH: ::std::os::raw::c_int = 8;
+pub const SWKBD_FILTER_BACKSLASH: ::std::os::raw::c_uint = 8;
 #[doc = "< Disallow profanity using Nintendo's profanity filter."]
-pub const SWKBD_FILTER_PROFANITY: ::std::os::raw::c_int = 16;
+pub const SWKBD_FILTER_PROFANITY: ::std::os::raw::c_uint = 16;
 #[doc = "< Use a callback in order to check the input."]
-pub const SWKBD_FILTER_CALLBACK: ::std::os::raw::c_int = 32;
+pub const SWKBD_FILTER_CALLBACK: ::std::os::raw::c_uint = 32;
 #[doc = " Keyboard input filtering flags."]
-pub type _bindgen_ty_32 = ::std::os::raw::c_int;
+pub type _bindgen_ty_32 = ::std::os::raw::c_uint;
 #[doc = "< Parental PIN mode."]
-pub const SWKBD_PARENTAL: ::std::os::raw::c_int = 1;
+pub const SWKBD_PARENTAL: ::std::os::raw::c_uint = 1;
 #[doc = "< Darken the top screen when the keyboard is shown."]
-pub const SWKBD_DARKEN_TOP_SCREEN: ::std::os::raw::c_int = 2;
+pub const SWKBD_DARKEN_TOP_SCREEN: ::std::os::raw::c_uint = 2;
 #[doc = "< Enable predictive input (necessary for Kanji input in JPN systems)."]
-pub const SWKBD_PREDICTIVE_INPUT: ::std::os::raw::c_int = 4;
+pub const SWKBD_PREDICTIVE_INPUT: ::std::os::raw::c_uint = 4;
 #[doc = "< Enable multiline input."]
-pub const SWKBD_MULTILINE: ::std::os::raw::c_int = 8;
+pub const SWKBD_MULTILINE: ::std::os::raw::c_uint = 8;
 #[doc = "< Enable fixed-width mode."]
-pub const SWKBD_FIXED_WIDTH: ::std::os::raw::c_int = 16;
+pub const SWKBD_FIXED_WIDTH: ::std::os::raw::c_uint = 16;
 #[doc = "< Allow the usage of the HOME button."]
-pub const SWKBD_ALLOW_HOME: ::std::os::raw::c_int = 32;
+pub const SWKBD_ALLOW_HOME: ::std::os::raw::c_uint = 32;
 #[doc = "< Allow the usage of a software-reset combination."]
-pub const SWKBD_ALLOW_RESET: ::std::os::raw::c_int = 64;
+pub const SWKBD_ALLOW_RESET: ::std::os::raw::c_uint = 64;
 #[doc = "< Allow the usage of the POWER button."]
-pub const SWKBD_ALLOW_POWER: ::std::os::raw::c_int = 128;
+pub const SWKBD_ALLOW_POWER: ::std::os::raw::c_uint = 128;
 #[doc = "< Default to the QWERTY page when the keyboard is shown."]
-pub const SWKBD_DEFAULT_QWERTY: ::std::os::raw::c_int = 512;
+pub const SWKBD_DEFAULT_QWERTY: ::std::os::raw::c_uint = 512;
 #[doc = " Keyboard features."]
-pub type _bindgen_ty_33 = ::std::os::raw::c_int;
+pub type _bindgen_ty_33 = ::std::os::raw::c_uint;
 #[doc = "< Specifies that the input is valid."]
 pub const SwkbdCallbackResult_SWKBD_CALLBACK_OK: SwkbdCallbackResult = 0;
 #[doc = "< Displays an error message, then closes the keyboard."]
@@ -31315,7 +31323,7 @@ pub const SwkbdCallbackResult_SWKBD_CALLBACK_CLOSE: SwkbdCallbackResult = 1;
 #[doc = "< Displays an error message and continues displaying the keyboard."]
 pub const SwkbdCallbackResult_SWKBD_CALLBACK_CONTINUE: SwkbdCallbackResult = 2;
 #[doc = " Keyboard filter callback return values."]
-pub type SwkbdCallbackResult = ::std::os::raw::c_int;
+pub type SwkbdCallbackResult = ::std::os::raw::c_uint;
 #[doc = "< Dummy/unused."]
 pub const SwkbdResult_SWKBD_NONE: SwkbdResult = -1;
 #[doc = "< Invalid parameters to swkbd."]
@@ -31418,8 +31426,8 @@ fn bindgen_test_layout_SwkbdDictWord() {
 pub type SwkbdCallbackFn = ::std::option::Option<
     unsafe extern "C" fn(
         user: *mut ::std::os::raw::c_void,
-        ppMessage: *mut *mut ::std::os::raw::c_char,
-        text: *mut ::std::os::raw::c_char,
+        ppMessage: *mut *const ::std::os::raw::c_char,
+        text: *const ::std::os::raw::c_char,
         textlen: size_t,
     ) -> SwkbdCallbackResult,
 >;
@@ -31485,8 +31493,8 @@ fn bindgen_test_layout_SwkbdLearningData() {
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
 pub struct SwkbdExtra {
-    pub initial_text: *mut ::std::os::raw::c_char,
-    pub dict: *mut SwkbdDictWord,
+    pub initial_text: *const ::std::os::raw::c_char,
+    pub dict: *const SwkbdDictWord,
     pub status_data: *mut SwkbdStatusData,
     pub learning_data: *mut SwkbdLearningData,
     pub callback: SwkbdCallbackFn,
@@ -31496,12 +31504,12 @@ pub struct SwkbdExtra {
 fn bindgen_test_layout_SwkbdExtra() {
     assert_eq!(
         ::std::mem::size_of::<SwkbdExtra>(),
-        48usize,
+        24usize,
         concat!("Size of: ", stringify!(SwkbdExtra))
     );
     assert_eq!(
         ::std::mem::align_of::<SwkbdExtra>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(SwkbdExtra))
     );
     assert_eq!(
@@ -31516,7 +31524,7 @@ fn bindgen_test_layout_SwkbdExtra() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<SwkbdExtra>())).dict as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(SwkbdExtra),
@@ -31526,7 +31534,7 @@ fn bindgen_test_layout_SwkbdExtra() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<SwkbdExtra>())).status_data as *const _ as usize },
-        16usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(SwkbdExtra),
@@ -31536,7 +31544,7 @@ fn bindgen_test_layout_SwkbdExtra() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<SwkbdExtra>())).learning_data as *const _ as usize },
-        24usize,
+        12usize,
         concat!(
             "Offset of field: ",
             stringify!(SwkbdExtra),
@@ -31546,7 +31554,7 @@ fn bindgen_test_layout_SwkbdExtra() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<SwkbdExtra>())).callback as *const _ as usize },
-        32usize,
+        16usize,
         concat!(
             "Offset of field: ",
             stringify!(SwkbdExtra),
@@ -31556,7 +31564,7 @@ fn bindgen_test_layout_SwkbdExtra() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<SwkbdExtra>())).callback_user as *const _ as usize },
-        40usize,
+        20usize,
         concat!(
             "Offset of field: ",
             stringify!(SwkbdExtra),
@@ -31619,12 +31627,12 @@ pub union SwkbdState__bindgen_ty_1 {
 fn bindgen_test_layout_SwkbdState__bindgen_ty_1() {
     assert_eq!(
         ::std::mem::size_of::<SwkbdState__bindgen_ty_1>(),
-        176usize,
+        172usize,
         concat!("Size of: ", stringify!(SwkbdState__bindgen_ty_1))
     );
     assert_eq!(
         ::std::mem::align_of::<SwkbdState__bindgen_ty_1>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(SwkbdState__bindgen_ty_1))
     );
     assert_eq!(
@@ -31654,12 +31662,12 @@ fn bindgen_test_layout_SwkbdState__bindgen_ty_1() {
 fn bindgen_test_layout_SwkbdState() {
     assert_eq!(
         ::std::mem::size_of::<SwkbdState>(),
-        1032usize,
+        1024usize,
         concat!("Size of: ", stringify!(SwkbdState))
     );
     assert_eq!(
         ::std::mem::align_of::<SwkbdState>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(SwkbdState))
     );
     assert_eq!(
@@ -31958,7 +31966,7 @@ fn bindgen_test_layout_SwkbdState() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<SwkbdState>())).version as *const _ as usize },
-        312usize,
+        308usize,
         concat!(
             "Offset of field: ",
             stringify!(SwkbdState),
@@ -31968,7 +31976,7 @@ fn bindgen_test_layout_SwkbdState() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<SwkbdState>())).result as *const _ as usize },
-        316usize,
+        312usize,
         concat!(
             "Offset of field: ",
             stringify!(SwkbdState),
@@ -31978,7 +31986,7 @@ fn bindgen_test_layout_SwkbdState() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<SwkbdState>())).status_offset as *const _ as usize },
-        320usize,
+        316usize,
         concat!(
             "Offset of field: ",
             stringify!(SwkbdState),
@@ -31988,7 +31996,7 @@ fn bindgen_test_layout_SwkbdState() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<SwkbdState>())).learning_offset as *const _ as usize },
-        324usize,
+        320usize,
         concat!(
             "Offset of field: ",
             stringify!(SwkbdState),
@@ -31998,7 +32006,7 @@ fn bindgen_test_layout_SwkbdState() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<SwkbdState>())).text_offset as *const _ as usize },
-        328usize,
+        324usize,
         concat!(
             "Offset of field: ",
             stringify!(SwkbdState),
@@ -32008,7 +32016,7 @@ fn bindgen_test_layout_SwkbdState() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<SwkbdState>())).text_length as *const _ as usize },
-        332usize,
+        328usize,
         concat!(
             "Offset of field: ",
             stringify!(SwkbdState),
@@ -32018,7 +32026,7 @@ fn bindgen_test_layout_SwkbdState() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<SwkbdState>())).callback_result as *const _ as usize },
-        336usize,
+        332usize,
         concat!(
             "Offset of field: ",
             stringify!(SwkbdState),
@@ -32028,7 +32036,7 @@ fn bindgen_test_layout_SwkbdState() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<SwkbdState>())).callback_msg as *const _ as usize },
-        340usize,
+        336usize,
         concat!(
             "Offset of field: ",
             stringify!(SwkbdState),
@@ -32038,7 +32046,7 @@ fn bindgen_test_layout_SwkbdState() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<SwkbdState>())).skip_at_check as *const _ as usize },
-        854usize,
+        850usize,
         concat!(
             "Offset of field: ",
             stringify!(SwkbdState),
@@ -32070,7 +32078,7 @@ extern "C" {
     #[doc = " @brief Sets the hint text of a software keyboard (that is, the help text that is displayed when the textbox is empty)."]
     #[doc = " @param swkbd Pointer to swkbd state."]
     #[doc = " @param text Hint text."]
-    pub fn swkbdSetHintText(swkbd: *mut SwkbdState, text: *mut ::std::os::raw::c_char);
+    pub fn swkbdSetHintText(swkbd: *mut SwkbdState, text: *const ::std::os::raw::c_char);
 }
 extern "C" {
     #[doc = " @brief Configures a dialog button in a software keyboard."]
@@ -32081,7 +32089,7 @@ extern "C" {
     pub fn swkbdSetButton(
         swkbd: *mut SwkbdState,
         button: SwkbdButton,
-        text: *mut ::std::os::raw::c_char,
+        text: *const ::std::os::raw::c_char,
         submit: bool,
     );
 }
@@ -32089,7 +32097,7 @@ extern "C" {
     #[doc = " @brief Sets the initial text that a software keyboard will display on launch."]
     #[doc = " @param swkbd Pointer to swkbd state."]
     #[doc = " @param text Initial text."]
-    pub fn swkbdSetInitialText(swkbd: *mut SwkbdState, text: *mut ::std::os::raw::c_char);
+    pub fn swkbdSetInitialText(swkbd: *mut SwkbdState, text: *const ::std::os::raw::c_char);
 }
 extern "C" {
     #[doc = " @brief Configures a word in a predictive dictionary for use with a software keyboard."]
@@ -32098,8 +32106,8 @@ extern "C" {
     #[doc = " @param text Spelling of the word, that is, the actual characters that will be produced when the user decides to select the word."]
     pub fn swkbdSetDictWord(
         word: *mut SwkbdDictWord,
-        reading: *mut ::std::os::raw::c_char,
-        text: *mut ::std::os::raw::c_char,
+        reading: *const ::std::os::raw::c_char,
+        text: *const ::std::os::raw::c_char,
     );
 }
 extern "C" {
@@ -32109,7 +32117,7 @@ extern "C" {
     #[doc = " @param wordCount Number of words in the dictionary."]
     pub fn swkbdSetDictionary(
         swkbd: *mut SwkbdState,
-        dict: *mut SwkbdDictWord,
+        dict: *const SwkbdDictWord,
         wordCount: ::std::os::raw::c_int,
     );
 }
@@ -32163,10 +32171,10 @@ extern "C" {
     ) -> SwkbdButton;
 }
 #[doc = "<??-Unknown flag"]
-pub const ERROR_LANGUAGE_FLAG: ::std::os::raw::c_int = 256;
+pub const ERROR_LANGUAGE_FLAG: ::std::os::raw::c_uint = 256;
 #[doc = "<??-Unknown flag"]
-pub const ERROR_WORD_WRAP_FLAG: ::std::os::raw::c_int = 512;
-pub type _bindgen_ty_34 = ::std::os::raw::c_int;
+pub const ERROR_WORD_WRAP_FLAG: ::std::os::raw::c_uint = 512;
+pub type _bindgen_ty_34 = ::std::os::raw::c_uint;
 #[doc = "< Displays the infrastructure communications-related error message corresponding to the error code."]
 pub const errorType_ERROR_CODE: errorType = 0;
 #[doc = "< Displays text passed to this applet."]
@@ -32189,10 +32197,10 @@ pub const errorType_ERROR_EULA_LANGUAGE: errorType = 258;
 pub const errorType_ERROR_TEXT_WORD_WRAP: errorType = 513;
 #[doc = "< Displays the custom error message with automatic line wrapping and in the specified language."]
 pub const errorType_ERROR_TEXT_LANGUAGE_WORD_WRAP: errorType = 769;
-pub type errorType = ::std::os::raw::c_int;
+pub type errorType = ::std::os::raw::c_uint;
 pub const errorScreenFlag_ERROR_NORMAL: errorScreenFlag = 0;
 pub const errorScreenFlag_ERROR_STEREO: errorScreenFlag = 1;
-pub type errorScreenFlag = ::std::os::raw::c_int;
+pub type errorScreenFlag = ::std::os::raw::c_uint;
 pub const errorReturnCode_ERROR_UNKNOWN: errorReturnCode = -1;
 pub const errorReturnCode_ERROR_NONE: errorReturnCode = 0;
 pub const errorReturnCode_ERROR_SUCCESS: errorReturnCode = 1;
@@ -32345,7 +32353,7 @@ extern "C" {
     #[doc = " @brief Sets error text to display."]
     #[doc = " @param err Pointer to errorConf."]
     #[doc = " @param text Error-text to display."]
-    pub fn errorText(err: *mut errorConf, text: *mut ::std::os::raw::c_char);
+    pub fn errorText(err: *mut errorConf, text: *const ::std::os::raw::c_char);
 }
 extern "C" {
     #[doc = " @brief Displays the error applet."]
@@ -32575,7 +32583,7 @@ pub struct MiiSelectorReturn {
 fn bindgen_test_layout_MiiSelectorReturn() {
     assert_eq!(
         ::std::mem::size_of::<MiiSelectorReturn>(),
-        152usize,
+        144usize,
         concat!("Size of: ", stringify!(MiiSelectorReturn))
     );
     assert_eq!(
@@ -32632,7 +32640,7 @@ fn bindgen_test_layout_MiiSelectorReturn() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<MiiSelectorReturn>()))._pad0x68 as *const _ as usize },
-        120usize,
+        112usize,
         concat!(
             "Offset of field: ",
             stringify!(MiiSelectorReturn),
@@ -32642,7 +32650,7 @@ fn bindgen_test_layout_MiiSelectorReturn() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<MiiSelectorReturn>())).checksum as *const _ as usize },
-        122usize,
+        114usize,
         concat!(
             "Offset of field: ",
             stringify!(MiiSelectorReturn),
@@ -32654,7 +32662,7 @@ fn bindgen_test_layout_MiiSelectorReturn() {
         unsafe {
             &(*(::std::ptr::null::<MiiSelectorReturn>())).guest_mii_name as *const _ as usize
         },
-        124usize,
+        116usize,
         concat!(
             "Offset of field: ",
             stringify!(MiiSelectorReturn),
@@ -32664,15 +32672,15 @@ fn bindgen_test_layout_MiiSelectorReturn() {
     );
 }
 #[doc = "< Show the cancel button"]
-pub const MIISELECTOR_CANCEL: ::std::os::raw::c_int = 1;
+pub const MIISELECTOR_CANCEL: ::std::os::raw::c_uint = 1;
 #[doc = "< Make Guets Miis selectable"]
-pub const MIISELECTOR_GUESTS: ::std::os::raw::c_int = 2;
+pub const MIISELECTOR_GUESTS: ::std::os::raw::c_uint = 2;
 #[doc = "< Show AppletEd on top screen"]
-pub const MIISELECTOR_TOP: ::std::os::raw::c_int = 4;
+pub const MIISELECTOR_TOP: ::std::os::raw::c_uint = 4;
 #[doc = "< Start on guest page"]
-pub const MIISELECTOR_GUESTSTART: ::std::os::raw::c_int = 8;
+pub const MIISELECTOR_GUESTSTART: ::std::os::raw::c_uint = 8;
 #[doc = " AppletEd options"]
-pub type _bindgen_ty_35 = ::std::os::raw::c_int;
+pub type _bindgen_ty_35 = ::std::os::raw::c_uint;
 extern "C" {
     #[doc = " @brief Initialize Mii selector config"]
     #[doc = " @param conf Pointer to Miiselector config."]
@@ -32682,14 +32690,14 @@ extern "C" {
     #[doc = " @brief Launch the Mii selector library applet"]
     #[doc = ""]
     #[doc = " @param conf Configuration determining how the applet should behave"]
-    pub fn miiSelectorLaunch(conf: *mut MiiSelectorConf, returnbuf: *mut MiiSelectorReturn);
+    pub fn miiSelectorLaunch(conf: *const MiiSelectorConf, returnbuf: *mut MiiSelectorReturn);
 }
 extern "C" {
     #[doc = " @brief Sets title of the Mii selector library applet"]
     #[doc = ""]
     #[doc = " @param conf Pointer to miiSelector configuration"]
     #[doc = " @param text Title text of Mii selector"]
-    pub fn miiSelectorSetTitle(conf: *mut MiiSelectorConf, text: *mut ::std::os::raw::c_char);
+    pub fn miiSelectorSetTitle(conf: *mut MiiSelectorConf, text: *const ::std::os::raw::c_char);
 }
 extern "C" {
     #[doc = " @brief Specifies which special options are enabled in the Mii selector"]
@@ -32739,7 +32747,7 @@ extern "C" {
     #[doc = " (assuming that no non-BMP characters are used), this value should be 36 (or 30 if you are not"]
     #[doc = " dealing with guest miis)."]
     pub fn miiSelectorReturnGetName(
-        returnbuf: *mut MiiSelectorReturn,
+        returnbuf: *const MiiSelectorReturn,
         out: *mut ::std::os::raw::c_char,
         max_size: size_t,
     );
@@ -32752,7 +32760,7 @@ extern "C" {
     #[doc = " @param max_size Size of string. Since UTF8 characters range in size from 1-3 bytes"]
     #[doc = " (assuming that no non-BMP characters are used), this value should be 30."]
     pub fn miiSelectorReturnGetAuthor(
-        returnbuf: *mut MiiSelectorReturn,
+        returnbuf: *const MiiSelectorReturn,
         out: *mut ::std::os::raw::c_char,
         max_size: size_t,
     );
@@ -32763,7 +32771,7 @@ extern "C" {
     #[doc = ""]
     #[doc = " @param returnbuf Buffer filled by Mii selector applet"]
     #[doc = " @return `true` if `returnbuf->checksum` is the same as the one computed from `returnbuf`"]
-    pub fn miiSelectorChecksumIsValid(returnbuf: *mut MiiSelectorReturn) -> bool;
+    pub fn miiSelectorChecksumIsValid(returnbuf: *const MiiSelectorReturn) -> bool;
 }
 #[doc = " Open directory struct"]
 #[repr(C)]
@@ -32783,7 +32791,7 @@ pub struct archive_dir_t {
 fn bindgen_test_layout_archive_dir_t() {
     assert_eq!(
         ::std::mem::size_of::<archive_dir_t>(),
-        17688usize,
+        17680usize,
         concat!("Size of: ", stringify!(archive_dir_t))
     );
     assert_eq!(
@@ -32823,7 +32831,7 @@ fn bindgen_test_layout_archive_dir_t() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<archive_dir_t>())).size as *const _ as usize },
-        16usize,
+        12usize,
         concat!(
             "Offset of field: ",
             stringify!(archive_dir_t),
@@ -32833,7 +32841,7 @@ fn bindgen_test_layout_archive_dir_t() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<archive_dir_t>())).entry_data as *const _ as usize },
-        24usize,
+        16usize,
         concat!(
             "Offset of field: ",
             stringify!(archive_dir_t),
@@ -32852,18 +32860,18 @@ extern "C" {
     pub fn archiveMount(
         archiveID: FS_ArchiveID,
         archivePath: FS_Path,
-        deviceName: *mut ::std::os::raw::c_char,
+        deviceName: *const ::std::os::raw::c_char,
     ) -> Result;
 }
 extern "C" {
     #[doc = " Uses FSUSER_ControlArchive with control action ARCHIVE_ACTION_COMMIT_SAVE_DATA on the opened archive. Not done automatically at unmount."]
     #[doc = " Returns -1 if the specified device is not found"]
-    pub fn archiveCommitSaveData(deviceName: *mut ::std::os::raw::c_char) -> Result;
+    pub fn archiveCommitSaveData(deviceName: *const ::std::os::raw::c_char) -> Result;
 }
 extern "C" {
     #[doc = " Unmounts the specified device, closing its archive in the process"]
     #[doc = " Returns -1 if the specified device was not found"]
-    pub fn archiveUnmount(deviceName: *mut ::std::os::raw::c_char) -> Result;
+    pub fn archiveUnmount(deviceName: *const ::std::os::raw::c_char) -> Result;
 }
 extern "C" {
     #[doc = " Unmounts all devices and cleans up any resources used by the driver"]
@@ -32871,7 +32879,7 @@ extern "C" {
 }
 extern "C" {
     #[doc = " Get a file's mtime"]
-    pub fn archive_getmtime(name: *mut ::std::os::raw::c_char, mtime: *mut u64_) -> Result;
+    pub fn archive_getmtime(name: *const ::std::os::raw::c_char, mtime: *mut u64_) -> Result;
 }
 #[doc = " RomFS header."]
 #[repr(C)]
@@ -33221,7 +33229,7 @@ extern "C" {
     #[doc = " @remark This function is intended to be used to access one's own RomFS."]
     #[doc = "         If the application is running as 3DSX, it mounts the embedded RomFS section inside the 3DSX."]
     #[doc = "         If on the other hand it's an NCCH, it behaves identically to \\ref romfsMountFromCurrentProcess."]
-    pub fn romfsMountSelf(name: *mut ::std::os::raw::c_char) -> Result;
+    pub fn romfsMountSelf(name: *const ::std::os::raw::c_char) -> Result;
 }
 extern "C" {
     #[doc = " @brief Mounts RomFS from an open file."]
@@ -33231,13 +33239,13 @@ extern "C" {
     pub fn romfsMountFromFile(
         fd: Handle,
         offset: u32_,
-        name: *mut ::std::os::raw::c_char,
+        name: *const ::std::os::raw::c_char,
     ) -> Result;
 }
 extern "C" {
     #[doc = " @brief Mounts RomFS using the current process host program RomFS."]
     #[doc = " @param name Device mount name."]
-    pub fn romfsMountFromCurrentProcess(name: *mut ::std::os::raw::c_char) -> Result;
+    pub fn romfsMountFromCurrentProcess(name: *const ::std::os::raw::c_char) -> Result;
 }
 extern "C" {
     #[doc = " @brief Mounts RomFS from the specified title."]
@@ -33247,12 +33255,12 @@ extern "C" {
     pub fn romfsMountFromTitle(
         tid: u64_,
         mediatype: FS_MediaType,
-        name: *mut ::std::os::raw::c_char,
+        name: *const ::std::os::raw::c_char,
     ) -> Result;
 }
 extern "C" {
     #[doc = " Unmounts the RomFS device."]
-    pub fn romfsUnmount(name: *mut ::std::os::raw::c_char) -> Result;
+    pub fn romfsUnmount(name: *const ::std::os::raw::c_char) -> Result;
 }
 #[doc = " Character width information structure."]
 #[repr(C)]
@@ -33341,12 +33349,12 @@ pub struct TGLP_s {
 fn bindgen_test_layout_TGLP_s() {
     assert_eq!(
         ::std::mem::size_of::<TGLP_s>(),
-        32usize,
+        24usize,
         concat!("Size of: ", stringify!(TGLP_s))
     );
     assert_eq!(
         ::std::mem::align_of::<TGLP_s>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(TGLP_s))
     );
     assert_eq!(
@@ -33461,7 +33469,7 @@ fn bindgen_test_layout_TGLP_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<TGLP_s>())).sheetData as *const _ as usize },
-        24usize,
+        20usize,
         concat!(
             "Offset of field: ",
             stringify!(TGLP_s),
@@ -33489,12 +33497,12 @@ pub struct tag_CWDH_s {
 fn bindgen_test_layout_tag_CWDH_s() {
     assert_eq!(
         ::std::mem::size_of::<tag_CWDH_s>(),
-        16usize,
+        8usize,
         concat!("Size of: ", stringify!(tag_CWDH_s))
     );
     assert_eq!(
         ::std::mem::align_of::<tag_CWDH_s>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(tag_CWDH_s))
     );
     assert_eq!(
@@ -33519,7 +33527,7 @@ fn bindgen_test_layout_tag_CWDH_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<tag_CWDH_s>())).next as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(tag_CWDH_s),
@@ -33529,7 +33537,7 @@ fn bindgen_test_layout_tag_CWDH_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<tag_CWDH_s>())).widths as *const _ as usize },
-        16usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(tag_CWDH_s),
@@ -33539,13 +33547,13 @@ fn bindgen_test_layout_tag_CWDH_s() {
     );
 }
 #[doc = "< Identity mapping."]
-pub const CMAP_TYPE_DIRECT: ::std::os::raw::c_int = 0;
+pub const CMAP_TYPE_DIRECT: ::std::os::raw::c_uint = 0;
 #[doc = "< Mapping using a table."]
-pub const CMAP_TYPE_TABLE: ::std::os::raw::c_int = 1;
+pub const CMAP_TYPE_TABLE: ::std::os::raw::c_uint = 1;
 #[doc = "< Mapping using a list of mapped characters."]
-pub const CMAP_TYPE_SCAN: ::std::os::raw::c_int = 2;
+pub const CMAP_TYPE_SCAN: ::std::os::raw::c_uint = 2;
 #[doc = " Font character map methods."]
-pub type _bindgen_ty_36 = ::std::os::raw::c_int;
+pub type _bindgen_ty_36 = ::std::os::raw::c_uint;
 #[doc = " Font character map type."]
 pub type CMAP_s = tag_CMAP_s;
 #[doc = " Font character map structure."]
@@ -33719,12 +33727,12 @@ fn bindgen_test_layout_tag_CMAP_s__bindgen_ty_1() {
 fn bindgen_test_layout_tag_CMAP_s() {
     assert_eq!(
         ::std::mem::size_of::<tag_CMAP_s>(),
-        24usize,
+        16usize,
         concat!("Size of: ", stringify!(tag_CMAP_s))
     );
     assert_eq!(
         ::std::mem::align_of::<tag_CMAP_s>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(tag_CMAP_s))
     );
     assert_eq!(
@@ -33814,12 +33822,12 @@ pub struct FINF_s {
 fn bindgen_test_layout_FINF_s() {
     assert_eq!(
         ::std::mem::size_of::<FINF_s>(),
-        48usize,
+        32usize,
         concat!("Size of: ", stringify!(FINF_s))
     );
     assert_eq!(
         ::std::mem::align_of::<FINF_s>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(FINF_s))
     );
     assert_eq!(
@@ -33904,7 +33912,7 @@ fn bindgen_test_layout_FINF_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<FINF_s>())).cwdh as *const _ as usize },
-        24usize,
+        20usize,
         concat!(
             "Offset of field: ",
             stringify!(FINF_s),
@@ -33914,7 +33922,7 @@ fn bindgen_test_layout_FINF_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<FINF_s>())).cmap as *const _ as usize },
-        32usize,
+        24usize,
         concat!(
             "Offset of field: ",
             stringify!(FINF_s),
@@ -33924,7 +33932,7 @@ fn bindgen_test_layout_FINF_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<FINF_s>())).height as *const _ as usize },
-        40usize,
+        28usize,
         concat!(
             "Offset of field: ",
             stringify!(FINF_s),
@@ -33934,7 +33942,7 @@ fn bindgen_test_layout_FINF_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<FINF_s>())).width as *const _ as usize },
-        41usize,
+        29usize,
         concat!(
             "Offset of field: ",
             stringify!(FINF_s),
@@ -33944,7 +33952,7 @@ fn bindgen_test_layout_FINF_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<FINF_s>())).ascent as *const _ as usize },
-        42usize,
+        30usize,
         concat!(
             "Offset of field: ",
             stringify!(FINF_s),
@@ -33954,7 +33962,7 @@ fn bindgen_test_layout_FINF_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<FINF_s>())).padding as *const _ as usize },
-        43usize,
+        31usize,
         concat!(
             "Offset of field: ",
             stringify!(FINF_s),
@@ -33986,12 +33994,12 @@ pub struct CFNT_s {
 fn bindgen_test_layout_CFNT_s() {
     assert_eq!(
         ::std::mem::size_of::<CFNT_s>(),
-        72usize,
+        52usize,
         concat!("Size of: ", stringify!(CFNT_s))
     );
     assert_eq!(
         ::std::mem::align_of::<CFNT_s>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(CFNT_s))
     );
     assert_eq!(
@@ -34056,7 +34064,7 @@ fn bindgen_test_layout_CFNT_s() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<CFNT_s>())).finf as *const _ as usize },
-        24usize,
+        20usize,
         concat!(
             "Offset of field: ",
             stringify!(CFNT_s),
@@ -34294,13 +34302,13 @@ fn bindgen_test_layout_fontGlyphPos_s() {
     );
 }
 #[doc = "< Calculates vertex coordinates in addition to texture coordinates."]
-pub const GLYPH_POS_CALC_VTXCOORD: ::std::os::raw::c_int = 1;
+pub const GLYPH_POS_CALC_VTXCOORD: ::std::os::raw::c_uint = 1;
 #[doc = "< Position the glyph at the baseline instead of at the top-left corner."]
-pub const GLYPH_POS_AT_BASELINE: ::std::os::raw::c_int = 2;
+pub const GLYPH_POS_AT_BASELINE: ::std::os::raw::c_uint = 2;
 #[doc = "< Indicates that the Y axis points up instead of down."]
-pub const GLYPH_POS_Y_POINTS_UP: ::std::os::raw::c_int = 4;
+pub const GLYPH_POS_Y_POINTS_UP: ::std::os::raw::c_uint = 4;
 #[doc = " Flags for use with fontCalcGlyphPos."]
-pub type _bindgen_ty_37 = ::std::os::raw::c_int;
+pub type _bindgen_ty_37 = ::std::os::raw::c_uint;
 extern "C" {
     #[doc = " Ensures the shared system font is mapped."]
     pub fn fontEnsureMapped() -> Result;
@@ -34372,7 +34380,7 @@ extern "C" {
     pub fn gdbHioDevIsatty(fd: ::std::os::raw::c_int) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn gdbHioDevSystem(command: *mut ::std::os::raw::c_char) -> ::std::os::raw::c_int;
+    pub fn gdbHioDevSystem(command: *const ::std::os::raw::c_char) -> ::std::os::raw::c_int;
 }
 pub type C3D_IVec = u32_;
 #[doc = " @struct C3D_FVec"]
@@ -34705,7 +34713,7 @@ extern "C" {
     pub fn infinity() -> f64;
 }
 extern "C" {
-    pub fn nan(arg1: *mut ::std::os::raw::c_char) -> f64;
+    pub fn nan(arg1: *const ::std::os::raw::c_char) -> f64;
 }
 extern "C" {
     pub fn copysign(arg1: f64, arg2: f64) -> f64;
@@ -34924,7 +34932,7 @@ extern "C" {
     pub fn infinityf() -> f32;
 }
 extern "C" {
-    pub fn nanf(arg1: *mut ::std::os::raw::c_char) -> f32;
+    pub fn nanf(arg1: *const ::std::os::raw::c_char) -> f32;
 }
 extern "C" {
     pub fn copysignf(arg1: f32, arg2: f32) -> f32;
@@ -35062,7 +35070,7 @@ extern "C" {
     pub fn copysignl(arg1: f64, arg2: f64) -> f64;
 }
 extern "C" {
-    pub fn nanl(arg1: *mut ::std::os::raw::c_char) -> f64;
+    pub fn nanl(arg1: *const ::std::os::raw::c_char) -> f64;
 }
 extern "C" {
     pub fn ilogbl(arg1: f64) -> ::std::os::raw::c_int;
@@ -35225,20 +35233,20 @@ extern "C" {
 }
 extern "C" {
     pub fn bcmp(
-        arg1: *mut ::std::os::raw::c_void,
-        arg2: *mut ::std::os::raw::c_void,
-        arg3: size_t,
+        arg1: *const ::std::os::raw::c_void,
+        arg2: *const ::std::os::raw::c_void,
+        arg3: ::std::os::raw::c_uint,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn bcopy(
-        arg1: *mut ::std::os::raw::c_void,
+        arg1: *const ::std::os::raw::c_void,
         arg2: *mut ::std::os::raw::c_void,
         arg3: size_t,
     );
 }
 extern "C" {
-    pub fn bzero(arg1: *mut ::std::os::raw::c_void, arg2: ::std::os::raw::c_ulonglong);
+    pub fn bzero(arg1: *mut ::std::os::raw::c_void, arg2: ::std::os::raw::c_uint);
 }
 extern "C" {
     pub fn explicit_bzero(arg1: *mut ::std::os::raw::c_void, arg2: size_t);
@@ -35263,177 +35271,183 @@ extern "C" {
 }
 extern "C" {
     pub fn index(
-        arg1: *mut ::std::os::raw::c_char,
+        arg1: *const ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn rindex(
-        arg1: *mut ::std::os::raw::c_char,
+        arg1: *const ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn strcasecmp(
-        arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg1: *const ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn strncasecmp(
-        arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: size_t,
+        arg1: *const ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
+        arg3: ::std::os::raw::c_uint,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn strcasecmp_l(
-        arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg1: *const ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
         arg3: locale_t,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn strncasecmp_l(
-        arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg1: *const ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
         arg3: size_t,
         arg4: locale_t,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn memchr(
-        arg1: *mut ::std::os::raw::c_void,
+        arg1: *const ::std::os::raw::c_void,
         arg2: ::std::os::raw::c_int,
-        arg3: size_t,
+        arg3: ::std::os::raw::c_uint,
     ) -> *mut ::std::os::raw::c_void;
 }
 extern "C" {
     pub fn memcmp(
-        arg1: *mut ::std::os::raw::c_void,
-        arg2: *mut ::std::os::raw::c_void,
-        arg3: size_t,
+        arg1: *const ::std::os::raw::c_void,
+        arg2: *const ::std::os::raw::c_void,
+        arg3: ::std::os::raw::c_uint,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn memcpy(
         arg1: *mut ::std::os::raw::c_void,
-        arg2: *mut ::std::os::raw::c_void,
-        arg3: size_t,
+        arg2: *const ::std::os::raw::c_void,
+        arg3: ::std::os::raw::c_uint,
     ) -> *mut ::std::os::raw::c_void;
 }
 extern "C" {
     pub fn memmove(
         arg1: *mut ::std::os::raw::c_void,
-        arg2: *mut ::std::os::raw::c_void,
-        arg3: size_t,
+        arg2: *const ::std::os::raw::c_void,
+        arg3: ::std::os::raw::c_uint,
     ) -> *mut ::std::os::raw::c_void;
 }
 extern "C" {
     pub fn memset(
         arg1: *mut ::std::os::raw::c_void,
         arg2: ::std::os::raw::c_int,
-        arg3: ::std::os::raw::c_ulonglong,
+        arg3: ::std::os::raw::c_uint,
     ) -> *mut ::std::os::raw::c_void;
 }
 extern "C" {
     pub fn strcat(
         arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn strchr(
-        arg1: *mut ::std::os::raw::c_char,
+        arg1: *const ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn strcmp(
-        arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg1: *const ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn strcoll(
-        arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg1: *const ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn strcpy(
         arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
-    pub fn strcspn(arg1: *mut ::std::os::raw::c_char, arg2: *mut ::std::os::raw::c_char) -> size_t;
+    pub fn strcspn(
+        arg1: *const ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
+    ) -> ::std::os::raw::c_uint;
 }
 extern "C" {
     pub fn strerror(arg1: ::std::os::raw::c_int) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
-    pub fn strlen(arg1: *mut ::std::os::raw::c_char) -> size_t;
+    pub fn strlen(arg1: *const ::std::os::raw::c_char) -> ::std::os::raw::c_uint;
 }
 extern "C" {
     pub fn strncat(
         arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: size_t,
+        arg2: *const ::std::os::raw::c_char,
+        arg3: ::std::os::raw::c_uint,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn strncmp(
-        arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: size_t,
+        arg1: *const ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
+        arg3: ::std::os::raw::c_uint,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn strncpy(
         arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: size_t,
+        arg2: *const ::std::os::raw::c_char,
+        arg3: ::std::os::raw::c_uint,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn strpbrk(
-        arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg1: *const ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn strrchr(
-        arg1: *mut ::std::os::raw::c_char,
+        arg1: *const ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
-    pub fn strspn(arg1: *mut ::std::os::raw::c_char, arg2: *mut ::std::os::raw::c_char) -> size_t;
+    pub fn strspn(
+        arg1: *const ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
+    ) -> ::std::os::raw::c_uint;
 }
 extern "C" {
     pub fn strstr(
-        arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg1: *const ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn strtok(
         arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn strxfrm(
         arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: size_t,
-    ) -> size_t;
+        arg2: *const ::std::os::raw::c_char,
+        arg3: ::std::os::raw::c_uint,
+    ) -> ::std::os::raw::c_uint;
 }
 extern "C" {
     pub fn strcoll_l(
-        arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg1: *const ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
         arg3: locale_t,
     ) -> ::std::os::raw::c_int;
 }
@@ -35443,7 +35457,7 @@ extern "C" {
 extern "C" {
     pub fn strxfrm_l(
         arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
         arg3: size_t,
         arg4: locale_t,
     ) -> size_t;
@@ -35451,66 +35465,70 @@ extern "C" {
 extern "C" {
     pub fn strtok_r(
         arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
         arg3: *mut *mut ::std::os::raw::c_char,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn timingsafe_bcmp(
-        arg1: *mut ::std::os::raw::c_void,
-        arg2: *mut ::std::os::raw::c_void,
+        arg1: *const ::std::os::raw::c_void,
+        arg2: *const ::std::os::raw::c_void,
         arg3: size_t,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn timingsafe_memcmp(
-        arg1: *mut ::std::os::raw::c_void,
-        arg2: *mut ::std::os::raw::c_void,
+        arg1: *const ::std::os::raw::c_void,
+        arg2: *const ::std::os::raw::c_void,
         arg3: size_t,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn memccpy(
         arg1: *mut ::std::os::raw::c_void,
-        arg2: *mut ::std::os::raw::c_void,
+        arg2: *const ::std::os::raw::c_void,
         arg3: ::std::os::raw::c_int,
-        arg4: size_t,
+        arg4: ::std::os::raw::c_uint,
     ) -> *mut ::std::os::raw::c_void;
 }
 extern "C" {
     pub fn stpcpy(
         arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn stpncpy(
         arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: size_t,
+        arg2: *const ::std::os::raw::c_char,
+        arg3: ::std::os::raw::c_uint,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
-    pub fn strdup(arg1: *mut ::std::os::raw::c_char) -> *mut ::std::os::raw::c_char;
+    pub fn strdup(arg1: *const ::std::os::raw::c_char) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn _strdup_r(
         arg1: *mut _reent,
-        arg2: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
-    pub fn strndup(arg1: *mut ::std::os::raw::c_char, arg2: size_t) -> *mut ::std::os::raw::c_char;
+    pub fn strndup(
+        arg1: *const ::std::os::raw::c_char,
+        arg2: ::std::os::raw::c_uint,
+    ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn _strndup_r(
         arg1: *mut _reent,
-        arg2: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
         arg3: size_t,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
-    pub fn __xpg_strerror_r(
+    #[link_name = "\u{1}__xpg_strerror_r"]
+    pub fn strerror_r(
         arg1: ::std::os::raw::c_int,
         arg2: *mut ::std::os::raw::c_char,
         arg3: size_t,
@@ -35527,30 +35545,30 @@ extern "C" {
 extern "C" {
     pub fn strlcat(
         arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: size_t,
-    ) -> size_t;
+        arg2: *const ::std::os::raw::c_char,
+        arg3: ::std::os::raw::c_uint,
+    ) -> ::std::os::raw::c_uint;
 }
 extern "C" {
     pub fn strlcpy(
         arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: size_t,
-    ) -> size_t;
+        arg2: *const ::std::os::raw::c_char,
+        arg3: ::std::os::raw::c_uint,
+    ) -> ::std::os::raw::c_uint;
 }
 extern "C" {
-    pub fn strnlen(arg1: *mut ::std::os::raw::c_char, arg2: size_t) -> size_t;
+    pub fn strnlen(arg1: *const ::std::os::raw::c_char, arg2: size_t) -> size_t;
 }
 extern "C" {
     pub fn strsep(
         arg1: *mut *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn strnstr(
-        arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg1: *const ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
         arg3: size_t,
     ) -> *mut ::std::os::raw::c_char;
 }
@@ -35573,7 +35591,7 @@ extern "C" {
     #[doc = " @param[out] out Output matrix"]
     #[doc = " @param[in]  a   Multiplicand"]
     #[doc = " @param[in]  b   Multiplier"]
-    pub fn Mtx_Multiply(out: *mut C3D_Mtx, a: *mut C3D_Mtx, b: *mut C3D_Mtx);
+    pub fn Mtx_Multiply(out: *mut C3D_Mtx, a: *const C3D_Mtx, b: *const C3D_Mtx);
 }
 extern "C" {
     #[doc = " @brief Inverse a matrix"]
@@ -35587,14 +35605,14 @@ extern "C" {
     #[doc = " @param[in] mtx Matrix"]
     #[doc = " @param[in] v   Vector"]
     #[doc = " @return mtx*v (product)"]
-    pub fn Mtx_MultiplyFVec3(mtx: *mut C3D_Mtx, v: C3D_FVec) -> C3D_FVec;
+    pub fn Mtx_MultiplyFVec3(mtx: *const C3D_Mtx, v: C3D_FVec) -> C3D_FVec;
 }
 extern "C" {
     #[doc = " @brief Multiply 4x4 matrix by a FVec4"]
     #[doc = " @param[in] mtx Matrix"]
     #[doc = " @param[in] v   Vector"]
     #[doc = " @return mtx*v (product)"]
-    pub fn Mtx_MultiplyFVec4(mtx: *mut C3D_Mtx, v: C3D_FVec) -> C3D_FVec;
+    pub fn Mtx_MultiplyFVec4(mtx: *const C3D_Mtx, v: C3D_FVec) -> C3D_FVec;
 }
 extern "C" {
     #[doc = " @brief Get 4x4 matrix equivalent to Quaternion"]
@@ -35864,7 +35882,7 @@ extern "C" {
     #[doc = " @note If the matrix is orthogonal or special orthogonal, where determinant(matrix) = +1.0f, then the matrix can be converted."]
     #[doc = " @param[in]   m Input  Matrix"]
     #[doc = " @return      Generated Quaternion"]
-    pub fn Quat_FromMtx(m: *mut C3D_Mtx) -> C3D_FQuat;
+    pub fn Quat_FromMtx(m: *const C3D_Mtx) -> C3D_FQuat;
 }
 extern "C" {
     #[doc = " @brief Converting Pitch, Yaw, and Roll to Quaternion equivalent"]
@@ -36188,7 +36206,7 @@ extern "C" {
 extern "C" {
     pub fn BufInfo_Add(
         info: *mut C3D_BufInfo,
-        data: *mut ::std::os::raw::c_void,
+        data: *const ::std::os::raw::c_void,
         stride: isize,
         attribCount: ::std::os::raw::c_int,
         permutation: u64_,
@@ -36200,9 +36218,9 @@ extern "C" {
 extern "C" {
     pub fn C3D_SetBufInfo(info: *mut C3D_BufInfo);
 }
-pub const C3D_UNSIGNED_BYTE: ::std::os::raw::c_int = 0;
-pub const C3D_UNSIGNED_SHORT: ::std::os::raw::c_int = 1;
-pub type _bindgen_ty_38 = ::std::os::raw::c_int;
+pub const C3D_UNSIGNED_BYTE: ::std::os::raw::c_uint = 0;
+pub const C3D_UNSIGNED_SHORT: ::std::os::raw::c_uint = 1;
+pub type _bindgen_ty_38 = ::std::os::raw::c_uint;
 extern "C" {
     pub fn C3D_Init(cmdBufSize: size_t) -> bool;
 }
@@ -36233,7 +36251,7 @@ extern "C" {
         primitive: GPU_Primitive_t,
         count: ::std::os::raw::c_int,
         type_: ::std::os::raw::c_int,
-        indices: *mut ::std::os::raw::c_void,
+        indices: *const ::std::os::raw::c_void,
     );
 }
 extern "C" {
@@ -36442,7 +36460,7 @@ fn bindgen_test_layout_C3D_TexEnv() {
 pub const C3D_TexEnvMode_C3D_RGB: C3D_TexEnvMode = 1;
 pub const C3D_TexEnvMode_C3D_Alpha: C3D_TexEnvMode = 2;
 pub const C3D_TexEnvMode_C3D_Both: C3D_TexEnvMode = 3;
-pub type C3D_TexEnvMode = ::std::os::raw::c_int;
+pub type C3D_TexEnvMode = ::std::os::raw::c_uint;
 extern "C" {
     pub fn C3D_GetTexEnv(id: ::std::os::raw::c_int) -> *mut C3D_TexEnv;
 }
@@ -36516,12 +36534,12 @@ pub struct C3D_TexCube {
 fn bindgen_test_layout_C3D_TexCube() {
     assert_eq!(
         ::std::mem::size_of::<C3D_TexCube>(),
-        48usize,
+        24usize,
         concat!("Size of: ", stringify!(C3D_TexCube))
     );
     assert_eq!(
         ::std::mem::align_of::<C3D_TexCube>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(C3D_TexCube))
     );
     assert_eq!(
@@ -36542,7 +36560,6 @@ pub struct C3D_Tex {
     pub _bitfield_align_1: [u32; 0],
     pub _bitfield_1: __BindgenBitfieldUnit<[u8; 4usize]>,
     pub __bindgen_anon_2: C3D_Tex__bindgen_ty_2,
-    pub __bindgen_padding_0: [u32; 3usize],
     pub param: u32_,
     pub border: u32_,
     pub __bindgen_anon_3: C3D_Tex__bindgen_ty_3,
@@ -36557,12 +36574,12 @@ pub union C3D_Tex__bindgen_ty_1 {
 fn bindgen_test_layout_C3D_Tex__bindgen_ty_1() {
     assert_eq!(
         ::std::mem::size_of::<C3D_Tex__bindgen_ty_1>(),
-        8usize,
+        4usize,
         concat!("Size of: ", stringify!(C3D_Tex__bindgen_ty_1))
     );
     assert_eq!(
         ::std::mem::align_of::<C3D_Tex__bindgen_ty_1>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(C3D_Tex__bindgen_ty_1))
     );
     assert_eq!(
@@ -36758,17 +36775,17 @@ fn bindgen_test_layout_C3D_Tex__bindgen_ty_3() {
 fn bindgen_test_layout_C3D_Tex() {
     assert_eq!(
         ::std::mem::size_of::<C3D_Tex>(),
-        40usize,
+        24usize,
         concat!("Size of: ", stringify!(C3D_Tex))
     );
     assert_eq!(
         ::std::mem::align_of::<C3D_Tex>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(C3D_Tex))
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_Tex>())).param as *const _ as usize },
-        28usize,
+        12usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_Tex),
@@ -36778,7 +36795,7 @@ fn bindgen_test_layout_C3D_Tex() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_Tex>())).border as *const _ as usize },
-        32usize,
+        16usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_Tex),
@@ -36803,13 +36820,13 @@ impl C3D_Tex {
 
     #[inline]
     pub fn size(&self) -> size_t {
-        unsafe { ::std::mem::transmute(self._bitfield_1.get(4usize, 28u8) as u64) }
+        unsafe { ::std::mem::transmute(self._bitfield_1.get(4usize, 28u8) as u32) }
     }
 
     #[inline]
     pub fn set_size(&mut self, val: size_t) {
         unsafe {
-            let val: u64 = ::std::mem::transmute(val);
+            let val: u32 = ::std::mem::transmute(val);
             self._bitfield_1.set(4usize, 28u8, val as u64)
         }
     }
@@ -36822,7 +36839,7 @@ impl C3D_Tex {
             fmt as u64
         });
         __bindgen_bitfield_unit.set(4usize, 28u8, {
-            let size: u64 = unsafe { ::std::mem::transmute(size) };
+            let size: u32 = unsafe { ::std::mem::transmute(size) };
             size as u64
         });
         __bindgen_bitfield_unit
@@ -36836,13 +36853,13 @@ pub struct C3D_TexInitParams {
     pub height: u16_,
     pub _bitfield_align_1: [u8; 0],
     pub _bitfield_1: __BindgenBitfieldUnit<[u8; 2usize]>,
-    pub __bindgen_padding_0: [u16; 5usize],
+    pub __bindgen_padding_0: u16,
 }
 #[test]
 fn bindgen_test_layout_C3D_TexInitParams() {
     assert_eq!(
         ::std::mem::size_of::<C3D_TexInitParams>(),
-        16usize,
+        8usize,
         concat!("Size of: ", stringify!(C3D_TexInitParams))
     );
     assert_eq!(
@@ -36961,7 +36978,7 @@ extern "C" {
 extern "C" {
     pub fn C3D_TexLoadImage(
         tex: *mut C3D_Tex,
-        data: *mut ::std::os::raw::c_void,
+        data: *const ::std::os::raw::c_void,
         face: GPU_TEXFACE,
         level: ::std::os::raw::c_int,
     );
@@ -37037,17 +37054,17 @@ pub union C3D_ProcTex__bindgen_ty_1 {
     pub __bindgen_anon_1: C3D_ProcTex__bindgen_ty_1__bindgen_ty_1,
 }
 #[repr(C)]
+#[repr(align(4))]
 #[derive(Debug, Copy, Clone)]
 pub struct C3D_ProcTex__bindgen_ty_1__bindgen_ty_1 {
     pub _bitfield_align_1: [u8; 0],
     pub _bitfield_1: __BindgenBitfieldUnit<[u8; 4usize]>,
-    pub __bindgen_padding_0: u64,
 }
 #[test]
 fn bindgen_test_layout_C3D_ProcTex__bindgen_ty_1__bindgen_ty_1() {
     assert_eq!(
         ::std::mem::size_of::<C3D_ProcTex__bindgen_ty_1__bindgen_ty_1>(),
-        12usize,
+        4usize,
         concat!(
             "Size of: ",
             stringify!(C3D_ProcTex__bindgen_ty_1__bindgen_ty_1)
@@ -37236,7 +37253,7 @@ impl C3D_ProcTex__bindgen_ty_1__bindgen_ty_1 {
 fn bindgen_test_layout_C3D_ProcTex__bindgen_ty_1() {
     assert_eq!(
         ::std::mem::size_of::<C3D_ProcTex__bindgen_ty_1>(),
-        12usize,
+        4usize,
         concat!("Size of: ", stringify!(C3D_ProcTex__bindgen_ty_1))
     );
     assert_eq!(
@@ -37742,7 +37759,7 @@ fn bindgen_test_layout_C3D_ProcTex__bindgen_ty_6() {
 fn bindgen_test_layout_C3D_ProcTex() {
     assert_eq!(
         ::std::mem::size_of::<C3D_ProcTex>(),
-        32usize,
+        24usize,
         concat!("Size of: ", stringify!(C3D_ProcTex))
     );
     assert_eq!(
@@ -37751,10 +37768,10 @@ fn bindgen_test_layout_C3D_ProcTex() {
         concat!("Alignment of ", stringify!(C3D_ProcTex))
     );
 }
-pub const C3D_ProcTex_U: ::std::os::raw::c_int = 1;
-pub const C3D_ProcTex_V: ::std::os::raw::c_int = 2;
-pub const C3D_ProcTex_UV: ::std::os::raw::c_int = 3;
-pub type _bindgen_ty_39 = ::std::os::raw::c_int;
+pub const C3D_ProcTex_U: ::std::os::raw::c_uint = 1;
+pub const C3D_ProcTex_V: ::std::os::raw::c_uint = 2;
+pub const C3D_ProcTex_UV: ::std::os::raw::c_uint = 3;
+pub type _bindgen_ty_39 = ::std::os::raw::c_uint;
 extern "C" {
     pub fn C3D_ProcTexInit(
         pt: *mut C3D_ProcTex,
@@ -37782,7 +37799,7 @@ extern "C" {
     pub fn C3D_ProcTexLutBind(id: GPU_PROCTEX_LUTID, lut: *mut C3D_ProcTexLut);
 }
 extern "C" {
-    pub fn ProcTexLut_FromArray(lut: *mut C3D_ProcTexLut, in_: *mut f32);
+    pub fn ProcTexLut_FromArray(lut: *mut C3D_ProcTexLut, in_: *const f32);
 }
 extern "C" {
     pub fn C3D_ProcTexColorLutBind(lut: *mut C3D_ProcTexColorLut);
@@ -37790,7 +37807,7 @@ extern "C" {
 extern "C" {
     pub fn ProcTexColorLut_Write(
         out: *mut C3D_ProcTexColorLut,
-        in_: *mut u32_,
+        in_: *const u32_,
         offset: ::std::os::raw::c_int,
         length: ::std::os::raw::c_int,
     );
@@ -38093,10 +38110,10 @@ fn bindgen_test_layout_C3D_LightEnvConf() {
         )
     );
 }
-pub const C3DF_LightEnv_Dirty: ::std::os::raw::c_int = 1;
-pub const C3DF_LightEnv_MtlDirty: ::std::os::raw::c_int = 2;
-pub const C3DF_LightEnv_LCDirty: ::std::os::raw::c_int = 4;
-pub type _bindgen_ty_40 = ::std::os::raw::c_int;
+pub const C3DF_LightEnv_Dirty: ::std::os::raw::c_uint = 1;
+pub const C3DF_LightEnv_MtlDirty: ::std::os::raw::c_uint = 2;
+pub const C3DF_LightEnv_LCDirty: ::std::os::raw::c_uint = 4;
+pub type _bindgen_ty_40 = ::std::os::raw::c_uint;
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
 pub struct C3D_LightEnv_t {
@@ -38111,12 +38128,12 @@ pub struct C3D_LightEnv_t {
 fn bindgen_test_layout_C3D_LightEnv_t() {
     assert_eq!(
         ::std::mem::size_of::<C3D_LightEnv_t>(),
-        232usize,
+        164usize,
         concat!("Size of: ", stringify!(C3D_LightEnv_t))
     );
     assert_eq!(
         ::std::mem::align_of::<C3D_LightEnv_t>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(C3D_LightEnv_t))
     );
     assert_eq!(
@@ -38131,7 +38148,7 @@ fn bindgen_test_layout_C3D_LightEnv_t() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_LightEnv_t>())).luts as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_LightEnv_t),
@@ -38141,7 +38158,7 @@ fn bindgen_test_layout_C3D_LightEnv_t() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_LightEnv_t>())).ambient as *const _ as usize },
-        56usize,
+        28usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_LightEnv_t),
@@ -38151,7 +38168,7 @@ fn bindgen_test_layout_C3D_LightEnv_t() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_LightEnv_t>())).lights as *const _ as usize },
-        72usize,
+        40usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_LightEnv_t),
@@ -38161,7 +38178,7 @@ fn bindgen_test_layout_C3D_LightEnv_t() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_LightEnv_t>())).conf as *const _ as usize },
-        136usize,
+        72usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_LightEnv_t),
@@ -38171,7 +38188,7 @@ fn bindgen_test_layout_C3D_LightEnv_t() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_LightEnv_t>())).material as *const _ as usize },
-        168usize,
+        104usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_LightEnv_t),
@@ -38187,7 +38204,7 @@ extern "C" {
     pub fn C3D_LightEnvBind(env: *mut C3D_LightEnv);
 }
 extern "C" {
-    pub fn C3D_LightEnvMaterial(env: *mut C3D_LightEnv, mtl: *mut C3D_Material);
+    pub fn C3D_LightEnvMaterial(env: *mut C3D_LightEnv, mtl: *const C3D_Material);
 }
 extern "C" {
     pub fn C3D_LightEnvAmbient(env: *mut C3D_LightEnv, r: f32, g: f32, b: f32);
@@ -38201,11 +38218,11 @@ extern "C" {
         lut: *mut C3D_LightLut,
     );
 }
-pub const GPU_SHADOW_PRIMARY: ::std::os::raw::c_int = 65536;
-pub const GPU_SHADOW_SECONDARY: ::std::os::raw::c_int = 131072;
-pub const GPU_INVERT_SHADOW: ::std::os::raw::c_int = 262144;
-pub const GPU_SHADOW_ALPHA: ::std::os::raw::c_int = 524288;
-pub type _bindgen_ty_41 = ::std::os::raw::c_int;
+pub const GPU_SHADOW_PRIMARY: ::std::os::raw::c_uint = 65536;
+pub const GPU_SHADOW_SECONDARY: ::std::os::raw::c_uint = 131072;
+pub const GPU_INVERT_SHADOW: ::std::os::raw::c_uint = 262144;
+pub const GPU_SHADOW_ALPHA: ::std::os::raw::c_uint = 524288;
+pub type _bindgen_ty_41 = ::std::os::raw::c_uint;
 extern "C" {
     pub fn C3D_LightEnvFresnel(env: *mut C3D_LightEnv, selector: GPU_FRESNELSEL);
 }
@@ -38401,12 +38418,12 @@ fn bindgen_test_layout_C3D_LightConf() {
         )
     );
 }
-pub const C3DF_Light_Enabled: ::std::os::raw::c_int = 1;
-pub const C3DF_Light_Dirty: ::std::os::raw::c_int = 2;
-pub const C3DF_Light_MatDirty: ::std::os::raw::c_int = 4;
-pub const C3DF_Light_SPDirty: ::std::os::raw::c_int = 16384;
-pub const C3DF_Light_DADirty: ::std::os::raw::c_int = 32768;
-pub type _bindgen_ty_42 = ::std::os::raw::c_int;
+pub const C3DF_Light_Enabled: ::std::os::raw::c_uint = 1;
+pub const C3DF_Light_Dirty: ::std::os::raw::c_uint = 2;
+pub const C3DF_Light_MatDirty: ::std::os::raw::c_uint = 4;
+pub const C3DF_Light_SPDirty: ::std::os::raw::c_uint = 16384;
+pub const C3DF_Light_DADirty: ::std::os::raw::c_uint = 32768;
+pub type _bindgen_ty_42 = ::std::os::raw::c_uint;
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
 pub struct C3D_Light_t {
@@ -38425,12 +38442,12 @@ pub struct C3D_Light_t {
 fn bindgen_test_layout_C3D_Light_t() {
     assert_eq!(
         ::std::mem::size_of::<C3D_Light_t>(),
-        128usize,
+        112usize,
         concat!("Size of: ", stringify!(C3D_Light_t))
     );
     assert_eq!(
         ::std::mem::align_of::<C3D_Light_t>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(C3D_Light_t))
     );
     assert_eq!(
@@ -38455,7 +38472,7 @@ fn bindgen_test_layout_C3D_Light_t() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_Light_t>())).parent as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_Light_t),
@@ -38465,7 +38482,7 @@ fn bindgen_test_layout_C3D_Light_t() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_Light_t>())).lut_SP as *const _ as usize },
-        16usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_Light_t),
@@ -38475,7 +38492,7 @@ fn bindgen_test_layout_C3D_Light_t() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_Light_t>())).lut_DA as *const _ as usize },
-        24usize,
+        12usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_Light_t),
@@ -38485,7 +38502,7 @@ fn bindgen_test_layout_C3D_Light_t() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_Light_t>())).ambient as *const _ as usize },
-        32usize,
+        16usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_Light_t),
@@ -38495,7 +38512,7 @@ fn bindgen_test_layout_C3D_Light_t() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_Light_t>())).diffuse as *const _ as usize },
-        44usize,
+        28usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_Light_t),
@@ -38505,7 +38522,7 @@ fn bindgen_test_layout_C3D_Light_t() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_Light_t>())).specular0 as *const _ as usize },
-        56usize,
+        40usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_Light_t),
@@ -38515,7 +38532,7 @@ fn bindgen_test_layout_C3D_Light_t() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_Light_t>())).specular1 as *const _ as usize },
-        68usize,
+        52usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_Light_t),
@@ -38525,7 +38542,7 @@ fn bindgen_test_layout_C3D_Light_t() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_Light_t>())).conf as *const _ as usize },
-        80usize,
+        64usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_Light_t),
@@ -38647,7 +38664,7 @@ fn bindgen_test_layout_C3D_GasLut() {
     );
 }
 extern "C" {
-    pub fn FogLut_FromArray(lut: *mut C3D_FogLut, data: *mut f32);
+    pub fn FogLut_FromArray(lut: *mut C3D_FogLut, data: *const f32);
 }
 extern "C" {
     pub fn FogLut_Exp(lut: *mut C3D_FogLut, density: f32, gradient: f32, near: f32, far: f32);
@@ -38662,7 +38679,7 @@ extern "C" {
     pub fn C3D_FogLutBind(lut: *mut C3D_FogLut);
 }
 extern "C" {
-    pub fn GasLut_FromArray(lut: *mut C3D_GasLut, data: *mut u32_);
+    pub fn GasLut_FromArray(lut: *mut C3D_GasLut, data: *const u32_);
 }
 extern "C" {
     pub fn C3D_GasBeginAcc();
@@ -38709,12 +38726,12 @@ pub struct C3D_FrameBuf {
 fn bindgen_test_layout_C3D_FrameBuf() {
     assert_eq!(
         ::std::mem::size_of::<C3D_FrameBuf>(),
-        32usize,
+        24usize,
         concat!("Size of: ", stringify!(C3D_FrameBuf))
     );
     assert_eq!(
         ::std::mem::align_of::<C3D_FrameBuf>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(C3D_FrameBuf))
     );
     assert_eq!(
@@ -38729,7 +38746,7 @@ fn bindgen_test_layout_C3D_FrameBuf() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_FrameBuf>())).depthBuf as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_FrameBuf),
@@ -38739,7 +38756,7 @@ fn bindgen_test_layout_C3D_FrameBuf() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_FrameBuf>())).width as *const _ as usize },
-        16usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_FrameBuf),
@@ -38749,7 +38766,7 @@ fn bindgen_test_layout_C3D_FrameBuf() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_FrameBuf>())).height as *const _ as usize },
-        18usize,
+        10usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_FrameBuf),
@@ -38759,7 +38776,7 @@ fn bindgen_test_layout_C3D_FrameBuf() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_FrameBuf>())).colorFmt as *const _ as usize },
-        20usize,
+        12usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_FrameBuf),
@@ -38769,7 +38786,7 @@ fn bindgen_test_layout_C3D_FrameBuf() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_FrameBuf>())).depthFmt as *const _ as usize },
-        24usize,
+        16usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_FrameBuf),
@@ -38779,7 +38796,7 @@ fn bindgen_test_layout_C3D_FrameBuf() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_FrameBuf>())).block32 as *const _ as usize },
-        28usize,
+        20usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_FrameBuf),
@@ -38832,7 +38849,7 @@ impl C3D_FrameBuf {
 pub const C3D_ClearBits_C3D_CLEAR_COLOR: C3D_ClearBits = 1;
 pub const C3D_ClearBits_C3D_CLEAR_DEPTH: C3D_ClearBits = 2;
 pub const C3D_ClearBits_C3D_CLEAR_ALL: C3D_ClearBits = 3;
-pub type C3D_ClearBits = ::std::os::raw::c_int;
+pub type C3D_ClearBits = ::std::os::raw::c_uint;
 extern "C" {
     pub fn C3D_CalcColorBufSize(width: u32_, height: u32_, fmt: GPU_COLORBUF) -> u32_;
 }
@@ -38888,12 +38905,12 @@ pub struct C3D_RenderTarget_tag {
 fn bindgen_test_layout_C3D_RenderTarget_tag() {
     assert_eq!(
         ::std::mem::size_of::<C3D_RenderTarget_tag>(),
-        64usize,
+        48usize,
         concat!("Size of: ", stringify!(C3D_RenderTarget_tag))
     );
     assert_eq!(
         ::std::mem::align_of::<C3D_RenderTarget_tag>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(C3D_RenderTarget_tag))
     );
     assert_eq!(
@@ -38908,7 +38925,7 @@ fn bindgen_test_layout_C3D_RenderTarget_tag() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_RenderTarget_tag>())).prev as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_RenderTarget_tag),
@@ -38918,7 +38935,7 @@ fn bindgen_test_layout_C3D_RenderTarget_tag() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_RenderTarget_tag>())).frameBuf as *const _ as usize },
-        16usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_RenderTarget_tag),
@@ -38928,7 +38945,7 @@ fn bindgen_test_layout_C3D_RenderTarget_tag() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_RenderTarget_tag>())).used as *const _ as usize },
-        48usize,
+        32usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_RenderTarget_tag),
@@ -38938,7 +38955,7 @@ fn bindgen_test_layout_C3D_RenderTarget_tag() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_RenderTarget_tag>())).ownsColor as *const _ as usize },
-        49usize,
+        33usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_RenderTarget_tag),
@@ -38948,7 +38965,7 @@ fn bindgen_test_layout_C3D_RenderTarget_tag() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_RenderTarget_tag>())).ownsDepth as *const _ as usize },
-        50usize,
+        34usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_RenderTarget_tag),
@@ -38958,7 +38975,7 @@ fn bindgen_test_layout_C3D_RenderTarget_tag() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_RenderTarget_tag>())).linked as *const _ as usize },
-        51usize,
+        35usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_RenderTarget_tag),
@@ -38968,7 +38985,7 @@ fn bindgen_test_layout_C3D_RenderTarget_tag() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_RenderTarget_tag>())).screen as *const _ as usize },
-        52usize,
+        36usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_RenderTarget_tag),
@@ -38978,7 +38995,7 @@ fn bindgen_test_layout_C3D_RenderTarget_tag() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C3D_RenderTarget_tag>())).side as *const _ as usize },
-        56usize,
+        40usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_RenderTarget_tag),
@@ -38990,7 +39007,7 @@ fn bindgen_test_layout_C3D_RenderTarget_tag() {
         unsafe {
             &(*(::std::ptr::null::<C3D_RenderTarget_tag>())).transferFlags as *const _ as usize
         },
-        60usize,
+        44usize,
         concat!(
             "Offset of field: ",
             stringify!(C3D_RenderTarget_tag),
@@ -38999,9 +39016,9 @@ fn bindgen_test_layout_C3D_RenderTarget_tag() {
         )
     );
 }
-pub const C3D_FRAME_SYNCDRAW: ::std::os::raw::c_int = 1;
-pub const C3D_FRAME_NONBLOCK: ::std::os::raw::c_int = 2;
-pub type _bindgen_ty_43 = ::std::os::raw::c_int;
+pub const C3D_FRAME_SYNCDRAW: ::std::os::raw::c_uint = 1;
+pub const C3D_FRAME_NONBLOCK: ::std::os::raw::c_uint = 2;
+pub type _bindgen_ty_43 = ::std::os::raw::c_uint;
 extern "C" {
     pub fn C3D_FrameRate(fps: f32) -> f32;
 }
@@ -39147,8 +39164,8 @@ extern "C" {
 }
 extern "C" {
     pub fn tempnam(
-        arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg1: *const ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
@@ -39159,8 +39176,8 @@ extern "C" {
 }
 extern "C" {
     pub fn freopen(
-        arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg1: *const ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
         arg3: *mut FILE,
     ) -> *mut FILE;
 }
@@ -39178,45 +39195,48 @@ extern "C" {
 extern "C" {
     pub fn fprintf(
         arg1: *mut FILE,
-        arg2: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn fscanf(arg1: *mut FILE, arg2: *mut ::std::os::raw::c_char, ...)
-        -> ::std::os::raw::c_int;
+    pub fn fscanf(
+        arg1: *mut FILE,
+        arg2: *const ::std::os::raw::c_char,
+        ...
+    ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn printf(arg1: *mut ::std::os::raw::c_char, ...) -> ::std::os::raw::c_int;
+    pub fn printf(arg1: *const ::std::os::raw::c_char, ...) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn scanf(arg1: *mut ::std::os::raw::c_char, ...) -> ::std::os::raw::c_int;
+    pub fn scanf(arg1: *const ::std::os::raw::c_char, ...) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn sscanf(
-        arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg1: *const ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn vfprintf(
         arg1: *mut FILE,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
+        arg3: __builtin_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn vprintf(
-        arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg1: *const ::std::os::raw::c_char,
+        arg2: __builtin_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn vsprintf(
         arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
+        arg3: __builtin_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
@@ -39233,7 +39253,7 @@ extern "C" {
     pub fn fputc(arg1: ::std::os::raw::c_int, arg2: *mut FILE) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn fputs(arg1: *mut ::std::os::raw::c_char, arg2: *mut FILE) -> ::std::os::raw::c_int;
+    pub fn fputs(arg1: *const ::std::os::raw::c_char, arg2: *mut FILE) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn getc(arg1: *mut FILE) -> ::std::os::raw::c_int;
@@ -39251,7 +39271,7 @@ extern "C" {
     pub fn putchar(arg1: ::std::os::raw::c_int) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn puts(arg1: *mut ::std::os::raw::c_char) -> ::std::os::raw::c_int;
+    pub fn puts(arg1: *const ::std::os::raw::c_char) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn ungetc(arg1: ::std::os::raw::c_int, arg2: *mut FILE) -> ::std::os::raw::c_int;
@@ -39259,18 +39279,18 @@ extern "C" {
 extern "C" {
     pub fn fread(
         arg1: *mut ::std::os::raw::c_void,
-        _size: ::std::os::raw::c_ulonglong,
-        _n: ::std::os::raw::c_ulonglong,
+        _size: ::std::os::raw::c_uint,
+        _n: ::std::os::raw::c_uint,
         arg2: *mut FILE,
-    ) -> ::std::os::raw::c_ulonglong;
+    ) -> ::std::os::raw::c_uint;
 }
 extern "C" {
     pub fn fwrite(
-        arg1: *mut ::std::os::raw::c_void,
-        _size: size_t,
-        _n: size_t,
+        arg1: *const ::std::os::raw::c_void,
+        _size: ::std::os::raw::c_uint,
+        _n: ::std::os::raw::c_uint,
         arg2: *mut FILE,
-    ) -> size_t;
+    ) -> ::std::os::raw::c_uint;
 }
 extern "C" {
     pub fn fgetpos(arg1: *mut FILE, arg2: *mut fpos_t) -> ::std::os::raw::c_int;
@@ -39283,7 +39303,7 @@ extern "C" {
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn fsetpos(arg1: *mut FILE, arg2: *mut fpos_t) -> ::std::os::raw::c_int;
+    pub fn fsetpos(arg1: *mut FILE, arg2: *const fpos_t) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn ftell(arg1: *mut FILE) -> ::std::os::raw::c_long;
@@ -39301,28 +39321,28 @@ extern "C" {
     pub fn ferror(arg1: *mut FILE) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn perror(arg1: *mut ::std::os::raw::c_char);
+    pub fn perror(arg1: *const ::std::os::raw::c_char);
 }
 extern "C" {
     pub fn fopen(
-        _name: *mut ::std::os::raw::c_char,
-        _type: *mut ::std::os::raw::c_char,
+        _name: *const ::std::os::raw::c_char,
+        _type: *const ::std::os::raw::c_char,
     ) -> *mut FILE;
 }
 extern "C" {
     pub fn sprintf(
         arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn remove(arg1: *mut ::std::os::raw::c_char) -> ::std::os::raw::c_int;
+    pub fn remove(arg1: *const ::std::os::raw::c_char) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn rename(
-        arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg1: *const ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
@@ -39338,43 +39358,43 @@ extern "C" {
 extern "C" {
     pub fn snprintf(
         arg1: *mut ::std::os::raw::c_char,
-        arg2: size_t,
-        arg3: *mut ::std::os::raw::c_char,
+        arg2: ::std::os::raw::c_uint,
+        arg3: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn vsnprintf(
         arg1: *mut ::std::os::raw::c_char,
-        arg2: size_t,
-        arg3: *mut ::std::os::raw::c_char,
-        arg4: *mut ::std::os::raw::c_char,
+        arg2: ::std::os::raw::c_uint,
+        arg3: *const ::std::os::raw::c_char,
+        arg4: __builtin_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn vfscanf(
         arg1: *mut FILE,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
+        arg3: __builtin_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn vscanf(
-        arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg1: *const ::std::os::raw::c_char,
+        arg2: __builtin_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn vsscanf(
-        arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
+        arg1: *const ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
+        arg3: __builtin_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn asiprintf(
         arg1: *mut *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
@@ -39382,7 +39402,7 @@ extern "C" {
     pub fn asniprintf(
         arg1: *mut ::std::os::raw::c_char,
         arg2: *mut size_t,
-        arg3: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
         ...
     ) -> *mut ::std::os::raw::c_char;
 }
@@ -39390,48 +39410,48 @@ extern "C" {
     pub fn asnprintf(
         arg1: *mut ::std::os::raw::c_char,
         arg2: *mut size_t,
-        arg3: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
         ...
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn diprintf(
         arg1: ::std::os::raw::c_int,
-        arg2: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn fiprintf(
         arg1: *mut FILE,
-        arg2: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn fiscanf(
         arg1: *mut FILE,
-        arg2: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn iprintf(arg1: *mut ::std::os::raw::c_char, ...) -> ::std::os::raw::c_int;
+    pub fn iprintf(arg1: *const ::std::os::raw::c_char, ...) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn iscanf(arg1: *mut ::std::os::raw::c_char, ...) -> ::std::os::raw::c_int;
+    pub fn iscanf(arg1: *const ::std::os::raw::c_char, ...) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn siprintf(
         arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn siscanf(
-        arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg1: *const ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
@@ -39439,90 +39459,90 @@ extern "C" {
     pub fn sniprintf(
         arg1: *mut ::std::os::raw::c_char,
         arg2: size_t,
-        arg3: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn vasiprintf(
         arg1: *mut *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
+        arg3: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn vasniprintf(
         arg1: *mut ::std::os::raw::c_char,
         arg2: *mut size_t,
-        arg3: *mut ::std::os::raw::c_char,
-        arg4: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
+        arg4: __gnuc_va_list,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn vasnprintf(
         arg1: *mut ::std::os::raw::c_char,
         arg2: *mut size_t,
-        arg3: *mut ::std::os::raw::c_char,
-        arg4: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
+        arg4: __gnuc_va_list,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn vdiprintf(
         arg1: ::std::os::raw::c_int,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
+        arg3: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn vfiprintf(
         arg1: *mut FILE,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
+        arg3: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn vfiscanf(
         arg1: *mut FILE,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
+        arg3: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn viprintf(
-        arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg1: *const ::std::os::raw::c_char,
+        arg2: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn viscanf(
-        arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
+        arg1: *const ::std::os::raw::c_char,
+        arg2: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn vsiprintf(
         arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
+        arg3: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn vsiscanf(
-        arg1: *mut ::std::os::raw::c_char,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
+        arg1: *const ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
+        arg3: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn vsniprintf(
         arg1: *mut ::std::os::raw::c_char,
         arg2: size_t,
-        arg3: *mut ::std::os::raw::c_char,
-        arg4: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
+        arg4: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn fdopen(arg1: ::std::os::raw::c_int, arg2: *mut ::std::os::raw::c_char) -> *mut FILE;
+    pub fn fdopen(arg1: ::std::os::raw::c_int, arg2: *const ::std::os::raw::c_char) -> *mut FILE;
 }
 extern "C" {
     pub fn fileno(arg1: *mut FILE) -> ::std::os::raw::c_int;
@@ -39531,8 +39551,10 @@ extern "C" {
     pub fn pclose(arg1: *mut FILE) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn popen(arg1: *mut ::std::os::raw::c_char, arg2: *mut ::std::os::raw::c_char)
-        -> *mut FILE;
+    pub fn popen(
+        arg1: *const ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
+    ) -> *mut FILE;
 }
 extern "C" {
     pub fn setbuffer(
@@ -39574,7 +39596,7 @@ extern "C" {
 extern "C" {
     pub fn dprintf(
         arg1: ::std::os::raw::c_int,
-        arg2: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
@@ -39582,7 +39604,7 @@ extern "C" {
     pub fn fmemopen(
         arg1: *mut ::std::os::raw::c_void,
         arg2: size_t,
-        arg3: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
     ) -> *mut FILE;
 }
 extern "C" {
@@ -39591,23 +39613,23 @@ extern "C" {
 extern "C" {
     pub fn vdprintf(
         arg1: ::std::os::raw::c_int,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
+        arg3: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn renameat(
         arg1: ::std::os::raw::c_int,
-        arg2: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
         arg3: ::std::os::raw::c_int,
-        arg4: *mut ::std::os::raw::c_char,
+        arg4: *const ::std::os::raw::c_char,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _asiprintf_r(
         arg1: *mut _reent,
         arg2: *mut *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
@@ -39616,7 +39638,7 @@ extern "C" {
         arg1: *mut _reent,
         arg2: *mut ::std::os::raw::c_char,
         arg3: *mut size_t,
-        arg4: *mut ::std::os::raw::c_char,
+        arg4: *const ::std::os::raw::c_char,
         ...
     ) -> *mut ::std::os::raw::c_char;
 }
@@ -39625,7 +39647,7 @@ extern "C" {
         arg1: *mut _reent,
         arg2: *mut ::std::os::raw::c_char,
         arg3: *mut size_t,
-        arg4: *mut ::std::os::raw::c_char,
+        arg4: *const ::std::os::raw::c_char,
         ...
     ) -> *mut ::std::os::raw::c_char;
 }
@@ -39633,7 +39655,7 @@ extern "C" {
     pub fn _asprintf_r(
         arg1: *mut _reent,
         arg2: *mut *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
@@ -39641,7 +39663,7 @@ extern "C" {
     pub fn _diprintf_r(
         arg1: *mut _reent,
         arg2: ::std::os::raw::c_int,
-        arg3: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
@@ -39649,7 +39671,7 @@ extern "C" {
     pub fn _dprintf_r(
         arg1: *mut _reent,
         arg2: ::std::os::raw::c_int,
-        arg3: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
@@ -39663,7 +39685,7 @@ extern "C" {
     pub fn _fdopen_r(
         arg1: *mut _reent,
         arg2: ::std::os::raw::c_int,
-        arg3: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
     ) -> *mut FILE;
 }
 extern "C" {
@@ -39702,14 +39724,14 @@ extern "C" {
     pub fn _fsetpos_r(
         arg1: *mut _reent,
         arg2: *mut FILE,
-        arg3: *mut fpos_t,
+        arg3: *const fpos_t,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _fiprintf_r(
         arg1: *mut _reent,
         arg2: *mut FILE,
-        arg3: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
@@ -39717,7 +39739,7 @@ extern "C" {
     pub fn _fiscanf_r(
         arg1: *mut _reent,
         arg2: *mut FILE,
-        arg3: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
@@ -39726,21 +39748,21 @@ extern "C" {
         arg1: *mut _reent,
         arg2: *mut ::std::os::raw::c_void,
         arg3: size_t,
-        arg4: *mut ::std::os::raw::c_char,
+        arg4: *const ::std::os::raw::c_char,
     ) -> *mut FILE;
 }
 extern "C" {
     pub fn _fopen_r(
         arg1: *mut _reent,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
     ) -> *mut FILE;
 }
 extern "C" {
     pub fn _freopen_r(
         arg1: *mut _reent,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
         arg4: *mut FILE,
     ) -> *mut FILE;
 }
@@ -39748,7 +39770,7 @@ extern "C" {
     pub fn _fprintf_r(
         arg1: *mut _reent,
         arg2: *mut FILE,
-        arg3: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
@@ -39772,14 +39794,14 @@ extern "C" {
 extern "C" {
     pub fn _fputs_r(
         arg1: *mut _reent,
-        arg2: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
         arg3: *mut FILE,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _fputs_unlocked_r(
         arg1: *mut _reent,
-        arg2: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
         arg3: *mut FILE,
     ) -> ::std::os::raw::c_int;
 }
@@ -39805,7 +39827,7 @@ extern "C" {
     pub fn _fscanf_r(
         arg1: *mut _reent,
         arg2: *mut FILE,
-        arg3: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
@@ -39837,7 +39859,7 @@ extern "C" {
 extern "C" {
     pub fn _fwrite_r(
         arg1: *mut _reent,
-        arg2: *mut ::std::os::raw::c_void,
+        arg2: *const ::std::os::raw::c_void,
         _size: size_t,
         _n: size_t,
         arg3: *mut FILE,
@@ -39846,7 +39868,7 @@ extern "C" {
 extern "C" {
     pub fn _fwrite_unlocked_r(
         arg1: *mut _reent,
-        arg2: *mut ::std::os::raw::c_void,
+        arg2: *const ::std::os::raw::c_void,
         _size: size_t,
         _n: size_t,
         arg3: *mut FILE,
@@ -39873,14 +39895,14 @@ extern "C" {
 extern "C" {
     pub fn _iprintf_r(
         arg1: *mut _reent,
-        arg2: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _iscanf_r(
         arg1: *mut _reent,
-        arg2: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
@@ -39892,12 +39914,12 @@ extern "C" {
     ) -> *mut FILE;
 }
 extern "C" {
-    pub fn _perror_r(arg1: *mut _reent, arg2: *mut ::std::os::raw::c_char);
+    pub fn _perror_r(arg1: *mut _reent, arg2: *const ::std::os::raw::c_char);
 }
 extern "C" {
     pub fn _printf_r(
         arg1: *mut _reent,
-        arg2: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
@@ -39925,23 +39947,26 @@ extern "C" {
     pub fn _putchar_r(arg1: *mut _reent, arg2: ::std::os::raw::c_int) -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn _puts_r(arg1: *mut _reent, arg2: *mut ::std::os::raw::c_char) -> ::std::os::raw::c_int;
+    pub fn _puts_r(arg1: *mut _reent, arg2: *const ::std::os::raw::c_char)
+        -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn _remove_r(arg1: *mut _reent, arg2: *mut ::std::os::raw::c_char)
-        -> ::std::os::raw::c_int;
+    pub fn _remove_r(
+        arg1: *mut _reent,
+        arg2: *const ::std::os::raw::c_char,
+    ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _rename_r(
         arg1: *mut _reent,
-        _old: *mut ::std::os::raw::c_char,
-        _new: *mut ::std::os::raw::c_char,
+        _old: *const ::std::os::raw::c_char,
+        _new: *const ::std::os::raw::c_char,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _scanf_r(
         arg1: *mut _reent,
-        arg2: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
@@ -39949,15 +39974,15 @@ extern "C" {
     pub fn _siprintf_r(
         arg1: *mut _reent,
         arg2: *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _siscanf_r(
         arg1: *mut _reent,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
@@ -39966,7 +39991,7 @@ extern "C" {
         arg1: *mut _reent,
         arg2: *mut ::std::os::raw::c_char,
         arg3: size_t,
-        arg4: *mut ::std::os::raw::c_char,
+        arg4: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
@@ -39975,7 +40000,7 @@ extern "C" {
         arg1: *mut _reent,
         arg2: *mut ::std::os::raw::c_char,
         arg3: size_t,
-        arg4: *mut ::std::os::raw::c_char,
+        arg4: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
@@ -39983,23 +40008,23 @@ extern "C" {
     pub fn _sprintf_r(
         arg1: *mut _reent,
         arg2: *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _sscanf_r(
         arg1: *mut _reent,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
         ...
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _tempnam_r(
         arg1: *mut _reent,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
@@ -40022,8 +40047,8 @@ extern "C" {
     pub fn _vasiprintf_r(
         arg1: *mut _reent,
         arg2: *mut *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
-        arg4: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
+        arg4: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
@@ -40031,8 +40056,8 @@ extern "C" {
         arg1: *mut _reent,
         arg2: *mut ::std::os::raw::c_char,
         arg3: *mut size_t,
-        arg4: *mut ::std::os::raw::c_char,
-        arg5: *mut ::std::os::raw::c_char,
+        arg4: *const ::std::os::raw::c_char,
+        arg5: __gnuc_va_list,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
@@ -40040,108 +40065,108 @@ extern "C" {
         arg1: *mut _reent,
         arg2: *mut ::std::os::raw::c_char,
         arg3: *mut size_t,
-        arg4: *mut ::std::os::raw::c_char,
-        arg5: *mut ::std::os::raw::c_char,
+        arg4: *const ::std::os::raw::c_char,
+        arg5: __gnuc_va_list,
     ) -> *mut ::std::os::raw::c_char;
 }
 extern "C" {
     pub fn _vasprintf_r(
         arg1: *mut _reent,
         arg2: *mut *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
-        arg4: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
+        arg4: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _vdiprintf_r(
         arg1: *mut _reent,
         arg2: ::std::os::raw::c_int,
-        arg3: *mut ::std::os::raw::c_char,
-        arg4: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
+        arg4: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _vdprintf_r(
         arg1: *mut _reent,
         arg2: ::std::os::raw::c_int,
-        arg3: *mut ::std::os::raw::c_char,
-        arg4: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
+        arg4: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _vfiprintf_r(
         arg1: *mut _reent,
         arg2: *mut FILE,
-        arg3: *mut ::std::os::raw::c_char,
-        arg4: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
+        arg4: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _vfiscanf_r(
         arg1: *mut _reent,
         arg2: *mut FILE,
-        arg3: *mut ::std::os::raw::c_char,
-        arg4: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
+        arg4: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _vfprintf_r(
         arg1: *mut _reent,
         arg2: *mut FILE,
-        arg3: *mut ::std::os::raw::c_char,
-        arg4: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
+        arg4: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _vfscanf_r(
         arg1: *mut _reent,
         arg2: *mut FILE,
-        arg3: *mut ::std::os::raw::c_char,
-        arg4: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
+        arg4: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _viprintf_r(
         arg1: *mut _reent,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
+        arg3: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _viscanf_r(
         arg1: *mut _reent,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
+        arg3: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _vprintf_r(
         arg1: *mut _reent,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
+        arg3: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _vscanf_r(
         arg1: *mut _reent,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
+        arg3: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _vsiprintf_r(
         arg1: *mut _reent,
         arg2: *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
-        arg4: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
+        arg4: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _vsiscanf_r(
         arg1: *mut _reent,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
-        arg4: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
+        arg4: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
@@ -40149,8 +40174,8 @@ extern "C" {
         arg1: *mut _reent,
         arg2: *mut ::std::os::raw::c_char,
         arg3: size_t,
-        arg4: *mut ::std::os::raw::c_char,
-        arg5: *mut ::std::os::raw::c_char,
+        arg4: *const ::std::os::raw::c_char,
+        arg5: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
@@ -40158,24 +40183,24 @@ extern "C" {
         arg1: *mut _reent,
         arg2: *mut ::std::os::raw::c_char,
         arg3: size_t,
-        arg4: *mut ::std::os::raw::c_char,
-        arg5: *mut ::std::os::raw::c_char,
+        arg4: *const ::std::os::raw::c_char,
+        arg5: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _vsprintf_r(
         arg1: *mut _reent,
         arg2: *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
-        arg4: *mut ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
+        arg4: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn _vsscanf_r(
         arg1: *mut _reent,
-        arg2: *mut ::std::os::raw::c_char,
-        arg3: *mut ::std::os::raw::c_char,
-        arg4: *mut ::std::os::raw::c_char,
+        arg2: *const ::std::os::raw::c_char,
+        arg3: *const ::std::os::raw::c_char,
+        arg4: __gnuc_va_list,
     ) -> ::std::os::raw::c_int;
 }
 extern "C" {
@@ -40227,7 +40252,7 @@ extern "C" {
 }
 extern "C" {
     pub fn fwrite_unlocked(
-        arg1: *mut ::std::os::raw::c_void,
+        arg1: *const ::std::os::raw::c_void,
         _size: size_t,
         _n: size_t,
         arg2: *mut FILE,
@@ -40245,7 +40270,7 @@ extern "C" {
 }
 extern "C" {
     pub fn funopen(
-        __cookie: *mut ::std::os::raw::c_void,
+        __cookie: *const ::std::os::raw::c_void,
         __readfn: ::std::option::Option<
             unsafe extern "C" fn(
                 __cookie: *mut ::std::os::raw::c_void,
@@ -40256,7 +40281,7 @@ extern "C" {
         __writefn: ::std::option::Option<
             unsafe extern "C" fn(
                 __cookie: *mut ::std::os::raw::c_void,
-                __buf: *mut ::std::os::raw::c_char,
+                __buf: *const ::std::os::raw::c_char,
                 __n: ::std::os::raw::c_int,
             ) -> ::std::os::raw::c_int,
         >,
@@ -40275,7 +40300,7 @@ extern "C" {
 extern "C" {
     pub fn _funopen_r(
         arg1: *mut _reent,
-        __cookie: *mut ::std::os::raw::c_void,
+        __cookie: *const ::std::os::raw::c_void,
         __readfn: ::std::option::Option<
             unsafe extern "C" fn(
                 __cookie: *mut ::std::os::raw::c_void,
@@ -40286,7 +40311,7 @@ extern "C" {
         __writefn: ::std::option::Option<
             unsafe extern "C" fn(
                 __cookie: *mut ::std::os::raw::c_void,
-                __buf: *mut ::std::os::raw::c_char,
+                __buf: *const ::std::os::raw::c_char,
                 __n: ::std::os::raw::c_int,
             ) -> ::std::os::raw::c_int,
         >,
@@ -40409,7 +40434,7 @@ extern "C" {
     #[doc = "  @param[in]  vram    Whether to store textures in VRAM"]
     #[doc = "  @returns Tex3DS texture"]
     pub fn Tex3DS_TextureImport(
-        input: *mut ::std::os::raw::c_void,
+        input: *const ::std::os::raw::c_void,
         insize: size_t,
         tex: *mut C3D_Tex,
         texcube: *mut C3D_TexCube,
@@ -40486,7 +40511,8 @@ extern "C" {
     #[doc = "  @param[in] texture Tex3DS texture"]
     #[doc = "  @param[in] index   Subtexture index"]
     #[doc = "  @returns Subtexture info"]
-    pub fn Tex3DS_GetSubTexture(texture: Tex3DS_Texture, index: size_t) -> *mut Tex3DS_SubTexture;
+    pub fn Tex3DS_GetSubTexture(texture: Tex3DS_Texture, index: size_t)
+        -> *const Tex3DS_SubTexture;
 }
 extern "C" {
     #[doc = " @brief Free Tex3DS texture"]
@@ -40703,23 +40729,23 @@ pub const C2D_Corner_C2D_TopRight: C2D_Corner = 1;
 pub const C2D_Corner_C2D_BotLeft: C2D_Corner = 2;
 #[doc = "< Bottom right corner"]
 pub const C2D_Corner_C2D_BotRight: C2D_Corner = 3;
-pub type C2D_Corner = ::std::os::raw::c_int;
+pub type C2D_Corner = ::std::os::raw::c_uint;
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
 pub struct C2D_Image {
     pub tex: *mut C3D_Tex,
-    pub subtex: *mut Tex3DS_SubTexture,
+    pub subtex: *const Tex3DS_SubTexture,
 }
 #[test]
 fn bindgen_test_layout_C2D_Image() {
     assert_eq!(
         ::std::mem::size_of::<C2D_Image>(),
-        16usize,
+        8usize,
         concat!("Size of: ", stringify!(C2D_Image))
     );
     assert_eq!(
         ::std::mem::align_of::<C2D_Image>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(C2D_Image))
     );
     assert_eq!(
@@ -40734,7 +40760,7 @@ fn bindgen_test_layout_C2D_Image() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C2D_Image>())).subtex as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(C2D_Image),
@@ -40810,7 +40836,7 @@ extern "C" {
 extern "C" {
     #[doc = " @brief Restores a previously saved model transformation matrix."]
     #[doc = " @param[in] matrix Pointer to matrix to restor"]
-    pub fn C2D_ViewRestore(matrix: *mut C3D_Mtx);
+    pub fn C2D_ViewRestore(matrix: *const C3D_Mtx);
 }
 extern "C" {
     #[doc = " @brief Translates everything drawn via the model matrix."]
@@ -40865,8 +40891,8 @@ extern "C" {
     #[doc = "  @returns true on success, false on failure"]
     pub fn C2D_DrawImage(
         img: C2D_Image,
-        params: *mut C2D_DrawParams,
-        tint: *mut C2D_ImageTint,
+        params: *const C2D_DrawParams,
+        tint: *const C2D_ImageTint,
     ) -> bool;
 }
 extern "C" {
@@ -40973,7 +40999,7 @@ extern "C" {
     #[doc = "  @param[in] filename Name of the sprite sheet file (.t3x)"]
     #[doc = "  @returns Sprite sheet handle"]
     #[doc = "  @retval NULL Error"]
-    pub fn C2D_SpriteSheetLoad(filename: *mut ::std::os::raw::c_char) -> C2D_SpriteSheet;
+    pub fn C2D_SpriteSheetLoad(filename: *const ::std::os::raw::c_char) -> C2D_SpriteSheet;
 }
 extern "C" {
     #[doc = " @brief Load a sprite sheet from memory"]
@@ -40982,7 +41008,7 @@ extern "C" {
     #[doc = "  @returns Sprite sheet handle"]
     #[doc = "  @retval NULL Error"]
     pub fn C2D_SpriteSheetLoadFromMem(
-        data: *mut ::std::os::raw::c_void,
+        data: *const ::std::os::raw::c_void,
         size: size_t,
     ) -> C2D_SpriteSheet;
 }
@@ -41028,12 +41054,12 @@ pub struct C2D_Sprite {
 fn bindgen_test_layout_C2D_Sprite() {
     assert_eq!(
         ::std::mem::size_of::<C2D_Sprite>(),
-        48usize,
+        40usize,
         concat!("Size of: ", stringify!(C2D_Sprite))
     );
     assert_eq!(
         ::std::mem::align_of::<C2D_Sprite>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(C2D_Sprite))
     );
     assert_eq!(
@@ -41048,7 +41074,7 @@ fn bindgen_test_layout_C2D_Sprite() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C2D_Sprite>())).params as *const _ as usize },
-        16usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(C2D_Sprite),
@@ -41068,7 +41094,7 @@ extern "C" {
     #[doc = " @param[in] filename Name of the font file (.bcfnt)"]
     #[doc = " @returns Font handle"]
     #[doc = " @retval NULL Error"]
-    pub fn C2D_FontLoad(filename: *mut ::std::os::raw::c_char) -> C2D_Font;
+    pub fn C2D_FontLoad(filename: *const ::std::os::raw::c_char) -> C2D_Font;
 }
 extern "C" {
     #[doc = " @brief Load a font from memory"]
@@ -41076,7 +41102,7 @@ extern "C" {
     #[doc = " @param[in] size Size of the data to load"]
     #[doc = " @returns Font handle"]
     #[doc = " @retval NULL Error"]
-    pub fn C2D_FontLoadFromMem(data: *mut ::std::os::raw::c_void, size: size_t) -> C2D_Font;
+    pub fn C2D_FontLoadFromMem(data: *const ::std::os::raw::c_void, size: size_t) -> C2D_Font;
 }
 extern "C" {
     #[doc = " @brief Load a font from file descriptor"]
@@ -41178,12 +41204,12 @@ pub struct C2D_Text {
 fn bindgen_test_layout_C2D_Text() {
     assert_eq!(
         ::std::mem::size_of::<C2D_Text>(),
-        48usize,
+        28usize,
         concat!("Size of: ", stringify!(C2D_Text))
     );
     assert_eq!(
         ::std::mem::align_of::<C2D_Text>(),
-        8usize,
+        4usize,
         concat!("Alignment of ", stringify!(C2D_Text))
     );
     assert_eq!(
@@ -41198,7 +41224,7 @@ fn bindgen_test_layout_C2D_Text() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C2D_Text>())).begin as *const _ as usize },
-        8usize,
+        4usize,
         concat!(
             "Offset of field: ",
             stringify!(C2D_Text),
@@ -41208,7 +41234,7 @@ fn bindgen_test_layout_C2D_Text() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C2D_Text>())).end as *const _ as usize },
-        16usize,
+        8usize,
         concat!(
             "Offset of field: ",
             stringify!(C2D_Text),
@@ -41218,7 +41244,7 @@ fn bindgen_test_layout_C2D_Text() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C2D_Text>())).width as *const _ as usize },
-        24usize,
+        12usize,
         concat!(
             "Offset of field: ",
             stringify!(C2D_Text),
@@ -41228,7 +41254,7 @@ fn bindgen_test_layout_C2D_Text() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C2D_Text>())).lines as *const _ as usize },
-        28usize,
+        16usize,
         concat!(
             "Offset of field: ",
             stringify!(C2D_Text),
@@ -41238,7 +41264,7 @@ fn bindgen_test_layout_C2D_Text() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C2D_Text>())).words as *const _ as usize },
-        32usize,
+        20usize,
         concat!(
             "Offset of field: ",
             stringify!(C2D_Text),
@@ -41248,7 +41274,7 @@ fn bindgen_test_layout_C2D_Text() {
     );
     assert_eq!(
         unsafe { &(*(::std::ptr::null::<C2D_Text>())).font as *const _ as usize },
-        40usize,
+        24usize,
         concat!(
             "Offset of field: ",
             stringify!(C2D_Text),
@@ -41258,22 +41284,22 @@ fn bindgen_test_layout_C2D_Text() {
     );
 }
 #[doc = "< Matches the Y coordinate with the baseline of the font."]
-pub const C2D_AtBaseline: ::std::os::raw::c_int = 1;
+pub const C2D_AtBaseline: ::std::os::raw::c_uint = 1;
 #[doc = "< Draws text with color. Requires a u32 color value."]
-pub const C2D_WithColor: ::std::os::raw::c_int = 2;
+pub const C2D_WithColor: ::std::os::raw::c_uint = 2;
 #[doc = "< Draws text aligned to the left. This is the default."]
-pub const C2D_AlignLeft: ::std::os::raw::c_int = 0;
+pub const C2D_AlignLeft: ::std::os::raw::c_uint = 0;
 #[doc = "< Draws text aligned to the right."]
-pub const C2D_AlignRight: ::std::os::raw::c_int = 4;
+pub const C2D_AlignRight: ::std::os::raw::c_uint = 4;
 #[doc = "< Draws text centered."]
-pub const C2D_AlignCenter: ::std::os::raw::c_int = 8;
+pub const C2D_AlignCenter: ::std::os::raw::c_uint = 8;
 #[doc = "< Draws text justified. When C2D_WordWrap is not specified, right edge is x + scaleX*text->width. Otherwise, right edge is x + the width specified for those values."]
-pub const C2D_AlignJustified: ::std::os::raw::c_int = 12;
+pub const C2D_AlignJustified: ::std::os::raw::c_uint = 12;
 #[doc = "< Bitmask for alignment values."]
-pub const C2D_AlignMask: ::std::os::raw::c_int = 12;
+pub const C2D_AlignMask: ::std::os::raw::c_uint = 12;
 #[doc = "< Draws text with wrapping of full words before specified width. Requires a float value, passed after color if C2D_WithColor is specified."]
-pub const C2D_WordWrap: ::std::os::raw::c_int = 16;
-pub type _bindgen_ty_44 = ::std::os::raw::c_int;
+pub const C2D_WordWrap: ::std::os::raw::c_uint = 16;
+pub type _bindgen_ty_44 = ::std::os::raw::c_uint;
 extern "C" {
     #[doc = " @brief Creates a new text buffer."]
     #[doc = "  @param[in] maxGlyphs Maximum number of glyphs that can be stored in the buffer."]
@@ -41320,9 +41346,9 @@ extern "C" {
     pub fn C2D_TextParseLine(
         text: *mut C2D_Text,
         buf: C2D_TextBuf,
-        str_: *mut ::std::os::raw::c_char,
+        str_: *const ::std::os::raw::c_char,
         lineNo: u32_,
-    ) -> *mut ::std::os::raw::c_char;
+    ) -> *const ::std::os::raw::c_char;
 }
 extern "C" {
     #[doc = " @brief Parses and adds a single line of text to a text buffer."]
@@ -41341,9 +41367,9 @@ extern "C" {
         text: *mut C2D_Text,
         font: C2D_Font,
         buf: C2D_TextBuf,
-        str_: *mut ::std::os::raw::c_char,
+        str_: *const ::std::os::raw::c_char,
         lineNo: u32_,
-    ) -> *mut ::std::os::raw::c_char;
+    ) -> *const ::std::os::raw::c_char;
 }
 extern "C" {
     #[doc = " @brief Parses and adds arbitrary text (including newlines) to a text buffer."]
@@ -41358,8 +41384,8 @@ extern "C" {
     pub fn C2D_TextParse(
         text: *mut C2D_Text,
         buf: C2D_TextBuf,
-        str_: *mut ::std::os::raw::c_char,
-    ) -> *mut ::std::os::raw::c_char;
+        str_: *const ::std::os::raw::c_char,
+    ) -> *const ::std::os::raw::c_char;
 }
 extern "C" {
     #[doc = " @brief Parses and adds arbitrary text (including newlines) to a text buffer."]
@@ -41376,13 +41402,13 @@ extern "C" {
         text: *mut C2D_Text,
         font: C2D_Font,
         buf: C2D_TextBuf,
-        str_: *mut ::std::os::raw::c_char,
-    ) -> *mut ::std::os::raw::c_char;
+        str_: *const ::std::os::raw::c_char,
+    ) -> *const ::std::os::raw::c_char;
 }
 extern "C" {
     #[doc = " @brief Optimizes a text object in order to be drawn more efficiently."]
     #[doc = "  @param[in] text Pointer to text object."]
-    pub fn C2D_TextOptimize(text: *mut C2D_Text);
+    pub fn C2D_TextOptimize(text: *const C2D_Text);
 }
 extern "C" {
     #[doc = " @brief Retrieves the total dimensions of a text object."]
@@ -41392,7 +41418,7 @@ extern "C" {
     #[doc = "  @param[out] outWidth (optional) Variable in which to store the width of the text."]
     #[doc = "  @param[out] outHeight (optional) Variable in which to store the height of the text."]
     pub fn C2D_TextGetDimensions(
-        text: *mut C2D_Text,
+        text: *const C2D_Text,
         scaleX: f32,
         scaleY: f32,
         outWidth: *mut f32,
@@ -41412,7 +41438,7 @@ extern "C" {
     #[doc = "  @param[in] scaleY Vertical size of the font. 1.0f corresponds to the native size of the font."]
     #[doc = "  @remarks The default 3DS system font has a glyph height of 30px, and the baseline is at 25px."]
     pub fn C2D_DrawText(
-        text: *mut C2D_Text,
+        text: *const C2D_Text,
         flags: u32_,
         x: f32,
         y: f32,
@@ -41422,4 +41448,32 @@ extern "C" {
         ...
     );
 }
-pub type __builtin_va_list = *mut ::std::os::raw::c_char;
+pub type __builtin_va_list = __va_list;
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct __va_list {
+    pub __ap: *mut ::std::os::raw::c_void,
+}
+#[test]
+fn bindgen_test_layout___va_list() {
+    assert_eq!(
+        ::std::mem::size_of::<__va_list>(),
+        4usize,
+        concat!("Size of: ", stringify!(__va_list))
+    );
+    assert_eq!(
+        ::std::mem::align_of::<__va_list>(),
+        4usize,
+        concat!("Alignment of ", stringify!(__va_list))
+    );
+    assert_eq!(
+        unsafe { &(*(::std::ptr::null::<__va_list>())).__ap as *const _ as usize },
+        0usize,
+        concat!(
+            "Offset of field: ",
+            stringify!(__va_list),
+            "::",
+            stringify!(__ap)
+        )
+    );
+}

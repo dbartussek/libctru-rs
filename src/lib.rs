@@ -1,3 +1,4 @@
+#![feature(restricted_std)]
 #![deny(missing_docs)]
 
 //! Bindings to [libctru](https://libctru.devkitpro.org/), the user mode 3DS library.

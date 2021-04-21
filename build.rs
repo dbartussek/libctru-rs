@@ -19,21 +19,12 @@ fn main() {
 
         let _ = std::fs::create_dir_all(&generated_path);
 
-        let ctru = ctru
-            .to_string()
-            .replace(
-                "pub type size_t = ::std::os::raw::c_ulonglong;",
-                "pub type size_t = usize;",
-            )
-            .replace(
-                "pub type _ssize_t = ::std::os::raw::c_longlong;",
-                "pub type _ssize_t = isize;",
-            )
-            .replace("pub type wchar_t = ::std::os::raw::c_ushort;", "");
+        let ctru = ctru.to_string();
 
         let for_std = ctru.replace("::std", "crate");
 
         std::fs::write(generated_path.join("3ds.rs"), ctru).expect("Couldn't write bindings!");
-        std::fs::write(generated_path.join("for_std.rs"), for_std).expect("Couldn't write bindings!");
+        std::fs::write(generated_path.join("for_std.rs"), for_std)
+            .expect("Couldn't write bindings!");
     }
 }
