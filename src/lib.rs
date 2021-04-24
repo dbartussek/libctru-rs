@@ -1,5 +1,6 @@
 #![feature(restricted_std)]
-#![deny(missing_docs)]
+#![feature(const_fn_floating_point_arithmetic)]
+// #![deny(missing_docs)]
 
 //! Bindings to [libctru](https://libctru.devkitpro.org/), the user mode 3DS library.
 //!
@@ -25,3 +26,5 @@ pub extern crate alloc;
 pub mod raw {
     include!(concat!(env!("CARGO_MANIFEST_DIR"), "/generated/3ds.rs"));
 }
+
+pub mod citro;
